@@ -1,8 +1,14 @@
 import argparse
+import json
+from pathlib import Path
 from typing import List
 
 from dataloader import load_gnnrag_split
+from eval import compute_em_f1, write_summary_csv
 from idmap import IDMap
+from prompt_builder import build_prompt
+from reader_llama import build_reader
+from retriever_llm_only import retrieve as retrieve_llm_only
 
 
 def _format_topic_entities(topic_entities: List[int], idmap: IDMap) -> str:
@@ -23,6 +29,62 @@ def cmd_phase0(args: argparse.Namespace) -> int:
     return 0
 
 
+def _infer_dataset_name(data_dir: str) -> str:
+    return Path(data_dir).name or "dataset"
+
+
+def cmd_phase1(args: argparse.Namespace) -> int:
+    samples = load_gnnrag_split(args.data_dir, args.split, limit=args.limit)
+    reader = build_reader(args.reader)
+
+    dataset = args.dataset or _infer_dataset_name(args.data_dir)
+    out_dir = Path(args.output_dir) / dataset / args.split
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / "llm_only.jsonl"
+    summary_path = out_dir / "summary.csv"
+
+    total_em = 0.0
+    total_f1 = 0.0
+    count = 0
+
+    with out_path.open("w", encoding="utf-8") as f:
+        for s in samples:
+            evidence = retrieve_llm_only(s)
+            prompt = build_prompt(s["question"], evidence)
+            pred = reader.generate(prompt)
+            em, f1 = compute_em_f1(pred, s["gold_answer_texts"])
+
+            record = {
+                "id": s["id"],
+                "question": s["question"],
+                "prediction": pred,
+                "gold_answers": s["gold_answer_texts"],
+                "em": em,
+                "f1": f1,
+            }
+            f.write(json.dumps(record, ensure_ascii=False) + "\n")
+
+            total_em += em
+            total_f1 += f1
+            count += 1
+
+    avg_em = total_em / count if count else 0.0
+    avg_f1 = total_f1 / count if count else 0.0
+    write_summary_csv(
+        summary_path,
+        dataset=dataset,
+        split=args.split,
+        method="llm_only",
+        num_samples=count,
+        em=avg_em,
+        f1=avg_f1,
+    )
+
+    print(f"Wrote {count} samples to {out_path}")
+    print(f"Summary: EM={avg_em:.4f} F1={avg_f1:.4f} -> {summary_path}")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="PHR-QA experiment runner")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -32,6 +94,20 @@ def build_parser() -> argparse.ArgumentParser:
     p0.add_argument("--split", default="dev", choices=["train", "dev", "test"])
     p0.add_argument("--limit", type=int, default=10)
     p0.set_defaults(func=cmd_phase0)
+
+    p1 = sub.add_parser("phase1", help="LLM-only baseline with EM/F1 eval")
+    p1.add_argument("--data_dir", required=True, help="Dataset directory containing JSONL and id maps")
+    p1.add_argument("--split", default="dev", choices=["train", "dev", "test"])
+    p1.add_argument("--limit", type=int, default=None)
+    p1.add_argument("--dataset", default=None, help="Dataset name override (default: data_dir basename)")
+    p1.add_argument("--output_dir", default="outputs", help="Output root directory")
+    p1.add_argument(
+        "--reader",
+        default="dummy",
+        choices=["dummy", "echo"],
+        help="Reader backend (dummy returns empty answers)",
+    )
+    p1.set_defaults(func=cmd_phase1)
 
     return parser
 
@@ -44,4 +120,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
