@@ -1,7 +1,7 @@
 import argparse
 import json
 from pathlib import Path
-from typing import List
+from typing import List, Optional
 
 from dataloader import load_gnnrag_split
 from eval import compute_em_f1, write_summary_csv
@@ -33,8 +33,36 @@ def _infer_dataset_name(data_dir: str) -> str:
     return Path(data_dir).name or "dataset"
 
 
+class _SimpleProgress:
+    def __init__(self, total: int, every: int) -> None:
+        self.total = total
+        self.every = max(1, every)
+        self.count = 0
+
+    def update(self, n: int = 1) -> None:
+        self.count += n
+        if self.count % self.every == 0 or self.count >= self.total:
+            print(f"Progress: {self.count}/{self.total}", flush=True)
+
+    def close(self) -> None:
+        return None
+
+
+def _build_progress(total: int, enabled: bool, every: int):
+    if not enabled:
+        return None
+    try:
+        from tqdm import tqdm  # type: ignore
+
+        return tqdm(total=total)
+    except Exception:
+        return _SimpleProgress(total, every)
+
+
 def cmd_phase1(args: argparse.Namespace) -> int:
     samples = load_gnnrag_split(args.data_dir, args.split, limit=args.limit)
+    if args.progress:
+        print(f"Loaded {len(samples)} samples, initializing reader={args.reader}...", flush=True)
     reader = build_reader(
         args.reader,
         model_path=args.model_path,
@@ -56,6 +84,7 @@ def cmd_phase1(args: argparse.Namespace) -> int:
     total_f1 = 0.0
     count = 0
 
+    progress = _build_progress(len(samples), args.progress, args.progress_every)
     with out_path.open("w", encoding="utf-8") as f:
         for s in samples:
             evidence = retrieve_llm_only(s)
@@ -76,6 +105,11 @@ def cmd_phase1(args: argparse.Namespace) -> int:
             total_em += em
             total_f1 += f1
             count += 1
+            if progress is not None:
+                progress.update(1)
+
+    if progress is not None:
+        progress.close()
 
     avg_em = total_em / count if count else 0.0
     avg_f1 = total_f1 / count if count else 0.0
@@ -123,6 +157,8 @@ def build_parser() -> argparse.ArgumentParser:
     p1.add_argument("--temperature", type=float, default=0.0)
     p1.add_argument("--top_p", type=float, default=1.0)
     p1.add_argument("--chat_template", default="auto", help="auto|on|off")
+    p1.add_argument("--progress", action="store_true", help="Show progress bar for inference loop")
+    p1.add_argument("--progress_every", type=int, default=10, help="Fallback progress print interval")
     p1.set_defaults(func=cmd_phase1)
 
     return parser
