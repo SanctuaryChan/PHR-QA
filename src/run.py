@@ -35,7 +35,16 @@ def _infer_dataset_name(data_dir: str) -> str:
 
 def cmd_phase1(args: argparse.Namespace) -> int:
     samples = load_gnnrag_split(args.data_dir, args.split, limit=args.limit)
-    reader = build_reader(args.reader)
+    reader = build_reader(
+        args.reader,
+        model_path=args.model_path,
+        device=args.device,
+        dtype=args.dtype,
+        max_new_tokens=args.max_new_tokens,
+        temperature=args.temperature,
+        top_p=args.top_p,
+        chat_template=args.chat_template,
+    )
 
     dataset = args.dataset or _infer_dataset_name(args.data_dir)
     out_dir = Path(args.output_dir) / dataset / args.split
@@ -104,9 +113,16 @@ def build_parser() -> argparse.ArgumentParser:
     p1.add_argument(
         "--reader",
         default="dummy",
-        choices=["dummy", "echo"],
+        choices=["dummy", "echo", "hf"],
         help="Reader backend (dummy returns empty answers)",
     )
+    p1.add_argument("--model_path", default=None, help="Local HF model path (required for reader=hf)")
+    p1.add_argument("--device", default="auto", help="auto|cpu|cuda|mps")
+    p1.add_argument("--dtype", default="auto", help="auto|float16|bfloat16|float32")
+    p1.add_argument("--max_new_tokens", type=int, default=128)
+    p1.add_argument("--temperature", type=float, default=0.0)
+    p1.add_argument("--top_p", type=float, default=1.0)
+    p1.add_argument("--chat_template", default="auto", help="auto|on|off")
     p1.set_defaults(func=cmd_phase1)
 
     return parser
