@@ -85,6 +85,7 @@ def cmd_phase1(args: argparse.Namespace) -> int:
     count = 0
 
     progress = _build_progress(len(samples), args.progress, args.progress_every)
+    printed = 0
     with out_path.open("w", encoding="utf-8") as f:
         for s in samples:
             evidence = retrieve_llm_only(s)
@@ -100,6 +101,8 @@ def cmd_phase1(args: argparse.Namespace) -> int:
                 "em": em,
                 "f1": f1,
             }
+            if args.save_prompt:
+                record["prompt"] = prompt
             f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
             total_em += em
@@ -107,6 +110,19 @@ def cmd_phase1(args: argparse.Namespace) -> int:
             count += 1
             if progress is not None:
                 progress.update(1)
+            if args.print_every > 0 and count % args.print_every == 0:
+                printed += 1
+                print(f"\n[{count}] id={s['id']}")
+                print(f"question={s['question']}")
+                if args.print_prompt:
+                    print("prompt=")
+                    print(prompt)
+                print(f"prediction={pred}")
+                print(f"gold_answers={s['gold_answer_texts']}")
+                print(f"em={em:.4f} f1={f1:.4f}")
+                if args.print_limit is not None and printed >= args.print_limit:
+                    print("Print limit reached; suppressing further sample logs.")
+                    args.print_every = 0
 
     if progress is not None:
         progress.close()
@@ -159,6 +175,10 @@ def build_parser() -> argparse.ArgumentParser:
     p1.add_argument("--chat_template", default="auto", help="auto|on|off")
     p1.add_argument("--progress", action="store_true", help="Show progress bar for inference loop")
     p1.add_argument("--progress_every", type=int, default=10, help="Fallback progress print interval")
+    p1.add_argument("--save_prompt", action="store_true", help="Write prompt into output jsonl")
+    p1.add_argument("--print_every", type=int, default=0, help="Print every N samples to stdout")
+    p1.add_argument("--print_limit", type=int, default=None, help="Max number of printed samples")
+    p1.add_argument("--print_prompt", action="store_true", help="Include prompt in printed logs")
     p1.set_defaults(func=cmd_phase1)
 
     return parser
