@@ -1,11 +1,11 @@
-python src/run.py phase2 \
+python src/run.py phase3 \
   --data_dir /data/GNN-RAG/datasets/webqsp \
   --split dev \
   --reader hf \
   --model_path /data/GNN-RAG/models/Llama-2-7b-chat-hf \
   --attn_impl flash_attention_2 \
   --chat_template on \
-  --batch_size 6 \
+  --batch_size 4 \
   --device auto \
   --device_map auto \
   --dtype float16 \
@@ -15,4 +15,9 @@ python src/run.py phase2 \
   --entity_emb entity_emb_sbert_768d.npy \
   --relation_emb relation_emb_sbert_768d.npy \
   --question_emb question_emb_sbert_768d_dev.npy \
+  --planner hf \
+  --path_topk 5 \
+  --path_max_len 2 \
+  --hybrid_alpha 0.7 \
+  --path_bonus 0.3 \
   --progress

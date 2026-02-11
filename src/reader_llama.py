@@ -8,6 +8,8 @@ def _clean_generation(text: str) -> str:
     cleaned = text
     for token in _CLEAN_TOKENS:
         cleaned = cleaned.replace(token, "")
+    if "Answer:" in cleaned:
+        cleaned = cleaned.split("Answer:")[-1]
     return cleaned.strip()
 
 
@@ -28,6 +30,28 @@ class EchoReader:
         return prompts
 
 
+def _parse_max_memory(value: Optional[str]):
+    if value is None:
+        return None
+    text = value.strip()
+    if not text or text.lower() == "auto":
+        return None
+    parts = [p.strip() for p in text.split(",") if p.strip()]
+    max_memory = {}
+    for part in parts:
+        if ":" not in part:
+            raise ValueError(
+                "max_memory must be like '0:20GiB,1:20GiB' or 'auto'"
+            )
+        dev, mem = part.split(":", 1)
+        dev = dev.strip()
+        mem = mem.strip()
+        if not dev.isdigit():
+            raise ValueError("max_memory device ids must be integers")
+        max_memory[int(dev)] = mem
+    return max_memory
+
+
 class HFReader:
     def __init__(
         self,
@@ -39,6 +63,8 @@ class HFReader:
         top_p: float = 1.0,
         chat_template: str = "auto",
         attn_implementation: str = "auto",
+        device_map: Optional[str] = None,
+        max_memory: Optional[str] = None,
     ) -> None:
         try:
             import torch
@@ -74,11 +100,19 @@ class HFReader:
         if attn_implementation != "auto":
             model_kwargs["attn_implementation"] = attn_implementation
 
+        resolved_device_map = device_map
+        if resolved_device_map in ("none", "", None):
+            resolved_device_map = None
+        if resolved_device_map is None and device == "auto":
+            resolved_device_map = "auto"
+
         try:
-            if device == "auto":
-                self.model = AutoModelForCausalLM.from_pretrained(
-                    model_path, device_map="auto", **model_kwargs
-                )
+            if resolved_device_map is not None:
+                model_kwargs["device_map"] = resolved_device_map
+                max_mem = _parse_max_memory(max_memory)
+                if max_mem is not None:
+                    model_kwargs["max_memory"] = max_mem
+                self.model = AutoModelForCausalLM.from_pretrained(model_path, **model_kwargs)
             else:
                 self.model = AutoModelForCausalLM.from_pretrained(model_path, **model_kwargs)
                 self.model.to(device)
@@ -180,6 +214,8 @@ def build_reader(
     top_p: float = 1.0,
     chat_template: str = "auto",
     attn_implementation: str = "auto",
+    device_map: Optional[str] = None,
+    max_memory: Optional[str] = None,
 ):
     if reader_type == "dummy":
         return DummyReader()
@@ -197,5 +233,7 @@ def build_reader(
             top_p=top_p,
             chat_template=chat_template,
             attn_implementation=attn_implementation,
+            device_map=device_map,
+            max_memory=max_memory,
         )
     raise ValueError(f"Unsupported reader type: {reader_type}")

@@ -74,6 +74,10 @@ def score_triple(
     return cosine_sim(question_vec, triple_vec)
 
 
+def combine_scores(sem_score: float, path_hit: float, alpha: float, path_bonus: float) -> float:
+    return alpha * sem_score + path_bonus * path_hit
+
+
 def check_embeddings_bounds(
     triple: Dict[str, int],
     entity_emb,
