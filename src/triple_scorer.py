@@ -5,12 +5,29 @@ def _tokenize(text: str) -> list:
     return [tok for tok in text.lower().split() if tok]
 
 
-def compute_question_vec(question: str, vocab_index: Dict[str, int], word_emb):
+def _align_dim(vec, target_dim: int):
+    import numpy as np
+
+    if vec.shape[0] == target_dim:
+        return vec
+    if vec.shape[0] > target_dim:
+        return vec[:target_dim]
+    pad = np.zeros(target_dim - vec.shape[0], dtype=vec.dtype)
+    return np.concatenate([vec, pad], axis=0)
+
+
+def compute_question_vec(
+    question: str,
+    vocab_index: Dict[str, int],
+    word_emb,
+    target_dim: int | None = None,
+):
     import numpy as np
 
     tokens = _tokenize(question)
     if not tokens:
-        return np.zeros(word_emb.shape[1], dtype=word_emb.dtype)
+        vec = np.zeros(word_emb.shape[1], dtype=word_emb.dtype)
+        return _align_dim(vec, target_dim) if target_dim is not None else vec
 
     vecs = []
     for tok in tokens:
@@ -19,8 +36,10 @@ def compute_question_vec(question: str, vocab_index: Dict[str, int], word_emb):
             continue
         vecs.append(word_emb[idx])
     if not vecs:
-        return np.zeros(word_emb.shape[1], dtype=word_emb.dtype)
-    return np.mean(np.stack(vecs, axis=0), axis=0)
+        vec = np.zeros(word_emb.shape[1], dtype=word_emb.dtype)
+        return _align_dim(vec, target_dim) if target_dim is not None else vec
+    vec = np.mean(np.stack(vecs, axis=0), axis=0)
+    return _align_dim(vec, target_dim) if target_dim is not None else vec
 
 
 def compute_triple_vec(

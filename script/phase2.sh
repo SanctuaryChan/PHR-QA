@@ -9,4 +9,6 @@ python src/run.py phase2 \
   --dtype float16 \
   --save_evidence \
   --save_prompt \
+  --entity_emb entity_emb_sbert_100d.npy \
+  --relation_emb relation_emb_sbert_100d.npy \
   --progress

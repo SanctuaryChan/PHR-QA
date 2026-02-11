@@ -185,7 +185,13 @@ def cmd_phase2(args: argparse.Namespace) -> int:
         attn_implementation=args.attn_impl,
     )
     idmap = IDMap.from_dir(args.data_dir)
-    entity_emb, relation_emb, word_emb, vocab = load_embeddings(args.data_dir)
+    entity_emb, relation_emb, word_emb, vocab = load_embeddings(
+        args.data_dir,
+        entity_emb_file=args.entity_emb,
+        relation_emb_file=args.relation_emb,
+        word_emb_file=args.word_emb,
+        vocab_file=args.vocab,
+    )
 
     dataset = args.dataset or _infer_dataset_name(args.data_dir)
     out_dir = Path(args.output_dir) / dataset / args.split
@@ -196,6 +202,7 @@ def cmd_phase2(args: argparse.Namespace) -> int:
     total_em = 0.0
     total_f1 = 0.0
     count = 0
+    total_oob_skipped = 0
 
     progress = _build_progress(len(samples), args.progress, args.progress_every)
     printed = 0
@@ -204,15 +211,19 @@ def cmd_phase2(args: argparse.Namespace) -> int:
             prompts: List[str] = []
             evidences: List[List[dict]] = []
             for s in batch:
-                q_vec = compute_question_vec(s["question"], vocab, word_emb)
-                evidence = retrieve_subgraph(
+                q_vec = compute_question_vec(
+                    s["question"], vocab, word_emb, target_dim=entity_emb.shape[1]
+                )
+                evidence, oob_skipped = retrieve_subgraph(
                     s,
                     idmap,
                     q_vec,
                     entity_emb,
                     relation_emb,
                     topn=args.topn,
+                    oob_policy=args.oob_policy,
                 )
+                total_oob_skipped += oob_skipped
                 evidences.append(evidence)
                 prompts.append(build_prompt(s["question"], evidence))
 
@@ -271,6 +282,8 @@ def cmd_phase2(args: argparse.Namespace) -> int:
     )
 
     print(f"Wrote {count} samples to {out_path}")
+    if total_oob_skipped > 0:
+        print(f"Skipped {total_oob_skipped} triples due to out-of-range embeddings")
     print(f"Summary: EM={avg_em:.4f} F1={avg_f1:.4f} -> {summary_path}")
     return 0
 
@@ -351,6 +364,16 @@ def build_parser() -> argparse.ArgumentParser:
     p2.add_argument("--print_prompt", action="store_true", help="Include prompt in printed logs")
     p2.add_argument("--topn", type=int, default=50, help="Top-N evidence triples")
     p2.add_argument("--batch_size", type=int, default=1, help="Batch size for generation")
+    p2.add_argument("--entity_emb", default=None, help="Custom entity embedding filename/path")
+    p2.add_argument("--relation_emb", default=None, help="Custom relation embedding filename/path")
+    p2.add_argument("--word_emb", default=None, help="Custom word embedding filename/path")
+    p2.add_argument("--vocab", default=None, help="Custom vocab filename/path")
+    p2.add_argument(
+        "--oob_policy",
+        default="skip",
+        choices=["skip", "zero", "error"],
+        help="Out-of-range embedding policy: skip|zero|error",
+    )
     p2.set_defaults(func=cmd_phase2)
 
     return parser
