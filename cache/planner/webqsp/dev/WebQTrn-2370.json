@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2370",
+  "question": "who is playing bilbo in the hobbit movie",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "book.book_character.appears_in_book"
+    ],
+    [
+      "fictional_universe.fictional_character.appears_in_these_fictional_universes"
+    ],
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "theater.theater_character.plays_appears_in"
+    ]
+  ],
+  "raw": "Here are 5 valid paths with relation types and lengths between 1 and 2:\n\n1. book.book.characters (1)\n2. fictional_universe.fictional_character.appears_in_these_fictional_universes (2)\n3. people.person.profession (1)\n4. film.film.starring (2)\n5. award.award_nominee.award_nominations (2)\n\nNote: These paths are selected based on the given question and candidate relations, and are"
+}

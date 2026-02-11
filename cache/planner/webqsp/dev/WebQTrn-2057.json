@@ -1,0 +1,16 @@
+{
+  "id": "WebQTrn-2057",
+  "question": "what money does guatemala use",
+  "paths": [
+    [
+      "location.statistical_region.energy_use_per_capita"
+    ],
+    [
+      "measurement_unit.dated_money_value.currency"
+    ],
+    [
+      "measurement_unit.dated_money_value.source"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations for the question \"what money does guatemala use\":\n\n1. location.statistical_region.gni_per_capita_in_ppp_dollars - This path relates to the relation \"location.statistical_region.gni_per_capita_in_ppp_dollars\" and is within the range of 1 to 2.\n2. measurement_unit.dated_money_value.currency - This path relates to the relation \"measurement_unit.dated"
+}

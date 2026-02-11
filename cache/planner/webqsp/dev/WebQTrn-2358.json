@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2358",
+  "question": "where did newt gingrich attend college",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "people.person.profession"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "people.profession.specializations"
+    ],
+    [
+      "base.descriptive_names.names.descriptive_name"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given question and candidate relations:\n\n1. \"newt gingrich attended college in [base.americancomedy.celebrity_impressionist.celebrities_impersonated]\": This path uses the \"celebrity_impressionist\" relation to find colleges that were attended by celebrities impersonated by Newt Gingrich.\n2. \"newt gingrich graduated from [base.propositions.proposition_issue.against]\": This path uses the \"proposition_issue\" relation"
+}

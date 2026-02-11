@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1976",
+  "question": "what did robert koch do",
+  "paths": [
+    [
+      "medicine.risk_factor.diseases"
+    ],
+    [
+      "medicine.disease.symptoms"
+    ],
+    [
+      "medicine.disease.risk_factors"
+    ],
+    [
+      "base.kwebbase.kwtopic.has_sentences"
+    ],
+    [
+      "location.location.people_born_here"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"medicine.risk_factor.diseases\"\n2. \"medicine.disease.symptoms\"\n3. \"medicine.disease.risk_factors\"\n4. \"base.kwebbase.kwtopic.connections_to\"\n5. \"base.kwebbase.kwconnection.other\"\n\nEach of these paths has a length of 2 or less and is between 1 and 2 in length, as required"
+}

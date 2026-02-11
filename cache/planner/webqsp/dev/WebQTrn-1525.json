@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1525",
+  "question": "where did phil mickelson go to college",
+  "paths": [
+    [
+      "people.profession.specializations"
+    ],
+    [
+      "base.descriptive_names.names.descriptive_name"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "medicine.risk_factor.diseases"
+    ],
+    [
+      "award.competition.competitors"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. \"people.person.gender\" - This path returns the gender of the person mentioned in the question.\n2. \"base.gender.personal_gender_identity.gender_identity\" - This path returns the gender identity of a person.\n3. \"people.person.parents\" - This path returns the parents of the person mentioned in the question.\n4. \"award.competition.winner\" - This path returns the winner of the competition mentioned in the question.\n5. \""
+}

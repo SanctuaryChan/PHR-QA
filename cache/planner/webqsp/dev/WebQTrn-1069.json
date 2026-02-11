@@ -1,0 +1,13 @@
+{
+  "id": "WebQTrn-1069",
+  "question": "what language do denmark",
+  "paths": [
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "location.country.official_language"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"common.topic.notable_types\" -> [ \"location.location.containedby\", \"time.event.locations\", \"olympics.olympic_participating_country.olympics_participated_in\", \"organization.organization.geographic_scope\", \"location.location.contains\", \"olympics.olympic_games.participating_countries\" ]\n2. \"location.statistical_region.gdp"
+}

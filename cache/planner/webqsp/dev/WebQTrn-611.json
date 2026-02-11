@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-611",
+  "question": "what position did george washington serve in the constitutional convention",
+  "paths": [
+    [
+      "military.military_person.participated_in_conflicts"
+    ],
+    [
+      "time.event.included_in_event"
+    ],
+    [
+      "visual_art.art_subject.artwork_on_the_subject"
+    ],
+    [
+      "common.image.appears_in_topic_gallery"
+    ],
+    [
+      "film.film_character.portrayed_in_films"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"george washington\" -> \"common.topic.notable_types\"\n2. \"george washington\" -> \"base.kwebbase.kwsentence.kwtopic\"\n3. \"george washington\" -> \"people.person.nationality\"\n4. \"george washington\" -> \"military.military_command.military_conflict\"\n5. \"george washington\" -> \"book.written_"
+}

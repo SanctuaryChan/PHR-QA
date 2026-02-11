@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-196",
+  "question": "who did ben stiller play in megamind",
+  "paths": [
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "tv.tv_guest_role.episodes_appeared_in"
+    ],
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "tv.tv_character.appeared_in_tv_program"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the question \"who did ben stiller play in megamind\":\n\n1. /people/Ben_Stiller/films\n2. /film/Megamind/actors\n3. /film/Ben_Stiller/films_in_which_he_played_a_character\n4. /film/Megamind/actors/Ben_Stiller\n5. /film/Ben_Stiller/films_where_he_played_a_superhero\n\nNote: These paths are based"
+}

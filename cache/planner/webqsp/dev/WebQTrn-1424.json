@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-1424",
+  "question": "where is oceania on a map",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"location.country.official_language\" -> \"Australia\"\n2. \"location.country.currency_used\" -> \"Australian dollar\"\n3. \"location.country.languages_spoken\" -> \"English, Mandarin, Cantonese\"\n4. \"location.administrative_division.first_level_division_of\" -> \"New South Wales\"\n5. \"location.country.internet_tld\" -> \"au\"\n\nNote that each"
+}

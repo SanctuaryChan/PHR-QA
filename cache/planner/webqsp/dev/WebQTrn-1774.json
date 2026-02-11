@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1774",
+  "question": "what countries are located in the netherlands",
+  "paths": [
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "olympics.olympic_participating_country.olympics_participated_in"
+    ],
+    [
+      "olympics.olympic_games.participating_countries"
+    ],
+    [
+      "time.event.included_in_event"
+    ],
+    [
+      "location.statistical_region.gni_in_ppp_dollars"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations:\n\n1. media_common.netflix_title.netflix_genres -> location.country.genre\n2. time.event.locations -> location.country.event\n3. location.country.administrative_divisions -> government.administrative_division.country\n4. measurement_unit.dated_money_value.source -> location.statistical_region.gni_in_ppp_dollars\n5. location.statistical_region.gross_"
+}

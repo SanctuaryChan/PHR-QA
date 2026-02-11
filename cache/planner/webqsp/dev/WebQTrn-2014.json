@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2014",
+  "question": "what county is stockton ca located in",
+  "paths": [
+    [
+      "location.hud_county_place.place"
+    ],
+    [
+      "location.us_county.hud_county_place"
+    ],
+    [
+      "location.hud_county_place.county"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "common.webpage.in_index"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. \"location.location.containedby\": [Stockton, CA]\n2. \"location.location.time_zones\": [\"Pacific Time\"]\n3. \"education.university.domestic_tuition\": [University of the Pacific]\n4. \"base.marchmadness.ncaa_basketball_team.ncaa_tournament_seeds\": [University of the Pacific men's basketball team]\n5. \"location."
+}

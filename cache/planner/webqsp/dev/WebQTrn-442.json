@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-442",
+  "question": "who was the first leader of the afl",
+  "paths": [
+    [
+      "people.person.place_of_birth"
+    ],
+    [
+      "people.deceased_person.place_of_death"
+    ],
+    [
+      "award.hall_of_fame_induction.inductee"
+    ],
+    [
+      "people.deceased_person.cause_of_death"
+    ],
+    [
+      "award.hall_of_fame.discipline"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the candidate relations for the question \"who was the first leader of the afl\":\n\n1. film.film_subject.films (length: 2)\n2. sports.sport.positions (length: 2)\n3. common.webpage.topic (length: 2)\n4. sports.sports_position.sport (length: 2)\n5. film.film.subjects (length: 2)\n\nNote: The lengths of the paths are between 1 and 2, and the paths are"
+}

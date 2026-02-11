@@ -1,0 +1,16 @@
+{
+  "id": "WebQTrn-2767",
+  "question": "what language does greece use",
+  "paths": [
+    [
+      "film.film.language"
+    ],
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "location.country.official_language"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations:\n\n1. Greece uses the Euro as its currency. (common.topic.notable_types.currency)\n2. Greece is located in Europe. (location.location.containedby.continents.Europe)\n3. Greece is a member of the European Union. (government.government_position_held.jurisdiction_of_office.European_Union)\n4. Greece has a population of approximately 10.7 million people. (people.person.nationality.G"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-1756",
+  "question": "who is angelina jolie husband name",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the candidate relations for the question \"Who is Angelina Jolie's husband's name?\":\n\n1. freebase.valuenotation.is_reviewed -> people.person.profession -> film.actor.film -> angelina_jolie_husband_name\n2. common.topic.notable_types -> people.person.ethnicity -> film.personal_film_appearance.type_of_appearance -> angelina_jolie_husband_name\n3. film.film"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2822",
+  "question": "what was the political system in libya",
+  "paths": [
+    [
+      "time.event.included_in_event"
+    ],
+    [
+      "government.political_party.ideology"
+    ],
+    [
+      "military.military_person.participated_in_conflicts"
+    ],
+    [
+      "location.statistical_region.gni_per_capita_in_ppp_dollars"
+    ],
+    [
+      "location.statistical_region.gni_in_ppp_dollars"
+    ]
+  ],
+  "raw": "Here are 5 possible paths for the question \"what was the political system in libya\" based on the given candidate relations:\n\n1. political system -> common.topic.notable_types -> location.location.containedby -> Libya\n2. political system -> base.aareas.schema.administrative_area.administrative_children -> Libya\n3. political system -> location.location.partially_containedby -> Libya\n4. political system -> time.event.includes_event -> Libya\n5. political system -> people.person.place"
+}

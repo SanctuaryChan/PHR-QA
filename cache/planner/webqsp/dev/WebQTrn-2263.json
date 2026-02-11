@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2263",
+  "question": "what did sammy davis jr die of",
+  "paths": [
+    [
+      "people.cause_of_death.people"
+    ],
+    [
+      "people.deceased_person.cause_of_death"
+    ],
+    [
+      "people.person.place_of_birth"
+    ],
+    [
+      "people.deceased_person.place_of_death"
+    ],
+    [
+      "common.topic.subject_of"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the question \"what did sammy davis jr die of\" based on the candidate relations provided:\n\n1. [\"people.person.deceased_person.cause_of_death\", \"freebase.valuenotation.is_reviewed\"]\n2. [\"music.album.genre\", \"people.person.profession\"]\n3. [\"award.award_ceremony.awards_presented\", \"freebase.type_hints.included_types\"]\n4. [\"film."
+}

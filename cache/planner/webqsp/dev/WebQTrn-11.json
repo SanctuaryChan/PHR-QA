@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-11",
+  "question": "what time zone am i in cleveland ohio",
+  "paths": [
+    [
+      "location.location.time_zones"
+    ],
+    [
+      "time.event.locations"
+    ],
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "time.event.instance_of_recurring_event"
+    ],
+    [
+      "film.film_location.featured_in_films"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"location.location.people_born_here\"\n2. \"film.film.country\"\n3. \"location.administrative_division.second_level_division_of\"\n4. \"base.ports.port_of_call.harbor_type\"\n5. \"people.person.profession\"\n\nEach path has a length between 1 and 2, and they are diverse in terms of the types of entities and relationships involved."
+}

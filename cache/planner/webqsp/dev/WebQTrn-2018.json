@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2018",
+  "question": "what form of government does czech republic have",
+  "paths": [
+    [
+      "government.government_position_held.jurisdiction_of_office"
+    ],
+    [
+      "location.administrative_division.second_level_division_of"
+    ],
+    [
+      "time.event.instance_of_recurring_event"
+    ],
+    [
+      "location.statistical_region.government_debt_percent_gdp"
+    ],
+    [
+      "government.political_party.ideology"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given question and candidate relations:\n\n1. media_common.netflix_title.netflix_genres -> film.film.genre\n2. common.topic.notable_types -> location.location.containedby\n3. measurement_unit.dated_money_value.currency -> location.statistical_region.gdp_nominal\n4. location.statistical_region.gdp_growth_rate -> base.aareas.schema.administrative_area.administrative_"
+}

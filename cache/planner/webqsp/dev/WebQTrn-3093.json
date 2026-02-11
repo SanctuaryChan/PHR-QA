@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-3093",
+  "question": "where is the capital city of assyrians",
+  "paths": [
+    [
+      "fictional_universe.fictional_language.where_spoken"
+    ],
+    [
+      "fictional_universe.type_of_fictional_setting.settings"
+    ],
+    [
+      "people.person.place_of_birth"
+    ],
+    [
+      "location.country.form_of_government"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"location.location.partially_containedby\" : This path relates to the relation between a location and the locations it partially contains.\n2. \"fictional_universe.fictional_object.featured_in_fictional_universe\" : This path relates to the relation between a fictional object and the fictional universes it appears in.\n3. \"people.person.place_of_birth\" : This path relates to the relation between a person and the"
+}

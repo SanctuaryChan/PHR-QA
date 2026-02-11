@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1232",
+  "question": "where was the roman empire centered",
+  "paths": [
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "base.culturalevent.event.entity_involved"
+    ],
+    [
+      "media_common.netflix_title.netflix_genres"
+    ],
+    [
+      "location.location.events"
+    ],
+    [
+      "military.military_combatant.military_conflicts"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations, with path lengths between 1 and 2, and kept diverse:\n\n1. \"common.topic.notable_types\" - This path leads to the relation \"notable_types\", which connects a topic to a set of notable types, such as \"book\", \"film\", or \"person\".\n2. \"base.culturalevent.event.entity_involved\" - This path leads to the relation \"entity_involved\", which connects a cultural event to the entities involved in it, such as \"art"
+}

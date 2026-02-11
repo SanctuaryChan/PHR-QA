@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-2510",
+  "question": "what country did truman lead",
+  "paths": [
+    [
+      "base.biblioness.bibs_location.country"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. \"common.topic.notable_types\": [\n  \"book\",\n  \"government\",\n  \"location\",\n  \"people\",\n  \"religion\"\n]\n2. \"freebase.valuenotation.is_reviewed\": [\n  \"book\",\n  \"people\",\n  \"government\",\n  \"location\",\n  \"religion\"\n]\n3. \"book.written_work.subjects\": ["
+}

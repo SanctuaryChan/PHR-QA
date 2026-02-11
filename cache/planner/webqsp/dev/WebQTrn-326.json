@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-326",
+  "question": "what time zone is new york under",
+  "paths": [
+    [
+      "time.event.locations"
+    ],
+    [
+      "location.location.time_zones"
+    ],
+    [
+      "time.event.instance_of_recurring_event"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "base.biblioness.bibs_topic.is_really"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. \"new_york\" -> \"location.location.time_zones\" (length 2)\n2. \"new_york\" -> \"location.location.partially_containedby\" (length 2)\n3. \"new_york\" -> \"location.location.partially_contains\" (length 2)\n4. \"new_york\" -> \"location.administrative_division.country\" (length 3)\n5. \"new_y"
+}

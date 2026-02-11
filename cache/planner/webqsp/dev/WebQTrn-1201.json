@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-1201",
+  "question": "what state was hillary clinton a senator for",
+  "paths": [
+    [
+      "common.topic.notable_for"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"hillary clinton\" -> \"government.government_position_held.governmental_body\"\n2. \"hillary clinton\" -> \"people.person.profession\"\n3. \"hillary clinton\" -> \"book.written_work.subjects\"\n4. \"hillary clinton\" -> \"base.activism.activist.area_of_activism\"\n5. \"hillary clinton\" -> \"common.topic.image\""
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-497",
+  "question": "in what country is amsterdam",
+  "paths": [
+    [
+      "olympics.olympic_participating_country.olympics_participated_in"
+    ],
+    [
+      "base.biblioness.bibs_location.country"
+    ],
+    [
+      "time.time_zone.locations_in_this_time_zone"
+    ],
+    [
+      "location.administrative_division.country"
+    ],
+    [
+      "location.country.administrative_divisions"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given question and candidate relations:\n\n1. \"in what country is Amsterdam located?\"\nPath: location.location.country.administrative_divisions.country\n2. \"Which country has the most Olympic medals?\"\nPath: olympics.olympic_games.participating_countries.country\n3. \"What is the capital of France?\"\nPath: location.location.country.administrative_divisions.capital\n4. \"Which country has the most Nobel Prize winners?\"\nPath: award."
+}

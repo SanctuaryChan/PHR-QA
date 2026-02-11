@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-3036",
+  "question": "who was the president of indian national congress",
+  "paths": [
+    [
+      "location.capital_of_administrative_division.capital_of"
+    ],
+    [
+      "business.board_member.leader_of"
+    ],
+    [
+      "common.topic.subject_of"
+    ],
+    [
+      "people.person.place_of_birth"
+    ],
+    [
+      "base.elbogen.meeting_focus.focus_of"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"book.written_work.subjects\" - This path has a length of 2 and returns the subjects of a book.\n2. \"location.country.languages_spoken\" - This path has a length of 2 and returns the languages spoken in a country.\n3. \"people.person.places_lived\" - This path has a length of 2 and returns the places lived by a person.\n4. \"travel.travel_destination.how_to_get_here"
+}

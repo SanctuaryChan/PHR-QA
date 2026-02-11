@@ -1,0 +1,19 @@
+{
+  "id": "WebQTrn-2097",
+  "question": "what party was winston churchill in politics",
+  "paths": [
+    [
+      "film.person_or_entity_appearing_in_film.films"
+    ],
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "military.military_person.participated_in_conflicts"
+    ],
+    [
+      "film.film_location.featured_in_films"
+    ]
+  ],
+  "raw": "Here are 5 possible paths for the question \"what party was winston churchill in politics\":\n\n1. common.topic.notable_types -> notable_types: \"politics\"\n2. book.written_work.subjects -> subjects: \"politics\"\n3. people.person.profession -> profession: \"politics\"\n4. education.educational_institution.students_graduates -> students_graduates: \"Winston Churchill\"\n5. freebase.valuenotation.is_reviewed -> is_"
+}

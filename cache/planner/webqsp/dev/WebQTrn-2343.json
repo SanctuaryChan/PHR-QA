@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2343",
+  "question": "who did hermione granger marry",
+  "paths": [
+    [
+      "book.book.characters"
+    ],
+    [
+      "book.book_character.appears_in_book"
+    ],
+    [
+      "book.book.editions"
+    ],
+    [
+      "fictional_universe.fictional_organization.members"
+    ],
+    [
+      "common.topic.notable_types"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations for the question \"who did hermione granger marry\":\n\n1. book.book.characters.appears_in_book (Hermione Granger appears in the book \"Harry Potter and the Philosopher's Stone\")\n2. fictional_universe.fictional_character.appears_in_these_fictional_universes (Hermione Granger appears in the fictional universe of Harry Potter)\n3. media_common.quotation.source.quoted_by ("
+}

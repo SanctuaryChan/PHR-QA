@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2693",
+  "question": "what state was ronald reagan governor of",
+  "paths": [
+    [
+      "film.personal_film_appearance.type_of_appearance"
+    ],
+    [
+      "people.person.place_of_birth"
+    ],
+    [
+      "people.place_of_interment.interred_here"
+    ],
+    [
+      "people.deceased_person.place_of_burial"
+    ],
+    [
+      "people.marriage.type_of_union"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that match the given question and candidate relations:\n\n1. \"film.personal_film_appearance.type_of_appearance\" - This path returns the type of appearance (e.g. actor, actress, etc.) of a person in a film.\n2. \"people.person.places_lived\" - This path returns the places lived by a person.\n3. \"film.film.starring\" - This path returns the actors and actresses who starred in a film.\n4. \"government.government"
+}

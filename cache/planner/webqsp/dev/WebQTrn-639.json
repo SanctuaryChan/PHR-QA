@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-639",
+  "question": "where do audi come from",
+  "paths": [
+    [
+      "business.business_operation.major_customer"
+    ],
+    [
+      "location.location.people_born_here"
+    ],
+    [
+      "location.statistical_region.population"
+    ],
+    [
+      "business.employment_tenure.company"
+    ],
+    [
+      "business.employer.employees"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"business.business_operation.major_customer\"\n2. \"location.location.people_born_here\"\n3. \"business.employment_tenure.company\"\n4. \"automotive.make.model_s\"\n5. \"organization.organization_partnership.members\"\n\nEach path has a length between 1 and 2, and they are diverse in terms of the types of entities and relationships involved."
+}

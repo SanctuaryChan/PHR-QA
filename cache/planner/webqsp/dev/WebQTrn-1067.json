@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1067",
+  "question": "who are senators from new jersey",
+  "paths": [
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "location.location.containedby"
+    ],
+    [
+      "book.written_work.subjects"
+    ],
+    [
+      "common.topic.notable_for"
+    ],
+    [
+      "book.book.editions"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations:\n\n1. senators from new jersey - [book.written_work.subjects.politics, location.location.containedby.New_Jersey, people.person.nationality.American]\n2. governmental positions held by senators from new jersey - [government.government_position_held.office_holder.senator, location.location.containedby.New_Jersey, people.person.nationality.American]\n3. notable works"
+}

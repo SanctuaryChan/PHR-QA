@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2465",
+  "question": "what do you speak in singapore",
+  "paths": [
+    [
+      "location.statistical_region.gni_per_capita_in_ppp_dollars"
+    ],
+    [
+      "location.statistical_region.gni_in_ppp_dollars"
+    ],
+    [
+      "olympics.olympic_participating_country.olympics_participated_in"
+    ],
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "time.event.included_in_event"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"common.topic.notable_types\" - This path returns the list of notable types related to the given topic.\n2. \"location.statistical_region.co2_emissions_per_capita\" - This path returns the CO2 emissions per capita of the given statistical region.\n3. \"location.statistical_region.electricity_consumption_per_capita\" - This path returns the electricity consumption per capita of the given statistical region.\n4."
+}

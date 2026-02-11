@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-376",
+  "question": "who speaks farsi",
+  "paths": [
+    [
+      "location.location.containedby"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "language.language_writing_system.languages"
+    ],
+    [
+      "language.human_language.writing_system"
+    ],
+    [
+      "location.country.languages_spoken"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations, with lengths between 1 and 2, and kept diverse:\n\n1. \"who speaks Farsi\" -> \"language.human_language.writing_system.languages\" (length: 2)\n2. \"Farsi speakers\" -> \"location.country.languages_spoken\" (length: 1)\n3. \"Farsi language\" -> \"language.human_language.language_family\" (length: 2)\n4. \"Farsi region\" -> \"location.statistical_region"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2922",
+  "question": "where did marco rubio go to college",
+  "paths": [
+    [
+      "location.location.containedby"
+    ],
+    [
+      "base.descriptive_names.names.descriptive_name"
+    ],
+    [
+      "location.citytown.postal_codes"
+    ],
+    [
+      "location.postal_code.country"
+    ],
+    [
+      "time.event.locations"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. { \"path\": \"marco-rubio/location\", \"relations\": [ \"location.location.containedby\", \"location.citytown.postal_codes\", \"location.postal_code.country\", \"location.statistical_region.population\", \"location.country.administrative_divisions\", \"location.administrative_division.country\" ] }\n2. { \"path\": \"marco-rubio/people\", \"relations\":"
+}

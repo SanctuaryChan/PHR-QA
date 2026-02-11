@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1023",
+  "question": "what is the money of argentina called",
+  "paths": [
+    [
+      "government.government_position_held.jurisdiction_of_office"
+    ],
+    [
+      "measurement_unit.dated_money_value.currency"
+    ],
+    [
+      "measurement_unit.dated_money_value.source"
+    ],
+    [
+      "location.statistical_region.trade_balance_as_percent_of_gdp"
+    ],
+    [
+      "location.statistical_region.merchandise_trade_percent_of_gdp"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations:\n\n1. money of Argentina called - common.topic.notable_types - location.country.administrative_divisions\n2. notable types of Argentina - common.topic.notable_types - location.country.administrative_divisions\n3. notable types of Argentina - common.topic.notable_types - location.country.first_level_divisions\n4. notable types of Argentina - common.topic.notable_types - location.country.form_of_government\n5. notable types"
+}

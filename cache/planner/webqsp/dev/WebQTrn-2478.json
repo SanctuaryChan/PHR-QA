@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2478",
+  "question": "what is the syracuse university mascot",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "education.university.domestic_tuition"
+    ],
+    [
+      "education.university.number_of_undergraduates"
+    ],
+    [
+      "education.university.number_of_postgraduates"
+    ],
+    [
+      "education.university.local_tuition"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. /education/university/students/graduates (education.educationalInstitution.students.graduates)\n2. /base/marchMadness/ncaaBasketballTeam/tournamentGamesWon (base.marchMadness.ncaaBasketballTeam.tournamentGamesWon)\n3. /people/person/employmentHistory (people.person.employmentHistory)\n4. /business/emp"
+}

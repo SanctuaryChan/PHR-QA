@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2965",
+  "question": "what is the main language spoken in switzerland",
+  "paths": [
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "olympics.olympic_participating_country.olympics_participated_in"
+    ],
+    [
+      "location.statistical_region.gni_in_ppp_dollars"
+    ],
+    [
+      "location.statistical_region.gni_per_capita_in_ppp_dollars"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. \"common.topic.notable_for\" -> \"switzerland\"\n2. \"location.statistical_region.gni_in_ppp_dollars\" -> \"switzerland\"\n3. \"location.statistical_region.gni_per_capita_in_ppp_dollars\" -> \"switzerland\"\n4. \"location.statistical_region.military_expenditure_percent_gdp\" -> \"switzerland\""
+}

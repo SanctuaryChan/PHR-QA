@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1913",
+  "question": "where does luke skywalker live in star wars",
+  "paths": [
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "film.person_or_entity_appearing_in_film.films"
+    ],
+    [
+      "fictional_universe.character_species.found_in_fictional_universe"
+    ],
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "book.book_character.appears_in_book"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"luke skywalker\" -> \"common.topic.webpage\" (length: 2)\n2. \"luke skywalker\" -> \"common.webpage.topic\" (length: 2)\n3. \"luke skywalker\" -> \"common.topic.notable_types\" (length: 2)\n4. \"luke skywalker\" -> \"medicine.risk_factor.diseases\" (length: 2)"
+}

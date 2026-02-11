@@ -1,0 +1,19 @@
+{
+  "id": "WebQTrn-1931",
+  "question": "what films has morgan freeman narrated",
+  "paths": [
+    [
+      "freebase.valuenotation.has_value"
+    ],
+    [
+      "film.person_or_entity_appearing_in_film.films"
+    ],
+    [
+      "freebase.valuenotation.has_no_value"
+    ],
+    [
+      "film.producer.films_executive_produced"
+    ]
+  ],
+  "raw": "Here are 5 valid paths that satisfy the given criteria:\n\n1. \"morgan freeman narrated films\"\n\t* Path length: 1\n\t* Relations: freebase.valuenotation.is_reviewed, film.film.genre, award.award_nomination.award_winner\n2. \"films starring morgan freeman\"\n\t* Path length: 1\n\t* Relations: film.actor.film, film.performance.actor, film.personal_film_appearance.person\n3."
+}

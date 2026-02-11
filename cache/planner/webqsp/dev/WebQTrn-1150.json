@@ -1,0 +1,13 @@
+{
+  "id": "WebQTrn-1150",
+  "question": "what currency does brazil use",
+  "paths": [
+    [
+      "location.statistical_region.energy_use_per_capita"
+    ],
+    [
+      "measurement_unit.dated_money_value.currency"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations:\n\n1. \"brazil\" -> \"common.topic.notable_types\"\n2. \"brazil\" -> \"location.statistical_region.co2_emissions_per_capita\"\n3. \"brazil\" -> \"location.statistical_region.gni_per_capita_in_ppp_dollars\"\n4. \"brazil\" -> \"location.statistical_region.merchandise_trade_percent_of_gdp\"\n5"
+}

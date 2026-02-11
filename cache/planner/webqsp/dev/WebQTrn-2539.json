@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2539",
+  "question": "what team did albert pujols play for",
+  "paths": [
+    [
+      "sports.sports_team_roster.position"
+    ],
+    [
+      "common.topic.notable_for"
+    ],
+    [
+      "baseball.batting_statistics.team"
+    ],
+    [
+      "sports.sports_team_roster.team"
+    ],
+    [
+      "sports.sports_team.sport"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that match the given question and candidate relations:\n\n1. /location/location/containedby (Albert Pujols played for the St. Louis Cardinals, which are located in Missouri)\n2. /medicine/risk_factor/diseases (Albert Pujols has been diagnosed with Type 2 diabetes)\n3. /sports/sports_position/players (Albert Pujols is a first baseman)\n4. /award/award_category/nominees (Albert"
+}

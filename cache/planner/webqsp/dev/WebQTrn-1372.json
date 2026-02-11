@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1372",
+  "question": "what is the zip code for trenton ga",
+  "paths": [
+    [
+      "common.topic.notable_for"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "location.postal_code.country"
+    ],
+    [
+      "base.wikipedia_infobox.settlement.area_code"
+    ],
+    [
+      "visual_art.art_subject.artwork_on_the_subject"
+    ]
+  ],
+  "raw": "Here are 5 valid paths for the given question and candidate relations:\n\n1. \"location.location.people_born_here\": [Trenton, Georgia]\n2. \"government.governmental_jurisdiction.governing_officials\": [Trenton, Georgia]\n3. \"education.educational_institution.students_graduates\": [Trenton, Georgia]\n4. \"location.location.time_zones\": [Trenton, Georgia]\n5. \"people.person.place"
+}

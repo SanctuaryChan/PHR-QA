@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-1019",
+  "question": "where is the mozambique located",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. {\n\"path\": [\"location\", \"country\", \"currency_used\"],\n\"relation\": \"uses\"\n}\n2. {\n\"path\": [\"location\", \"statistical_region\", \"gdp_nominal_per_capita\"],\n\"relation\": \"has_value\"\n}\n3. {\n\"path\": [\"location\", \"statistical_region\", \"population\"],\n\"relation\": \"is_part_of\"\n}\n4. {\n\"path"
+}

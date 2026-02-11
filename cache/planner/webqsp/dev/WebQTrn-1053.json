@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1053",
+  "question": "what was liam neeson 's character in star wars",
+  "paths": [
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "tv.tv_character.appeared_in_tv_program"
+    ],
+    [
+      "tv.tv_character.appeared_in_tv_episodes"
+    ],
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "film.performance.character"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that match the given question and candidate relations:\n\n1. /people/Liam_Neeson/film/starring\n2. /film/starring/Liam_Neeson\n3. /people/Liam_Neeson/film/performance\n4. /film/performance/Liam_Neeson\n5. /people/Liam_Neeson/film/language\n\nNote: These paths are generated based on the candidate relations provided in the question, and they are diverse in terms of length (between 1"
+}

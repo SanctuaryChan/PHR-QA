@@ -1,0 +1,19 @@
+{
+  "id": "WebQTrn-1515",
+  "question": "where was lance armstrong born and in what year",
+  "paths": [
+    [
+      "location.location.people_born_here"
+    ],
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "base.peleton.cycling_team_professional.participated_in_this_race_event"
+    ],
+    [
+      "film.person_or_entity_appearing_in_film.films"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"people.person.place_of_birth\"\n2. \"medicine.disease.treatments\"\n3. \"award.award_category.winners\"\n4. \"base.peleton.road_bicycle_racing_event.teams_participating_uci_protour\"\n5. \"people.person.children\"\n\nEach of these paths has a length of 2 or less and is between 1 and 2,"
+}

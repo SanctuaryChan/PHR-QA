@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-3087",
+  "question": "what does united church of christ believe",
+  "paths": [
+    [
+      "religion.religion.places_of_worship"
+    ],
+    [
+      "base.argumentmaps.thing_of_disputed_value.disparagement"
+    ],
+    [
+      "religion.place_of_worship.religion"
+    ],
+    [
+      "religion.deity.deity_of"
+    ],
+    [
+      "religion.religious_text.religious_text_of"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"book.written_work.subjects\" - This path returns the subjects of books.\n2. \"religion.religion.places_of_worship\" - This path returns the places of worship for a particular religion.\n3. \"base.activism.activism_issue.activists\" - This path returns the activists associated with a particular activism issue.\n4. \"location.location.street_address\" - This path returns the street addresses of locations.\n5. \""
+}

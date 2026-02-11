@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1771",
+  "question": "when did the colts last win the superbowl",
+  "paths": [
+    [
+      "american_football.game_receiving_statistics.game"
+    ],
+    [
+      "american_football.game_receiving_statistics.team"
+    ],
+    [
+      "american_football.football_game.receiving"
+    ],
+    [
+      "american_football.football_game.rushing"
+    ],
+    [
+      "american_football.game_rushing_statistics.game"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"american_football.game_receiving_statistics.game.location.citytown.postal_codes\"\n2. \"american_football.football_game.passing.player.parents\"\n3. \"base.ontologies.ontology_instance_mapping.freebase_topic.equivalent_instances\"\n4. \"sports.sports_team_location.teams.base.ontologies.ontology_instance_mapping.ontology\"\n5."
+}

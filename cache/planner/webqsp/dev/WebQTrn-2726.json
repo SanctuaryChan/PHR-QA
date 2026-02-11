@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2726",
+  "question": "who owns the new england patriots football team",
+  "paths": [
+    [
+      "american_football.game_receiving_statistics.team"
+    ],
+    [
+      "american_football.game_rushing_statistics.team"
+    ],
+    [
+      "american_football.game_passing_statistics.team"
+    ],
+    [
+      "american_football.football_game.home_team"
+    ],
+    [
+      "american_football.football_team.away_games"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations:\n\n1. american_football.game_receiving_statistics.player -> american_football.football_team.away_games (length: 2)\n2. american_football.football_team.home_games -> american_football.game_passing_statistics.player (length: 2)\n3. american_football.football_team.conference -> american_football.football_conference.teams (length: 2)\n4. sports.sports"
+}

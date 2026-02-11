@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1170",
+  "question": "what state did woodrow wilson represent",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "people.person.gender"
+    ],
+    [
+      "common.topic.notable_for"
+    ],
+    [
+      "people.person.profession"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"woodrow wilson\" -> \"people.person.gender\" (length: 1)\n2. \"woodrow wilson\" -> \"people.person.profession\" (length: 2)\n3. \"woodrow wilson\" -> \"book.written_work.subjects\" (length: 2)\n4. \"woodrow wilson\" -> \"people.ethnicity.includes_groups\" (length: 2)\n5. \"woodrow wilson\" -> \"govern"
+}

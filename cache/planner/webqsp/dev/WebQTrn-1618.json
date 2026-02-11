@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1618",
+  "question": "what type of music does ella fitzgerald sing",
+  "paths": [
+    [
+      "music.album.release_type"
+    ],
+    [
+      "film.personal_film_appearance.type_of_appearance"
+    ],
+    [
+      "music.album.album_content_type"
+    ],
+    [
+      "music.artist.genre"
+    ],
+    [
+      "music.recording.artist"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. /music/Ella Fitzgerald/genre - This path returns the genre of music that Ella Fitzgerald sings.\n2. /music/Ella Fitzgerald/contributions - This path returns the contributions made by Ella Fitzgerald to music, including her albums, recordings, and genres.\n3. /music/Ella Fitzgerald/artist/genre - This path returns the genre of music that Ella Fitzgerald is known for, based on her"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1430",
+  "question": "who was the president of pakistan in 1980",
+  "paths": [
+    [
+      "location.statistical_region.gni_per_capita_in_ppp_dollars"
+    ],
+    [
+      "location.statistical_region.gni_in_ppp_dollars"
+    ],
+    [
+      "location.statistical_region.merchandise_trade_percent_of_gdp"
+    ],
+    [
+      "location.statistical_region.agriculture_as_percent_of_gdp"
+    ],
+    [
+      "location.statistical_region.trade_balance_as_percent_of_gdp"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations:\n\n1. President of Pakistan in 1980:\n\t* path: [common.topic.notable_types, location.location.containedby, book.written_work.subjects, location.statistical_region.co2_emissions_per_capita, location.statistical_region.electricity_consumption_per_capita, location.statistical_region.energy_use_per_capita, measurement_unit.dated_metric_ton.source]"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1321",
+  "question": "what city is the university of maryland university college in",
+  "paths": [
+    [
+      "education.university.number_of_undergraduates"
+    ],
+    [
+      "education.university.number_of_postgraduates"
+    ],
+    [
+      "organization.organization_type.organizations_of_this_type"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "education.university.domestic_tuition"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"education.educational_institution.students_graduates\" -> \"University of Maryland University College\"\n2. \"location.location.containedby\" -> \"Baltimore, Maryland, USA\"\n3. \"people.person.nationality\" -> \"United States\"\n4. \"type.type.domain\" -> \"Education\"\n5. \"base.aareas.schema.administrative_area.subdividing_place\" -> \""
+}

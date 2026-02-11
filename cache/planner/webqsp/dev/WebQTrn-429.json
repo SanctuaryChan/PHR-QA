@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-429",
+  "question": "where is abraham lincoln hometown",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. { \"path\": [\"common.topic.notable_types\", \"freebase.valuenotation.is_reviewed\"], \"relation\": \"is_reviewed\" }\n2. { \"path\": [\"location.location.containedby\", \"location.country.administrative_divisions\"], \"relation\": \"containedby\" }\n3. { \"path\": [\"people.person.gender\", \"people.person.profession\", \"people.person.nationality\"], \""
+}

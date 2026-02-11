@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1816",
+  "question": "what part does seth macfarlane play in family guy",
+  "paths": [
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "fictional_universe.fictional_character.appears_in_these_fictional_universes"
+    ],
+    [
+      "tv.tv_character.appeared_in_tv_program"
+    ],
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "language.human_language.countries_spoken_in"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the candidate relations for the question \"what part does seth macfarlane play in family guy\":\n\n1. tv.tv_series_season.episodes (MacFarlane has written and directed episodes of Family Guy)\n2. tv.tv_writer.episodes_written (MacFarlane has written many episodes of Family Guy)\n3. common.webpage.in_index (MacFarlane has a webpage with information about his work on Family Guy)\n4. common.topic.webpage (MacFarlane has"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1824",
+  "question": "who played cruella deville in 102 dalmatians",
+  "paths": [
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "fictional_universe.character_species.found_in_fictional_universe"
+    ],
+    [
+      "media_common.literary_genre.books_in_this_genre"
+    ],
+    [
+      "fictional_universe.fictional_language.found_in_fictional_universe"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations:\n\n1. \"who played Cruella de Vil in 102 Dalmatians\" -> \"film.performance.actor.starring.person.profession.actress\"\n2. \"actress who played Cruella de Vil in 102 Dalmatians\" -> \"film.performance.actor.starring.person.profession.actress\"\n3. \"Cruella de Vil's nationality\" -> \"people.person.nationality.country.United_Kingdom"
+}

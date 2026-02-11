@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-3037",
+  "question": "where do most of the people in egypt live",
+  "paths": [
+    [
+      "location.statistical_region.gni_per_capita_in_ppp_dollars"
+    ],
+    [
+      "time.event.included_in_event"
+    ],
+    [
+      "location.statistical_region.gni_in_ppp_dollars"
+    ],
+    [
+      "location.statistical_region.merchandise_trade_percent_of_gdp"
+    ],
+    [
+      "location.statistical_region.trade_balance_as_percent_of_gdp"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations, with lengths between 1 and 2, and kept diverse:\n\n1. \"location.statistical_region.gni_per_capita_in_ppp_dollars\" -> \"common.topic.subjects\" (length 2)\n2. \"location.statistical_region.electricity_consumption_per_capita\" -> \"base.aareas.schema.administrative_area.administrative_area_type\" (length 1)\n3. \"location"
+}

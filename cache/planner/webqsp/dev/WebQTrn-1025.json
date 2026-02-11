@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1025",
+  "question": "what did bella abzug do",
+  "paths": [
+    [
+      "base.descriptive_names.names.descriptive_name"
+    ],
+    [
+      "location.location.containedby"
+    ],
+    [
+      "medicine.risk_factor.diseases"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "location.neighborhood.neighborhood_of"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"bella abzug\" -> \"base.descriptive_names.names.descriptive_name\"\n2. \"bella abzug\" -> \"location.location.containedby\"\n3. \"bella abzug\" -> \"medicine.risk_factor.diseases\"\n4. \"bella abzug\" -> \"common.topic.notable_types\"\n5. \"bella abzug\" -> \"people.ethnicity.languages_spoken\""
+}

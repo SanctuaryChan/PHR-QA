@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1110",
+  "question": "what language group does polish belong to",
+  "paths": [
+    [
+      "military.military_combatant_group.combatants"
+    ],
+    [
+      "language.language_family.languages"
+    ],
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "language.human_language.language_family"
+    ],
+    [
+      "language.language_writing_system.child_writing_systems"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"location.country.language_group\" - This path has a length of 2 and is between 1 and 2, as it refers to the \"language_group\" property of a \"location\" object, which is a \"country\" object.\n2. \"base.rosetta.languoid.language_family\" - This path has a length of 3 and is between 1 and 2, as it refers to the \"language_family\" property of a \"languoid\" object, which"
+}

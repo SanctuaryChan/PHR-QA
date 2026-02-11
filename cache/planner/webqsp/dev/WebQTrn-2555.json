@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2555",
+  "question": "what do do in new york",
+  "paths": [
+    [
+      "base.popstra.celebrity.vacations_in"
+    ],
+    [
+      "base.militaryinfiction.location_in_fiction.works_set_here"
+    ],
+    [
+      "base.militaryinfiction.location_in_fiction.contained_by"
+    ],
+    [
+      "base.militaryinfiction.location_in_fiction.languages"
+    ],
+    [
+      "film.film_location.featured_in_films"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"common.topic.notable_types\"\n2. \"location.location.containedby\"\n3. \"book.written_work.subjects\"\n4. \"travel.travel_destination.tourist_attractions\"\n5. \"people.person.gender\"\n\nEach of these paths has a length of 1 or 2 and is between 1 and 5 in terms of diversity. They also use only relations from the candidate list."
+}

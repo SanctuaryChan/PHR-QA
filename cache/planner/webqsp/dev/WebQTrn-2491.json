@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2491",
+  "question": "what language do you speak in austria",
+  "paths": [
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "olympics.olympic_participating_country.olympics_participated_in"
+    ],
+    [
+      "location.statistical_region.gni_in_ppp_dollars"
+    ],
+    [
+      "location.statistical_region.gni_per_capita_in_ppp_dollars"
+    ],
+    [
+      "sports.sport_country.multi_event_tournaments_participated_in"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. \"location.country.languages_spoken\" -> This path uses the \"location.country\" relation to find the languages spoken in a particular country.\n2. \"location.statistical_region.gross_savings_as_percent_of_gdp\" -> This path uses the \"location.statistical_region\" relation to find the gross savings as a percentage of GDP for a particular statistical region.\n3. \"base.locations.countries_within\""
+}

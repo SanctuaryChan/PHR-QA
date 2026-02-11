@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2975",
+  "question": "what movies does johnny depp play in",
+  "paths": [
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "base.popstra.celebrity.vacations_in"
+    ],
+    [
+      "film.person_or_entity_appearing_in_film.films"
+    ],
+    [
+      "tv.tv_guest_role.episodes_appeared_in"
+    ],
+    [
+      "fictional_universe.ethnicity_in_fiction.characters_of_this_ethnicity"
+    ]
+  ],
+  "raw": "Here are 5 valid paths that satisfy the given criteria:\n\n1. \"people.person.profession\": Johnny Depp plays in movies as an actor.\n2. \"film.film.genre\": Johnny Depp has acted in movies of various genres.\n3. \"award.award_nomination.award_winner\": Johnny Depp has won awards for his performances in movies.\n4. \"people.person.nationality\": Johnny Depp is American.\n5. \"music.recording.artist\": Johnny Depp has contributed to"
+}

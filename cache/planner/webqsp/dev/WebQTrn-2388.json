@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2388",
+  "question": "what films have taylor lautner starred in",
+  "paths": [
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "film.film_series.films_in_series"
+    ],
+    [
+      "film.film_job.films_with_this_crew_job"
+    ],
+    [
+      "common.image.appears_in_topic_gallery"
+    ],
+    [
+      "tv.tv_guest_role.episodes_appeared_in"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the candidate relations for the question \"what films have taylor lautner starred in\":\n\n1. medicine.risk_factor.diseases -> people.person.profession -> film.actor\n2. award.award_nomination.award_nominee -> people.person.profession -> film.actor\n3. award.award_category.winners -> people.person.profession -> film.actor\n4. film.film_job.films_with_this_crew_job -> people.person."
+}

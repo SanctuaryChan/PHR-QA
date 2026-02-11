@@ -1,0 +1,19 @@
+{
+  "id": "WebQTrn-1679",
+  "question": "where is washington d.c. at",
+  "paths": [
+    [
+      "base.petbreeds.dog_breed.cities_where_this_dog_is_popular"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "exhibitions.exhibition_venue.exhibitions_at_this_venue"
+    ],
+    [
+      "base.biblioness.bibs_topic.is_really"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. \"location.location.containedby\" - This path returns the locations that are contained within Washington D.C.\n2. \"film.film.genre\" - This path returns the genres of films that are located in Washington D.C.\n3. \"media_common.netflix_title.netflix_genres\" - This path returns the genres of movies and TV shows that are set in or filmed in Washington D.C.\n4. \"location.location."
+}

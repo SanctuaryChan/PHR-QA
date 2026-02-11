@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2206",
+  "question": "who helped form the american federation of labor",
+  "paths": [
+    [
+      "location.country.form_of_government"
+    ],
+    [
+      "government.form_of_government.countries"
+    ],
+    [
+      "location.administrative_division.first_level_division_of"
+    ],
+    [
+      "location.statistical_region.merchandise_trade_percent_of_gdp"
+    ],
+    [
+      "location.statistical_region.trade_balance_as_percent_of_gdp"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"athletics.athletics_championships_competition_athlete_relationship.championships\"\n2. \"location.administrative_division.second_level_division_of\"\n3. \"government.governmental_jurisdiction.government_bodies\"\n4. \"location.statistical_region.places_imported_from\"\n5. \"sports.sports_team_location."
+}

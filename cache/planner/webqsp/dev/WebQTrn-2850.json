@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-2850",
+  "question": "on what continent is canada found",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations:\n\n1. Canada is located on the continent of North America.\nPath: common.topic.notable_types -> film.film.genre -> location.location.partially_contains -> continent.continent.North_America\n2. Canada is a country.\nPath: common.topic.subject_of -> people.person.nationality -> country.country.Canada\n3. Canada has a population of over 37 million people.\nPath: measurement_unit.dated_metric_ton.source -> location"
+}

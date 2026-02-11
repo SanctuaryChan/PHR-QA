@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1277",
+  "question": "what language do you speak in iran",
+  "paths": [
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "location.statistical_region.gni_per_capita_in_ppp_dollars"
+    ],
+    [
+      "location.statistical_region.gni_in_ppp_dollars"
+    ],
+    [
+      "language.human_language.region"
+    ],
+    [
+      "language.human_language.main_country"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations:\n\n1. \"book.written_work.subjects\" -> \"location.statistical_region.co2_emissions_per_capita\"\n2. \"olympics.olympic_athlete_affiliation.olympics\" -> \"location.statistical_region.gdp_growth_rate\"\n3. \"government.governmental_jurisdiction.governing_officials\" -> \"location.statistical_region."
+}

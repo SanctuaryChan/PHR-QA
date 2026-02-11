@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-1873",
+  "question": "what happened to nagasaki",
+  "paths": [
+    [
+      "base.aareas.schema.administrative_area_type.pertains_to"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. /location/Nagasaki\n\t* Relations: location.location.containedby, location.location.contains, location.mailing_address.citytown, location.mailing_address.state_province_region\n2. /people/Nagasaki\n\t* Relations: people.person.place_of_birth, people.person.nationality, people.deceased_person.place_of_death\n3. /event/Nagasaki"
+}

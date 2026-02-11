@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-483",
+  "question": "what type of music did richard wagner play",
+  "paths": [
+    [
+      "music.composition.part_of"
+    ],
+    [
+      "music.composition.place_of_first_performance"
+    ],
+    [
+      "music.composition.recordings"
+    ],
+    [
+      "music.composition.composer"
+    ],
+    [
+      "music.recording.song"
+    ]
+  ],
+  "raw": "Here are 5 valid paths for the given question and candidate relations:\n\n1. \"music.composition.lyricist\" - This path is based on the relation \"music.composition.lyricist\" and connects the question to the candidate \"lyricist\".\n2. \"people.person.ethnicity\" - This path is based on the relation \"people.person.ethnicity\" and connects the question to the candidate \"ethnicity\".\n3. \"film.film.country\" - This path is based on the relation \"film.film.country\" and"
+}

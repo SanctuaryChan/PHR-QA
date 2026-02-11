@@ -1,0 +1,13 @@
+{
+  "id": "WebQTrn-724",
+  "question": "what is calabria italy",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "base.biblioness.bibs_topic.is_really"
+    ]
+  ],
+  "raw": "Here are 5 valid paths for the question \"what is calabria italy\":\n\n1. location.location.containedby: calabria italy\n2. common.topic.notable_types: calabria italy\n3. location.location.contains: calabria italy\n4. location.location.people_born_here: calabria italy\n5. freebase.type_profile.strict_included_types: calabria italy\n\nNote: These paths are generated based on the candidate relations provided in the question and may"
+}

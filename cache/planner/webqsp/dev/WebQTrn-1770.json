@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-1770",
+  "question": "what is beyonce 's daughters name",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "Here are 5 possible paths for the question \"What is Beyoncé's daughters' name?\", using only the candidate relations provided:\n\n1. music.artist.genre → music.recording.artist → people.person.nationality → award.award_category.winners\n2. music.composition.lyricist → music.album.lyrics_written → people.person.ethnicity → award.award_ceremony.awards_presented\n3. music.track_contribution.track → music.album.tracks"
+}

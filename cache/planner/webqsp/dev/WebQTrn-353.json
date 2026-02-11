@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-353",
+  "question": "what did obama study in school",
+  "paths": [
+    [
+      "book.written_work.school_or_movement"
+    ],
+    [
+      "film.person_or_entity_appearing_in_film.films"
+    ],
+    [
+      "book.school_or_movement.associated_works"
+    ],
+    [
+      "book.published_work.published_in_published_as"
+    ],
+    [
+      "common.image.appears_in_topic_gallery"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. /people/obama/school: This path returns the school(s) that Obama studied in.\n2. /book/written_work/obama/school: This path returns the book(s) written by Obama that were studied in a particular school.\n3. /film/personal_appearance/obama: This path returns the films that Obama has appeared in personally.\n4. /government/government_position_held/obama/office_holder"
+}

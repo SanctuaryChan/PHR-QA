@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-443",
+  "question": "who is the arizona cardinals football coach",
+  "paths": [
+    [
+      "american_football.football_coach.coaching_history"
+    ],
+    [
+      "american_football.football_historical_coach_position.coach"
+    ],
+    [
+      "american_football.football_historical_coach_position.team"
+    ],
+    [
+      "american_football.football_historical_coach_position.position"
+    ],
+    [
+      "american_football.football_team.current_head_coach"
+    ]
+  ],
+  "raw": "Here are 5 valid paths for the given question and candidate relations:\n\n1. american_football.football_coach.coaching_history -> american_football.football_team.historical_coaching_staff\n2. american_football.football_game.home_team -> american_football.football_team.home_games\n3. american_football.football_game.away_team -> american_football.football_team.away_games\n4. sports.sports_team.season_record -> sports.sports_"
+}

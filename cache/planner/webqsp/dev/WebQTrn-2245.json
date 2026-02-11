@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2245",
+  "question": "who invented facebook wikipedia",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "medicine.drug_manufacturer.drugs_manufactured"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "business.employer.employees"
+    ],
+    [
+      "business.employment_tenure.company"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"freebase.valuenotation.is_reviewed\" -> \"people.person.profession\"\n2. \"medicine.drug_manufacturer.drugs_manufactured\" -> \"business.employer.employees\"\n3. \"common.topic.notable_types\" -> \"people.person.nationality\"\n4. \"business.acquisition.acquiring_company\" -> \"location.location.containedby\"\n5"
+}

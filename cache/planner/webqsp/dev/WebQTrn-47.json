@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-47",
+  "question": "what county is heathrow airport in",
+  "paths": [
+    [
+      "aviation.airport_type.airports_of_this_type"
+    ],
+    [
+      "aviation.airport.airport_type"
+    ],
+    [
+      "aviation.airport.hub_for"
+    ],
+    [
+      "aviation.airline_airport_presence.airline"
+    ],
+    [
+      "aviation.airline_airport_presence.airport"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. \"location.location.containedby\" : [Heathrow Airport is located in London, UK]\n2. \"common.topic.notable_types\" : [Heathrow Airport is notable for being a major international airport]\n3. \"base.schemastaging.phone_sandbox.service_location\" : [Heathrow Airport's phone number is +44 20 8745 6666]\n4. \"aviation.airport"
+}

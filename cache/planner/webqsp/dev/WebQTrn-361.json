@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-361",
+  "question": "what company did henry ford work for",
+  "paths": [
+    [
+      "common.topic.notable_for"
+    ],
+    [
+      "book.written_work.author"
+    ],
+    [
+      "automotive.company.manufacturing_plants"
+    ],
+    [
+      "automotive.manufacturing_plant.company"
+    ],
+    [
+      "book.written_work.subjects"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. \"people.person.profession\": [henry_ford]\n2. \"organization.organization.founders\": [ford_motor_company]\n3. \"book.written_work.subjects\": [The_Henry_Ford_Company]\n4. \"automotive.company.manufacturing_plants\": [Ford_Motor_Company]\n5. \"people.person.place_of_birth\": [Detroit,_Michigan"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "WebQTrn-956",
+  "question": "what year did florida marlins win the world series",
+  "paths": [
+    [
+      "time.event.previous_in_series"
+    ],
+    [
+      "time.event.next_in_series"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"location.location.containedby\": [{\"path\": \"Florida\", \"value\": \"United States\"}]\n2. \"base.fashionmodels.hair_color.fashion_models_with_this_hair_color\": [{\"path\": \"blonde\", \"value\": \"Audrey Hepburn, Grace Kelly, Marilyn Monroe\"}]\n3. \"sports.sports_league_participation.league\": [{\"path\": \""
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2080",
+  "question": "what art movement was vincent van gogh apart of",
+  "paths": [
+    [
+      "visual_art.art_period_movement.associated_artists"
+    ],
+    [
+      "visual_art.artwork.period_or_movement"
+    ],
+    [
+      "visual_art.art_period_movement.associated_artworks"
+    ],
+    [
+      "visual_art.visual_artist.art_forms"
+    ],
+    [
+      "visual_art.visual_artist.associated_periods_or_movements"
+    ]
+  ],
+  "raw": "Here are 5 possible paths for the question \"what art movement was vincent van gogh apart of\":\n\n1. vincent_van_gogh -> art_movement -> post_impressionism\n2. vincent_van_gogh -> art_movement -> expressionism\n3. vincent_van_gogh -> art_movement -> pointillism\n4. vincent_van_gogh -> art_movement -> fauvism\n5. vincent_van_gogh -> art_movement -> cubism"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-351",
+  "question": "who is chelsea kane",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. \"chelsea kane\" -> \"people.person.profession\" (length: 2)\n2. \"chelsea kane\" -> \"location.location.containedby\" (length: 2)\n3. \"chelsea kane\" -> \"base.descriptive_names.names.descriptive_name\" (length: 2)\n4. \"chelsea kane\" -> \"film.film.country\" (length: 2)\n5"
+}

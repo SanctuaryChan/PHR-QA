@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1653",
+  "question": "who played andy in toy story 3",
+  "paths": [
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "film.film_story_contributor.film_story_credits"
+    ],
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "film.film.story_by"
+    ],
+    [
+      "language.human_language.countries_spoken_in"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the question \"who played Andy in Toy Story 3\":\n\n1. /people/Tom_Hanks/films/Toy_Story_3\n2. /film/Toy_Story_3/actors/Tom_Hanks\n3. /award/Academy_Award/nominees/Tom_Hanks\n4. /film/Toy_Story_3/production_companies/Pixar_Animation_Studios\n5. /people/Tom_Hanks/filmography/Toy"
+}

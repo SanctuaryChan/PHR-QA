@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1799",
+  "question": "who played danielle rousseau on lost",
+  "paths": [
+    [
+      "tv.tv_writer.episodes_written"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "award.award_nominee.award_nominations"
+    ],
+    [
+      "award.award_nomination.award_nominee"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"Danielle Rousseau\" -> \"people.person.profession\": Actress\n2. \"Danielle Rousseau\" -> \"tv.tv_program.genre\": Drama\n3. \"Danielle Rousseau\" -> \"award.award_category.winners\": Emmy Award\n4. \"Danielle Rousseau\" -> \"film.film.produced_by\": James Cameron\n5. \"Danielle Rousseau\" -> \"award.award_nom"
+}

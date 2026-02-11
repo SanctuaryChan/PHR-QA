@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-2830",
+  "question": "where is madeira",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given question and candidate relations:\n\n1. location.location.partially_contains (Madeira is partially contained by Portugal)\n2. location.statistical_region.gross_savings_as_percent_of_gdp (Madeira has a high gross savings rate as a percentage of GDP)\n3. location.administrative_division.second_level_division_of (Madeira is a second-level division of Portugal)\n4. location.statistical_region.labor_"
+}

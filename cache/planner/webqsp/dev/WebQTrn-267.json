@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-267",
+  "question": "what other countries does canada trade with",
+  "paths": [
+    [
+      "olympics.olympic_games.participating_countries"
+    ],
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "location.statistical_region.trade_balance_as_percent_of_gdp"
+    ],
+    [
+      "location.statistical_region.merchandise_trade_percent_of_gdp"
+    ],
+    [
+      "geography.river.basin_countries"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations:\n\n1. Canada trades with:\n\t* United States\n\t* Mexico\n\t* China\n\t* Japan\n\t* South Korea\n2. Film genres in Canada:\n\t* Action\n\t* Comedy\n\t* Drama\n\t* Horror\n\t* Romance\n3. Locations in Canada:\n\t* British Columbia\n\t* Alberta\n\t* Ontario\n\t* Quebec\n\t* Nova Scotia\n4. Countries that have common topics with Canada:\n\t* United States"
+}

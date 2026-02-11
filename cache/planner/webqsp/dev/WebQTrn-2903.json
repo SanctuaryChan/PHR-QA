@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2903",
+  "question": "what country columbus was born",
+  "paths": [
+    [
+      "location.country.administrative_divisions"
+    ],
+    [
+      "base.biblioness.bibs_location.country"
+    ],
+    [
+      "location.country.first_level_divisions"
+    ],
+    [
+      "location.administrative_division.country"
+    ],
+    [
+      "location.location.people_born_here"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. \"location.country.administrative_divisions\"\n2. \"location.hud_county_place.county\"\n3. \"location.us_county.hud_county_place\"\n4. \"location.hud_foreclosure_area.estimated_number_of_mortgages\"\n5. \"location.hud_foreclosure_area.total_residential_addresses\"\n\nEach path is between 1 and 2"
+}

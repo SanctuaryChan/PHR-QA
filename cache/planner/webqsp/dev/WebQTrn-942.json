@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-942",
+  "question": "where to travel around sydney",
+  "paths": [
+    [
+      "travel.tour_operator.travel_destinations"
+    ],
+    [
+      "travel.travel_destination.tourist_attractions"
+    ],
+    [
+      "travel.tourist_attraction.near_travel_destination"
+    ],
+    [
+      "travel.travel_destination.tour_operators"
+    ],
+    [
+      "travel.travel_destination_monthly_climate.travel_destination"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. /location/Sydney/travel/tour_operator/travel_destinations (length: 2)\n2. /film/director/films_directed (length: 2)\n3. /book/author/books_written (length: 2)\n4. /award/award_nominee/award_nominations (length: 2)\n5. /film/language/films_in (length: 2)"
+}

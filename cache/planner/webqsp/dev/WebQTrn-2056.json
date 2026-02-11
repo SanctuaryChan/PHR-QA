@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2056",
+  "question": "what was the name of martin luther king jr parents",
+  "paths": [
+    [
+      "base.activism.activist.area_of_activism"
+    ],
+    [
+      "people.person.place_of_birth"
+    ],
+    [
+      "common.topic.subject_of"
+    ],
+    [
+      "symbols.name_source.namesakes"
+    ],
+    [
+      "people.deceased_person.place_of_death"
+    ]
+  ],
+  "raw": "Here are 5 valid paths for the given question and candidate relations:\n\n1. \"martin luther king jr parents\" -> freebase.valuenotation.is_reviewed:freebase.valuenotation.has_value(\"Martin Luther King Jr.\"), common.topic.notable_types:[\"Person\"]\n2. \"martin luther king jr nationality\" -> freebase.valuenotation.is_reviewed:freebase.valuenotation.has_value(\"Martin Luther King Jr.\"), common.topic.not"
+}

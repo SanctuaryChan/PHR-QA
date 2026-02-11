@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2651",
+  "question": "what do they speak iceland",
+  "paths": [
+    [
+      "olympics.olympic_participating_country.olympics_participated_in"
+    ],
+    [
+      "olympics.olympic_games.participating_countries"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "location.location.containedby"
+    ],
+    [
+      "travel.tour_operator.travel_destinations"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations:\n\n1. \"olympics.olympic_participating_country.olympics_participated_in\"\n2. \"location.location.contains\"\n3. \"government.governmental_body.members\"\n4. \"book.book.editions\"\n5. \"location.statistical_region.gross_savings_as_percent_of_gdp\"\n\nEach path has a length of 2 or less, and they are diverse in"
+}

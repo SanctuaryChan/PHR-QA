@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1962",
+  "question": "who played carl fredricksen in up",
+  "paths": [
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "film.person_or_entity_appearing_in_film.films"
+    ],
+    [
+      "film.film_location.featured_in_films"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the candidate relations for the question \"who played carl fredricksen in up\":\n\n1. freebase.valuenotation.has_value(carl_fredricksen, \"person\")\n2. media_common.netflix_title.netflix_genres(Up, \"adventure\")\n3. freebase.valuenotation.is_reviewed(carl_fredricksen, \"film\")\n4. base.reviews.review.mentions(Up, \"carl_fredrick"
+}

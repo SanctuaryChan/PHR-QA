@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-846",
+  "question": "where was avril lavigne born",
+  "paths": [
+    [
+      "broadcast.artist.content"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "music.recording.releases"
+    ],
+    [
+      "broadcast.content.artist"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"broadcast.artist.content.genre\" - This path connects the artist to the genre of content they are known for.\n2. \"music.artist.genre\" - Similar to the previous path, this one connects the artist to their genre of music.\n3. \"music.recording.releases.genre\" - This path connects a recording to the genre of music it belongs to.\n4. \"award.award_category.nominees.genre"
+}

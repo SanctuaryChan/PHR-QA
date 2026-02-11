@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1754",
+  "question": "what influenced andy warhol 's work",
+  "paths": [
+    [
+      "influence.influence_node.influenced_by"
+    ],
+    [
+      "influence.influence_node.influenced"
+    ],
+    [
+      "book.written_work.author"
+    ],
+    [
+      "film.film.release_date_s"
+    ],
+    [
+      "people.person.sibling_s"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. /andy_warhol/influenced_by (length: 2)\n\t* Path: andy_warhol/influenced_by\n\t* Relations: influence.influence_node.influenced_by\n2. /andy_warhol/films (length: 1)\n\t* Path: andy_warhol/films\n\t* Relations: film.film\n3. /andy_warhol/personal_appearances (length:"
+}

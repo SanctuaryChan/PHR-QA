@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2777",
+  "question": "where the queen of denmark lives",
+  "paths": [
+    [
+      "religion.religion.places_of_worship"
+    ],
+    [
+      "royalty.order_of_chivalry.recipients"
+    ],
+    [
+      "religion.place_of_worship.religion"
+    ],
+    [
+      "base.prison.prison_type.prisons_of_this_type"
+    ],
+    [
+      "common.topic.subject_of"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. \"base.descriptive_names.names.descriptive_name\": This path uses the \"base.descriptive_names.names.descriptive_name\" relation to connect the question to the queen of Denmark.\n2. \"medicine.risk_factor.diseases\": This path uses the \"medicine.risk_factor.diseases\" relation to connect the question to diseases related to the queen of Denmark.\n3. \"common.web"
+}

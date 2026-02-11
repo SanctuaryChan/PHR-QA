@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-1990",
+  "question": "what is st mary mascot",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. \"location.statistical_region.population\"\n2. \"base.roses.rose_color.roses_of_this_color\"\n3. \"common.topic.notable_types\"\n4. \"people.person.gender\"\n5. \"freebase.valuenotation.is_reviewed\"\n\nEach path is between 1 and 2 words long and is diverse in terms of the relation type and the entity involved."
+}

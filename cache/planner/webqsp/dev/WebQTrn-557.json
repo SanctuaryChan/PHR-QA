@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-557",
+  "question": "who played dorothy in the wizard of oz movie",
+  "paths": [
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "people.deceased_person.place_of_death"
+    ],
+    [
+      "fictional_universe.fictional_character.appears_in_these_fictional_universes"
+    ],
+    [
+      "people.person.place_of_birth"
+    ]
+  ],
+  "raw": "Here are 5 possible paths for the question \"who played dorothy in the wizard of oz movie\":\n\n1. freebase.valuenotation.is_reviewed -> people.person.profession -> film.actor.film -> film.film.starring\n2. common.topic.notable_types -> fictional_universe.fictional_character.appears_in_these_fictional_universes -> film.film.characters\n3. people.person.place_of_birth -> film.film.written_by ->"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1111",
+  "question": "what is the name of the new orleans saints football stadium",
+  "paths": [
+    [
+      "american_football.football_game.receiving"
+    ],
+    [
+      "american_football.game_receiving_statistics.game"
+    ],
+    [
+      "american_football.game_receiving_statistics.team"
+    ],
+    [
+      "american_football.game_rushing_statistics.game"
+    ],
+    [
+      "american_football.football_game.rushing"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the given candidate relations for the question \"What is the name of the New Orleans Saints football stadium?\":\n\n1. american_football.football_game.receiving.player (length: 2)\n2. american_football.game_receiving_statistics.game (length: 2)\n3. american_football.game_rushing_statistics.player (length: 2)\n4. american_football.football_team.away_games (length: 2)\n5. american_"
+}

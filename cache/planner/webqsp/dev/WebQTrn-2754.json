@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2754",
+  "question": "who played as barney",
+  "paths": [
+    [
+      "tv.tv_series_season.episodes"
+    ],
+    [
+      "book.book_subject.works"
+    ],
+    [
+      "base.descriptive_names.names.descriptive_name"
+    ],
+    [
+      "book.written_work.subjects"
+    ],
+    [
+      "comic_strips.comic_strip_genre.comic_strips_of_this_genre"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"barney\" -> \"tv.tv_series_season.episodes\" (length: 2)\n2. \"barney\" -> \"book.book_subject.works\" (length: 2)\n3. \"barney\" -> \"comic_strips.comic_strip_genre.comic_strips_of_this_genre\" (length: 3)\n4. \"barney\" -> \"award.award_nomination.a"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-73",
+  "question": "what form of government was practiced in sparta",
+  "paths": [
+    [
+      "location.country.form_of_government"
+    ],
+    [
+      "government.form_of_government.countries"
+    ],
+    [
+      "time.event.included_in_event"
+    ],
+    [
+      "people.person.place_of_birth"
+    ],
+    [
+      "people.deceased_person.place_of_death"
+    ]
+  ],
+  "raw": "Here are 5 possible paths for the question \"what form of government was practiced in sparta\" based on the given candidate relations:\n\n1. { \"path\": [\"location.statistical_region.population\", \"base.culturalevent.event.entity_involved\", \"common.topic.notable_types\"], \"relation\": \"practiced\" }\n2. { \"path\": [\"location.location.people_born_here\", \"military.military_combatant_group.combatants\", \"base.aareas."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-206",
+  "question": "who won golden boot",
+  "paths": [
+    [
+      "award.award_winner.awards_won"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the question \"who won the golden boot\":\n\n1. \"type.type.expected_by.award.award_winner.awards_won.golden_boot\"\n2. \"freebase.type_profile.strict_included_types.award.award_winner.golden_boot\"\n3. \"type.property.schema.award.award_winner.golden_boot\"\n4. \"owl#inverseOf.type.type.award"
+}

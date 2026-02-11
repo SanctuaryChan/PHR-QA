@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-218",
+  "question": "what are all the names of harry potter",
+  "paths": [
+    [
+      "fictional_universe.work_of_fiction.setting"
+    ],
+    [
+      "fictional_universe.work_of_fiction.part_of_these_fictional_universes"
+    ],
+    [
+      "base.animalnames.animal_gender.animal_names"
+    ],
+    [
+      "base.fictionaluniverse.deceased_fictional_character.place_of_death"
+    ],
+    [
+      "fictional_universe.sibling_relationship_of_fictional_characters.siblings"
+    ]
+  ],
+  "raw": "Here are 5 valid paths of length 2 or 3 that connect the given entities to Harry Potter:\n\n1. book.book.characters - Harry Potter appears in many books in the Harry Potter series.\n2. fictional_universe.fictional_character.appears_in_these_fictional_universes - Harry Potter appears in the fictional universe of the Harry Potter series.\n3. media_common.quotation.spoken_by_character - Many quotes from Harry Potter are spoken by the character Harry Potter himself."
+}

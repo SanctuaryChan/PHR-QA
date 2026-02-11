@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-889",
+  "question": "who play luke skywalker",
+  "paths": [
+    [
+      "common.topic.webpage"
+    ],
+    [
+      "common.webpage.topic"
+    ],
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "medicine.risk_factor.diseases"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"luke skywalker.characters\"\n2. \"luke skywalker.films_appeared_in\"\n3. \"luke skywalker.parents\"\n4. \"luke skywalker.organizations\"\n5. \"luke skywalker.children\"\n\nEach path has a length of 2 or less and is derived from the candidate relations provided."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "WebQTrn-608",
+  "question": "what is shakira 's nationality",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "people.person.nationality"
+    ],
+    [
+      "people.person.sibling_s"
+    ],
+    [
+      "people.person.spouse_s"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. \"music.artist.nationality\" - This path returns the nationality of the artist.\n2. \"music.recording.lyrics_website\" - This path returns the website where the lyrics of a recording can be found.\n3. \"award.award_category.winners\" - This path returns the winners of a specific award category.\n4. \"people.person.sibling_s\" - This path returns the siblings of a person.\n5."
+}

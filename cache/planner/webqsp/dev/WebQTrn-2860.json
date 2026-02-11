@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2860",
+  "question": "what is the dominant language of jamaica",
+  "paths": [
+    [
+      "people.person.place_of_birth"
+    ],
+    [
+      "location.statistical_region.merchandise_trade_percent_of_gdp"
+    ],
+    [
+      "location.statistical_region.trade_balance_as_percent_of_gdp"
+    ],
+    [
+      "location.statistical_region.debt_service_as_percent_of_trade_volume"
+    ],
+    [
+      "location.statistical_region.gross_savings_as_percent_of_gdp"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"meteorology.tropical_cyclone.affected_areas\"\n2. \"location.statistical_region.gdp_growth_rate\"\n3. \"olympics.olympic_athlete_affiliation.country\"\n4. \"location.statistical_region.energy_use_per_capita\"\n5. \"people.person.nationality\"\n\nEach path has a length between 1 and 2, and is"
+}

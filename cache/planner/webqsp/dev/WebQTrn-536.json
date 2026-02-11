@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-536",
+  "question": "what is anderson silva trained in",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "award.award_discipline.awards_in_this_discipline"
+    ],
+    [
+      "film.film_location.featured_in_films"
+    ],
+    [
+      "time.time_zone.locations_in_this_time_zone"
+    ]
+  ],
+  "raw": "Here are 5 valid paths for the given question and candidate relations:\n\n1. \"Anderson Silva trained in Brazilian Jiu-Jitsu\"\n\t* Path: base.descriptive_names.names.descriptive_name -> medicine.risk_factor.diseases -> location.location.containedby -> sports.sports_team.location\n2. \"Anderson Silva is a mixed martial artist\"\n\t* Path: base.descriptive_names.names.descriptive_name -> people.profession.specializations -> type.type"
+}

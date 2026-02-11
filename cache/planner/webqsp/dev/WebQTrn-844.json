@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-844",
+  "question": "what 3 states border the pacific ocean",
+  "paths": [
+    [
+      "location.location.containedby"
+    ],
+    [
+      "location.location.contains"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "base.culturalevent.event.entity_involved"
+    ],
+    [
+      "book.written_work.subjects"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given question and candidate relations:\n\n1. \"location.country.bordering_states\"\n2. \"location.location.contained_by_states\"\n3. \"location.country.bordering_pacific_ocean\"\n4. \"location.location.partially_contained_by_states\"\n5. \"location.administrative_division.country.bordering_pacific_ocean\"\n\nNote that each path has a length of 2 or 3, and they are diverse in"
+}

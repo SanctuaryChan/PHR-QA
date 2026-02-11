@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1271",
+  "question": "what type of music is tchaikovsky",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "music.artist.genre"
+    ],
+    [
+      "film.film.music"
+    ],
+    [
+      "film.music_contributor.film"
+    ],
+    [
+      "music.composition.recordings"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the question \"what type of music is tchaikovsky\":\n\n1. {\n  \"path\": [\"freebase\", \"valuenotation\", \"is_reviewed\"],\n  \"relation\": \"reviewed_type\"\n}\n2. {\n  \"path\": [\"common\", \"topic\", \"notable_types\"],\n  \"relation\": \"notable_type\"\n}\n3. {\n  \"path\": [\"film\", \"film\", \"starring\"],\n  \"relation\": \"starred_in\""
+}

@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-2228",
+  "question": "who was francis drake married to",
+  "paths": [
+    [
+      "base.kwebbase.kwtopic.connections_to"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths that satisfy the given criteria:\n\n1. \"base.descriptive_names.names.descriptive_name\"\n2. \"common.topic.notable_types\"\n3. \"medicine.risk_factor.diseases\"\n4. \"people.person.nationality\"\n5. \"location.location.containedby\"\n\nEach of these paths has a length of 1 or 2, and they are diverse in terms of the types of entities they relate to (e.g., people, places,"
+}

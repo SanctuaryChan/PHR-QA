@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2190",
+  "question": "where does sam shepard live",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "people.person.profession"
+    ],
+    [
+      "film.performance.film"
+    ],
+    [
+      "film.film.starring"
+    ]
+  ],
+  "raw": "Here are 5 valid JSON paths for the given question and candidate relations:\n\n1. { \"from\": \"sam shepard\", \"to\": \"film\" }\n2. { \"from\": \"sam shepard\", \"to\": \"people\" }\n3. { \"from\": \"sam shepard\", \"to\": \"film.film_job\" }\n4. { \"from\": \"sam shepard\", \"to\": \"award\" }\n5. { \"from\": \"sam shepard\", \"to\": \"book\" }\n\nEach path has a"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "WebQTrn-1936",
+  "question": "what techniques did frida kahlo use in her paintings",
+  "paths": [
+    [
+      "media_common.literary_genre.books_in_this_genre"
+    ],
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "organization.organization_sector.organizations_in_this_sector"
+    ],
+    [
+      "language.human_language.countries_spoken_in"
+    ]
+  ],
+  "raw": "Here are 5 valid paths for the given question and candidate relations:\n\n1. frida kahlo -> visual_art -> artworks -> paintings\n2. frida kahlo -> visual_art -> artworks -> art_period_movement -> associated_artworks\n3. frida kahlo -> people -> gender -> female\n4. frida kahlo -> visual_art -> artworks -> art_form -> painting\n5. frida kahlo -> film -> personal_appearances -> acting\n\nEach path has a length of 2 or less and is"
+}
