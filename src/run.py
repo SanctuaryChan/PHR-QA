@@ -353,7 +353,7 @@ def build_parser() -> argparse.ArgumentParser:
     p1.add_argument("--max_new_tokens", type=int, default=128)
     p1.add_argument("--temperature", type=float, default=0.0)
     p1.add_argument("--top_p", type=float, default=1.0)
-    p1.add_argument("--chat_template", default="auto", help="auto|on|off")
+    p1.add_argument("--chat_template", default="on", help="auto|on|off")
     p1.add_argument(
         "--attn_impl",
         default="auto",
@@ -386,7 +386,7 @@ def build_parser() -> argparse.ArgumentParser:
     p2.add_argument("--max_new_tokens", type=int, default=128)
     p2.add_argument("--temperature", type=float, default=0.0)
     p2.add_argument("--top_p", type=float, default=1.0)
-    p2.add_argument("--chat_template", default="auto", help="auto|on|off")
+    p2.add_argument("--chat_template", default="on", help="auto|on|off")
     p2.add_argument(
         "--attn_impl",
         default="auto",

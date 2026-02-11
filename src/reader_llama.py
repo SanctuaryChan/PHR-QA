@@ -1,6 +1,16 @@
 from typing import List, Optional
 
 
+_CLEAN_TOKENS = ["[/INST]", "<s>", "</s>"]
+
+
+def _clean_generation(text: str) -> str:
+    cleaned = text
+    for token in _CLEAN_TOKENS:
+        cleaned = cleaned.replace(token, "")
+    return cleaned.strip()
+
+
 class DummyReader:
     def generate(self, prompt: str) -> str:
         _ = prompt
@@ -92,6 +102,8 @@ class HFReader:
             raise ValueError("chat_template must be auto|on|off")
         self.use_chat_template = False
         if chat_template == "on":
+            if not hasattr(self.tokenizer, "apply_chat_template"):
+                raise ValueError("chat_template=on but tokenizer has no apply_chat_template")
             self.use_chat_template = True
         elif chat_template == "auto":
             self.use_chat_template = hasattr(self.tokenizer, "apply_chat_template")
@@ -125,7 +137,8 @@ class HFReader:
             )
         input_len = int(inputs["attention_mask"][0].sum().item())
         gen_ids = output_ids[0][input_len:]
-        return self.tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
+        decoded = self.tokenizer.decode(gen_ids, skip_special_tokens=True)
+        return _clean_generation(decoded)
 
     def generate_batch(self, prompts: List[str]) -> List[str]:
         import torch
@@ -152,7 +165,8 @@ class HFReader:
         for i in range(output_ids.shape[0]):
             input_len = int(attention[i].sum().item())
             gen_ids = output_ids[i][input_len:]
-            results.append(self.tokenizer.decode(gen_ids, skip_special_tokens=True).strip())
+            decoded = self.tokenizer.decode(gen_ids, skip_special_tokens=True)
+            results.append(_clean_generation(decoded))
         return results
 
 

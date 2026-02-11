@@ -3,4 +3,5 @@ python src/run.py phase1 \
   --split dev \
   --reader hf \
   --model_path /data/GNN-RAG/models/Llama-2-7b-chat-hf \
+  --chat_template on \
   --save_prompt
