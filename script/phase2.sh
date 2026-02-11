@@ -5,7 +5,7 @@ python src/run.py phase2 \
   --model_path /data/GNN-RAG/models/Llama-2-7b-chat-hf \
   --attn_impl flash_attention_2 \
   --chat_template on \
-  --batch_size 4 \
+  --batch_size 8 \
   --device cuda \
   --dtype float16 \
   --save_evidence \
