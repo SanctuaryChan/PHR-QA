@@ -63,13 +63,27 @@ def _build_progress(total: int, enabled: bool, every: int):
 
 def _iter_batches(items: List[dict], batch_size: int):
     for i in range(0, len(items), batch_size):
-        yield items[i : i + batch_size]
+        yield i, items[i : i + batch_size]
 
 
 def _generate_batch(reader, prompts: List[str]) -> List[str]:
     if hasattr(reader, "generate_batch"):
         return reader.generate_batch(prompts)
     return [reader.generate(p) for p in prompts]
+
+
+def _load_question_emb(path: str, count: int):
+    try:
+        import numpy as np
+    except Exception as e:
+        raise RuntimeError("numpy is required to load question embeddings") from e
+
+    emb = np.load(path, mmap_mode="r")
+    if emb.shape[0] < count:
+        raise ValueError(
+            f"question_emb rows {emb.shape[0]} < samples {count}"
+        )
+    return emb
 
 
 def cmd_phase1(args: argparse.Namespace) -> int:
@@ -103,7 +117,7 @@ def cmd_phase1(args: argparse.Namespace) -> int:
     progress = _build_progress(len(samples), args.progress, args.progress_every)
     printed = 0
     with out_path.open("w", encoding="utf-8") as f:
-        for batch in _iter_batches(samples, args.batch_size):
+        for batch_start, batch in _iter_batches(samples, args.batch_size):
             prompts: List[str] = []
             for s in batch:
                 evidence = retrieve_llm_only(s)
@@ -184,7 +198,7 @@ def cmd_phase2(args: argparse.Namespace) -> int:
         chat_template=args.chat_template,
         attn_implementation=args.attn_impl,
     )
-    idmap = IDMap.from_dir(args.data_dir)
+    idmap = IDMap.from_dir(args.data_dir, name_map_path=args.entity_name_map)
     entity_emb, relation_emb, word_emb, vocab = load_embeddings(
         args.data_dir,
         entity_emb_file=args.entity_emb,
@@ -192,6 +206,13 @@ def cmd_phase2(args: argparse.Namespace) -> int:
         word_emb_file=args.word_emb,
         vocab_file=args.vocab,
     )
+    q_emb = None
+    if args.question_emb is not None:
+        q_emb = _load_question_emb(args.question_emb, len(samples))
+        if q_emb.shape[1] != entity_emb.shape[1]:
+            raise ValueError(
+                f"question_emb dim {q_emb.shape[1]} != entity_emb dim {entity_emb.shape[1]}"
+            )
 
     dataset = args.dataset or _infer_dataset_name(args.data_dir)
     out_dir = Path(args.output_dir) / dataset / args.split
@@ -207,13 +228,16 @@ def cmd_phase2(args: argparse.Namespace) -> int:
     progress = _build_progress(len(samples), args.progress, args.progress_every)
     printed = 0
     with out_path.open("w", encoding="utf-8") as f:
-        for batch in _iter_batches(samples, args.batch_size):
+        for batch_start, batch in _iter_batches(samples, args.batch_size):
             prompts: List[str] = []
             evidences: List[List[dict]] = []
-            for s in batch:
-                q_vec = compute_question_vec(
-                    s["question"], vocab, word_emb, target_dim=entity_emb.shape[1]
-                )
+            for j, s in enumerate(batch):
+                if q_emb is not None:
+                    q_vec = q_emb[batch_start + j]
+                else:
+                    q_vec = compute_question_vec(
+                        s["question"], vocab, word_emb, target_dim=entity_emb.shape[1]
+                    )
                 evidence, oob_skipped = retrieve_subgraph(
                     s,
                     idmap,
@@ -364,10 +388,16 @@ def build_parser() -> argparse.ArgumentParser:
     p2.add_argument("--print_prompt", action="store_true", help="Include prompt in printed logs")
     p2.add_argument("--topn", type=int, default=50, help="Top-N evidence triples")
     p2.add_argument("--batch_size", type=int, default=1, help="Batch size for generation")
+    p2.add_argument(
+        "--entity_name_map",
+        default=None,
+        help="JSON map of entity MID to readable name",
+    )
     p2.add_argument("--entity_emb", default=None, help="Custom entity embedding filename/path")
     p2.add_argument("--relation_emb", default=None, help="Custom relation embedding filename/path")
     p2.add_argument("--word_emb", default=None, help="Custom word embedding filename/path")
     p2.add_argument("--vocab", default=None, help="Custom vocab filename/path")
+    p2.add_argument("--question_emb", default=None, help="Precomputed question embedding .npy")
     p2.add_argument(
         "--oob_policy",
         default="skip",

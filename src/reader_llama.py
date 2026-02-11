@@ -81,6 +81,9 @@ class HFReader:
             raise
         self.model.eval()
 
+        if not getattr(self.model.config, "is_encoder_decoder", False):
+            self.tokenizer.padding_side = "left"
+
         self.max_new_tokens = max_new_tokens
         self.temperature = temperature
         self.top_p = top_p

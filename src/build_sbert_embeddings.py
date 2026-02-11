@@ -77,6 +77,7 @@ def build_embeddings(
     max_rows: int | None,
     keep_tmp: bool,
     offline: bool,
+    no_pca: bool,
 ) -> None:
     try:
         from sentence_transformers import SentenceTransformer
@@ -111,15 +112,33 @@ def build_embeddings(
 
     print(f"Encoding entities: {len(entities)}")
     encode_to_memmap(model, entities, batch_size, device, ent_tmp)
-    print("Running PCA for entities")
-    pca_reduce(ent_tmp, entity_out, dim, pca_batch_size)
+    if no_pca:
+        print("Skipping PCA for entities")
+        if keep_tmp:
+            import shutil
+
+            shutil.copyfile(ent_tmp, entity_out)
+        else:
+            os.replace(ent_tmp, entity_out)
+    else:
+        print("Running PCA for entities")
+        pca_reduce(ent_tmp, entity_out, dim, pca_batch_size)
 
     print(f"Encoding relations: {len(relations)}")
     encode_to_memmap(model, relations, batch_size, device, rel_tmp)
-    print("Running PCA for relations")
-    pca_reduce(rel_tmp, relation_out, dim, pca_batch_size)
+    if no_pca:
+        print("Skipping PCA for relations")
+        if keep_tmp:
+            import shutil
 
-    if not keep_tmp:
+            shutil.copyfile(rel_tmp, relation_out)
+        else:
+            os.replace(rel_tmp, relation_out)
+    else:
+        print("Running PCA for relations")
+        pca_reduce(rel_tmp, relation_out, dim, pca_batch_size)
+
+    if not keep_tmp and not no_pca:
         for p in (ent_tmp, rel_tmp):
             try:
                 os.remove(p)
@@ -145,6 +164,7 @@ def main() -> int:
     parser.add_argument("--max_rows", type=int, default=None)
     parser.add_argument("--keep_tmp", action="store_true")
     parser.add_argument("--offline", action="store_true", help="Force offline local loading")
+    parser.add_argument("--no_pca", action="store_true", help="Skip PCA and keep original dim")
     parser.add_argument(
         "--entity_out",
         default="entity_emb_sbert_100d.npy",
@@ -177,6 +197,7 @@ def main() -> int:
         max_rows=args.max_rows,
         keep_tmp=args.keep_tmp,
         offline=args.offline,
+        no_pca=args.no_pca,
     )
     return 0
 
