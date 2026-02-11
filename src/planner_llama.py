@@ -22,12 +22,15 @@ def build_prompt(question: str, candidate_relations: Sequence[str], topk: int, m
     rel_lines = "\n".join(f"- {r}" for r in candidate_relations)
     return (
         "You are a KGQA planner. Given a question and candidate relations, "
-        "output JSON with relation paths.\n\n"
+        "output ONLY valid JSON with relation paths.\n\n"
         "Rules:\n"
         f"- Use only relations from the candidate list.\n"
         f"- Each path length must be between 1 and {max_len}.\n"
         f"- Return at most {topk} paths and keep them diverse.\n"
-        "- Output only valid JSON, no extra text.\n\n"
+        "- Output exactly one JSON object with this schema: "
+        "{\"paths\":[[\"rel1\"],[\"rel2\",\"rel3\"]]}.\n"
+        "- If no valid path, output: {\"paths\":[]}.\n"
+        "- Do NOT output any extra text, numbering, or markdown.\n\n"
         f"Question: {question.strip()}\n\n"
         "Candidate relations:\n"
         f"{rel_lines}\n\n"

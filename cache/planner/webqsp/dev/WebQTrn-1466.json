@@ -1,6 +1,0 @@
-{
-  "id": "WebQTrn-1466",
-  "question": "what does the letters eu stand for",
-  "paths": [],
-  "raw": "Here are 5 valid paths for the question \"what does the letters eu stand for\" based on the provided candidate relations:\n\n[\n{\n\"path\": [\"eu\", \"European Union\"],\n\"length\": 2\n},\n{\n\"path\": [\"eu\", \"Euro\"],\n\"length\": 1\n},\n{\n\"path\": [\"eu\", \"Economic Union\"],\n\"length\": 2\n},\n{\n\"path\": [\"eu\", \"United States\"],\n\"length\": 2\n},\n{\n\"path\": [\"eu\", \"Union"
-}

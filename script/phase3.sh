@@ -1,3 +1,4 @@
+# NOTE: clear cache/planner/* if you want fresh planner outputs.
 python src/run.py phase3 \
   --data_dir /data/GNN-RAG/datasets/webqsp \
   --split dev \
@@ -16,6 +17,7 @@ python src/run.py phase3 \
   --relation_emb relation_emb_sbert_768d.npy \
   --question_emb question_emb_sbert_768d_dev.npy \
   --planner hf \
+  --save_planner_raw \
   --path_topk 5 \
   --path_max_len 2 \
   --hybrid_alpha 0.7 \
