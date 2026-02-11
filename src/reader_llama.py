@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import List, Optional
 
 
 class DummyReader:
@@ -6,10 +6,16 @@ class DummyReader:
         _ = prompt
         return ""
 
+    def generate_batch(self, prompts: List[str]) -> List[str]:
+        return [self.generate(p) for p in prompts]
+
 
 class EchoReader:
     def generate(self, prompt: str) -> str:
         return prompt
+
+    def generate_batch(self, prompts: List[str]) -> List[str]:
+        return prompts
 
 
 class HFReader:
@@ -22,6 +28,7 @@ class HFReader:
         temperature: float = 0.0,
         top_p: float = 1.0,
         chat_template: str = "auto",
+        attn_implementation: str = "auto",
     ) -> None:
         try:
             import torch
@@ -46,16 +53,32 @@ class HFReader:
         if device == "cpu" and torch_dtype in (torch.float16, torch.bfloat16):
             raise ValueError("float16/bfloat16 not supported on cpu; use float32 or auto")
 
+        if attn_implementation not in ("auto", "flash_attention_2", "sdpa", "eager"):
+            raise ValueError("attn_implementation must be auto|flash_attention_2|sdpa|eager")
+
         self.tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=True)
-        if device == "auto":
-            self.model = AutoModelForCausalLM.from_pretrained(
-                model_path, torch_dtype=torch_dtype, device_map="auto"
-            )
-        else:
-            self.model = AutoModelForCausalLM.from_pretrained(
-                model_path, torch_dtype=torch_dtype
-            )
-            self.model.to(device)
+        if self.tokenizer.pad_token_id is None and self.tokenizer.eos_token_id is not None:
+            self.tokenizer.pad_token = self.tokenizer.eos_token
+
+        model_kwargs = {"torch_dtype": torch_dtype}
+        if attn_implementation != "auto":
+            model_kwargs["attn_implementation"] = attn_implementation
+
+        try:
+            if device == "auto":
+                self.model = AutoModelForCausalLM.from_pretrained(
+                    model_path, device_map="auto", **model_kwargs
+                )
+            else:
+                self.model = AutoModelForCausalLM.from_pretrained(model_path, **model_kwargs)
+                self.model.to(device)
+        except Exception as e:
+            if attn_implementation == "flash_attention_2":
+                raise RuntimeError(
+                    "Failed to enable flash_attention_2. "
+                    "Make sure flash-attn is installed and transformers is recent."
+                ) from e
+            raise
         self.model.eval()
 
         self.max_new_tokens = max_new_tokens
@@ -81,8 +104,8 @@ class HFReader:
     def generate(self, prompt: str) -> str:
         import torch
 
-        input_text = self._build_input(prompt)
-        inputs = self.tokenizer(input_text, return_tensors="pt")
+        input_texts = [self._build_input(prompt)]
+        inputs = self.tokenizer(input_texts, return_tensors="pt", padding=True)
         if hasattr(self.model, "device"):
             inputs = {k: v.to(self.model.device) for k, v in inputs.items()}
 
@@ -95,9 +118,39 @@ class HFReader:
                 temperature=self.temperature if do_sample else None,
                 top_p=self.top_p if do_sample else None,
                 eos_token_id=self.tokenizer.eos_token_id,
+                pad_token_id=self.tokenizer.pad_token_id,
             )
-        gen_ids = output_ids[0][inputs["input_ids"].shape[1] :]
+        input_len = int(inputs["attention_mask"][0].sum().item())
+        gen_ids = output_ids[0][input_len:]
         return self.tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
+
+    def generate_batch(self, prompts: List[str]) -> List[str]:
+        import torch
+
+        input_texts = [self._build_input(p) for p in prompts]
+        inputs = self.tokenizer(input_texts, return_tensors="pt", padding=True)
+        if hasattr(self.model, "device"):
+            inputs = {k: v.to(self.model.device) for k, v in inputs.items()}
+
+        do_sample = self.temperature > 0.0
+        with torch.no_grad():
+            output_ids = self.model.generate(
+                **inputs,
+                max_new_tokens=self.max_new_tokens,
+                do_sample=do_sample,
+                temperature=self.temperature if do_sample else None,
+                top_p=self.top_p if do_sample else None,
+                eos_token_id=self.tokenizer.eos_token_id,
+                pad_token_id=self.tokenizer.pad_token_id,
+            )
+
+        results: List[str] = []
+        attention = inputs["attention_mask"]
+        for i in range(output_ids.shape[0]):
+            input_len = int(attention[i].sum().item())
+            gen_ids = output_ids[i][input_len:]
+            results.append(self.tokenizer.decode(gen_ids, skip_special_tokens=True).strip())
+        return results
 
 
 def build_reader(
@@ -109,6 +162,7 @@ def build_reader(
     temperature: float = 0.0,
     top_p: float = 1.0,
     chat_template: str = "auto",
+    attn_implementation: str = "auto",
 ):
     if reader_type == "dummy":
         return DummyReader()
@@ -125,5 +179,6 @@ def build_reader(
             temperature=temperature,
             top_p=top_p,
             chat_template=chat_template,
+            attn_implementation=attn_implementation,
         )
     raise ValueError(f"Unsupported reader type: {reader_type}")

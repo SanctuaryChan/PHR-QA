@@ -3,7 +3,10 @@ python src/run.py phase2 \
   --split dev \
   --reader hf \
   --model_path /data/GNN-RAG/models/Llama-2-7b-chat-hf \
-  --topn 50 \
+  --attn_impl flash_attention_2 \
+  --batch_size 4 \
+  --device cuda \
+  --dtype float16 \
   --save_evidence \
   --save_prompt \
   --progress

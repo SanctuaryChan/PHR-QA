@@ -61,9 +61,21 @@ def _build_progress(total: int, enabled: bool, every: int):
     except Exception:
         return _SimpleProgress(total, every)
 
+def _iter_batches(items: List[dict], batch_size: int):
+    for i in range(0, len(items), batch_size):
+        yield items[i : i + batch_size]
+
+
+def _generate_batch(reader, prompts: List[str]) -> List[str]:
+    if hasattr(reader, "generate_batch"):
+        return reader.generate_batch(prompts)
+    return [reader.generate(p) for p in prompts]
+
 
 def cmd_phase1(args: argparse.Namespace) -> int:
     samples = load_gnnrag_split(args.data_dir, args.split, limit=args.limit)
+    if args.batch_size < 1:
+        raise ValueError("batch_size must be >= 1")
     if args.progress:
         print(f"Loaded {len(samples)} samples, initializing reader={args.reader}...", flush=True)
     reader = build_reader(
@@ -75,6 +87,7 @@ def cmd_phase1(args: argparse.Namespace) -> int:
         temperature=args.temperature,
         top_p=args.top_p,
         chat_template=args.chat_template,
+        attn_implementation=args.attn_impl,
     )
 
     dataset = args.dataset or _infer_dataset_name(args.data_dir)
@@ -90,42 +103,49 @@ def cmd_phase1(args: argparse.Namespace) -> int:
     progress = _build_progress(len(samples), args.progress, args.progress_every)
     printed = 0
     with out_path.open("w", encoding="utf-8") as f:
-        for s in samples:
-            evidence = retrieve_llm_only(s)
-            prompt = build_prompt(s["question"], evidence)
-            pred = reader.generate(prompt)
-            em, f1 = compute_em_f1(pred, s["gold_answer_texts"])
+        for batch in _iter_batches(samples, args.batch_size):
+            prompts: List[str] = []
+            for s in batch:
+                evidence = retrieve_llm_only(s)
+                prompt = build_prompt(s["question"], evidence)
+                prompts.append(prompt)
 
-            record = {
-                "id": s["id"],
-                "question": s["question"],
-                "prediction": pred,
-                "gold_answers": s["gold_answer_texts"],
-                "em": em,
-                "f1": f1,
-            }
-            if args.save_prompt:
-                record["prompt"] = prompt
-            f.write(json.dumps(record, ensure_ascii=False) + "\n")
+            preds = _generate_batch(reader, prompts)
+            if len(preds) != len(batch):
+                raise RuntimeError("Batch size mismatch between prompts and predictions")
 
-            total_em += em
-            total_f1 += f1
-            count += 1
-            if progress is not None:
-                progress.update(1)
-            if args.print_every > 0 and count % args.print_every == 0:
-                printed += 1
-                print(f"\n[{count}] id={s['id']}")
-                print(f"question={s['question']}")
-                if args.print_prompt:
-                    print("prompt=")
-                    print(prompt)
-                print(f"prediction={pred}")
-                print(f"gold_answers={s['gold_answer_texts']}")
-                print(f"em={em:.4f} f1={f1:.4f}")
-                if args.print_limit is not None and printed >= args.print_limit:
-                    print("Print limit reached; suppressing further sample logs.")
-                    args.print_every = 0
+            for s, prompt, pred in zip(batch, prompts, preds):
+                em, f1 = compute_em_f1(pred, s["gold_answer_texts"])
+                record = {
+                    "id": s["id"],
+                    "question": s["question"],
+                    "prediction": pred,
+                    "gold_answers": s["gold_answer_texts"],
+                    "em": em,
+                    "f1": f1,
+                }
+                if args.save_prompt:
+                    record["prompt"] = prompt
+                f.write(json.dumps(record, ensure_ascii=False) + "\n")
+
+                total_em += em
+                total_f1 += f1
+                count += 1
+                if progress is not None:
+                    progress.update(1)
+                if args.print_every > 0 and count % args.print_every == 0:
+                    printed += 1
+                    print(f"\n[{count}] id={s['id']}")
+                    print(f"question={s['question']}")
+                    if args.print_prompt:
+                        print("prompt=")
+                        print(prompt)
+                    print(f"prediction={pred}")
+                    print(f"gold_answers={s['gold_answer_texts']}")
+                    print(f"em={em:.4f} f1={f1:.4f}")
+                    if args.print_limit is not None and printed >= args.print_limit:
+                        print("Print limit reached; suppressing further sample logs.")
+                        args.print_every = 0
 
     if progress is not None:
         progress.close()
@@ -149,6 +169,8 @@ def cmd_phase1(args: argparse.Namespace) -> int:
 
 def cmd_phase2(args: argparse.Namespace) -> int:
     samples = load_gnnrag_split(args.data_dir, args.split, limit=args.limit)
+    if args.batch_size < 1:
+        raise ValueError("batch_size must be >= 1")
     if args.progress:
         print(f"Loaded {len(samples)} samples, initializing reader={args.reader}...", flush=True)
     reader = build_reader(
@@ -160,6 +182,7 @@ def cmd_phase2(args: argparse.Namespace) -> int:
         temperature=args.temperature,
         top_p=args.top_p,
         chat_template=args.chat_template,
+        attn_implementation=args.attn_impl,
     )
     idmap = IDMap.from_dir(args.data_dir)
     entity_emb, relation_emb, word_emb, vocab = load_embeddings(args.data_dir)
@@ -177,52 +200,60 @@ def cmd_phase2(args: argparse.Namespace) -> int:
     progress = _build_progress(len(samples), args.progress, args.progress_every)
     printed = 0
     with out_path.open("w", encoding="utf-8") as f:
-        for s in samples:
-            q_vec = compute_question_vec(s["question"], vocab, word_emb)
-            evidence = retrieve_subgraph(
-                s,
-                idmap,
-                q_vec,
-                entity_emb,
-                relation_emb,
-                topn=args.topn,
-            )
-            prompt = build_prompt(s["question"], evidence)
-            pred = reader.generate(prompt)
-            em, f1 = compute_em_f1(pred, s["gold_answer_texts"])
+        for batch in _iter_batches(samples, args.batch_size):
+            prompts: List[str] = []
+            evidences: List[List[dict]] = []
+            for s in batch:
+                q_vec = compute_question_vec(s["question"], vocab, word_emb)
+                evidence = retrieve_subgraph(
+                    s,
+                    idmap,
+                    q_vec,
+                    entity_emb,
+                    relation_emb,
+                    topn=args.topn,
+                )
+                evidences.append(evidence)
+                prompts.append(build_prompt(s["question"], evidence))
 
-            record = {
-                "id": s["id"],
-                "question": s["question"],
-                "prediction": pred,
-                "gold_answers": s["gold_answer_texts"],
-                "em": em,
-                "f1": f1,
-            }
-            if args.save_prompt:
-                record["prompt"] = prompt
-            if args.save_evidence:
-                record["evidence"] = evidence
-            f.write(json.dumps(record, ensure_ascii=False) + "\n")
+            preds = _generate_batch(reader, prompts)
+            if len(preds) != len(batch):
+                raise RuntimeError("Batch size mismatch between prompts and predictions")
 
-            total_em += em
-            total_f1 += f1
-            count += 1
-            if progress is not None:
-                progress.update(1)
-            if args.print_every > 0 and count % args.print_every == 0:
-                printed += 1
-                print(f"\n[{count}] id={s['id']}")
-                print(f"question={s['question']}")
-                if args.print_prompt:
-                    print("prompt=")
-                    print(prompt)
-                print(f"prediction={pred}")
-                print(f"gold_answers={s['gold_answer_texts']}")
-                print(f"em={em:.4f} f1={f1:.4f}")
-                if args.print_limit is not None and printed >= args.print_limit:
-                    print("Print limit reached; suppressing further sample logs.")
-                    args.print_every = 0
+            for s, prompt, evidence, pred in zip(batch, prompts, evidences, preds):
+                em, f1 = compute_em_f1(pred, s["gold_answer_texts"])
+                record = {
+                    "id": s["id"],
+                    "question": s["question"],
+                    "prediction": pred,
+                    "gold_answers": s["gold_answer_texts"],
+                    "em": em,
+                    "f1": f1,
+                }
+                if args.save_prompt:
+                    record["prompt"] = prompt
+                if args.save_evidence:
+                    record["evidence"] = evidence
+                f.write(json.dumps(record, ensure_ascii=False) + "\n")
+
+                total_em += em
+                total_f1 += f1
+                count += 1
+                if progress is not None:
+                    progress.update(1)
+                if args.print_every > 0 and count % args.print_every == 0:
+                    printed += 1
+                    print(f"\n[{count}] id={s['id']}")
+                    print(f"question={s['question']}")
+                    if args.print_prompt:
+                        print("prompt=")
+                        print(prompt)
+                    print(f"prediction={pred}")
+                    print(f"gold_answers={s['gold_answer_texts']}")
+                    print(f"em={em:.4f} f1={f1:.4f}")
+                    if args.print_limit is not None and printed >= args.print_limit:
+                        print("Print limit reached; suppressing further sample logs.")
+                        args.print_every = 0
 
     if progress is not None:
         progress.close()
@@ -273,12 +304,18 @@ def build_parser() -> argparse.ArgumentParser:
     p1.add_argument("--temperature", type=float, default=0.0)
     p1.add_argument("--top_p", type=float, default=1.0)
     p1.add_argument("--chat_template", default="auto", help="auto|on|off")
+    p1.add_argument(
+        "--attn_impl",
+        default="auto",
+        help="auto|flash_attention_2|sdpa|eager",
+    )
     p1.add_argument("--progress", action="store_true", help="Show progress bar for inference loop")
     p1.add_argument("--progress_every", type=int, default=10, help="Fallback progress print interval")
     p1.add_argument("--save_prompt", action="store_true", help="Write prompt into output jsonl")
     p1.add_argument("--print_every", type=int, default=0, help="Print every N samples to stdout")
     p1.add_argument("--print_limit", type=int, default=None, help="Max number of printed samples")
     p1.add_argument("--print_prompt", action="store_true", help="Include prompt in printed logs")
+    p1.add_argument("--batch_size", type=int, default=1, help="Batch size for generation")
     p1.set_defaults(func=cmd_phase1)
 
     p2 = sub.add_parser("phase2", help="Subgraph-only baseline with semantic scoring")
@@ -300,6 +337,11 @@ def build_parser() -> argparse.ArgumentParser:
     p2.add_argument("--temperature", type=float, default=0.0)
     p2.add_argument("--top_p", type=float, default=1.0)
     p2.add_argument("--chat_template", default="auto", help="auto|on|off")
+    p2.add_argument(
+        "--attn_impl",
+        default="auto",
+        help="auto|flash_attention_2|sdpa|eager",
+    )
     p2.add_argument("--progress", action="store_true", help="Show progress bar for inference loop")
     p2.add_argument("--progress_every", type=int, default=10, help="Fallback progress print interval")
     p2.add_argument("--save_prompt", action="store_true", help="Write prompt into output jsonl")
@@ -308,6 +350,7 @@ def build_parser() -> argparse.ArgumentParser:
     p2.add_argument("--print_limit", type=int, default=None, help="Max number of printed samples")
     p2.add_argument("--print_prompt", action="store_true", help="Include prompt in printed logs")
     p2.add_argument("--topn", type=int, default=50, help="Top-N evidence triples")
+    p2.add_argument("--batch_size", type=int, default=1, help="Batch size for generation")
     p2.set_defaults(func=cmd_phase2)
 
     return parser
