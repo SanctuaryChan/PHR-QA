@@ -38,7 +38,11 @@ class IDMap:
         if name_map_path is not None:
             name_map_file = Path(name_map_path)
             if not name_map_file.is_absolute():
-                name_map_file = data_dir / name_map_file
+                cwd_candidate = Path.cwd() / name_map_file
+                if cwd_candidate.exists():
+                    name_map_file = cwd_candidate
+                else:
+                    name_map_file = data_dir / name_map_file
             if not name_map_file.exists():
                 raise FileNotFoundError(f"Missing entity name map: {name_map_file}")
             name_map = json.loads(name_map_file.read_text(encoding="utf-8"))
