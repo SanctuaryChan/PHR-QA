@@ -61,6 +61,18 @@ def _build_progress(total: int, enabled: bool, every: int):
     except Exception:
         return _SimpleProgress(total, every)
 
+
+def _resolve_path(value: str | None, data_dir: str) -> str | None:
+    if value is None:
+        return None
+    path = Path(value)
+    if path.is_absolute():
+        return str(path)
+    cwd_candidate = Path.cwd() / path
+    if cwd_candidate.exists():
+        return str(cwd_candidate)
+    return str(Path(data_dir) / path)
+
 def _iter_batches(items: List[dict], batch_size: int):
     for i in range(0, len(items), batch_size):
         yield i, items[i : i + batch_size]
@@ -208,7 +220,8 @@ def cmd_phase2(args: argparse.Namespace) -> int:
     )
     q_emb = None
     if args.question_emb is not None:
-        q_emb = _load_question_emb(args.question_emb, len(samples))
+        q_path = _resolve_path(args.question_emb, args.data_dir)
+        q_emb = _load_question_emb(q_path, len(samples))
         if q_emb.shape[1] != entity_emb.shape[1]:
             raise ValueError(
                 f"question_emb dim {q_emb.shape[1]} != entity_emb dim {entity_emb.shape[1]}"
