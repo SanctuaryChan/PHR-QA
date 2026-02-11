@@ -67,7 +67,7 @@ def pca_reduce(
 
 def build_embeddings(
     data_dir: Path,
-    model_name: str,
+    model_name_or_path: str,
     entity_out: Path,
     relation_out: Path,
     dim: int,
@@ -76,6 +76,7 @@ def build_embeddings(
     device: str,
     max_rows: int | None,
     keep_tmp: bool,
+    offline: bool,
 ) -> None:
     try:
         from sentence_transformers import SentenceTransformer
@@ -91,7 +92,16 @@ def build_embeddings(
     if not relations:
         raise ValueError("relations.txt is empty")
 
-    model = SentenceTransformer(model_name, device=device)
+    if offline:
+        os.environ["TRANSFORMERS_OFFLINE"] = "1"
+        os.environ["HF_HUB_OFFLINE"] = "1"
+        os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+
+    model = SentenceTransformer(
+        model_name_or_path,
+        device=device,
+        local_files_only=offline,
+    )
 
     cache_dir = data_dir / ".cache"
     cache_dir.mkdir(parents=True, exist_ok=True)
@@ -123,13 +133,18 @@ def build_embeddings(
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build SBERT embeddings for entities/relations")
     parser.add_argument("--data_dir", required=True, help="Dataset directory with entities.txt/relations.txt")
-    parser.add_argument("--model", default="all-mpnet-base-v2")
+    parser.add_argument(
+        "--model",
+        default="all-mpnet-base-v2",
+        help="HF model id or local path",
+    )
     parser.add_argument("--dim", type=int, default=100)
     parser.add_argument("--batch_size", type=int, default=256)
     parser.add_argument("--pca_batch_size", type=int, default=2048)
     parser.add_argument("--device", default="cuda")
     parser.add_argument("--max_rows", type=int, default=None)
     parser.add_argument("--keep_tmp", action="store_true")
+    parser.add_argument("--offline", action="store_true", help="Force offline local loading")
     parser.add_argument(
         "--entity_out",
         default="entity_emb_sbert_100d.npy",
@@ -152,7 +167,7 @@ def main() -> int:
 
     build_embeddings(
         data_dir=data_dir,
-        model_name=args.model,
+        model_name_or_path=args.model,
         entity_out=entity_out,
         relation_out=relation_out,
         dim=args.dim,
@@ -161,6 +176,7 @@ def main() -> int:
         device=args.device,
         max_rows=args.max_rows,
         keep_tmp=args.keep_tmp,
+        offline=args.offline,
     )
     return 0
 
