@@ -1,4 +1,4 @@
-python script/build_sbert_embeddings.py \
+python src/build_sbert_embeddings.py \
   --data_dir /data/GNN-RAG/datasets/webqsp \
   --model all-mpnet-base-v2 \
   --dim 100 \
