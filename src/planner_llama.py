@@ -45,38 +45,66 @@ def _strip_code_fence(text: str) -> str:
     return cleaned
 
 
+def _extract_first_json(text: str, open_char: str, close_char: str) -> Optional[str]:
+    start = text.find(open_char)
+    if start == -1:
+        return None
+    depth = 0
+    for idx in range(start, len(text)):
+        ch = text[idx]
+        if ch == open_char:
+            depth += 1
+        elif ch == close_char:
+            depth -= 1
+            if depth == 0:
+                return text[start : idx + 1]
+    return None
+
+
 def _extract_json_blob(text: str) -> Optional[str]:
-    if "{" not in text or "}" not in text:
-        return None
-    start = text.find("{")
-    end = text.rfind("}")
-    if start == -1 or end == -1 or end <= start:
-        return None
-    return text[start : end + 1]
+    return _extract_first_json(text, "{", "}")
+
+
+def _extract_json_array(text: str) -> Optional[str]:
+    return _extract_first_json(text, "[", "]")
 
 
 def normalize_paths(paths_obj: Any, max_len: int, topk: int) -> List[List[str]]:
     paths: List[List[str]] = []
     seen = set()
 
-    if isinstance(paths_obj, dict) and "paths" in paths_obj:
-        paths_obj = paths_obj["paths"]
+    if isinstance(paths_obj, dict):
+        if "paths" in paths_obj:
+            paths_obj = paths_obj["paths"]
+        elif "path" in paths_obj:
+            paths_obj = [paths_obj["path"]]
+        elif "rels" in paths_obj:
+            paths_obj = [paths_obj["rels"]]
 
     if not isinstance(paths_obj, list):
         return []
+
+    if paths_obj and all(isinstance(item, str) for item in paths_obj):
+        paths_obj = [paths_obj]
 
     for item in paths_obj:
         rels = None
         if isinstance(item, dict) and "rels" in item:
             rels = item["rels"]
+        elif isinstance(item, dict) and "path" in item:
+            rels = item["path"]
         elif isinstance(item, list):
             rels = item
+        elif isinstance(item, str):
+            rels = [item]
         if not isinstance(rels, list):
             continue
         rel_list = [str(r).strip() for r in rels if str(r).strip()]
         if not rel_list:
             continue
-        if not (1 <= len(rel_list) <= max_len):
+        if max_len is not None and max_len > 0 and len(rel_list) > max_len:
+            rel_list = rel_list[:max_len]
+        if max_len is not None and max_len > 0 and not (1 <= len(rel_list) <= max_len):
             continue
         key = tuple(rel_list)
         if key in seen:
@@ -90,23 +118,16 @@ def normalize_paths(paths_obj: Any, max_len: int, topk: int) -> List[List[str]]:
 
 def parse_paths(text: str, max_len: int, topk: int) -> List[List[str]]:
     cleaned = _strip_code_fence(text)
-    try:
-        obj = json.loads(cleaned)
+    for candidate in (cleaned, _extract_json_blob(cleaned), _extract_json_array(cleaned)):
+        if not candidate:
+            continue
+        try:
+            obj = json.loads(candidate)
+        except Exception:
+            continue
         paths = normalize_paths(obj, max_len, topk)
         if paths:
             return paths
-    except Exception:
-        pass
-
-    blob = _extract_json_blob(cleaned)
-    if blob:
-        try:
-            obj = json.loads(blob)
-            paths = normalize_paths(obj, max_len, topk)
-            if paths:
-                return paths
-        except Exception:
-            pass
 
     return []
 
