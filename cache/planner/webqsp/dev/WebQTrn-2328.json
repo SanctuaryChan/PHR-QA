@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2328",
+  "question": "who won the presidential race in venezuela",
+  "paths": [
+    {
+      "rels": [
+        "base.aareas.schema.administrative_area.administrative_children"
+      ],
+      "planner_conf": 0.24169174375104124,
+      "source": "fallback",
+      "rel_ids": [
+        328
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05142685068650843,
+      "reachability": 25.0,
+      "rank_score": 9.948573149313491,
+      "f_sem": -0.061873748898506165,
+      "f_cov": 1.0,
+      "f_reach": 25.0,
+      "f_branch": 0.8286472601695658,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "olympics.olympic_participating_country.olympics_participated_in"
+      ],
+      "planner_conf": 0.23873538600779626,
+      "source": "fallback",
+      "rel_ids": [
+        503
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06261648478297456,
+      "reachability": 5.0,
+      "rank_score": 1.9373835152170253,
+      "f_sem": 0.1098472997546196,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.30764902635675967,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.10692238627305153,
+      "reachability": 3.0,
+      "rank_score": 1.0930776137269487,
+      "f_sem": -0.07221366465091705,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "base.aareas.schema.administrative_area.administrative_parent"
+      ],
+      "planner_conf": 0.28813097571496105,
+      "source": "fallback",
+      "rel_ids": [
+        291
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.014384723984050149,
+      "reachability": 1.0,
+      "rank_score": 0.4143847239840502,
+      "f_sem": -0.05995377525687218,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.39583139136433604,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07209550983424248,
+      "reachability": 1.0,
+      "rank_score": 0.32790449016575757,
+      "f_sem": -0.014887887984514236,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"olympics.olympic_participating_country.olympics_participated_in\", \"olympics.olympic_athlete.country\"],\n\"confidence\": 0.03,\n\"reason\": \"Both Venezuela and the Olympic athlete are from the same country.\"\n},\n{\n\"rels\": [\"",
+  "version": 2
+}

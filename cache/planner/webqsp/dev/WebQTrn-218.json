@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-218",
+  "question": "what are all the names of harry potter",
+  "paths": [
+    {
+      "rels": [
+        "book.book_character.appears_in_book"
+      ],
+      "planner_conf": 0.4285580953173043,
+      "source": "fallback",
+      "rel_ids": [
+        1061
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.023407318717696128,
+      "reachability": 7.0,
+      "rank_score": 2.7765926812823043,
+      "f_sem": 0.264933705329895,
+      "f_cov": 0.0,
+      "f_reach": 7.0,
+      "f_branch": 0.5288743031666463,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "fictional_universe.fictional_character.organizations"
+      ],
+      "planner_conf": 0.15697417475342434,
+      "source": "fallback",
+      "rel_ids": [
+        1066
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.04788424836782678,
+      "reachability": 5.0,
+      "rank_score": 1.9521157516321732,
+      "f_sem": 0.15895475447177887,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "fictional_universe.fictional_character.character_created_by"
+      ],
+      "planner_conf": 0.14864704516743477,
+      "source": "fallback",
+      "rel_ids": [
+        1055
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0006920085925334399,
+      "reachability": 1.0,
+      "rank_score": 0.40069200859253346,
+      "f_sem": 0.2277371734380722,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.20017570262068307,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06005172806943716,
+      "reachability": 1.0,
+      "rank_score": 0.3399482719305629,
+      "f_sem": 0.025258051231503487,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "book.book.characters"
+      ],
+      "planner_conf": 0.49424371242523196,
+      "source": "fallback",
+      "rel_ids": [
+        1057
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05097540616989135,
+      "reachability": 0.0,
+      "rank_score": 0.05097540616989135,
+      "f_sem": 0.3365846872329712,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"book.book.characters\", \"book.author.books_written\", \"book.written_work.subjects\", \"base.animalnames.animal_specific_name_relationship.gender\"],\n\"confidence\": 0.494,\n\"reason\": \"Highest score in the list\"\n},\n{\n\"rels\": [\"book.book.editions\", \"book.author.school_or_movement\"],\n\"confidence\": 0.230,\n\"",
+  "version": 2
+}

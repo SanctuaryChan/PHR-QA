@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1407",
+  "question": "what happened at fukushima daiichi nuclear plant",
+  "paths": [
+    {
+      "rels": [
+        "base.infrastructure.nuclear_power_station.reactors"
+      ],
+      "planner_conf": 0.19649391345123746,
+      "source": "fallback",
+      "rel_ids": [
+        5552
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.03204485112482704,
+      "reachability": 8.0,
+      "rank_score": 3.232044851124827,
+      "f_sem": 0.4597597122192383,
+      "f_cov": 0.0,
+      "f_reach": 8.0,
+      "f_branch": 0.5588306254094444,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.4174339374899864,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05926231253120105,
+      "reachability": 2.0,
+      "rank_score": 0.740737687468799,
+      "f_sem": 0.06226406246423721,
+      "f_cov": 0.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "base.infrastructure.nuclear_power_plant.reactor_type"
+      ],
+      "planner_conf": 0.2061423720683116,
+      "source": "fallback",
+      "rel_ids": [
+        5549
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08295942544937134,
+      "reachability": 0.0,
+      "rank_score": 0.08295942544937134,
+      "f_sem": 0.4431980848312378,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "base.infrastructure.nuclear_power_plant.par"
+      ],
+      "planner_conf": 0.2111469035540054,
+      "source": "fallback",
+      "rel_ids": [
+        5551
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08219897449016571,
+      "reachability": 0.0,
+      "rank_score": 0.08219897449016571,
+      "f_sem": 0.44066324830055237,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "base.infrastructure.nuclear_power_plant.coolant"
+      ],
+      "planner_conf": 0.19982479862312771,
+      "source": "fallback",
+      "rel_ids": [
+        5550
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07006814777851104,
+      "reachability": 0.0,
+      "rank_score": 0.07006814777851104,
+      "f_sem": 0.4002271592617035,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"location.location.containedby\", \"location.administrative_division.country\", \"base.aareas.schema.administrative_area.administrative_parent\", \"base.aareas.schema.administrative_area.administrative_children\", \"base.aareas.schema.administrative_area.administrative_area_type\"],\n\"confidence\": 0.417,\n\"reason\": \"These relations are relevant to the question and have a",
+  "version": 2
+}

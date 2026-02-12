@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2505",
+  "question": "what is vanderbilt university mascot",
+  "paths": [
+    {
+      "rels": [
+        "education.educational_institution.mascot"
+      ],
+      "planner_conf": 0.3883783255882983,
+      "source": "fallback",
+      "rel_ids": [
+        1476
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.19397566632215918,
+      "reachability": 1.0,
+      "rank_score": 0.5939756663221591,
+      "f_sem": 0.5386826992034912,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "education.educational_institution.campuses"
+      ],
+      "planner_conf": 0.3454634698944272,
+      "source": "fallback",
+      "rel_ids": [
+        353
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07906015381996569,
+      "reachability": 1.0,
+      "rank_score": 0.47906015381996575,
+      "f_sem": 0.15563099086284637,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "education.educational_institution_campus.educational_institution"
+      ],
+      "planner_conf": 0.3436137905435742,
+      "source": "fallback",
+      "rel_ids": [
+        361
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07707835451548038,
+      "reachability": 1.0,
+      "rank_score": 0.4770783545154805,
+      "f_sem": 0.14902499318122864,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "education.school_mascot.school"
+      ],
+      "planner_conf": 0.37236049879272026,
+      "source": "fallback",
+      "rel_ids": [
+        2204
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1837285667657852,
+      "reachability": 0.0,
+      "rank_score": 0.1837285667657852,
+      "f_sem": 0.44576188921928406,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "sports.sports_team.colors"
+      ],
+      "planner_conf": 0.32976766790983814,
+      "source": "fallback",
+      "rel_ids": [
+        934
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1647780269384384,
+      "reachability": 0.0,
+      "rank_score": 0.1647780269384384,
+      "f_sem": 0.38259342312812805,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"education.educational_institution.students_graduates\", \"education.educational_institution.campuses\", \"education.educational_institution.school_type\"],\n\"confidence\": 0.388,\n\"reason\": \"Vanderbilt University mascot\"\n},\n{\n\"rels\": [\"education.educational_institution.faculty\", \"education.educational_institution.phone_number",
+  "version": 2
+}

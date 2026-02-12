@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2226",
+  "question": "what are all songs by taylor swift",
+  "paths": [
+    {
+      "rels": [
+        "broadcast.artist.content"
+      ],
+      "planner_conf": 0.2266553573180171,
+      "source": "fallback",
+      "rel_ids": [
+        3
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07535399579456438,
+      "reachability": 10.0,
+      "rank_score": 3.924646004205436,
+      "f_sem": 0.11877606809139252,
+      "f_cov": 0.0,
+      "f_reach": 10.0,
+      "f_branch": 0.6098681622198213,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "music.artist.genre"
+      ],
+      "planner_conf": 0.34083622808595304,
+      "source": "fallback",
+      "rel_ids": [
+        10
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.022992724414643444,
+      "reachability": 9.0,
+      "rank_score": 3.577007275585357,
+      "f_sem": 0.28523340821266174,
+      "f_cov": 0.0,
+      "f_reach": 9.0,
+      "f_branch": 0.5856274687844196,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.4124842664599419,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09250706276243531,
+      "reachability": 8.0,
+      "rank_score": 3.107492937237565,
+      "f_sem": 0.0445866659283638,
+      "f_cov": 0.0,
+      "f_reach": 8.0,
+      "f_branch": 0.5588306254094444,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.4169592194071094,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.03447935565526547,
+      "reachability": 1.0,
+      "rank_score": 0.3655206443447346,
+      "f_sem": 0.1104992926120758,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "music.recording.releases"
+      ],
+      "planner_conf": 0.23489129149798055,
+      "source": "fallback",
+      "rel_ids": [
+        207
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0061075210571289035,
+      "reachability": 0.0,
+      "rank_score": 0.0061075210571289035,
+      "f_sem": 0.1870250701904297,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.417,\n\"reason\": \"Common.topic.notable_types\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.412,\n\"reason\": \"Freebase.valuenotation.is_reviewed\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.383,\n\"reason",
+  "version": 2
+}

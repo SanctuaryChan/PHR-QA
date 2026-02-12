@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1873",
+  "question": "what happened to nagasaki",
+  "paths": [
+    {
+      "rels": [
+        "location.location.contains"
+      ],
+      "planner_conf": 0.16001227188516748,
+      "source": "fallback",
+      "rel_ids": [
+        315
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11001063739108721,
+      "reachability": 9.0,
+      "rank_score": 3.489989362608913,
+      "f_sem": -0.004826301708817482,
+      "f_cov": 0.0,
+      "f_reach": 9.0,
+      "f_branch": 0.5856274687844196,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.40251850645989184,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08255988709932092,
+      "reachability": 3.0,
+      "rank_score": 1.1174401129006792,
+      "f_sem": 0.008994665928184986,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "book.book_subject.works"
+      ],
+      "planner_conf": 0.06919395265254108,
+      "source": "fallback",
+      "rel_ids": [
+        371
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.047636322259632755,
+      "reachability": 2.0,
+      "rank_score": 0.7523636777403673,
+      "f_sem": 0.10101736336946487,
+      "f_cov": 0.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.2168121901019053,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07153166703100267,
+      "reachability": 1.0,
+      "rank_score": 0.32846833296899736,
+      "f_sem": -0.013008411973714828,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "architecture.structure.destroyed_by"
+      ],
+      "planner_conf": 0.0870510027625344,
+      "source": "fallback",
+      "rel_ids": [
+        1309
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.040833866596221916,
+      "reachability": 0.0,
+      "rank_score": 0.040833866596221916,
+      "f_sem": 0.30277955532073975,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

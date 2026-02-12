@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2482",
+  "question": "what government did japan have",
+  "paths": [
+    {
+      "rels": [
+        "meteorology.cyclone_affected_area.cyclones"
+      ],
+      "planner_conf": 0.2043020430372821,
+      "source": "fallback",
+      "rel_ids": [
+        430
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.13229543007910252,
+      "reachability": 59.0,
+      "rank_score": 23.467704569920897,
+      "f_sem": 0.05901523306965828,
+      "f_cov": 0.0,
+      "f_reach": 59.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "government.governmental_jurisdiction.governing_officials"
+      ],
+      "planner_conf": 0.16506686618593003,
+      "source": "fallback",
+      "rel_ids": [
+        447
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.04092502947626643,
+      "reachability": 40.0,
+      "rank_score": 15.95907497052373,
+      "f_sem": 0.34508007764816284,
+      "f_cov": 0.0,
+      "f_reach": 40.0,
+      "f_branch": 0.9444905277071527,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "olympics.olympic_participating_country.olympics_participated_in"
+      ],
+      "planner_conf": 0.16707659396860336,
+      "source": "fallback",
+      "rel_ids": [
+        503
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.03996766424125038,
+      "reachability": 8.0,
+      "rank_score": 3.16003233575875,
+      "f_sem": 0.21971799433231354,
+      "f_cov": 0.0,
+      "f_reach": 8.0,
+      "f_branch": 0.5588306254094444,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.country.form_of_government"
+      ],
+      "planner_conf": 0.16435325129826864,
+      "source": "fallback",
+      "rel_ids": [
+        491
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.040120196656082824,
+      "reachability": 3.0,
+      "rank_score": 1.2401201966560829,
+      "f_sem": 0.4179282784461975,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.22103816478616664,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08533644365450267,
+      "reachability": 3.0,
+      "rank_score": 1.1146635563454974,
+      "f_sem": -0.00026052258908748627,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

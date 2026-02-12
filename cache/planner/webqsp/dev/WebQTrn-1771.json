@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1771",
+  "question": "when did the colts last win the superbowl",
+  "paths": [
+    {
+      "rels": [
+        "time.event.instance_of_recurring_event"
+      ],
+      "planner_conf": 0.22366416746188725,
+      "source": "fallback",
+      "rel_ids": [
+        960
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07110276445746422,
+      "reachability": 0.0,
+      "rank_score": 0.07110276445746422,
+      "f_sem": 0.0703425481915474,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "time.recurring_event.instances"
+      ],
+      "planner_conf": 0.2149770110774608,
+      "source": "fallback",
+      "rel_ids": [
+        945
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06349577717483045,
+      "reachability": 0.0,
+      "rank_score": 0.06349577717483045,
+      "f_sem": 0.044985923916101456,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "time.event.locations"
+      ],
+      "planner_conf": 0.2066912682756545,
+      "source": "fallback",
+      "rel_ids": [
+        264
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05376785546541214,
+      "reachability": 0.0,
+      "rank_score": 0.05376785546541214,
+      "f_sem": 0.012559518218040466,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.time_zones"
+      ],
+      "planner_conf": 0.2015733245476371,
+      "source": "fallback",
+      "rel_ids": [
+        180
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.04148162323981523,
+      "reachability": 0.0,
+      "rank_score": 0.04148162323981523,
+      "f_sem": -0.028394589200615883,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "american_football.game_receiving_statistics.team"
+      ],
+      "planner_conf": 0.47709747552871706,
+      "source": "fallback",
+      "rel_ids": [
+        887
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.03260443806648254,
+      "reachability": 0.0,
+      "rank_score": 0.03260443806648254,
+      "f_sem": 0.27534812688827515,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.477,\n\"reason\": \"american_football.game_receiving_statistics.team\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.471,\n\"reason\": \"american_football.game_receiving_statistics.game\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.",
+  "version": 2
+}

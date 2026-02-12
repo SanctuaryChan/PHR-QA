@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2922",
+  "question": "where did marco rubio go to college",
+  "paths": [
+    {
+      "rels": [
+        "base.locations.states_and_provences.country"
+      ],
+      "planner_conf": 0.30704900088047216,
+      "source": "fallback",
+      "rel_ids": [
+        538
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0884370967745781,
+      "reachability": 0.0,
+      "rank_score": 0.0884370967745781,
+      "f_sem": 0.12812365591526031,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "base.popstra.vacation_choice.location"
+      ],
+      "planner_conf": 0.27420170612712774,
+      "source": "fallback",
+      "rel_ids": [
+        354
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07307071462273598,
+      "reachability": 0.0,
+      "rank_score": 0.07307071462273598,
+      "f_sem": 0.07690238207578659,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "base.biblioness.bibs_location.country"
+      ],
+      "planner_conf": 0.29364426472008864,
+      "source": "fallback",
+      "rel_ids": [
+        206
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07102454900741577,
+      "reachability": 0.0,
+      "rank_score": 0.07102454900741577,
+      "f_sem": 0.07008183002471924,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.statistical_region.population"
+      ],
+      "planner_conf": 0.29111688058836604,
+      "source": "fallback",
+      "rel_ids": [
+        520
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06679147221148014,
+      "reachability": 0.0,
+      "rank_score": 0.06679147221148014,
+      "f_sem": 0.055971574038267136,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.location.events"
+      ],
+      "planner_conf": 0.3179977982971168,
+      "source": "fallback",
+      "rel_ids": [
+        479
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05746332481503487,
+      "reachability": 0.0,
+      "rank_score": 0.05746332481503487,
+      "f_sem": 0.024877749383449554,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.331,\n\"reason\": \"location.location.containedby\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.294,\n\"reason\": \"location.location.events\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.276,\n\"reason\": \"location.location.administrative",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2993",
+  "question": "what currency should i take to mauritius",
+  "paths": [
+    {
+      "rels": [
+        "location.statistical_region.co2_emissions_per_capita"
+      ],
+      "planner_conf": 0.33446128023167454,
+      "source": "fallback",
+      "rel_ids": [
+        435
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.14879148546606302,
+      "reachability": 100.0,
+      "rank_score": 39.85120851453394,
+      "f_sem": 0.004028381779789925,
+      "f_cov": 0.0,
+      "f_reach": 100.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.statistical_region.gdp_nominal"
+      ],
+      "planner_conf": 0.2850102219978969,
+      "source": "fallback",
+      "rel_ids": [
+        1680
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.1089176192879677,
+      "reachability": 74.0,
+      "rank_score": 29.491082380712033,
+      "f_sem": 0.13694126904010773,
+      "f_cov": 0.0,
+      "f_reach": 74.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.statistical_region.gdp_real"
+      ],
+      "planner_conf": 0.2687697048981984,
+      "source": "fallback",
+      "rel_ids": [
+        1159
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.12274674475193025,
+      "reachability": 73.0,
+      "rank_score": 29.07725325524807,
+      "f_sem": 0.09084418416023254,
+      "f_cov": 0.0,
+      "f_reach": 73.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.article"
+      ],
+      "planner_conf": 0.30141150663296384,
+      "source": "fallback",
+      "rel_ids": [
+        111
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.04111681490356984,
+      "reachability": 1.0,
+      "rank_score": 0.3588831850964302,
+      "f_sem": 0.08837442845106125,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.4128518545627594,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05385929926450314,
+      "reachability": 1.0,
+      "rank_score": 0.3461407007354969,
+      "f_sem": 0.04589948058128357,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.488,\n\"reason\": \"measurement_unit.dated_money_value.currency\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.424,\n\"reason\": \"measurement_unit.dated_money_value.source\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.30",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2014",
+  "question": "what county is stockton ca located in",
+  "paths": [
+    {
+      "rels": [
+        "location.statistical_region.population"
+      ],
+      "planner_conf": 0.4035629397477859,
+      "source": "fallback",
+      "rel_ids": [
+        520
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.1351935535669327,
+      "reachability": 67.0,
+      "rank_score": 26.664806446433065,
+      "f_sem": 0.04935482144355774,
+      "f_cov": 0.0,
+      "f_reach": 67.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.contains"
+      ],
+      "planner_conf": 0.15864900131256154,
+      "source": "fallback",
+      "rel_ids": [
+        315
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.10630991202020437,
+      "reachability": 32.0,
+      "rank_score": 12.693690087979796,
+      "f_sem": 0.10872811824083328,
+      "f_cov": 0.0,
+      "f_reach": 32.0,
+      "f_branch": 0.8892834749245435,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.4313009062409401,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05739691818140364,
+      "reachability": 4.0,
+      "rank_score": 1.5426030818185963,
+      "f_sem": 0.11178895086050034,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.hud_county_place.county"
+      ],
+      "planner_conf": 0.1533211750556261,
+      "source": "fallback",
+      "rel_ids": [
+        853
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.009555632032799098,
+      "reachability": 1.0,
+      "rank_score": 0.40955563203279916,
+      "f_sem": 0.2572825849056244,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.hud_county_place.place"
+      ],
+      "planner_conf": 0.15638929093495396,
+      "source": "fallback",
+      "rel_ids": [
+        196
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0008933646898991107,
+      "reachability": 1.0,
+      "rank_score": 0.39910663531010093,
+      "f_sem": 0.22245259582996368,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.431,\n\"reason\": \"location.location.contains\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.404,\n\"reason\": \"location.statistical_region.population\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.259,\n\"reason\": \"common.topic.",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-942",
+  "question": "where to travel around sydney",
+  "paths": [
+    {
+      "rels": [
+        "film.film_location.featured_in_films"
+      ],
+      "planner_conf": 0.33698658398679787,
+      "source": "fallback",
+      "rel_ids": [
+        359
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.03684840444340927,
+      "reachability": 34.0,
+      "rank_score": 13.636848404443409,
+      "f_sem": 0.2575775682926178,
+      "f_cov": 1.0,
+      "f_reach": 34.0,
+      "f_branch": 0.9042486604437607,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.nearby_airports"
+      ],
+      "planner_conf": 0.2914140632576004,
+      "source": "fallback",
+      "rel_ids": [
+        449
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.09211759230114604,
+      "reachability": 4.0,
+      "rank_score": 1.692117592301146,
+      "f_sem": 0.2768373191356659,
+      "f_cov": 1.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.6581025564670563,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07699445219406957,
+      "reachability": 3.0,
+      "rank_score": 1.2769944521940697,
+      "f_sem": 0.2075091302394867,
+      "f_cov": 1.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.time_zones"
+      ],
+      "planner_conf": 0.3462340302034695,
+      "source": "fallback",
+      "rel_ids": [
+        180
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08314835444872316,
+      "reachability": 1.0,
+      "rank_score": 0.4831483544487232,
+      "f_sem": 0.16925832629203796,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.37555080857055995,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.040873795590949676,
+      "reachability": 1.0,
+      "rank_score": 0.35912620440905035,
+      "f_sem": 0.08918449282646179,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"location.location.people_born_here\", \"location.country.official_language\", \"location.mailing_address.citytown\", \"location.postal_code\", \"base.schemastaging.phone_sandbox.service_location\"],\n\"confidence\": 0.230,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"location.location.partially_containedby\", \"location.location.contains\", \"location.location.partially_contained_by",
+  "version": 2
+}

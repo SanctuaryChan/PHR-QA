@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2378",
+  "question": "who does jodelle ferland play in eclipse",
+  "paths": [
+    {
+      "rels": [
+        "film.actor.film"
+      ],
+      "planner_conf": 0.33767976264158883,
+      "source": "fallback",
+      "rel_ids": [
+        284
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.03513533136257599,
+      "reachability": 17.5,
+      "rank_score": 7.035135331362576,
+      "f_sem": 0.19781462848186493,
+      "f_cov": 1.0,
+      "f_reach": 17.5,
+      "f_branch": 0.7420905718198348,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "media_common.netflix_title.netflix_genres"
+      ],
+      "planner_conf": 0.2824637187769016,
+      "source": "fallback",
+      "rel_ids": [
+        63
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09037834962957067,
+      "reachability": 6.0,
+      "rank_score": 2.30962165037043,
+      "f_sem": 0.03037637658417225,
+      "f_cov": 0.0,
+      "f_reach": 6.0,
+      "f_branch": 0.49491262604822334,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.4035983454063535,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08707823336131787,
+      "reachability": 4.0,
+      "rank_score": 1.512921766638682,
+      "f_sem": 0.012851233594119549,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "film.film.genre"
+      ],
+      "planner_conf": 0.31390177140633263,
+      "source": "fallback",
+      "rel_ids": [
+        150
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0394364906367377,
+      "reachability": 1.5,
+      "rank_score": 0.5605635093632624,
+      "f_sem": 0.1128932312130928,
+      "f_cov": 0.0,
+      "f_reach": 1.5,
+      "f_branch": 0.23304460000665536,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.4041640362143517,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.056921609647917135,
+      "reachability": 1.0,
+      "rank_score": 0.4569216096479172,
+      "f_sem": 0.08183584362268448,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"people.person.profession\", \"film.person.profession\"],\n\"confidence\": 0.404,\n\"reason\": \"High score for profession relation\"\n},\n{\n\"rels\": [\"film.person.gender\", \"people.person.gender\"],\n\"confidence\": 0.390,\n\"reason\": \"High score for gender relation\"\n},\n{\n\"rels\": [\"film.actor.film\", \"people.person.film\"],\n\"confidence\":",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2487",
+  "question": "what drug did mitch hedberg overdose on",
+  "paths": [
+    {
+      "rels": [
+        "tv.tv_actor.guest_roles"
+      ],
+      "planner_conf": 0.14705296927632575,
+      "source": "fallback",
+      "rel_ids": [
+        76
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11288708542528347,
+      "reachability": 22.0,
+      "rank_score": 8.687112914574715,
+      "f_sem": 0.0561981238424778,
+      "f_cov": 0.0,
+      "f_reach": 22.0,
+      "f_branch": 0.797465225780268,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "influence.influence_node.influenced_by"
+      ],
+      "planner_conf": 0.33214053126088233,
+      "source": "fallback",
+      "rel_ids": [
+        56
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09575756759396185,
+      "reachability": 10.0,
+      "rank_score": 3.904242432406038,
+      "f_sem": 0.050764162093400955,
+      "f_cov": 0.0,
+      "f_reach": 10.0,
+      "f_branch": 0.6098681622198213,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "influence.influence_node.influenced"
+      ],
+      "planner_conf": 0.3426647393955783,
+      "source": "fallback",
+      "rel_ids": [
+        125
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0867829985017141,
+      "reachability": 8.0,
+      "rank_score": 3.113217001498286,
+      "f_sem": 0.06366688013076782,
+      "f_cov": 0.0,
+      "f_reach": 8.0,
+      "f_branch": 0.5588306254094444,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "film.actor.film"
+      ],
+      "planner_conf": 0.13406146912736974,
+      "source": "fallback",
+      "rel_ids": [
+        284
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07618720473848743,
+      "reachability": 6.0,
+      "rank_score": 2.323812795261513,
+      "f_sem": 0.07768019288778305,
+      "f_cov": 0.0,
+      "f_reach": 6.0,
+      "f_branch": 0.49491262604822334,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.30410832500483514,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09208115505181713,
+      "reachability": 6.0,
+      "rank_score": 2.3079188449481833,
+      "f_sem": 0.024700358510017395,
+      "f_cov": 0.0,
+      "f_reach": 6.0,
+      "f_branch": 0.49491262604822334,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"people.person.profession\", \"influence.influence_node.influenced\", \"freebase.valuenotation.is_reviewed\"],\n\"confidence\": 0.391,\n\"reason\": \"Mitch Hedberg's profession was stand-up comedy, he was influenced by other comedians, and he was reviewed in Freebase.\"\n},\n{\n\"rels\": [\"people.person.gender\", \"film.actor.gender\", \"base.amer",
+  "version": 2
+}

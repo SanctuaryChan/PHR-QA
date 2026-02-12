@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2057",
+  "question": "what money does guatemala use",
+  "paths": [
+    {
+      "rels": [
+        "location.statistical_region.co2_emissions_per_capita"
+      ],
+      "planner_conf": 0.15688704399923126,
+      "source": "fallback",
+      "rel_ids": [
+        435
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.15402377815917134,
+      "reachability": 100.0,
+      "rank_score": 39.84597622184083,
+      "f_sem": -0.013412593863904476,
+      "f_cov": 0.0,
+      "f_reach": 100.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.statistical_region.gni_in_ppp_dollars"
+      ],
+      "planner_conf": 0.15517555095105764,
+      "source": "fallback",
+      "rel_ids": [
+        434
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08012602329254151,
+      "reachability": 56.0,
+      "rank_score": 22.31987397670746,
+      "f_sem": 0.23291325569152832,
+      "f_cov": 0.0,
+      "f_reach": 56.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "meteorology.cyclone_affected_area.cyclones"
+      ],
+      "planner_conf": 0.21036772289908076,
+      "source": "fallback",
+      "rel_ids": [
+        430
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.12334068793818188,
+      "reachability": 24.0,
+      "rank_score": 9.47665931206182,
+      "f_sem": 0.028421729803085327,
+      "f_cov": 0.0,
+      "f_reach": 24.0,
+      "f_branch": 0.8186720687910748,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.38177133888006215,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11046431178234434,
+      "reachability": 4.0,
+      "rank_score": 1.4895356882176556,
+      "f_sem": -0.06510236114263535,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.3654689943706655,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.044385685614896433,
+      "reachability": 1.0,
+      "rank_score": 0.3556143143851036,
+      "f_sem": 0.07747819274663925,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"money\"],\n\"confidence\": 0.0,\n\"reason\": \"Guatemala uses Quetzal\"\n},\n{\n\"rels\": [\"location\"],\n\"confidence\": 0.0,\n\"reason\": \"Guatemala is located in Central America\"\n},\n{\n\"rels\": [\"government\"],\n\"confidence\":",
+  "version": 2
+}

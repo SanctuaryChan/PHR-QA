@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-297",
+  "question": "who was real housewives brandi married to",
+  "paths": [
+    {
+      "rels": [
+        "people.person.spouse_s"
+      ],
+      "planner_conf": 0.27604520559310913,
+      "source": "fallback",
+      "rel_ids": [
+        46
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10715143398230013,
+      "reachability": 1.0,
+      "rank_score": 0.5071514339823001,
+      "f_sem": 0.24926859140396118,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.gender"
+      ],
+      "planner_conf": 0.2851450926065445,
+      "source": "fallback",
+      "rel_ids": [
+        16
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.04658881292526661,
+      "reachability": 1.0,
+      "rank_score": 0.4465888129252667,
+      "f_sem": 0.04739318788051605,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.2655034917593002,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.04563352630321919,
+      "reachability": 1.0,
+      "rank_score": 0.44563352630321923,
+      "f_sem": 0.04420889914035797,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.marriage.spouse"
+      ],
+      "planner_conf": 0.28368689417839055,
+      "source": "fallback",
+      "rel_ids": [
+        281
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.13296810090541838,
+      "reachability": 0.0,
+      "rank_score": 0.13296810090541838,
+      "f_sem": 0.27656033635139465,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.marriage.type_of_union"
+      ],
+      "planner_conf": 0.2646362960338593,
+      "source": "fallback",
+      "rel_ids": [
+        365
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11590496003627777,
+      "reachability": 0.0,
+      "rank_score": 0.11590496003627777,
+      "f_sem": 0.2196832001209259,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-376",
+  "question": "who speaks farsi",
+  "paths": [
+    {
+      "rels": [
+        "language.human_language.countries_spoken_in"
+      ],
+      "planner_conf": 0.2948791669315124,
+      "source": "fallback",
+      "rel_ids": [
+        233
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.008529738246854171,
+      "reachability": 8.0,
+      "rank_score": 3.191470261753146,
+      "f_sem": 0.3245110809803009,
+      "f_cov": 0.0,
+      "f_reach": 8.0,
+      "f_branch": 0.5588306254094444,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "language.human_language.writing_system"
+      ],
+      "planner_conf": 0.2919840501877199,
+      "source": "fallback",
+      "rel_ids": [
+        1689
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.009939747735167787,
+      "reachability": 3.0,
+      "rank_score": 1.1900602522648323,
+      "f_sem": 0.2510617971420288,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.33321747432870563,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.04795981853420796,
+      "reachability": 1.0,
+      "rank_score": 0.3520401814657921,
+      "f_sem": 0.06556441634893417,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "language.language_writing_system.child_writing_systems"
+      ],
+      "planner_conf": 0.27966560674000934,
+      "source": "fallback",
+      "rel_ids": [
+        2400
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11470196247100832,
+      "reachability": 0.0,
+      "rank_score": 0.11470196247100832,
+      "f_sem": 0.21567320823669434,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.location.people_born_here"
+      ],
+      "planner_conf": 0.32898022092729207,
+      "source": "fallback",
+      "rel_ids": [
+        238
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.09180755168199538,
+      "reachability": 0.0,
+      "rank_score": 0.09180755168199538,
+      "f_sem": 0.1393585056066513,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.392,\n\"reason\": \"location.location.people_born_here\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.385,\n\"reason\": \"base.aareas.schema.administrative_area.administrative_parent\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.",
+  "version": 2
+}

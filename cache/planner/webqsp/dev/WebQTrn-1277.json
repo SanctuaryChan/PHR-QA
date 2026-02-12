@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1277",
+  "question": "what language do you speak in iran",
+  "paths": [
+    {
+      "rels": [
+        "location.statistical_region.gdp_real"
+      ],
+      "planner_conf": 0.16344535852980427,
+      "source": "fallback",
+      "rel_ids": [
+        1159
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.13348514735698702,
+      "reachability": 94.0,
+      "rank_score": 37.466514852643016,
+      "f_sem": 0.055049508810043335,
+      "f_cov": 0.0,
+      "f_reach": 94.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.country.languages_spoken"
+      ],
+      "planner_conf": 0.16653787507785586,
+      "source": "fallback",
+      "rel_ids": [
+        184
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.013051175998186892,
+      "reachability": 18.0,
+      "rank_score": 7.213051175998188,
+      "f_sem": 0.4597949981689453,
+      "f_cov": 0.0,
+      "f_reach": 18.0,
+      "f_branch": 0.7488732345249669,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.country.official_language"
+      ],
+      "planner_conf": 0.16142721759052725,
+      "source": "fallback",
+      "rel_ids": [
+        215
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06812386528437074,
+      "reachability": 1.0,
+      "rank_score": 0.4681238652843707,
+      "f_sem": 0.4525100290775299,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.41089695125818254,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05595383851940694,
+      "reachability": 1.0,
+      "rank_score": 0.3440461614805931,
+      "f_sem": 0.03891768306493759,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "language.human_language.countries_spoken_in"
+      ],
+      "planner_conf": 0.22611848058475284,
+      "source": "fallback",
+      "rel_ids": [
+        233
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10034629106521605,
+      "reachability": 0.0,
+      "rank_score": 0.10034629106521605,
+      "f_sem": 0.5011543035507202,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

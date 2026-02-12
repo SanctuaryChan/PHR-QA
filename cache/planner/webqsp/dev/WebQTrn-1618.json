@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1618",
+  "question": "what type of music does ella fitzgerald sing",
+  "paths": [
+    {
+      "rels": [
+        "music.featured_artist.recordings"
+      ],
+      "planner_conf": 0.20990954482427207,
+      "source": "fallback",
+      "rel_ids": [
+        79
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.058622261881828314,
+      "reachability": 83.0,
+      "rank_score": 33.14137773811817,
+      "f_sem": 0.30459246039390564,
+      "f_cov": 0.0,
+      "f_reach": 83.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.37187113940715794,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.13870081179934424,
+      "reachability": 9.0,
+      "rank_score": 3.461299188200656,
+      "f_sem": -0.10046021640300751,
+      "f_cov": 0.0,
+      "f_reach": 9.0,
+      "f_branch": 0.5856274687844196,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "music.artist.genre"
+      ],
+      "planner_conf": 0.4547372910540591,
+      "source": "fallback",
+      "rel_ids": [
+        10
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0016122018034678068,
+      "reachability": 7.0,
+      "rank_score": 2.801612201803468,
+      "f_sem": 0.34833210706710815,
+      "f_cov": 0.0,
+      "f_reach": 7.0,
+      "f_branch": 0.5288743031666463,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "music.artist.label"
+      ],
+      "planner_conf": 0.20424763582086053,
+      "source": "fallback",
+      "rel_ids": [
+        41
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.04902763617680257,
+      "reachability": 7.0,
+      "rank_score": 2.7509723638231978,
+      "f_sem": 0.17953264713287354,
+      "f_cov": 0.0,
+      "f_reach": 7.0,
+      "f_branch": 0.5288743031666463,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.25722941846536695,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06961968890550535,
+      "reachability": 2.0,
+      "rank_score": 0.7303803110944947,
+      "f_sem": 0.027739474549889565,
+      "f_cov": 0.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"music.artist.genre\", \"music.recording.artist\", \"music.recording.tracks\", \"music.composer.compositions\"],\n\"confidence\": 0.455,\n\"reason\": \"Ella Fitzgerald is known for her jazz music and has recorded many songs in the jazz genre.\"\n},\n{\n\"rels\": [\"music.artist.label\", \"music.recording.releases\", \"music.featured_artist.albums\"],\n\"",
+  "version": 2
+}

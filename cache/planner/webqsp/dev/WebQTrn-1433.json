@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1433",
+  "question": "what does the adriatic sea border",
+  "paths": [
+    {
+      "rels": [
+        "location.location.events"
+      ],
+      "planner_conf": 0.2676835637596937,
+      "source": "fallback",
+      "rel_ids": [
+        479
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11600316525120127,
+      "reachability": 23.0,
+      "rank_score": 9.083996834748799,
+      "f_sem": 0.04941932111978531,
+      "f_cov": 0.0,
+      "f_reach": 23.0,
+      "f_branch": 0.8082896158713685,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.16640862762928008,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.039334185264659545,
+      "reachability": 1.0,
+      "rank_score": 0.3606658147353405,
+      "f_sem": 0.0943165272474289,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.21366798193982017,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07606180015171828,
+      "reachability": 1.0,
+      "rank_score": 0.32393819984828176,
+      "f_sem": -0.028108855709433556,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "geography.island.body_of_water"
+      ],
+      "planner_conf": 0.1060330609174875,
+      "source": "fallback",
+      "rel_ids": [
+        1273
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0355848729610443,
+      "reachability": 0.0,
+      "rank_score": 0.0355848729610443,
+      "f_sem": 0.2852829098701477,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "geography.geographical_feature_category.features"
+      ],
+      "planner_conf": 0.13785909414291384,
+      "source": "fallback",
+      "rel_ids": [
+        1999
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.009436684846878055,
+      "reachability": 0.0,
+      "rank_score": -0.009436684846878055,
+      "f_sem": 0.1352110505104065,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.405,\n\"reason\": \"Base.culturalevent.event.entity_involved\"\n},\n{\n\"rels\": [\"time.event.locations\", \"location.location.time_zones\"],\n\"confidence\": 0.284,\n\"reason\": \"Time.event.locations\"\n},\n{\n\"rels\": [\"location.location.events\", \"location.country.administr",
+  "version": 2
+}

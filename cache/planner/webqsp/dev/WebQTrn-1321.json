@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1321",
+  "question": "what city is the university of maryland university college in",
+  "paths": [
+    {
+      "rels": [
+        "education.educational_institution.students_graduates"
+      ],
+      "planner_conf": 0.5674955743551254,
+      "source": "fallback",
+      "rel_ids": [
+        251
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0158290303853781,
+      "reachability": 31.0,
+      "rank_score": 12.38417096961462,
+      "f_sem": 0.24105562269687653,
+      "f_cov": 0.5,
+      "f_reach": 31.0,
+      "f_branch": 0.8814571719444105,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "education.university.local_tuition"
+      ],
+      "planner_conf": 0.2759366575364144,
+      "source": "fallback",
+      "rel_ids": [
+        1569
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.060127561893240436,
+      "reachability": 4.0,
+      "rank_score": 1.6601275618932405,
+      "f_sem": 0.33687055110931396,
+      "f_cov": 0.5,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "education.university.domestic_tuition"
+      ],
+      "planner_conf": 0.2643032721165688,
+      "source": "fallback",
+      "rel_ids": [
+        1533
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.04766322037197733,
+      "reachability": 4.0,
+      "rank_score": 1.6476632203719774,
+      "f_sem": 0.2953227460384369,
+      "f_cov": 0.5,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.31286930345719866,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.013092464522217476,
+      "reachability": 3.0,
+      "rank_score": 1.2130924645222176,
+      "f_sem": 0.161169171333313,
+      "f_cov": 0.5,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "education.university.number_of_undergraduates"
+      ],
+      "planner_conf": 0.259907220655872,
+      "source": "fallback",
+      "rel_ids": [
+        1547
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06430929270413714,
+      "reachability": 2.0,
+      "rank_score": 0.8643092927041373,
+      "f_sem": 0.30750274658203125,
+      "f_cov": 0.5,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"education.educational_institution.students_graduates\", \"education.university.number_of_undergraduates\", \"education.educational_institution.colors\"],\n\"confidence\": 0.42,\n\"reason\": \"These relations are all scored above 0.40 and are relevant to the question.\"\n},\n{\n\"rels\": [\"education.educational_institution.campuses\", \"education.",
+  "version": 2
+}

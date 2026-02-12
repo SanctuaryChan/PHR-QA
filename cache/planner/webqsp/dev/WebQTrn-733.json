@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-733",
+  "question": "who did heinrich himmler marry",
+  "paths": [
+    {
+      "rels": [
+        "people.person.spouse_s"
+      ],
+      "planner_conf": 0.30136830605309584,
+      "source": "fallback",
+      "rel_ids": [
+        46
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10997771289971668,
+      "reachability": 2.0,
+      "rank_score": 0.9099777128997167,
+      "f_sem": 0.293064147233963,
+      "f_cov": 1.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.31004655602677117,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.04538421225574811,
+      "reachability": 2.0,
+      "rank_score": 0.8453842122557481,
+      "f_sem": 0.0777524784207344,
+      "f_cov": 1.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.31643502540629487,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.04040634077814419,
+      "reachability": 2.0,
+      "rank_score": 0.8404063407781442,
+      "f_sem": 0.06115957349538803,
+      "f_cov": 1.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "military.military_person.participated_in_conflicts"
+      ],
+      "planner_conf": 0.30230878398336214,
+      "source": "fallback",
+      "rel_ids": [
+        1236
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.09765243545954165,
+      "reachability": 1.0,
+      "rank_score": 0.4976524354595417,
+      "f_sem": 0.21760526299476624,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.3287690195544013,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08166771248762546,
+      "reachability": 1.0,
+      "rank_score": 0.48166771248762547,
+      "f_sem": 0.1643228530883789,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.36,\n\"reason\": \"Heinrich Himmler married Marga Bemmann in 1928.\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.23,\n\"reason\": \"Heinrich Himmler also married Hildegard Bimberg in 1939.\"\n},\n{\n\"rels\": [\"r2\"],\n\"conf",
+  "version": 2
+}

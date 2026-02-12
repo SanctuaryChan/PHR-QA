@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2305",
+  "question": "what club does ronaldinho play for 2012",
+  "paths": [
+    {
+      "rels": [
+        "soccer.football_team.matches"
+      ],
+      "planner_conf": 0.3234372058628112,
+      "source": "fallback",
+      "rel_ids": [
+        2911
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.17887957096099855,
+      "reachability": 0.0,
+      "rank_score": 0.17887957096099855,
+      "f_sem": 0.4295985698699951,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "soccer.football_team.player_statistics"
+      ],
+      "planner_conf": 0.33192143776285365,
+      "source": "fallback",
+      "rel_ids": [
+        574
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.167722350358963,
+      "reachability": 0.0,
+      "rank_score": 0.167722350358963,
+      "f_sem": 0.3924078345298767,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "soccer.football_player_stats.team"
+      ],
+      "planner_conf": 0.3442433546284053,
+      "source": "fallback",
+      "rel_ids": [
+        540
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.16742609143257142,
+      "reachability": 0.0,
+      "rank_score": 0.16742609143257142,
+      "f_sem": 0.39142030477523804,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "base.x2010fifaworldcupsouthafrica.world_cup_participant.world_cup_team"
+      ],
+      "planner_conf": 0.27953686864357297,
+      "source": "fallback",
+      "rel_ids": [
+        2922
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1318434953689575,
+      "reachability": 0.0,
+      "rank_score": 0.1318434953689575,
+      "f_sem": 0.2728116512298584,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "sports.sports_team_roster.player"
+      ],
+      "planner_conf": 0.31746289422192914,
+      "source": "fallback",
+      "rel_ids": [
+        545
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11848527193069457,
+      "reachability": 0.0,
+      "rank_score": 0.11848527193069457,
+      "f_sem": 0.22828423976898193,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.388,\n\"reason\": \"Descriptive names of Ronaldinho's team in 2012\"\n},\n{\n\"rels\": [\"soccer.football_player_stats.team\"],\n\"confidence\": 0.344,\n\"reason\": \"Ronaldinho's team in 2012 according to soccer.football_player_stats\"\n},\n{\n\"rels\":",
+  "version": 2
+}

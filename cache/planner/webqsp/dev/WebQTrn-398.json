@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-398",
+  "question": "what states does the missouri river touch",
+  "paths": [
+    {
+      "rels": [
+        "location.location.partially_containedby"
+      ],
+      "planner_conf": 0.4004113214723082,
+      "source": "fallback",
+      "rel_ids": [
+        579
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.054358670585892735,
+      "reachability": 7.0,
+      "rank_score": 2.854358670585893,
+      "f_sem": 0.1908203363418579,
+      "f_cov": 1.0,
+      "f_reach": 7.0,
+      "f_branch": 0.5288743031666463,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.6475918483343024,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08429832872775393,
+      "reachability": 2.0,
+      "rank_score": 0.884298328727754,
+      "f_sem": 0.20746619999408722,
+      "f_cov": 1.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.3789597847392866,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07104962154443326,
+      "reachability": 1.0,
+      "rank_score": 0.3289503784555668,
+      "f_sem": -0.011401593685150146,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.partially_contains"
+      ],
+      "planner_conf": 0.4048252158872099,
+      "source": "fallback",
+      "rel_ids": [
+        588
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11197527348995208,
+      "reachability": 0.0,
+      "rank_score": 0.11197527348995208,
+      "f_sem": 0.20658424496650696,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.location.contains"
+      ],
+      "planner_conf": 0.3553200907328623,
+      "source": "fallback",
+      "rel_ids": [
+        315
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10730302184820174,
+      "reachability": 0.0,
+      "rank_score": 0.10730302184820174,
+      "f_sem": 0.19101007282733917,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"location.location.contains\", \"location.location.partially_contains\", \"location.location.partially_containedby\"],\n\"confidence\": 0.471,\n\"reason\": \"location.location.contains\"\n},\n{\n\"rels\": [\"location.location.partially_contains\", \"location.location.partially_containedby\"],\n\"confidence\": 0.405,\n\"reason\": \"location.location.partially_contains\"\n},\n{",
+  "version": 2
+}

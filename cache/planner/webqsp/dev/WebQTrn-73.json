@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-73",
+  "question": "what form of government was practiced in sparta",
+  "paths": [
+    {
+      "rels": [
+        "military.military_combatant.military_conflicts"
+      ],
+      "planner_conf": 0.15868550905940731,
+      "source": "fallback",
+      "rel_ids": [
+        1857
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09596932679414749,
+      "reachability": 54.0,
+      "rank_score": 21.50403067320585,
+      "f_sem": 0.18010224401950836,
+      "f_cov": 0.0,
+      "f_reach": 54.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.people_born_here"
+      ],
+      "planner_conf": 0.10619197098076891,
+      "source": "fallback",
+      "rel_ids": [
+        238
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.15176438899257189,
+      "reachability": 26.0,
+      "rank_score": 10.248235611007429,
+      "f_sem": -0.05979931727051735,
+      "f_cov": 0.0,
+      "f_reach": 26.0,
+      "f_branch": 0.8382459381141666,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.country.form_of_government"
+      ],
+      "planner_conf": 0.21518282699366229,
+      "source": "fallback",
+      "rel_ids": [
+        491
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.034953632559553624,
+      "reachability": 4.0,
+      "rank_score": 1.6349536325595537,
+      "f_sem": 0.41962411999702454,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.21245712524467927,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06411184345523777,
+      "reachability": 1.0,
+      "rank_score": 0.3358881565447623,
+      "f_sem": 0.01172433327883482,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "government.form_of_government.countries"
+      ],
+      "planner_conf": 0.2408025086254155,
+      "source": "fallback",
+      "rel_ids": [
+        517
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.09584672451019287,
+      "reachability": 0.0,
+      "rank_score": 0.09584672451019287,
+      "f_sem": 0.48615574836730957,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.412,\n\"reason\": \"Location.statistical_region.population\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.247,\n\"reason\": \"Base.culturalevent.event.entity_involved\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.241,",
+  "version": 2
+}

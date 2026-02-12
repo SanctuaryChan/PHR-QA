@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1144",
+  "question": "what team does drogba play for 2013",
+  "paths": [
+    {
+      "rels": [
+        "soccer.football_player_stats.team"
+      ],
+      "planner_conf": 0.3507404271554256,
+      "source": "fallback",
+      "rel_ids": [
+        540
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.14231505393981936,
+      "reachability": 0.0,
+      "rank_score": 0.14231505393981936,
+      "f_sem": 0.30771684646606445,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "soccer.football_player_match_participation.team"
+      ],
+      "planner_conf": 0.31662943300993546,
+      "source": "fallback",
+      "rel_ids": [
+        2909
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.13489799499511718,
+      "reachability": 0.0,
+      "rank_score": 0.13489799499511718,
+      "f_sem": 0.2829933166503906,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "soccer.football_team.player_statistics"
+      ],
+      "planner_conf": 0.3373281981426737,
+      "source": "fallback",
+      "rel_ids": [
+        574
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1341559886932373,
+      "reachability": 0.0,
+      "rank_score": 0.1341559886932373,
+      "f_sem": 0.280519962310791,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "soccer.football_team.matches"
+      ],
+      "planner_conf": 0.3366947040523308,
+      "source": "fallback",
+      "rel_ids": [
+        2911
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.133259853720665,
+      "reachability": 0.0,
+      "rank_score": 0.133259853720665,
+      "f_sem": 0.2775328457355499,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "sports.sports_team_roster.player"
+      ],
+      "planner_conf": 0.3398680928651837,
+      "source": "fallback",
+      "rel_ids": [
+        545
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1180263727903366,
+      "reachability": 0.0,
+      "rank_score": 0.1180263727903366,
+      "f_sem": 0.2267545759677887,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

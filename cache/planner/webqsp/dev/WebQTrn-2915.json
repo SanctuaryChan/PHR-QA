@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2915",
+  "question": "what does george soros own",
+  "paths": [
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.21626336114307645,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08932558624392353,
+      "reachability": 8.0,
+      "rank_score": 3.110674413756077,
+      "f_sem": 0.055191587656736374,
+      "f_cov": 0.0,
+      "f_reach": 8.0,
+      "f_branch": 0.5588306254094444,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "common.topic.webpage"
+      ],
+      "planner_conf": 0.1496904896205736,
+      "source": "fallback",
+      "rel_ids": [
+        75
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06068396085880614,
+      "reachability": 4.0,
+      "rank_score": 1.539316039141194,
+      "f_sem": 0.10083214193582535,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.1577993463046155,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05461979094120663,
+      "reachability": 2.0,
+      "rank_score": 0.7453802090587934,
+      "f_sem": 0.07773913443088531,
+      "f_cov": 0.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.29021566550861966,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.03777112125570836,
+      "reachability": 1.0,
+      "rank_score": 0.36222887874429166,
+      "f_sem": 0.09952674061059952,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.gender"
+      ],
+      "planner_conf": 0.21262476666072602,
+      "source": "fallback",
+      "rel_ids": [
+        16
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05323505423183503,
+      "reachability": 1.0,
+      "rank_score": 0.346764945768165,
+      "f_sem": 0.04798029735684395,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.402,\n\"reason\": \"George Soros owns\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.290,\n\"reason\": \"George Soros is a notable figure in the field of finance and philanthropy\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.230,",
+  "version": 2
+}

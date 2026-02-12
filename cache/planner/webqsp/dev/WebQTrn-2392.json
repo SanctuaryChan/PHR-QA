@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2392",
+  "question": "what airport does southwest fly to in denver",
+  "paths": [
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.4278123939037323,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06577168124107584,
+      "reachability": 5.0,
+      "rank_score": 1.934228318758924,
+      "f_sem": 0.09932997822761536,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "common.topic.notable_for"
+      ],
+      "planner_conf": 0.13710427831630317,
+      "source": "fallback",
+      "rel_ids": [
+        17
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08035269363935055,
+      "reachability": 1.0,
+      "rank_score": 0.3196473063606495,
+      "f_sem": -0.04241183400154114,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.21511765456625392,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08204390130157532,
+      "reachability": 1.0,
+      "rank_score": 0.3179560986984247,
+      "f_sem": -0.0480491928756237,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "aviation.airport.hub_for"
+      ],
+      "planner_conf": 0.15161162488314572,
+      "source": "fallback",
+      "rel_ids": [
+        499
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06171216368675231,
+      "reachability": 0.0,
+      "rank_score": 0.06171216368675231,
+      "f_sem": 0.37237387895584106,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "aviation.airport.airlines"
+      ],
+      "planner_conf": 0.16512607165745324,
+      "source": "fallback",
+      "rel_ids": [
+        2549
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06110446453094481,
+      "reachability": 0.0,
+      "rank_score": 0.06110446453094481,
+      "f_sem": 0.3703482151031494,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.428,\n\"reason\": \"Location.location.containedby\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.215,\n\"reason\": \"Common.topic.notable_types\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.165,\n\"reason\": \"Aviation.air",
+  "version": 2
+}

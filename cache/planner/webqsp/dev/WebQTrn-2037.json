@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2037",
+  "question": "what was abe lincoln shot with",
+  "paths": [
+    {
+      "rels": [
+        "symbols.name_source.namesakes"
+      ],
+      "planner_conf": 0.11555556860588605,
+      "source": "fallback",
+      "rel_ids": [
+        611
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.14248622674494982,
+      "reachability": 99.0,
+      "rank_score": 39.45751377325505,
+      "f_sem": 0.025045910850167274,
+      "f_cov": 0.0,
+      "f_reach": 99.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "common.topic.webpage"
+      ],
+      "planner_conf": 0.09778732892107125,
+      "source": "fallback",
+      "rel_ids": [
+        75
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.13879232935918312,
+      "reachability": 19.0,
+      "rank_score": 7.461207670640818,
+      "f_sem": -0.04200146347284317,
+      "f_cov": 0.0,
+      "f_reach": 19.0,
+      "f_branch": 0.7619189031733016,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.1842620992821515,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.10744878930502459,
+      "reachability": 11.0,
+      "rank_score": 4.292551210694976,
+      "f_sem": 0.019170096144080162,
+      "f_cov": 0.0,
+      "f_reach": 11.0,
+      "f_branch": 0.6319981814824864,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.image"
+      ],
+      "planner_conf": 0.10598399100141909,
+      "source": "fallback",
+      "rel_ids": [
+        58
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07723164899578218,
+      "reachability": 3.0,
+      "rank_score": 1.122768351004218,
+      "f_sem": 0.02675545960664749,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "symbols.namesake.named_after"
+      ],
+      "planner_conf": 0.13275264855455515,
+      "source": "fallback",
+      "rel_ids": [
+        793
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.042766740016294144,
+      "reachability": 1.0,
+      "rank_score": 0.35723325998370586,
+      "f_sem": 0.08287467807531357,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"common.topic.notable_types\", \"freebase.valuenotation.is_reviewed\"],\n\"confidence\": 0.408,\n\"reason\": \"Topic is notable and has a high value score.\"\n},\n{\n\"rels\": [\"common.topic.article\", \"freebase.type_hints.included_types\"],\n\"confidence\": 0.153,\n\"reason\": \"Topic is an article and has a high type score.\"",
+  "version": 2
+}

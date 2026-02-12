@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2499",
+  "question": "who did plaxico burress sign with 2012",
+  "paths": [
+    {
+      "rels": [
+        "american_football.player_receiving_statistics.season"
+      ],
+      "planner_conf": 0.2781452686806035,
+      "source": "fallback",
+      "rel_ids": [
+        4127
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.13024275302886962,
+      "reachability": 0.0,
+      "rank_score": 0.13024275302886962,
+      "f_sem": 0.26747584342956543,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "american_football.player_game_statistics.season"
+      ],
+      "planner_conf": 0.27491900158122307,
+      "source": "fallback",
+      "rel_ids": [
+        3370
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1267860382795334,
+      "reachability": 0.0,
+      "rank_score": 0.1267860382795334,
+      "f_sem": 0.25595346093177795,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "american_football.player_receiving_statistics.team"
+      ],
+      "planner_conf": 0.27470426869586234,
+      "source": "fallback",
+      "rel_ids": [
+        4126
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1265559673309326,
+      "reachability": 0.0,
+      "rank_score": 0.1265559673309326,
+      "f_sem": 0.2551865577697754,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "sports.sports_league_draft_pick.player"
+      ],
+      "planner_conf": 0.27051908862784624,
+      "source": "fallback",
+      "rel_ids": [
+        850
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12207184582948687,
+      "reachability": 0.0,
+      "rank_score": 0.12207184582948687,
+      "f_sem": 0.2402394860982895,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "american_football.player_receiving_statistics.player"
+      ],
+      "planner_conf": 0.2697358305473638,
+      "source": "fallback",
+      "rel_ids": [
+        2238
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12123264074325561,
+      "reachability": 0.0,
+      "rank_score": 0.12123264074325561,
+      "f_sem": 0.23744213581085205,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.496,\n\"reason\": \"People.profession.specializations\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.412,\n\"reason\": \"Location.location.containedby\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.352,\n\"reason\": \"Base.aare",
+  "version": 2
+}

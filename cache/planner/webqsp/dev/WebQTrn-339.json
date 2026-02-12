@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-339",
+  "question": "when was the musical annie written",
+  "paths": [
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.36006090581417083,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.13836256133703456,
+      "reachability": 5.0,
+      "rank_score": 1.8616374386629653,
+      "f_sem": -0.142639622092247,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "film.film.release_date_s"
+      ],
+      "planner_conf": 0.31131022338513975,
+      "source": "fallback",
+      "rel_ids": [
+        86
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08989587426185607,
+      "reachability": 0.0,
+      "rank_score": 0.08989587426185607,
+      "f_sem": 0.13298624753952026,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "film.film_regional_release_date.film"
+      ],
+      "planner_conf": 0.30949734811429624,
+      "source": "fallback",
+      "rel_ids": [
+        106
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08795350790023802,
+      "reachability": 0.0,
+      "rank_score": 0.08795350790023802,
+      "f_sem": 0.12651169300079346,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "film.film_regional_release_date.film_release_region"
+      ],
+      "planner_conf": 0.24341000126835743,
+      "source": "fallback",
+      "rel_ids": [
+        183
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07799219712615015,
+      "reachability": 0.0,
+      "rank_score": 0.07799219712615015,
+      "f_sem": 0.09330732375383377,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "film.film.starring"
+      ],
+      "planner_conf": 0.23491672228883814,
+      "source": "fallback",
+      "rel_ids": [
+        133
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.003283789753913878,
+      "reachability": 0.0,
+      "rank_score": 0.003283789753913878,
+      "f_sem": 0.17761263251304626,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"award.award_nomination.award_nominee\", \"film.film.release_date_s\", \"award.award_nominations\", \"film.film_regional_release_date.film\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"film.film.written_by\", \"theater.theatrical_composer.plays_composed\", \"music.lyricist.lyrics_written\"],",
+  "version": 2
+}

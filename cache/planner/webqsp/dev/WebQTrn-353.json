@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-353",
+  "question": "what did obama study in school",
+  "paths": [
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.38894880518317226,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.12040331275361459,
+      "reachability": 9.0,
+      "rank_score": 3.4795966872463855,
+      "f_sem": -0.03946855291724205,
+      "f_cov": 0.0,
+      "f_reach": 9.0,
+      "f_branch": 0.5856274687844196,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.3294611542647885,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.011870072625232361,
+      "reachability": 1.0,
+      "rank_score": 0.38812992737476765,
+      "f_sem": 0.18586356937885284,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "education.educational_institution.school_type"
+      ],
+      "planner_conf": 0.32596079231932173,
+      "source": "fallback",
+      "rel_ids": [
+        1318
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1577076077461243,
+      "reachability": 0.0,
+      "rank_score": 0.1577076077461243,
+      "f_sem": 0.35902535915374756,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "education.educational_institution.students_graduates"
+      ],
+      "planner_conf": 0.3016500380688671,
+      "source": "fallback",
+      "rel_ids": [
+        251
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1527663618326187,
+      "reachability": 0.0,
+      "rank_score": 0.1527663618326187,
+      "f_sem": 0.3425545394420624,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "book.written_work.school_or_movement"
+      ],
+      "planner_conf": 0.4073850356165226,
+      "source": "fallback",
+      "rel_ids": [
+        687
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.15092329084873202,
+      "reachability": 0.0,
+      "rank_score": 0.15092329084873202,
+      "f_sem": 0.3364109694957733,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"book.written_work.school_or_movement\", \"book.school_or_movement.associated_works\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"book.written_work.subjects\", \"book.school_or_movement.associated_authors\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"education.educational_institution",
+  "version": 2
+}

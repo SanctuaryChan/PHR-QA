@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-969",
+  "question": "who is the head coach of the tennessee titans",
+  "paths": [
+    {
+      "rels": [
+        "american_football.football_team.current_head_coach"
+      ],
+      "planner_conf": 0.39630446826863863,
+      "source": "fallback",
+      "rel_ids": [
+        976
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.19796434358541903,
+      "reachability": 1.0,
+      "rank_score": 0.597964343585419,
+      "f_sem": 0.5519782900810242,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "american_football.football_coach.current_team_head_coached"
+      ],
+      "planner_conf": 0.3769050228711254,
+      "source": "fallback",
+      "rel_ids": [
+        990
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.2009308159351349,
+      "reachability": 0.0,
+      "rank_score": 0.2009308159351349,
+      "f_sem": 0.503102719783783,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "american_football.football_coach_position.coaches_holding_this_position"
+      ],
+      "planner_conf": 0.3497344078451964,
+      "source": "fallback",
+      "rel_ids": [
+        2778
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.19018678963184354,
+      "reachability": 0.0,
+      "rank_score": 0.19018678963184354,
+      "f_sem": 0.4672892987728119,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "american_football.football_coach.coaching_history"
+      ],
+      "planner_conf": 0.3456528314756356,
+      "source": "fallback",
+      "rel_ids": [
+        918
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.17377776801586153,
+      "reachability": 0.0,
+      "rank_score": 0.17377776801586153,
+      "f_sem": 0.4125925600528717,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "american_football.football_historical_coach_position.position"
+      ],
+      "planner_conf": 0.34226782409419637,
+      "source": "fallback",
+      "rel_ids": [
+        939
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.17015097439289095,
+      "reachability": 0.0,
+      "rank_score": 0.17015097439289095,
+      "f_sem": 0.4005032479763031,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.463,\n\"reason\": \"american_football.football_game.rushing\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.461,\n\"reason\": \"american_football.football_game.receiving\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.456,\n\"",
+  "version": 2
+}

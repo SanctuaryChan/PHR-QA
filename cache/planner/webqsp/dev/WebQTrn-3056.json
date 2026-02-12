@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-3056",
+  "question": "what county is denver colorado in",
+  "paths": [
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.432188749909401,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.061082728377859434,
+      "reachability": 5.0,
+      "rank_score": 1.9389172716221406,
+      "f_sem": 0.11495982110500336,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.us_county.county_seat"
+      ],
+      "planner_conf": 0.14277021911679483,
+      "source": "fallback",
+      "rel_ids": [
+        728
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.04991620794718203,
+      "reachability": 1.0,
+      "rank_score": 0.44991620794718207,
+      "f_sem": 0.3918178379535675,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.hud_county_place.county"
+      ],
+      "planner_conf": 0.12617085722027993,
+      "source": "fallback",
+      "rel_ids": [
+        853
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.03213117734377323,
+      "reachability": 1.0,
+      "rank_score": 0.43213117734377327,
+      "f_sem": 0.33253440260887146,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.us_county.hud_county_place"
+      ],
+      "planner_conf": 0.117784837990391,
+      "source": "fallback",
+      "rel_ids": [
+        785
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.029574728168892242,
+      "reachability": 1.0,
+      "rank_score": 0.42957472816889225,
+      "f_sem": 0.3240129053592682,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.hud_county_place.place"
+      ],
+      "planner_conf": 0.12847189993274455,
+      "source": "fallback",
+      "rel_ids": [
+        196
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.01710386887972294,
+      "reachability": 1.0,
+      "rank_score": 0.41710386887972295,
+      "f_sem": 0.2824433743953705,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.432,\n\"reason\": \"location.location.coterminous_with\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.202,\n\"reason\": \"common.topic.notable_types\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.161,\n\"reason\": \"location",
+  "version": 2
+}

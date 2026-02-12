@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1340",
+  "question": "what all does google have",
+  "paths": [
+    {
+      "rels": [
+        "computer.software_developer.software"
+      ],
+      "planner_conf": 0.19743758291568397,
+      "source": "fallback",
+      "rel_ids": [
+        3542
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08805541992187502,
+      "reachability": 98.0,
+      "rank_score": 39.11194458007813,
+      "f_sem": 0.20648193359375,
+      "f_cov": 0.0,
+      "f_reach": 98.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "common.topic.webpage"
+      ],
+      "planner_conf": 0.4064615241386606,
+      "source": "fallback",
+      "rel_ids": [
+        75
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05951898694038392,
+      "reachability": 82.0,
+      "rank_score": 32.74048101305962,
+      "f_sem": 0.30160337686538696,
+      "f_cov": 0.0,
+      "f_reach": 82.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.subject_of"
+      ],
+      "planner_conf": 0.33102078801430995,
+      "source": "fallback",
+      "rel_ids": [
+        26
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06850773395501897,
+      "reachability": 11.0,
+      "rank_score": 4.3314922660449815,
+      "f_sem": 0.14897361397743225,
+      "f_cov": 0.0,
+      "f_reach": 11.0,
+      "f_branch": 0.6319981814824864,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.subjects"
+      ],
+      "planner_conf": 0.39597727849423514,
+      "source": "fallback",
+      "rel_ids": [
+        97
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.036415876617063705,
+      "reachability": 6.0,
+      "rank_score": 2.3635841233829367,
+      "f_sem": 0.21025128662586212,
+      "f_cov": 0.0,
+      "f_reach": 6.0,
+      "f_branch": 0.49491262604822334,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.article"
+      ],
+      "planner_conf": 0.2498796311826826,
+      "source": "fallback",
+      "rel_ids": [
+        111
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.025846778183905298,
+      "reachability": 2.0,
+      "rank_score": 0.7741532218160948,
+      "f_sem": 0.17364917695522308,
+      "f_cov": 0.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"common.topic.notable_types\", \"common.topic.webpage\", \"common.topic.subjects\", \"common.webpage.topic\", \"common.topic.subject_of\", \"computer.software.developer\", \"common.webpage.in_index\", \"computer.software.compatible_oses\", \"computer.software_compatibility.software\", \"internet.website_owner.websites_owned\", \"computer.software.license\", \"internet.website.category\", \"fre",
+  "version": 2
+}

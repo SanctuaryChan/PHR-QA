@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-196",
+  "question": "who did ben stiller play in megamind",
+  "paths": [
+    {
+      "rels": [
+        "film.actor.film"
+      ],
+      "planner_conf": 0.3566271908360826,
+      "source": "fallback",
+      "rel_ids": [
+        284
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.001202848830106698,
+      "reachability": 40.5,
+      "rank_score": 16.19879715116989,
+      "f_sem": 0.14518164098262787,
+      "f_cov": 1.0,
+      "f_reach": 40.5,
+      "f_branch": 0.9475734112489506,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "tv.tv_actor.guest_roles"
+      ],
+      "planner_conf": 0.31430605893421926,
+      "source": "fallback",
+      "rel_ids": [
+        76
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.00933444358877139,
+      "reachability": 39.0,
+      "rank_score": 15.609334443588773,
+      "f_sem": 0.17718492448329926,
+      "f_cov": 1.0,
+      "f_reach": 39.0,
+      "f_branch": 0.9382103375621837,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.5233558105508369,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.01739563567556525,
+      "reachability": 4.0,
+      "rank_score": 1.6173956356755652,
+      "f_sem": 0.027764130383729935,
+      "f_cov": 1.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.38898275852203373,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.1027377907373748,
+      "reachability": 4.0,
+      "rank_score": 1.4972622092626253,
+      "f_sem": -0.039347290992736816,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.34277362451045473,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05540127440507474,
+      "reachability": 1.0,
+      "rank_score": 0.34459872559492527,
+      "f_sem": 0.04075956344604492,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"people.person.profession\", \"film.personal_film_appearance.person\"],\n\"confidence\": 0.217,\n\"reason\": \"This path has a high confidence score and is diverse, with two relations from different categories.\"\n},\n{\n\"rels\": [\"film.film.genre\", \"people.person.ethnicity\"],\n\"confidence\": 0.207,\n\"reason\": \"This path has a high confidence score and is diverse, with two relations from",
+  "version": 2
+}

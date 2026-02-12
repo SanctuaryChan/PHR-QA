@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-9",
+  "question": "how old is sacha baron cohen",
+  "paths": [
+    {
+      "rels": [
+        "award.award_nominee.award_nominations"
+      ],
+      "planner_conf": 0.11863750538779694,
+      "source": "fallback",
+      "rel_ids": [
+        199
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08194203660506594,
+      "reachability": 23.0,
+      "rank_score": 9.118057963394934,
+      "f_sem": 0.16295641660690308,
+      "f_cov": 0.0,
+      "f_reach": 23.0,
+      "f_branch": 0.8082896158713685,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.40188253132626417,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.1008704324670959,
+      "reachability": 7.0,
+      "rank_score": 2.6991295675329043,
+      "f_sem": 0.006723326165229082,
+      "f_cov": 0.0,
+      "f_reach": 7.0,
+      "f_branch": 0.5288743031666463,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.41799300573698417,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09048339965062133,
+      "reachability": 4.0,
+      "rank_score": 1.5095166003493787,
+      "f_sem": 0.0015006792964413762,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "influence.influence_node.influenced"
+      ],
+      "planner_conf": 0.1422587393636553,
+      "source": "fallback",
+      "rel_ids": [
+        125
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09095193991741066,
+      "reachability": 3.0,
+      "rank_score": 1.1090480600825894,
+      "f_sem": -0.018978843465447426,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.gender"
+      ],
+      "planner_conf": 0.1149603136364841,
+      "source": "fallback",
+      "rel_ids": [
+        16
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07178054110298815,
+      "reachability": 1.0,
+      "rank_score": 0.3282194588970119,
+      "f_sem": -0.013837992213666439,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"freebase.valuenotation.is_reviewed\", \"people.person.profession\", \"film.film.starring\", \"film.performance.actor\", \"film.producer.film\", \"freebase.valuenotation.has_value\", \"film.actor.film\", \"film.producer.films_executive_produced\", \"film.film.executive_produced_by\", \"film.film_regional_release_date.film\", \"people.person",
+  "version": 2
+}

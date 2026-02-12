@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-534",
+  "question": "who does michael vick play for",
+  "paths": [
+    {
+      "rels": [
+        "american_football.football_player.games"
+      ],
+      "planner_conf": 0.36709344960394363,
+      "source": "fallback",
+      "rel_ids": [
+        2212
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.075337574213473,
+      "reachability": 16.0,
+      "rank_score": 6.475337574213474,
+      "f_sem": 0.3246534764766693,
+      "f_cov": 1.0,
+      "f_reach": 16.0,
+      "f_branch": 0.7205846872952778,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "american_football.football_player.passing"
+      ],
+      "planner_conf": 0.34606401301565626,
+      "source": "fallback",
+      "rel_ids": [
+        2249
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05280603501173654,
+      "reachability": 16.0,
+      "rank_score": 6.452806035011737,
+      "f_sem": 0.24954834580421448,
+      "f_cov": 1.0,
+      "f_reach": 16.0,
+      "f_branch": 0.7205846872952778,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "american_football.football_player.rushing"
+      ],
+      "planner_conf": 0.3426502958649681,
+      "source": "fallback",
+      "rel_ids": [
+        2242
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.04914848092171352,
+      "reachability": 16.0,
+      "rank_score": 6.449148480921714,
+      "f_sem": 0.237356498837471,
+      "f_cov": 1.0,
+      "f_reach": 16.0,
+      "f_branch": 0.7205846872952778,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "american_football.player_game_statistics.season"
+      ],
+      "planner_conf": 0.3525759778136299,
+      "source": "fallback",
+      "rel_ids": [
+        3370
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1318416088819504,
+      "reachability": 0.0,
+      "rank_score": 0.1318416088819504,
+      "f_sem": 0.2728053629398346,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "american_football.player_game_statistics.team"
+      ],
+      "planner_conf": 0.35129040099325637,
+      "source": "fallback",
+      "rel_ids": [
+        3369
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1304642051458359,
+      "reachability": 0.0,
+      "rank_score": 0.1304642051458359,
+      "f_sem": 0.26821401715278625,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1741",
+  "question": "who played carlton banks",
+  "paths": [
+    {
+      "rels": [
+        "tv.tv_actor.starring_roles"
+      ],
+      "planner_conf": 0.3297380748917075,
+      "source": "fallback",
+      "rel_ids": [
+        117
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.18270255923271178,
+      "reachability": 0.0,
+      "rank_score": 0.18270255923271178,
+      "f_sem": 0.4423418641090393,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "tv.regular_tv_appearance.actor"
+      ],
+      "planner_conf": 0.31688564454807955,
+      "source": "fallback",
+      "rel_ids": [
+        234
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.16893209815025328,
+      "reachability": 0.0,
+      "rank_score": 0.16893209815025328,
+      "f_sem": 0.396440327167511,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "base.gender.gender_identity.people"
+      ],
+      "planner_conf": 0.27610876176287147,
+      "source": "fallback",
+      "rel_ids": [
+        634
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05591484978795051,
+      "reachability": 0.0,
+      "rank_score": 0.05591484978795051,
+      "f_sem": 0.019716165959835052,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.person.gender"
+      ],
+      "planner_conf": 0.21060304572477062,
+      "source": "fallback",
+      "rel_ids": [
+        16
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05505788512527943,
+      "reachability": 0.0,
+      "rank_score": 0.05505788512527943,
+      "f_sem": 0.016859617084264755,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.cause_of_death.parent_cause_of_death"
+      ],
+      "planner_conf": 0.21006572087569272,
+      "source": "fallback",
+      "rel_ids": [
+        633
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.048179658921435484,
+      "reachability": 0.0,
+      "rank_score": 0.048179658921435484,
+      "f_sem": -0.006067803595215082,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\", \"r3\"],\n\"confidence\": 0.399,\n\"reason\": \"Medicine.risk_factor.diseases\"\n},\n{\n\"rels\": [\"r1\", \"r2\", \"r4\"],\n\"confidence\": 0.330,\n\"reason\": \"TV.",
+  "version": 2
+}

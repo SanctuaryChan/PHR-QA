@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2370",
+  "question": "who is playing bilbo in the hobbit movie",
+  "paths": [
+    {
+      "rels": [
+        "people.person.gender"
+      ],
+      "planner_conf": 0.3608602686369523,
+      "source": "fallback",
+      "rel_ids": [
+        16
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.04938739516620576,
+      "reachability": 1.0,
+      "rank_score": 0.4493873951662058,
+      "f_sem": 0.05672179535031319,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.3783140438411174,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08337813264842095,
+      "reachability": 1.0,
+      "rank_score": 0.3166218673515791,
+      "f_sem": -0.05249663069844246,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "film.actor.dubbing_performances"
+      ],
+      "planner_conf": 0.30894443039810815,
+      "source": "fallback",
+      "rel_ids": [
+        2282
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.16485468447208407,
+      "reachability": 0.0,
+      "rank_score": 0.16485468447208407,
+      "f_sem": 0.38284894824028015,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "film.performance.actor"
+      ],
+      "planner_conf": 0.31514228386129356,
+      "source": "fallback",
+      "rel_ids": [
+        213
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.15652331411838533,
+      "reachability": 0.0,
+      "rank_score": 0.15652331411838533,
+      "f_sem": 0.35507771372795105,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "film.actor.film"
+      ],
+      "planner_conf": 0.31472662014211633,
+      "source": "fallback",
+      "rel_ids": [
+        284
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.15607796013355257,
+      "reachability": 0.0,
+      "rank_score": 0.15607796013355257,
+      "f_sem": 0.35359320044517517,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"book.book.characters\", \"people.person.gender\"],\n\"confidence\": 0.452,\n\"reason\": \"book.book.characters is a strong relation\"\n},\n{\n\"rels\": [\"people.person.gender\", \"book.book.characters\"],\n\"confidence\": 0.443,\n\"reason\": \"people.person.gender is a strong relation\"\n},\n{\n\"rels\": [\"book.author.works_written\", \"book",
+  "version": 2
+}

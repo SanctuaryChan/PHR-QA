@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-701",
+  "question": "what year did the new york mets start",
+  "paths": [
+    {
+      "rels": [
+        "baseball.baseball_team.team_stats"
+      ],
+      "planner_conf": 0.3477675807798231,
+      "source": "fallback",
+      "rel_ids": [
+        2285
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.04805075496270109,
+      "reachability": 47.0,
+      "rank_score": 18.7519492450373,
+      "f_sem": 0.3346911668777466,
+      "f_cov": 0.0,
+      "f_reach": 47.0,
+      "f_branch": 0.9845810502602506,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "business.employer.employees"
+      ],
+      "planner_conf": 0.3997370715113357,
+      "source": "fallback",
+      "rel_ids": [
+        374
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09977297169981983,
+      "reachability": 6.0,
+      "rank_score": 2.3002270283001804,
+      "f_sem": -0.000939030316658318,
+      "f_cov": 0.0,
+      "f_reach": 6.0,
+      "f_branch": 0.49491262604822334,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "time.event.previous_in_series"
+      ],
+      "planner_conf": 0.3896906091876932,
+      "source": "fallback",
+      "rel_ids": [
+        2056
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.09107777625322343,
+      "reachability": 0.0,
+      "rank_score": 0.09107777625322343,
+      "f_sem": 0.13692592084407806,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "time.event.next_in_series"
+      ],
+      "planner_conf": 0.3737902244039484,
+      "source": "fallback",
+      "rel_ids": [
+        2058
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07404164969921112,
+      "reachability": 0.0,
+      "rank_score": 0.07404164969921112,
+      "f_sem": 0.08013883233070374,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "baseball.baseball_team_stats.season"
+      ],
+      "planner_conf": 0.3572009742582167,
+      "source": "fallback",
+      "rel_ids": [
+        2295
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06051455736160277,
+      "reachability": 0.0,
+      "rank_score": 0.06051455736160277,
+      "f_sem": 0.3683818578720093,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.450,\n\"reason\": \"sports.sports_league.teams\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.417,\n\"reason\": \"sports.sports_league_participation.league\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.39",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2786",
+  "question": "where does the appalachian trail run through",
+  "paths": [
+    {
+      "rels": [
+        "location.location.partially_contained_by"
+      ],
+      "planner_conf": 0.3009541363170905,
+      "source": "fallback",
+      "rel_ids": [
+        786
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.043815921717427334,
+      "reachability": 7.0,
+      "rank_score": 2.843815921717428,
+      "f_sem": 0.15567784011363983,
+      "f_cov": 1.0,
+      "f_reach": 7.0,
+      "f_branch": 0.5288743031666463,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.partially_containedby"
+      ],
+      "planner_conf": 0.38762138631916787,
+      "source": "fallback",
+      "rel_ids": [
+        579
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0353447859223109,
+      "reachability": 7.0,
+      "rank_score": 2.8353447859223113,
+      "f_sem": 0.12744072079658508,
+      "f_cov": 1.0,
+      "f_reach": 7.0,
+      "f_branch": 0.5288743031666463,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.6308488619327546,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.047794065193031976,
+      "reachability": 3.0,
+      "rank_score": 1.2477940651930322,
+      "f_sem": 0.1101745069026947,
+      "f_cov": 1.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "base.usnationalparks.us_national_park.state"
+      ],
+      "planner_conf": 0.2848053087467371,
+      "source": "fallback",
+      "rel_ids": [
+        763
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1079379108252843,
+      "reachability": 2.0,
+      "rank_score": 0.9079379108252844,
+      "f_sem": 0.2862648069858551,
+      "f_cov": 1.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.location.contains"
+      ],
+      "planner_conf": 0.3685403509079948,
+      "source": "fallback",
+      "rel_ids": [
+        315
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05182023585622249,
+      "reachability": 1.0,
+      "rank_score": 0.4518202358562225,
+      "f_sem": 0.06483126431703568,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"location.location.contains\"],\n\"confidence\": 0.237,\n\"reason\": \"location.location.contains\"\n},\n{\n\"rels\": [\"location.location.adjoin_s\"],\n\"confidence\": 0.234,\n\"reason\": \"location.location.adjoin_s\"\n},\n{\n\"rels\": [\"location.location.nearby_airports\"],\n\"confidence\": 0.229,\n\"reason\": \"location.",
+  "version": 2
+}

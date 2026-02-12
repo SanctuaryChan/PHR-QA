@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1770",
+  "question": "what is beyonce 's daughters name",
+  "paths": [
+    {
+      "rels": [
+        "music.composer.compositions"
+      ],
+      "planner_conf": 0.12308936000048756,
+      "source": "fallback",
+      "rel_ids": [
+        49
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.1294957883656025,
+      "reachability": 73.0,
+      "rank_score": 29.070504211634397,
+      "f_sem": 0.06834737211465836,
+      "f_cov": 0.0,
+      "f_reach": 73.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "broadcast.artist.content"
+      ],
+      "planner_conf": 0.2438817890853939,
+      "source": "fallback",
+      "rel_ids": [
+        3
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09292592178857634,
+      "reachability": 31.0,
+      "rank_score": 12.307074078211423,
+      "f_sem": 0.15073265135288239,
+      "f_cov": 0.0,
+      "f_reach": 31.0,
+      "f_branch": 0.8814571719444105,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.45434264868497853,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09443516445021875,
+      "reachability": 15.0,
+      "rank_score": 5.905564835549781,
+      "f_sem": 0.0869380310177803,
+      "f_cov": 0.0,
+      "f_reach": 15.0,
+      "f_branch": 0.7051657375555284,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "music.artist.genre"
+      ],
+      "planner_conf": 0.27613907946797905,
+      "source": "fallback",
+      "rel_ids": [
+        10
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.055471513259297014,
+      "reachability": 12.0,
+      "rank_score": 4.7445284867407045,
+      "f_sem": 0.19921356439590454,
+      "f_cov": 0.0,
+      "f_reach": 12.0,
+      "f_branch": 0.6523558257806837,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.23532577488643902,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11256206532937363,
+      "reachability": 11.0,
+      "rank_score": 4.287437934670627,
+      "f_sem": 0.0021258427295833826,
+      "f_cov": 0.0,
+      "f_reach": 11.0,
+      "f_branch": 0.6319981814824864,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"freebase.valuenotation.is_reviewed\", \"music.artist.genre\", \"music.recording.artist\", \"music.single.versions\", \"music.album.genre\", \"music.featured_artist.recordings\", \"people.person.profession\", \"music.artist.origin\", \"base.popstra.celebrity.dated\", \"award.award_honor.award\", \"freebase.valuenotation.has_",
+  "version": 2
+}

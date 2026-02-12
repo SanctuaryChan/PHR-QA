@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2395",
+  "question": "where kurdish people from",
+  "paths": [
+    {
+      "rels": [
+        "people.ethnicity.people"
+      ],
+      "planner_conf": 0.4200564103126526,
+      "source": "fallback",
+      "rel_ids": [
+        335
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.04766797729305225,
+      "reachability": 39.0,
+      "rank_score": 15.647667977293054,
+      "f_sem": 0.4716300368309021,
+      "f_cov": 0.5,
+      "f_reach": 39.0,
+      "f_branch": 0.9382103375621837,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.42209360113143923,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1621717154979706,
+      "reachability": 0.0,
+      "rank_score": 0.1621717154979706,
+      "f_sem": 0.3739057183265686,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.location.people_born_here"
+      ],
+      "planner_conf": 0.38651411118507384,
+      "source": "fallback",
+      "rel_ids": [
+        238
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.15940797626972197,
+      "reachability": 0.0,
+      "rank_score": 0.15940797626972197,
+      "f_sem": 0.3646932542324066,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.3916223585128784,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.15759538412094115,
+      "reachability": 0.0,
+      "rank_score": 0.15759538412094115,
+      "f_sem": 0.3586512804031372,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.ethnicity"
+      ],
+      "planner_conf": 0.40543641777038575,
+      "source": "fallback",
+      "rel_ids": [
+        204
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12668187618255616,
+      "reachability": 0.0,
+      "rank_score": 0.12668187618255616,
+      "f_sem": 0.4222729206085205,
+      "f_cov": 0.5,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"location.location.time_zones\", \"location.location.partially_contains\", \"location.location.partially_contained_by\"],\n\"confidence\": 0.433,\n\"reason\": \"location.location.time_zones\"\n},\n{\n\"rels\": [\"location.location.partially_contained_by\", \"location.location.partially_contains\"],\n\"confidence\": 0.387,\n\"reason\": \"location.location.partially",
+  "version": 2
+}

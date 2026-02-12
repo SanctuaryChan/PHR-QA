@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-443",
+  "question": "who is the arizona cardinals football coach",
+  "paths": [
+    {
+      "rels": [
+        "american_football.football_team.current_head_coach"
+      ],
+      "planner_conf": 0.4172267589172446,
+      "source": "fallback",
+      "rel_ids": [
+        976
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.21993168906156957,
+      "reachability": 1.0,
+      "rank_score": 0.6199316890615696,
+      "f_sem": 0.6252027750015259,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "american_football.football_coach.current_team_head_coached"
+      ],
+      "planner_conf": 0.39908400116087517,
+      "source": "fallback",
+      "rel_ids": [
+        990
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.22424461245536803,
+      "reachability": 0.0,
+      "rank_score": 0.22424461245536803,
+      "f_sem": 0.5808153748512268,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "american_football.football_coach_position.coaches_holding_this_position"
+      ],
+      "planner_conf": 0.38596082396360676,
+      "source": "fallback",
+      "rel_ids": [
+        2778
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.21095905900001527,
+      "reachability": 0.0,
+      "rank_score": 0.21095905900001527,
+      "f_sem": 0.5365301966667175,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "american_football.football_coach.coaching_history"
+      ],
+      "planner_conf": 0.42280851609280057,
+      "source": "fallback",
+      "rel_ids": [
+        918
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.20397011637687684,
+      "reachability": 0.0,
+      "rank_score": 0.20397011637687684,
+      "f_sem": 0.5132337212562561,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "american_football.football_historical_coach_position.coach"
+      ],
+      "planner_conf": 0.42099235302975124,
+      "source": "fallback",
+      "rel_ids": [
+        889
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.2020242273807526,
+      "reachability": 0.0,
+      "rank_score": 0.2020242273807526,
+      "f_sem": 0.5067474246025085,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.487,\n\"reason\": \"American Football Coach\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.478,\n\"reason\": \"Football Game Receiving Statistics\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.469,\n\"reason\": \"Football Team Historical Coaching Staff\"",
+  "version": 2
+}

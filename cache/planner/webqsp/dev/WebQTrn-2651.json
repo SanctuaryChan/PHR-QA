@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2651",
+  "question": "what do they speak iceland",
+  "paths": [
+    {
+      "rels": [
+        "olympics.olympic_participating_country.olympics_participated_in"
+      ],
+      "planner_conf": 0.4344862657785416,
+      "source": "fallback",
+      "rel_ids": [
+        503
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06893349206393562,
+      "reachability": 8.0,
+      "rank_score": 3.1310665079360644,
+      "f_sem": 0.12316523492336273,
+      "f_cov": 0.0,
+      "f_reach": 8.0,
+      "f_branch": 0.5588306254094444,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.19100507874255893,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11190106833361006,
+      "reachability": 4.0,
+      "rank_score": 1.48809893166639,
+      "f_sem": -0.0698915496468544,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "travel.travel_destination.tour_operators"
+      ],
+      "planner_conf": 0.15180393803393705,
+      "source": "fallback",
+      "rel_ids": [
+        746
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.060542244895602504,
+      "reachability": 3.0,
+      "rank_score": 1.1394577551043976,
+      "f_sem": 0.0823868066072464,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.country.languages_spoken"
+      ],
+      "planner_conf": 0.14899563919538739,
+      "source": "fallback",
+      "rel_ids": [
+        184
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.060481947817253426,
+      "reachability": 1.0,
+      "rank_score": 0.46048194781725343,
+      "f_sem": 0.42703697085380554,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.country.official_language"
+      ],
+      "planner_conf": 0.12635060347359756,
+      "source": "fallback",
+      "rel_ids": [
+        215
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.04705684796755251,
+      "reachability": 1.0,
+      "rank_score": 0.4470568479675526,
+      "f_sem": 0.3822866380214691,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.434,\n\"reason\": \"Olympics.olympic_participating_country.olympics_participated_in\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.361,\n\"reason\": \"Olympics.olympic_games.participating_countries\"\n},\n{\n\"rels\": [\"r1",
+  "version": 2
+}

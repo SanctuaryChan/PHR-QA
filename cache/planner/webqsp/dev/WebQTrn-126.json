@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-126",
+  "question": "where to visit near bangkok",
+  "paths": [
+    {
+      "rels": [
+        "location.location.events"
+      ],
+      "planner_conf": 0.490039540522554,
+      "source": "fallback",
+      "rel_ids": [
+        479
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.022393889725208296,
+      "reachability": 60.0,
+      "rank_score": 24.022393889725205,
+      "f_sem": 0.24131296575069427,
+      "f_cov": 1.0,
+      "f_reach": 60.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "film.film_location.featured_in_films"
+      ],
+      "planner_conf": 0.37097264006566466,
+      "source": "fallback",
+      "rel_ids": [
+        359
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06146010584038815,
+      "reachability": 9.0,
+      "rank_score": 3.6614601058403884,
+      "f_sem": 0.23340950906276703,
+      "f_cov": 1.0,
+      "f_reach": 9.0,
+      "f_branch": 0.5856274687844196,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.5472718140248503,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.09558003512051898,
+      "reachability": 2.0,
+      "rank_score": 0.8955800351205191,
+      "f_sem": 0.2450718879699707,
+      "f_cov": 1.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.geolocation"
+      ],
+      "planner_conf": 0.33093937317307076,
+      "source": "fallback",
+      "rel_ids": [
+        456
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.09320878849213061,
+      "reachability": 1.0,
+      "rank_score": 0.4932087884921306,
+      "f_sem": 0.20279310643672943,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.43238113790750504,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.032935067109418535,
+      "reachability": 1.0,
+      "rank_score": 0.3670649328905815,
+      "f_sem": 0.11564692109823227,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

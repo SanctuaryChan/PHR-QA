@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-566",
+  "question": "what style of art does andy warhol do",
+  "paths": [
+    {
+      "rels": [
+        "visual_art.visual_artist.artworks"
+      ],
+      "planner_conf": 0.2347065100305361,
+      "source": "fallback",
+      "rel_ids": [
+        1366
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.002594079874761776,
+      "reachability": 42.0,
+      "rank_score": 16.79740592012524,
+      "f_sem": 0.4768877327442169,
+      "f_cov": 0.0,
+      "f_reach": 42.0,
+      "f_branch": 0.9566039969802683,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.36039173262683966,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09188866243976576,
+      "reachability": 13.0,
+      "rank_score": 5.108111337560234,
+      "f_sem": 0.08410581201314926,
+      "f_cov": 0.0,
+      "f_reach": 13.0,
+      "f_branch": 0.6712040604371055,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.3690213353999128,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11674480726466363,
+      "reachability": 7.0,
+      "rank_score": 2.683255192735337,
+      "f_sem": -0.04619125649333,
+      "f_cov": 0.0,
+      "f_reach": 7.0,
+      "f_branch": 0.5288743031666463,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "visual_art.visual_artist.art_forms"
+      ],
+      "planner_conf": 0.25631260709953785,
+      "source": "fallback",
+      "rel_ids": [
+        1372
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07129039795765754,
+      "reachability": 3.0,
+      "rank_score": 1.2712903979576577,
+      "f_sem": 0.5218289494514465,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.43867626905441287,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0261902837377316,
+      "reachability": 1.0,
+      "rank_score": 0.37380971626226844,
+      "f_sem": 0.13812953233718872,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

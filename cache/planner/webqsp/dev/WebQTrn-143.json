@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-143",
+  "question": "what did nick clegg study at university",
+  "paths": [
+    {
+      "rels": [
+        "education.educational_institution.students_graduates"
+      ],
+      "planner_conf": 0.38158633025295763,
+      "source": "fallback",
+      "rel_ids": [
+        251
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11546900272369386,
+      "reachability": 0.0,
+      "rank_score": 0.11546900272369386,
+      "f_sem": 0.2182300090789795,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "education.educational_institution.campuses"
+      ],
+      "planner_conf": 0.26493903511978056,
+      "source": "fallback",
+      "rel_ids": [
+        353
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10408700406551362,
+      "reachability": 0.0,
+      "rank_score": 0.10408700406551362,
+      "f_sem": 0.18029001355171204,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "education.educational_institution_campus.educational_institution"
+      ],
+      "planner_conf": 0.264163387360343,
+      "source": "fallback",
+      "rel_ids": [
+        361
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10325595289468766,
+      "reachability": 0.0,
+      "rank_score": 0.10325595289468766,
+      "f_sem": 0.17751984298229218,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "education.education.institution"
+      ],
+      "planner_conf": 0.3776044454775661,
+      "source": "fallback",
+      "rel_ids": [
+        221
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0957121640443802,
+      "reachability": 0.0,
+      "rank_score": 0.0957121640443802,
+      "f_sem": 0.15237388014793396,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "education.educational_institution.parent_institution"
+      ],
+      "planner_conf": 0.24350425380540183,
+      "source": "fallback",
+      "rel_ids": [
+        840
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.09144818931818009,
+      "reachability": 0.0,
+      "rank_score": 0.09144818931818009,
+      "f_sem": 0.13816063106060028,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

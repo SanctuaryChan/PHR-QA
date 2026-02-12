@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1084",
+  "question": "what timezone is texas san antonio in",
+  "paths": [
+    {
+      "rels": [
+        "location.statistical_region.population"
+      ],
+      "planner_conf": 0.27965387154923804,
+      "source": "fallback",
+      "rel_ids": [
+        520
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.10284609943628312,
+      "reachability": 68.0,
+      "rank_score": 27.09715390056372,
+      "f_sem": 0.15717966854572296,
+      "f_cov": 0.0,
+      "f_reach": 68.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.4255008360743523,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07216893823944492,
+      "reachability": 6.0,
+      "rank_score": 2.3278310617605555,
+      "f_sem": 0.09107441455125809,
+      "f_cov": 0.0,
+      "f_reach": 6.0,
+      "f_branch": 0.49491262604822334,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.location.time_zones"
+      ],
+      "planner_conf": 0.39572235123945937,
+      "source": "fallback",
+      "rel_ids": [
+        180
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.19433645919744907,
+      "reachability": 1.0,
+      "rank_score": 0.594336459197449,
+      "f_sem": 0.5398853421211243,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.3154062447881345,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0712780395817286,
+      "reachability": 1.0,
+      "rank_score": 0.32872196041827145,
+      "f_sem": -0.012162987142801285,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "time.time_zone.day_dst_begins"
+      ],
+      "planner_conf": 0.3423879614442882,
+      "source": "fallback",
+      "rel_ids": [
+        511
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.20149770975112918,
+      "reachability": 0.0,
+      "rank_score": 0.20149770975112918,
+      "f_sem": 0.5049923658370972,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"timezone\", \"location\"],\n\"confidence\": 0.43,\n\"reason\": \"time.event.locations\"\n},\n{\n\"rels\": [\"location\", \"statistical_region\"],\n\"confidence\": 0.39,\n\"reason\": \"location.statistical_region.co2_emissions_total\"\n},\n{\n\"rels\": [\"location\", \"administrative_division\"],\n\"confidence\": 0.37,\n\"",
+  "version": 2
+}

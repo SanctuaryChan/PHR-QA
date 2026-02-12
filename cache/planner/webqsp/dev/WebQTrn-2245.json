@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2245",
+  "question": "who invented facebook wikipedia",
+  "paths": [
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.4004087053565309,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08482038828149338,
+      "reachability": 3.0,
+      "rank_score": 1.1151796117185067,
+      "f_sem": 0.0014596619876101613,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.37940842478484904,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05201493634994092,
+      "reachability": 1.0,
+      "rank_score": 0.3479850636500591,
+      "f_sem": 0.052047356963157654,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "organization.organization_relationship.parent"
+      ],
+      "planner_conf": 0.3663997838195864,
+      "source": "fallback",
+      "rel_ids": [
+        175
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11525565534830094,
+      "reachability": 0.0,
+      "rank_score": 0.11525565534830094,
+      "f_sem": 0.2175188511610031,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.person.employment_history"
+      ],
+      "planner_conf": 0.3728729614189693,
+      "source": "fallback",
+      "rel_ids": [
+        301
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11277205049991608,
+      "reachability": 0.0,
+      "rank_score": 0.11277205049991608,
+      "f_sem": 0.2092401683330536,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.41805177763923185,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10937258750200272,
+      "reachability": 0.0,
+      "rank_score": 0.10937258750200272,
+      "f_sem": 0.19790862500667572,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.440,\n\"reason\": \"medicine.drug_manufacturer.drugs_manufactured\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.418,\n\"reason\": \"people.person.profession\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.409,",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-164",
+  "question": "where was kennedy when he got shot",
+  "paths": [
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.26528123145627847,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.12300985277643789,
+      "reachability": 10.0,
+      "rank_score": 3.8769901472235624,
+      "f_sem": -0.040076788514852524,
+      "f_cov": 0.0,
+      "f_reach": 10.0,
+      "f_branch": 0.6098681622198213,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.27921301725783637,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08328410104696689,
+      "reachability": 1.0,
+      "rank_score": 0.4832841010469669,
+      "f_sem": 0.16971081495285034,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.deceased_person.place_of_death"
+      ],
+      "planner_conf": 0.21373465083987336,
+      "source": "fallback",
+      "rel_ids": [
+        250
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08081020728533204,
+      "reachability": 1.0,
+      "rank_score": 0.480810207285332,
+      "f_sem": 0.32813116908073425,
+      "f_cov": 0.5,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.21955920650985072,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.003912629343914363,
+      "reachability": 1.0,
+      "rank_score": 0.4039126293439144,
+      "f_sem": 0.0718059092760086,
+      "f_cov": 0.5,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_for"
+      ],
+      "planner_conf": 0.20539613523199912,
+      "source": "fallback",
+      "rel_ids": [
+        17
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05482180885191026,
+      "reachability": 1.0,
+      "rank_score": 0.3451781911480898,
+      "f_sem": 0.04269111528992653,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.73,\n\"reason\": \"The question is about the location of John F. Kennedy's assassination, and the top-scoring relations are 'location.location.time_zones' and 'location.location.people_born_here', which both have a confidence score of 0.73.\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.67,\n\"reason",
+  "version": 2
+}

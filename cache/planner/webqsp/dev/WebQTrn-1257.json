@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1257",
+  "question": "what did king george vi die of",
+  "paths": [
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.4042830925434828,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06304011571372808,
+      "reachability": 1.0,
+      "rank_score": 0.33695988428627194,
+      "f_sem": 0.015296759083867073,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "medicine.disease.symptoms"
+      ],
+      "planner_conf": 0.26873004948651347,
+      "source": "fallback",
+      "rel_ids": [
+        636
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.031575846672058094,
+      "reachability": 0.0,
+      "rank_score": 0.031575846672058094,
+      "f_sem": 0.27191948890686035,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "medicine.risk_factor.diseases"
+      ],
+      "planner_conf": 0.27243326796425715,
+      "source": "fallback",
+      "rel_ids": [
+        629
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.003797549009323116,
+      "reachability": 0.0,
+      "rank_score": 0.003797549009323116,
+      "f_sem": 0.1793251633644104,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "tv.tv_actor.guest_roles"
+      ],
+      "planner_conf": 0.3021458524796698,
+      "source": "fallback",
+      "rel_ids": [
+        76
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.02151039615273476,
+      "reachability": 0.0,
+      "rank_score": -0.02151039615273476,
+      "f_sem": 0.09496534615755081,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "tv.tv_guest_role.actor"
+      ],
+      "planner_conf": 0.3011787951323721,
+      "source": "fallback",
+      "rel_ids": [
+        22
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.022546529024839404,
+      "reachability": 0.0,
+      "rank_score": -0.022546529024839404,
+      "f_sem": 0.091511569917202,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

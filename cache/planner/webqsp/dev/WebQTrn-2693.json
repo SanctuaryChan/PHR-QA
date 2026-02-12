@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2693",
+  "question": "what state was ronald reagan governor of",
+  "paths": [
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.2745696661638659,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07426858858053621,
+      "reachability": 1.0,
+      "rank_score": 0.4742685885805363,
+      "f_sem": 0.1396591067314148,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.deceased_person.place_of_death"
+      ],
+      "planner_conf": 0.24493748176236485,
+      "source": "fallback",
+      "rel_ids": [
+        250
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.050119487353014344,
+      "reachability": 1.0,
+      "rank_score": 0.4501194873530144,
+      "f_sem": 0.05916210263967514,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.2906785653496898,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.04480885431950031,
+      "reachability": 1.0,
+      "rank_score": 0.4448088543195004,
+      "f_sem": 0.04145999252796173,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.38610335037112237,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08251841089839997,
+      "reachability": 1.0,
+      "rank_score": 0.31748158910160007,
+      "f_sem": -0.049630891531705856,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "base.politicalconventions.political_convention.host_city"
+      ],
+      "planner_conf": 0.2633959022233653,
+      "source": "fallback",
+      "rel_ids": [
+        1752
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11593082547187804,
+      "reachability": 0.0,
+      "rank_score": 0.11593082547187804,
+      "f_sem": 0.2197694182395935,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1897",
+  "question": "what club team does ronaldinho play for",
+  "paths": [
+    {
+      "rels": [
+        "soccer.football_player_stats.team"
+      ],
+      "planner_conf": 0.38834744992771664,
+      "source": "fallback",
+      "rel_ids": [
+        540
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.17396300137042997,
+      "reachability": 0.0,
+      "rank_score": 0.17396300137042997,
+      "f_sem": 0.4132100045681,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "soccer.football_team.player_statistics"
+      ],
+      "planner_conf": 0.3611156194403365,
+      "source": "fallback",
+      "rel_ids": [
+        574
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.16216055750846864,
+      "reachability": 0.0,
+      "rank_score": 0.16216055750846864,
+      "f_sem": 0.37386852502822876,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "sports.sports_team_roster.team"
+      ],
+      "planner_conf": 0.3789159676190969,
+      "source": "fallback",
+      "rel_ids": [
+        603
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.13513197302818297,
+      "reachability": 0.0,
+      "rank_score": 0.13513197302818297,
+      "f_sem": 0.2837732434272766,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "sports.sports_team_roster.player"
+      ],
+      "planner_conf": 0.3991758703541112,
+      "source": "fallback",
+      "rel_ids": [
+        545
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.13280426263809203,
+      "reachability": 0.0,
+      "rank_score": 0.13280426263809203,
+      "f_sem": 0.27601420879364014,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "sports.sports_team.location"
+      ],
+      "planner_conf": 0.33617087460852957,
+      "source": "fallback",
+      "rel_ids": [
+        484
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12987419962882996,
+      "reachability": 0.0,
+      "rank_score": 0.12987419962882996,
+      "f_sem": 0.26624733209609985,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.414,\n\"reason\": \"location.place_with_neighborhoods.neighborhoods\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.389,\n\"reason\": \"sports.sports_team_roster.position\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2828",
+  "question": "where does sally pearson live",
+  "paths": [
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.3206727717277852,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12062967733328282,
+      "reachability": 1.0,
+      "rank_score": 0.5206296773332828,
+      "f_sem": 0.29419606924057007,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.place_lived.location"
+      ],
+      "planner_conf": 0.3042756157225751,
+      "source": "fallback",
+      "rel_ids": [
+        154
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.15716460347175598,
+      "reachability": 0.0,
+      "rank_score": 0.15716460347175598,
+      "f_sem": 0.35721534490585327,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.location.people_born_here"
+      ],
+      "planner_conf": 0.6275758364099138,
+      "source": "fallback",
+      "rel_ids": [
+        238
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.15249386727809905,
+      "reachability": 0.0,
+      "rank_score": 0.15249386727809905,
+      "f_sem": 0.3416462242603302,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.3818102409991812,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.13537419438362125,
+      "reachability": 0.0,
+      "rank_score": 0.13537419438362125,
+      "f_sem": 0.28458064794540405,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "base.biblioness.bibs_location.country"
+      ],
+      "planner_conf": 0.28883200166073253,
+      "source": "fallback",
+      "rel_ids": [
+        206
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11326225101947783,
+      "reachability": 0.0,
+      "rank_score": 0.11326225101947783,
+      "f_sem": 0.21087417006492615,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"base.ontologies.ontology_instance_mapping.freebase_topic\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"base.aareas.schema.administrative_area_type.sovereignty\"],\n\"confidence\": 0.0,\n\"reason\": \"\"",
+  "version": 2
+}

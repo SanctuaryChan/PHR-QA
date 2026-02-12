@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1271",
+  "question": "what type of music is tchaikovsky",
+  "paths": [
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.41355346515774727,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11711254993580741,
+      "reachability": 6.0,
+      "rank_score": 2.282887450064193,
+      "f_sem": -0.0587376244366169,
+      "f_cov": 0.0,
+      "f_reach": 6.0,
+      "f_branch": 0.49491262604822334,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "music.artist.genre"
+      ],
+      "planner_conf": 0.2198560197156954,
+      "source": "fallback",
+      "rel_ids": [
+        10
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.01546656152226114,
+      "reachability": 4.0,
+      "rank_score": 1.6154665615222612,
+      "f_sem": 0.35466721653938293,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.2982792024863394,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.01872097536141934,
+      "reachability": 1.0,
+      "rank_score": 0.3812790246385807,
+      "f_sem": 0.16302722692489624,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "music.composition.composer"
+      ],
+      "planner_conf": 0.19585847584824811,
+      "source": "fallback",
+      "rel_ids": [
+        55
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07187844216823577,
+      "reachability": 0.0,
+      "rank_score": 0.07187844216823577,
+      "f_sem": 0.40626147389411926,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "music.composition.part_of"
+      ],
+      "planner_conf": 0.1691732239068509,
+      "source": "fallback",
+      "rel_ids": [
+        3267
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06500988602638244,
+      "reachability": 0.0,
+      "rank_score": 0.06500988602638244,
+      "f_sem": 0.38336628675460815,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

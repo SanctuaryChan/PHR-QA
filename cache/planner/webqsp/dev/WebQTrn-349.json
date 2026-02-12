@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-349",
+  "question": "what kind of government did benito mussolini have",
+  "paths": [
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.2871937901564574,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09599625347500645,
+      "reachability": 8.0,
+      "rank_score": 3.104003746524994,
+      "f_sem": 0.03295603021979332,
+      "f_cov": 0.0,
+      "f_reach": 8.0,
+      "f_branch": 0.5588306254094444,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "government.politician.party"
+      ],
+      "planner_conf": 0.15367549863912291,
+      "source": "fallback",
+      "rel_ids": [
+        533
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.02200904519924994,
+      "reachability": 3.0,
+      "rank_score": 1.22200904519925,
+      "f_sem": 0.3575577735900879,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.person.gender"
+      ],
+      "planner_conf": 0.15713957939275913,
+      "source": "fallback",
+      "rel_ids": [
+        16
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.049386373750520365,
+      "reachability": 1.0,
+      "rank_score": 0.35061362624947967,
+      "f_sem": 0.06080923229455948,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.40520104840397836,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06205659157748284,
+      "reachability": 1.0,
+      "rank_score": 0.3379434084225172,
+      "f_sem": 0.018575172871351242,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_for"
+      ],
+      "planner_conf": 0.17179118508925545,
+      "source": "fallback",
+      "rel_ids": [
+        17
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08453568241710724,
+      "reachability": 1.0,
+      "rank_score": 0.3154643175828928,
+      "f_sem": -0.056355129927396774,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.405,\n\"reason\": \"Common.topic.notable_types\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.287,\n\"reason\": \"Freebase.valuenotation.is_reviewed\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.197,\n\"reason",
+  "version": 2
+}

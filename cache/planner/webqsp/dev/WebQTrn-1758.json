@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1758",
+  "question": "what is the present form of government in iran",
+  "paths": [
+    {
+      "rels": [
+        "location.statistical_region.gdp_real"
+      ],
+      "planner_conf": 0.1629711696059685,
+      "source": "fallback",
+      "rel_ids": [
+        1159
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.1339932069182396,
+      "reachability": 94.0,
+      "rank_score": 37.46600679308176,
+      "f_sem": 0.053355976939201355,
+      "f_cov": 0.0,
+      "f_reach": 94.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "organization.organization_scope.organizations_with_this_scope"
+      ],
+      "planner_conf": 0.16567328961346095,
+      "source": "fallback",
+      "rel_ids": [
+        451
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.10578874200582505,
+      "reachability": 79.0,
+      "rank_score": 31.494211257994174,
+      "f_sem": 0.1473708599805832,
+      "f_cov": 0.0,
+      "f_reach": 79.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.country.form_of_government"
+      ],
+      "planner_conf": 0.21538164064827864,
+      "source": "fallback",
+      "rel_ids": [
+        491
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.047928777166326195,
+      "reachability": 5.0,
+      "rank_score": 2.047928777166326,
+      "f_sem": 0.4783315062522888,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.4056982445716858,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0615238813977963,
+      "reachability": 1.0,
+      "rank_score": 0.3384761186022037,
+      "f_sem": 0.020350873470306396,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "government.form_of_government.countries"
+      ],
+      "planner_conf": 0.26369782183114,
+      "source": "fallback",
+      "rel_ids": [
+        517
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1259810745716095,
+      "reachability": 0.0,
+      "rank_score": 0.1259810745716095,
+      "f_sem": 0.586603581905365,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n}",
+  "version": 2
+}

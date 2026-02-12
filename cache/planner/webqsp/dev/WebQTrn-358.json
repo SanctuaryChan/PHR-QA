@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-358",
+  "question": "what movies has taylor lautner been in 2011",
+  "paths": [
+    {
+      "rels": [
+        "award.award_nominee.award_nominations"
+      ],
+      "planner_conf": 0.28388755165120605,
+      "source": "fallback",
+      "rel_ids": [
+        199
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0995596819150526,
+      "reachability": 42.0,
+      "rank_score": 16.700440318084947,
+      "f_sem": 0.1536690592765808,
+      "f_cov": 0.0,
+      "f_reach": 42.0,
+      "f_branch": 0.9566039969802683,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "award.award_winner.awards_won"
+      ],
+      "planner_conf": 0.1586717324455579,
+      "source": "fallback",
+      "rel_ids": [
+        6
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.10146767489777259,
+      "reachability": 21.0,
+      "rank_score": 8.298532325102226,
+      "f_sem": 0.09049428254365921,
+      "f_cov": 0.0,
+      "f_reach": 21.0,
+      "f_branch": 0.7861595966087034,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.2746051330075309,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09628176492018564,
+      "reachability": 5.0,
+      "rank_score": 1.9037182350798143,
+      "f_sem": -0.002370300702750683,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "award.award_nomination.award_nominee"
+      ],
+      "planner_conf": 0.302838354123536,
+      "source": "fallback",
+      "rel_ids": [
+        69
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0025802642107009832,
+      "reachability": 0.0,
+      "rank_score": 0.0025802642107009832,
+      "f_sem": 0.1752675473690033,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "award.award_nomination.nominated_for"
+      ],
+      "planner_conf": 0.18692074662254704,
+      "source": "fallback",
+      "rel_ids": [
+        18
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0018015041947364863,
+      "reachability": 0.0,
+      "rank_score": -0.0018015041947364863,
+      "f_sem": 0.16066165268421173,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"medicine.risk_factor.diseases\", \"award.award_nomination.award_nominations\", \"film.actor.film\", \"people.ethnicity.languages_spoken\"],\n\"confidence\": 0.398,\n\"reason\": \"Taylor Lautner has been in several movies and TV shows, including 'Twilight' and 'Grown Ups'.\"\n},\n{\n\"rels\": [\"award.award_nom",
+  "version": 2
+}

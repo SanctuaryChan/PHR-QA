@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-846",
+  "question": "where was avril lavigne born",
+  "paths": [
+    {
+      "rels": [
+        "broadcast.artist.content"
+      ],
+      "planner_conf": 0.43660188078880313,
+      "source": "fallback",
+      "rel_ids": [
+        3
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09892941634929489,
+      "reachability": 31.0,
+      "rank_score": 12.301070583650704,
+      "f_sem": 0.13072100281715393,
+      "f_cov": 0.0,
+      "f_reach": 31.0,
+      "f_branch": 0.8814571719444105,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "music.artist.genre"
+      ],
+      "planner_conf": 0.31541703419251876,
+      "source": "fallback",
+      "rel_ids": [
+        10
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.03664676868515889,
+      "reachability": 9.0,
+      "rank_score": 3.5633532313148413,
+      "f_sem": 0.2397199273109436,
+      "f_cov": 0.0,
+      "f_reach": 9.0,
+      "f_branch": 0.5856274687844196,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.2722277711196379,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09367079006818993,
+      "reachability": 5.0,
+      "rank_score": 1.9063292099318099,
+      "f_sem": 0.006332948803901672,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.35964653622020376,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.18187039212171968,
+      "reachability": 1.0,
+      "rank_score": 0.5818703921217196,
+      "f_sem": 0.49833178520202637,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.3884122095985169,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06604300977813961,
+      "reachability": 1.0,
+      "rank_score": 0.33395699022186043,
+      "f_sem": 0.0052871122024953365,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"broadcast.artist.content\", \"music.recording.releases\", \"common.topic.notable_types\", \"location.location.people_born_here\"],\n\"confidence\": 0.437,\n\"reason\": \"Avril Lavigne was born in Ontario, Canada.\"\n},\n{\n\"rels\": [\"music.artist.genre\", \"music.recording.artist\", \"people.person.place_of_birth\"],\n\"confidence\":",
+  "version": 2
+}

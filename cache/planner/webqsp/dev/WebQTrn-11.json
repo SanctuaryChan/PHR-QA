@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-11",
+  "question": "what time zone am i in cleveland ohio",
+  "paths": [
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.41596692711114885,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07382618153475143,
+      "reachability": 4.0,
+      "rank_score": 1.5261738184652487,
+      "f_sem": 0.05702473968267441,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.time_zones"
+      ],
+      "planner_conf": 0.4913096704568949,
+      "source": "fallback",
+      "rel_ids": [
+        180
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.17904434517805512,
+      "reachability": 1.0,
+      "rank_score": 0.5790443451780551,
+      "f_sem": 0.48891162872314453,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.31123564513349855,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06138245801593127,
+      "reachability": 1.0,
+      "rank_score": 0.33861754198406874,
+      "f_sem": 0.02082228474318981,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "time.time_zone.day_dst_begins"
+      ],
+      "planner_conf": 0.3780079780226355,
+      "source": "fallback",
+      "rel_ids": [
+        511
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.18832901120185852,
+      "reachability": 0.0,
+      "rank_score": 0.18832901120185852,
+      "f_sem": 0.46109670400619507,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "time.time_zone.day_dst_ends"
+      ],
+      "planner_conf": 0.3627458212977057,
+      "source": "fallback",
+      "rel_ids": [
+        518
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.171976700425148,
+      "reachability": 0.0,
+      "rank_score": 0.171976700425148,
+      "f_sem": 0.40658900141716003,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.491,\n\"reason\": \"location.location.time_zones\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.416,\n\"reason\": \"location.location.containedby\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.399,\n\"reason\": \"time.event.",
+  "version": 2
+}

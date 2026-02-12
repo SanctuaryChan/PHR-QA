@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-497",
+  "question": "in what country is amsterdam",
+  "paths": [
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.6363359117507934,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05367304714093085,
+      "reachability": 3.0,
+      "rank_score": 1.253673047140931,
+      "f_sem": 0.12977111339569092,
+      "f_cov": 1.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.time_zones"
+      ],
+      "planner_conf": 0.3950126412171352,
+      "source": "fallback",
+      "rel_ids": [
+        180
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08669678685096104,
+      "reachability": 2.0,
+      "rank_score": 0.8866967868509611,
+      "f_sem": 0.21546106040477753,
+      "f_cov": 1.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.administrative_division.country"
+      ],
+      "planner_conf": 0.334005228567727,
+      "source": "fallback",
+      "rel_ids": [
+        25
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12427519277517733,
+      "reachability": 1.0,
+      "rank_score": 0.5242751927751773,
+      "f_sem": 0.3063477873802185,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.nl_province.capital"
+      ],
+      "planner_conf": 0.35298558989657636,
+      "source": "fallback",
+      "rel_ids": [
+        2046
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.2052332043647766,
+      "reachability": 0.0,
+      "rank_score": 0.2052332043647766,
+      "f_sem": 0.5174440145492554,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.country.capital"
+      ],
+      "planner_conf": 0.3511043368261072,
+      "source": "fallback",
+      "rel_ids": [
+        384
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.17649967372417452,
+      "reachability": 0.0,
+      "rank_score": 0.17649967372417452,
+      "f_sem": 0.42166557908058167,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"location.location.containedby\", \"location.country.capital\"],\n\"confidence\": 0.736,\n\"reason\": \"Amsterdam is located in the Netherlands, which is a country.\"\n},\n{\n\"rels\": [\"location.location.time_zones\", \"location.country.official_language\"],\n\"confidence\": 0.675,\n\"reason\": \"Amsterdam is located in the Netherlands, which has multiple time zones and an official language of Dutch.\"",
+  "version": 2
+}

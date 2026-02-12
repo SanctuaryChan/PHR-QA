@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2388",
+  "question": "what films have taylor lautner starred in",
+  "paths": [
+    {
+      "rels": [
+        "award.award_nominee.award_nominations"
+      ],
+      "planner_conf": 0.28048314295789245,
+      "source": "fallback",
+      "rel_ids": [
+        199
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.1032072626578886,
+      "reachability": 42.0,
+      "rank_score": 16.69679273734211,
+      "f_sem": 0.14151045680046082,
+      "f_cov": 0.0,
+      "f_reach": 42.0,
+      "f_branch": 0.9566039969802683,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.2733900837369905,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09758360342433615,
+      "reachability": 5.0,
+      "rank_score": 1.9024163965756637,
+      "f_sem": -0.006709762383252382,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "film.film.starring"
+      ],
+      "planner_conf": 0.18565035282924613,
+      "source": "fallback",
+      "rel_ids": [
+        133
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07057007849216461,
+      "reachability": 0.0,
+      "rank_score": 0.07057007849216461,
+      "f_sem": 0.4019002616405487,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "film.film_character.portrayed_in_films"
+      ],
+      "planner_conf": 0.1848768728420299,
+      "source": "fallback",
+      "rel_ids": [
+        302
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.02292107343673705,
+      "reachability": 0.0,
+      "rank_score": 0.02292107343673705,
+      "f_sem": 0.24307024478912354,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "film.film_job.films_with_this_crew_job"
+      ],
+      "planner_conf": 0.18455436663601987,
+      "source": "fallback",
+      "rel_ids": [
+        357
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.020317466557025904,
+      "reachability": 0.0,
+      "rank_score": 0.020317466557025904,
+      "f_sem": 0.23439155519008636,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.392,\n\"reason\": \"medicine.risk_factor.diseases\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.298,\n\"reason\": \"award.award_nomination.award_nominee\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.2",
+  "version": 2
+}

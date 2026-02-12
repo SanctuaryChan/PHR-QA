@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2056",
+  "question": "what was the name of martin luther king jr parents",
+  "paths": [
+    {
+      "rels": [
+        "influence.influence_node.influenced_by"
+      ],
+      "planner_conf": 0.18182621128919746,
+      "source": "fallback",
+      "rel_ids": [
+        56
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08248661069858611,
+      "reachability": 12.0,
+      "rank_score": 4.717513389301415,
+      "f_sem": 0.10916323959827423,
+      "f_cov": 0.0,
+      "f_reach": 12.0,
+      "f_branch": 0.6523558257806837,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.4212992087006569,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08816623547127833,
+      "reachability": 10.0,
+      "rank_score": 3.911833764528722,
+      "f_sem": 0.07606860250234604,
+      "f_cov": 0.0,
+      "f_reach": 10.0,
+      "f_branch": 0.6098681622198213,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "base.activism.activist.area_of_activism"
+      ],
+      "planner_conf": 0.14243203429664886,
+      "source": "fallback",
+      "rel_ids": [
+        1464
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06783269969270414,
+      "reachability": 7.0,
+      "rank_score": 2.7321673003072964,
+      "f_sem": 0.11684910207986832,
+      "f_cov": 0.0,
+      "f_reach": 7.0,
+      "f_branch": 0.5288743031666463,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.32829871565353974,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07457337098323269,
+      "reachability": 6.0,
+      "rank_score": 2.3254266290167678,
+      "f_sem": 0.0830596387386322,
+      "f_cov": 0.0,
+      "f_reach": 6.0,
+      "f_branch": 0.49491262604822334,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "influence.influence_node.influenced"
+      ],
+      "planner_conf": 0.15960757962545427,
+      "source": "fallback",
+      "rel_ids": [
+        125
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06771981658725007,
+      "reachability": 5.0,
+      "rank_score": 1.9322801834127497,
+      "f_sem": 0.09283619374036789,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"freebase.valuenotation.is_reviewed\", \"common.topic.notable_types\", \"people.person.profession\"],\n\"confidence\": 0.421,\n\"reason\": \"Martin Luther King Jr.'s parents\"\n},\n{\n\"rels\": [\"base.activism.activism_issue.includes_issues\", \"base.activism.activism_issue.activist_organizations\"],\n\"confidence\": 0.328,\n\"reason",
+  "version": 2
+}

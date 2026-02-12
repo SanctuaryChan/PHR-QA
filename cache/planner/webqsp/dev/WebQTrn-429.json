@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-429",
+  "question": "where is abraham lincoln hometown",
+  "paths": [
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.3157703111159742,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.13379741028730807,
+      "reachability": 1.0,
+      "rank_score": 0.533797410287308,
+      "f_sem": 0.3380885124206543,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.3056001405245695,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06152247876708446,
+      "reachability": 1.0,
+      "rank_score": 0.46152247876708447,
+      "f_sem": 0.0971720740199089,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.4120090793073178,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05476227275247636,
+      "reachability": 1.0,
+      "rank_score": 0.34523772724752366,
+      "f_sem": 0.04288956895470619,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.place_lived.location"
+      ],
+      "planner_conf": 0.3055175488558247,
+      "source": "fallback",
+      "rel_ids": [
+        154
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1544400155544281,
+      "reachability": 0.0,
+      "rank_score": 0.1544400155544281,
+      "f_sem": 0.348133385181427,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.location.people_born_here"
+      ],
+      "planner_conf": 0.3030921876310703,
+      "source": "fallback",
+      "rel_ids": [
+        238
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.14861097633838655,
+      "reachability": 0.0,
+      "rank_score": 0.14861097633838655,
+      "f_sem": 0.32870325446128845,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"location.location.time_zones\", \"location.location.people_born_here\", \"location.location.geolocation\", \"location.location.neighborhoods\", \"location.location.hud_foreclosure_area\", \"location.location.postal_code\", \"location.location.administrative_division\", \"location.location.country\", \"location.location.containedby\"],\n\"confidence\": 0.458,\n\"reason\": \"location.location.time",
+  "version": 2
+}

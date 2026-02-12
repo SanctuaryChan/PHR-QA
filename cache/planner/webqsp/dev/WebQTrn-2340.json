@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2340",
+  "question": "what was eli whitney job",
+  "paths": [
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.1658332854509354,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05066490902717175,
+      "reachability": 1.0,
+      "rank_score": 0.3493350909728283,
+      "f_sem": 0.05654744803905487,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.profession.specializations"
+      ],
+      "planner_conf": 0.41035260462760925,
+      "source": "fallback",
+      "rel_ids": [
+        101
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.03247600495815277,
+      "reachability": 0.0,
+      "rank_score": 0.03247600495815277,
+      "f_sem": 0.2749200165271759,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "fictional_universe.character_occupation.characters_with_this_occupation"
+      ],
+      "planner_conf": 0.27730336964130403,
+      "source": "fallback",
+      "rel_ids": [
+        45
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.022780396044254303,
+      "reachability": 0.0,
+      "rank_score": 0.022780396044254303,
+      "f_sem": 0.24260132014751434,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.subject_of"
+      ],
+      "planner_conf": 0.2170050187408924,
+      "source": "fallback",
+      "rel_ids": [
+        26
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.03512855134904385,
+      "reachability": 0.0,
+      "rank_score": -0.03512855134904385,
+      "f_sem": 0.04957149550318718,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "base.descriptive_names.names.descriptive_name"
+      ],
+      "planner_conf": 0.4131995750963688,
+      "source": "fallback",
+      "rel_ids": [
+        59
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.035857598111033444,
+      "reachability": 0.0,
+      "rank_score": -0.035857598111033444,
+      "f_sem": 0.047141339629888535,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.413,\n\"reason\": \"Descriptive names are a common relation in the dataset.\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.410,\n\"reason\": \"People and profession are related.\"\n},\n{\n\"rels\": [\"r2\"],\n\"confidence\": 0.336,\n\"reason\": \"Location is related to other locations",
+  "version": 2
+}

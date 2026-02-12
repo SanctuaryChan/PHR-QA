@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1754",
+  "question": "what influenced andy warhol 's work",
+  "paths": [
+    {
+      "rels": [
+        "influence.influence_node.influenced"
+      ],
+      "planner_conf": 0.23657888279224099,
+      "source": "fallback",
+      "rel_ids": [
+        125
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.03372418292177658,
+      "reachability": 19.0,
+      "rank_score": 7.566275817078225,
+      "f_sem": 0.30822569131851196,
+      "f_cov": 0.0,
+      "f_reach": 19.0,
+      "f_branch": 0.7619189031733016,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.34091642248003107,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11275506616848929,
+      "reachability": 13.0,
+      "rank_score": 5.087244933831511,
+      "f_sem": 0.014551132917404175,
+      "f_cov": 0.0,
+      "f_reach": 13.0,
+      "f_branch": 0.6712040604371055,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "influence.influence_node.influenced_by"
+      ],
+      "planner_conf": 0.23711602161701462,
+      "source": "fallback",
+      "rel_ids": [
+        56
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.023405799283616996,
+      "reachability": 11.0,
+      "rank_score": 4.376594200716384,
+      "f_sem": 0.29931339621543884,
+      "f_cov": 0.0,
+      "f_reach": 11.0,
+      "f_branch": 0.6319981814824864,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.3810149713672866,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.10389448301390594,
+      "reachability": 7.0,
+      "rank_score": 2.6961055169860946,
+      "f_sem": -0.0033568423241376877,
+      "f_cov": 0.0,
+      "f_reach": 7.0,
+      "f_branch": 0.5288743031666463,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_for"
+      ],
+      "planner_conf": 0.2565306013060692,
+      "source": "fallback",
+      "rel_ids": [
+        17
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.01189415439183774,
+      "reachability": 1.0,
+      "rank_score": 0.3881058456081623,
+      "f_sem": 0.1857832968235016,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

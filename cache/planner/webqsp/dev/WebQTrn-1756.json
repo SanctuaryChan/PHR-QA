@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1756",
+  "question": "who is angelina jolie husband name",
+  "paths": [
+    {
+      "rels": [
+        "film.actor.film"
+      ],
+      "planner_conf": 0.3214754574527644,
+      "source": "fallback",
+      "rel_ids": [
+        284
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.01954621523618698,
+      "reachability": 51.0,
+      "rank_score": 20.41954621523619,
+      "f_sem": 0.2318207174539566,
+      "f_cov": 1.0,
+      "f_reach": 51.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.44562301695346834,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.10377762701969392,
+      "reachability": 15.0,
+      "rank_score": 5.896222372980306,
+      "f_sem": 0.055796489119529724,
+      "f_cov": 0.0,
+      "f_reach": 15.0,
+      "f_branch": 0.7051657375555284,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.43951405850323766,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.046193688452784196,
+      "reachability": 8.0,
+      "rank_score": 3.2461936884527844,
+      "f_sem": 0.17358916997909546,
+      "f_cov": 1.0,
+      "f_reach": 8.0,
+      "f_branch": 0.5588306254094444,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.person.spouse_s"
+      ],
+      "planner_conf": 0.3487191428198959,
+      "source": "fallback",
+      "rel_ids": [
+        46
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12610892636390464,
+      "reachability": 5.0,
+      "rank_score": 2.1261089263639046,
+      "f_sem": 0.4055986702442169,
+      "f_cov": 1.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.3360889047504676,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06098415435919638,
+      "reachability": 3.0,
+      "rank_score": 1.2609841543591964,
+      "f_sem": 0.15414147078990936,
+      "f_cov": 1.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.74,\n\"reason\": \"Angelina Jolie's husband name is Brad Pitt\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.26,\n\"reason\": \"Angelina Jolie's husband name is Jonny Lee Miller\"\n}\n]\n}",
+  "version": 2
+}

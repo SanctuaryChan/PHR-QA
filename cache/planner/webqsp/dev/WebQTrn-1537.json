@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1537",
+  "question": "what other languages does switzerland speak",
+  "paths": [
+    {
+      "rels": [
+        "location.location.partially_contains"
+      ],
+      "planner_conf": 0.23799592661586677,
+      "source": "fallback",
+      "rel_ids": [
+        588
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.14045890979468822,
+      "reachability": 51.0,
+      "rank_score": 20.25954109020531,
+      "f_sem": 0.03180363401770592,
+      "f_cov": 0.0,
+      "f_reach": 51.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.events"
+      ],
+      "planner_conf": 0.1971644930192975,
+      "source": "fallback",
+      "rel_ids": [
+        479
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.1342652344076239,
+      "reachability": 26.0,
+      "rank_score": 10.265734765592377,
+      "f_sem": -0.0014688019873574376,
+      "f_cov": 0.0,
+      "f_reach": 26.0,
+      "f_branch": 0.8382459381141666,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "olympics.olympic_participating_country.olympics_participated_in"
+      ],
+      "planner_conf": 0.3069847018429728,
+      "source": "fallback",
+      "rel_ids": [
+        503
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05739931100061525,
+      "reachability": 10.0,
+      "rank_score": 3.942600688999385,
+      "f_sem": 0.17862501740455627,
+      "f_cov": 0.0,
+      "f_reach": 10.0,
+      "f_branch": 0.6098681622198213,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.country.languages_spoken"
+      ],
+      "planner_conf": 0.18816248937086627,
+      "source": "fallback",
+      "rel_ids": [
+        184
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.051253479327932824,
+      "reachability": 4.0,
+      "rank_score": 1.6512534793279328,
+      "f_sem": 0.4739569425582886,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.3840298442836061,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09895357547335243,
+      "reachability": 4.0,
+      "rank_score": 1.5010464245266475,
+      "f_sem": -0.026733240112662315,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"olympics.olympic_participating_country.olympics_participated_in\"],\n\"confidence\": 0.384,\n\"reason\": \"Location.location.containedby\"\n},\n{\n\"rels\": [\"location.location.partially_contains\"],\n\"confidence\": 0.238",
+  "version": 2
+}

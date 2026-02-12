@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-889",
+  "question": "who play luke skywalker",
+  "paths": [
+    {
+      "rels": [
+        "common.topic.webpage"
+      ],
+      "planner_conf": 0.3898436385393143,
+      "source": "fallback",
+      "rel_ids": [
+        75
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09614010272851113,
+      "reachability": 3.0,
+      "rank_score": 1.103859897271489,
+      "f_sem": -0.036272719502449036,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "tv.tv_actor.starring_roles"
+      ],
+      "planner_conf": 0.34022350346340857,
+      "source": "fallback",
+      "rel_ids": [
+        117
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.19393694698810576,
+      "reachability": 0.0,
+      "rank_score": 0.19393694698810576,
+      "f_sem": 0.4797898232936859,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "film.actor.film"
+      ],
+      "planner_conf": 0.39467747358714833,
+      "source": "fallback",
+      "rel_ids": [
+        284
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.18925527632236483,
+      "reachability": 0.0,
+      "rank_score": 0.18925527632236483,
+      "f_sem": 0.4641842544078827,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "tv.tv_actor.guest_roles"
+      ],
+      "planner_conf": 0.34721392652567695,
+      "source": "fallback",
+      "rel_ids": [
+        76
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1825191229581833,
+      "reachability": 0.0,
+      "rank_score": 0.1825191229581833,
+      "f_sem": 0.44173040986061096,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "tv.tv_guest_role.actor"
+      ],
+      "planner_conf": 0.34705623766955207,
+      "source": "fallback",
+      "rel_ids": [
+        22
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.18235017061233522,
+      "reachability": 0.0,
+      "rank_score": 0.18235017061233522,
+      "f_sem": 0.4411672353744507,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"film.person_or_entity_appearing_in_film.films\", \"film.actor.film\"],\n\"confidence\": 0.414,\n\"reason\": \"Film appearance is a common relation for actors.\"\n},\n{\n\"rels\": [\"film.personal_film_appearance.person\", \"film.actor.film\"],\n\"confidence\": 0.401,\n\"reason\": \"Personal film appearance is a common relation for actors.\"\n},",
+  "version": 2
+}

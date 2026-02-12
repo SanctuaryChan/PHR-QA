@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1962",
+  "question": "who played carl fredricksen in up",
+  "paths": [
+    {
+      "rels": [
+        "media_common.netflix_title.netflix_genres"
+      ],
+      "planner_conf": 0.364441106000117,
+      "source": "fallback",
+      "rel_ids": [
+        63
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11423891638246376,
+      "reachability": 16.0,
+      "rank_score": 6.285761083617537,
+      "f_sem": 0.026065174490213394,
+      "f_cov": 0.0,
+      "f_reach": 16.0,
+      "f_branch": 0.7205846872952778,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "film.film.genre"
+      ],
+      "planner_conf": 0.30338641167461095,
+      "source": "fallback",
+      "rel_ids": [
+        150
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08673594099924749,
+      "reachability": 7.0,
+      "rank_score": 2.713264059000753,
+      "f_sem": 0.053838297724723816,
+      "f_cov": 0.0,
+      "f_reach": 7.0,
+      "f_branch": 0.5288743031666463,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.34688769980684503,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07119957326283578,
+      "reachability": 3.0,
+      "rank_score": 1.1288004267371643,
+      "f_sem": 0.04686237871646881,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "film.performance.actor"
+      ],
+      "planner_conf": 0.3577739238893831,
+      "source": "fallback",
+      "rel_ids": [
+        213
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1369470149278641,
+      "reachability": 0.0,
+      "rank_score": 0.1369470149278641,
+      "f_sem": 0.28982338309288025,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "film.actor.film"
+      ],
+      "planner_conf": 0.3437769888670414,
+      "source": "fallback",
+      "rel_ids": [
+        284
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12334176450967789,
+      "reachability": 0.0,
+      "rank_score": 0.12334176450967789,
+      "f_sem": 0.24447254836559296,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"people.person.profession\", \"film.personal_film_appearance.person\", \"film.actor.film\", \"film.film.genre\", \"film.film.country\", \"cvg.game_voice_actor.computer_game_voice_performances\"],\n\"confidence\": 0.442,\n\"reason\": \"Highest score for a single relation\"\n},\n{\n\"rels\": [\"people.person.place_of_birth\", \"people.person.",
+  "version": 2
+}

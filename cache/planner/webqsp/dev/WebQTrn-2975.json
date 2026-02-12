@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2975",
+  "question": "what movies does johnny depp play in",
+  "paths": [
+    {
+      "rels": [
+        "award.award_nominee.award_nominations"
+      ],
+      "planner_conf": 0.1476738986875234,
+      "source": "fallback",
+      "rel_ids": [
+        199
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11120011657476425,
+      "reachability": 90.0,
+      "rank_score": 35.888799883425236,
+      "f_sem": 0.12933294475078583,
+      "f_cov": 0.0,
+      "f_reach": 90.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "film.actor.film"
+      ],
+      "planner_conf": 0.1563181258721298,
+      "source": "fallback",
+      "rel_ids": [
+        284
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05282126963138581,
+      "reachability": 70.0,
+      "rank_score": 27.947178730368613,
+      "f_sem": 0.323929101228714,
+      "f_cov": 0.0,
+      "f_reach": 70.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.20103098026822125,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09370299941247306,
+      "reachability": 8.0,
+      "rank_score": 3.106297000587527,
+      "f_sem": 0.040600210428237915,
+      "f_cov": 0.0,
+      "f_reach": 8.0,
+      "f_branch": 0.5588306254094444,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.3980148358643055,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.10801002411490285,
+      "reachability": 8.0,
+      "rank_score": 3.0919899758850975,
+      "f_sem": -0.007089871913194656,
+      "f_cov": 0.0,
+      "f_reach": 8.0,
+      "f_branch": 0.5588306254094444,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.22989434551991775,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.04282260148937764,
+      "reachability": 1.0,
+      "rank_score": 0.3571773985106224,
+      "f_sem": 0.08268847316503525,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

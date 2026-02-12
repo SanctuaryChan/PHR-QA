@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-249",
+  "question": "who is tia and tamera mowry parents",
+  "paths": [
+    {
+      "rels": [
+        "tv.tv_actor.guest_roles"
+      ],
+      "planner_conf": 0.27524723636883275,
+      "source": "fallback",
+      "rel_ids": [
+        76
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.01389845831972139,
+      "reachability": 13.0,
+      "rank_score": 5.213898458319721,
+      "f_sem": 0.1033962145447731,
+      "f_cov": 1.0,
+      "f_reach": 13.0,
+      "f_branch": 0.6712040604371055,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.sibling_s"
+      ],
+      "planner_conf": 0.2770423421374074,
+      "source": "fallback",
+      "rel_ids": [
+        129
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07744580985674736,
+      "reachability": 3.0,
+      "rank_score": 1.2774458098567474,
+      "f_sem": 0.2090136557817459,
+      "f_cov": 1.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.person.parents"
+      ],
+      "planner_conf": 0.32726766861809625,
+      "source": "fallback",
+      "rel_ids": [
+        172
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10889287558224996,
+      "reachability": 2.0,
+      "rank_score": 0.90889287558225,
+      "f_sem": 0.2894480228424072,
+      "f_cov": 1.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "media_common.media_genre.parent_genre"
+      ],
+      "planner_conf": 0.28904205671063177,
+      "source": "fallback",
+      "rel_ids": [
+        397
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.14341807663440703,
+      "reachability": 0.0,
+      "rank_score": 0.14341807663440703,
+      "f_sem": 0.3113935887813568,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.sibling_relationship.sibling"
+      ],
+      "planner_conf": 0.27800703794867904,
+      "source": "fallback",
+      "rel_ids": [
+        126
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1137376993894577,
+      "reachability": 0.0,
+      "rank_score": 0.1137376993894577,
+      "f_sem": 0.212458997964859,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.415,\n\"reason\": \"Tia and Tamera Mowry's parents\"\n},\n{\n\"rels\": [\"people.person.parents\"],\n\"confidence\": 0.327,\n\"reason\": \"Media common parent genre\"\n},\n{\n\"rels\": [\"base.descriptive_names.names.descriptive_name\"],\n\"confidence\": 0.289,",
+  "version": 2
+}

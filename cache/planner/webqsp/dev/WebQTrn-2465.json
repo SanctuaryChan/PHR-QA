@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2465",
+  "question": "what do you speak in singapore",
+  "paths": [
+    {
+      "rels": [
+        "location.statistical_region.co2_emissions_per_capita"
+      ],
+      "planner_conf": 0.20270242429646101,
+      "source": "fallback",
+      "rel_ids": [
+        435
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.12161681726574898,
+      "reachability": 100.0,
+      "rank_score": 39.878383182734254,
+      "f_sem": 0.09461060911417007,
+      "f_cov": 0.0,
+      "f_reach": 100.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.events"
+      ],
+      "planner_conf": 0.18376331673976085,
+      "source": "fallback",
+      "rel_ids": [
+        479
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.12114093974232674,
+      "reachability": 83.0,
+      "rank_score": 33.07885906025768,
+      "f_sem": 0.09619686752557755,
+      "f_cov": 0.0,
+      "f_reach": 83.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.country.languages_spoken"
+      ],
+      "planner_conf": 0.18454533086474248,
+      "source": "fallback",
+      "rel_ids": [
+        184
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.061493397072647754,
+      "reachability": 3.0,
+      "rank_score": 1.2614933970726478,
+      "f_sem": 0.4891722798347473,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.16975885071845048,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0789559310891283,
+      "reachability": 3.0,
+      "rank_score": 1.1210440689108718,
+      "f_sem": 0.021007852628827095,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.43358438432216645,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.03164587452228131,
+      "reachability": 1.0,
+      "rank_score": 0.36835412547771873,
+      "f_sem": 0.11994422972202301,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"common.topic.image\", \"location.country.currency_used\", \"olympics.olympic_athlete_affiliation.country\", \"olympics.olympic_athlete.country\", \"location.country.national_anthem\", \"location.country.currency_used\"],\n\"confidence\": 0.079,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"common.topic.subjects\", \"olympics.olympic_",
+  "version": 2
+}

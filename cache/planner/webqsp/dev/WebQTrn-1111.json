@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1111",
+  "question": "what is the name of the new orleans saints football stadium",
+  "paths": [
+    {
+      "rels": [
+        "american_football.football_team.home_games"
+      ],
+      "planner_conf": 0.19122425217638,
+      "source": "fallback",
+      "rel_ids": [
+        917
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.02434139840457422,
+      "reachability": 18.0,
+      "rank_score": 7.224341398404575,
+      "f_sem": 0.4974290728569031,
+      "f_cov": 0.0,
+      "f_reach": 18.0,
+      "f_branch": 0.7488732345249669,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "american_football.football_team.away_games"
+      ],
+      "planner_conf": 0.168997450065708,
+      "source": "fallback",
+      "rel_ids": [
+        892
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0019020850443754178,
+      "reachability": 17.0,
+      "rank_score": 6.801902085044377,
+      "f_sem": 0.41804763674736023,
+      "f_cov": 0.0,
+      "f_reach": 17.0,
+      "f_branch": 0.7351220597983265,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "sports.sports_team.arena_stadium"
+      ],
+      "planner_conf": 0.1621649854483005,
+      "source": "fallback",
+      "rel_ids": [
+        576
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07140990213339267,
+      "reachability": 1.0,
+      "rank_score": 0.4714099021333927,
+      "f_sem": 0.4634634852409363,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "american_football.football_game.home_team"
+      ],
+      "planner_conf": 0.1750835539818762,
+      "source": "fallback",
+      "rel_ids": [
+        903
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08193511664867399,
+      "reachability": 0.0,
+      "rank_score": 0.08193511664867399,
+      "f_sem": 0.4397837221622467,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "american_football.game_rushing_statistics.team"
+      ],
+      "planner_conf": 0.3159974147947487,
+      "source": "fallback",
+      "rel_ids": [
+        885
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.02163110524415969,
+      "reachability": 0.0,
+      "rank_score": 0.02163110524415969,
+      "f_sem": 0.23877035081386566,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.488,\n\"reason\": \"American Football New Orleans Saints stadium\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.482,\n\"reason\": \"American Football Game Receiving Statistics New Orleans Saints\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.475,\n\"reason\": \"American",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1976",
+  "question": "what did robert koch do",
+  "paths": [
+    {
+      "rels": [
+        "base.kwebbase.kwtopic.has_sentences"
+      ],
+      "planner_conf": 0.2593506747929445,
+      "source": "fallback",
+      "rel_ids": [
+        1002
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.1441407994855824,
+      "reachability": 39.0,
+      "rank_score": 15.45585920051442,
+      "f_sem": -0.0010658857645466924,
+      "f_cov": 0.0,
+      "f_reach": 39.0,
+      "f_branch": 0.9382103375621837,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "award.award_honor.award"
+      ],
+      "planner_conf": 0.20559378503707418,
+      "source": "fallback",
+      "rel_ids": [
+        68
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0026532754302024883,
+      "reachability": 0.0,
+      "rank_score": -0.0026532754302024883,
+      "f_sem": 0.1578224152326584,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "media_common.quotation_subject.quotations_about_this_subject"
+      ],
+      "planner_conf": 0.20271949788980317,
+      "source": "fallback",
+      "rel_ids": [
+        697
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.01701106429100037,
+      "reachability": 0.0,
+      "rank_score": -0.01701106429100037,
+      "f_sem": 0.10996311902999878,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.people_born_here"
+      ],
+      "planner_conf": 0.27288214760914187,
+      "source": "fallback",
+      "rel_ids": [
+        238
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.03206236064434052,
+      "reachability": 0.0,
+      "rank_score": -0.03206236064434052,
+      "f_sem": 0.059792131185531616,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "medicine.disease.treatments"
+      ],
+      "planner_conf": 0.23558097140438725,
+      "source": "fallback",
+      "rel_ids": [
+        1440
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.04195271860808134,
+      "reachability": 0.0,
+      "rank_score": -0.04195271860808134,
+      "f_sem": 0.02682427130639553,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.402,\n\"reason\": \"Medicine.risk_factor.diseases\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.378,\n\"reason\": \"Medicine.disease.symptoms\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.312,",
+  "version": 2
+}

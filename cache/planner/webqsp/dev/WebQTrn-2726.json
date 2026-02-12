@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2726",
+  "question": "who owns the new england patriots football team",
+  "paths": [
+    {
+      "rels": [
+        "american_football.football_team.current_head_coach"
+      ],
+      "planner_conf": 0.3585669461199992,
+      "source": "fallback",
+      "rel_ids": [
+        976
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.15735137180273473,
+      "reachability": 1.0,
+      "rank_score": 0.5573513718027348,
+      "f_sem": 0.4166017174720764,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "american_football.football_coach.current_team_head_coached"
+      ],
+      "planner_conf": 0.348184354293424,
+      "source": "fallback",
+      "rel_ids": [
+        990
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.16997875869274137,
+      "reachability": 0.0,
+      "rank_score": 0.16997875869274137,
+      "f_sem": 0.3999291956424713,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "american_football.football_historical_coach_position.team"
+      ],
+      "planner_conf": 0.3360760110202167,
+      "source": "fallback",
+      "rel_ids": [
+        893
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.14574433863162994,
+      "reachability": 0.0,
+      "rank_score": 0.14574433863162994,
+      "f_sem": 0.3191477954387665,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "american_football.game_rushing_statistics.team"
+      ],
+      "planner_conf": 0.4866856088998506,
+      "source": "fallback",
+      "rel_ids": [
+        885
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0939565747976303,
+      "reachability": 0.0,
+      "rank_score": 0.0939565747976303,
+      "f_sem": 0.3131885826587677,
+      "f_cov": 0.5,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "american_football.game_receiving_statistics.team"
+      ],
+      "planner_conf": 0.6236051344871522,
+      "source": "fallback",
+      "rel_ids": [
+        887
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08957692980766295,
+      "reachability": 0.0,
+      "rank_score": 0.08957692980766295,
+      "f_sem": 0.2985897660255432,
+      "f_cov": 0.5,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

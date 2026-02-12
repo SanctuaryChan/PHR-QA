@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1875",
+  "question": "what movies did james franco play in",
+  "paths": [
+    {
+      "rels": [
+        "film.actor.film"
+      ],
+      "planner_conf": 0.15776063350441016,
+      "source": "fallback",
+      "rel_ids": [
+        284
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0522827982902527,
+      "reachability": 88.0,
+      "rank_score": 35.14771720170975,
+      "f_sem": 0.3257240056991577,
+      "f_cov": 0.0,
+      "f_reach": 88.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.1634573207997989,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.1068160602373151,
+      "reachability": 9.0,
+      "rank_score": 3.493183939762685,
+      "f_sem": 0.005822288803756237,
+      "f_cov": 0.0,
+      "f_reach": 9.0,
+      "f_branch": 0.5856274687844196,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.40181992232799535,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09754134582482737,
+      "reachability": 6.0,
+      "rank_score": 2.302458654175173,
+      "f_sem": 0.006499722599983215,
+      "f_cov": 0.0,
+      "f_reach": 6.0,
+      "f_branch": 0.49491262604822334,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.14561972110953067,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.04933814651484551,
+      "reachability": 1.0,
+      "rank_score": 0.3506618534851545,
+      "f_sem": 0.060969989746809006,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "film.film.starring"
+      ],
+      "planner_conf": 0.2976885361558656,
+      "source": "fallback",
+      "rel_ids": [
+        133
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05851154625415801,
+      "reachability": 0.0,
+      "rank_score": 0.05851154625415801,
+      "f_sem": 0.36170515418052673,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.402,\n\"reason\": \"freebase.valuenotation.is_reviewed\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.298,\n\"reason\": \"film.performance.actor\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.232,\n\"reason\": \"",
+  "version": 2
+}

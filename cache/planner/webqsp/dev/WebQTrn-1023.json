@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1023",
+  "question": "what is the money of argentina called",
+  "paths": [
+    {
+      "rels": [
+        "location.statistical_region.co2_emissions_per_capita"
+      ],
+      "planner_conf": 0.14661323080090344,
+      "source": "fallback",
+      "rel_ids": [
+        435
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.1448900794610381,
+      "reachability": 100.0,
+      "rank_score": 39.855109920538965,
+      "f_sem": 0.01703306846320629,
+      "f_cov": 0.0,
+      "f_reach": 100.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "government.governmental_jurisdiction.governing_officials"
+      ],
+      "planner_conf": 0.1526199711468203,
+      "source": "fallback",
+      "rel_ids": [
+        447
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.13389501571655274,
+      "reachability": 97.0,
+      "rank_score": 38.66610498428345,
+      "f_sem": 0.05368328094482422,
+      "f_cov": 0.0,
+      "f_reach": 97.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.30293604757134796,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.10526504183195448,
+      "reachability": 4.0,
+      "rank_score": 1.4947349581680456,
+      "f_sem": -0.04777146130800247,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "base.aareas.schema.administrative_area.administrative_area_type"
+      ],
+      "planner_conf": 0.14807636352084208,
+      "source": "fallback",
+      "rel_ids": [
+        508
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.03055644392187657,
+      "reachability": 1.0,
+      "rank_score": 0.36944355607812346,
+      "f_sem": 0.12357566505670547,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.40946582496166234,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05748718812282147,
+      "reachability": 1.0,
+      "rank_score": 0.3425128118771786,
+      "f_sem": 0.03380651772022247,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2478",
+  "question": "what is the syracuse university mascot",
+  "paths": [
+    {
+      "rels": [
+        "sports.sports_team.team_mascot"
+      ],
+      "planner_conf": 0.42429207619325615,
+      "source": "fallback",
+      "rel_ids": [
+        2122
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.24216479063034058,
+      "reachability": 0.0,
+      "rank_score": 0.24216479063034058,
+      "f_sem": 0.6405493021011353,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "sports.mascot.team"
+      ],
+      "planner_conf": 0.42410822685853933,
+      "source": "fallback",
+      "rel_ids": [
+        2108
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.24196780920028688,
+      "reachability": 0.0,
+      "rank_score": 0.24196780920028688,
+      "f_sem": 0.6398926973342896,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "sports.sports_team_roster.team"
+      ],
+      "planner_conf": 0.44498979029832064,
+      "source": "fallback",
+      "rel_ids": [
+        603
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.13788588643074035,
+      "reachability": 0.0,
+      "rank_score": 0.13788588643074035,
+      "f_sem": 0.2929529547691345,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "sports.sports_team.roster"
+      ],
+      "planner_conf": 0.4326670491474646,
+      "source": "fallback",
+      "rel_ids": [
+        565
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12468294948339463,
+      "reachability": 0.0,
+      "rank_score": 0.12468294948339463,
+      "f_sem": 0.24894316494464874,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "base.marchmadness.ncaa_basketball_team.tournament_games_won"
+      ],
+      "planner_conf": 0.5102692436288905,
+      "source": "fallback",
+      "rel_ids": [
+        2222
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11259006261825562,
+      "reachability": 0.0,
+      "rank_score": 0.11259006261825562,
+      "f_sem": 0.20863354206085205,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"education.educational_institution.students_graduates\", \"base.marchmadness.ncaa_basketball_team.tournament_games_won\"],\n\"confidence\": 0.620,\n\"reason\": \"Education is the most relevant relation for Syracuse University.\"\n},\n{\n\"rels\": [\"base.marchmadness.ncaa_basketball_tournament.seed\", \"base.marchmadness.n",
+  "version": 2
+}

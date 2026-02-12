@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2298",
+  "question": "what do michelle obama do for a living",
+  "paths": [
+    {
+      "rels": [
+        "common.topic.webpage"
+      ],
+      "planner_conf": 0.35270363720847625,
+      "source": "fallback",
+      "rel_ids": [
+        75
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.14598091453520318,
+      "reachability": 45.0,
+      "rank_score": 17.854019085464795,
+      "f_sem": 0.004649171605706215,
+      "f_cov": 0.0,
+      "f_reach": 45.0,
+      "f_branch": 0.9737566601691502,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "book.book_subject.works"
+      ],
+      "planner_conf": 0.31999256232074486,
+      "source": "fallback",
+      "rel_ids": [
+        371
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.03549289140078228,
+      "reachability": 2.0,
+      "rank_score": 0.7645071085992178,
+      "f_sem": 0.1414954662322998,
+      "f_cov": 0.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.31767085313239946,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.039684070489955564,
+      "reachability": 1.0,
+      "rank_score": 0.3603159295100445,
+      "f_sem": 0.09315024316310883,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.profession.specializations"
+      ],
+      "planner_conf": 0.2953545615494808,
+      "source": "fallback",
+      "rel_ids": [
+        101
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.03814691007137298,
+      "reachability": 0.0,
+      "rank_score": 0.03814691007137298,
+      "f_sem": 0.2938230335712433,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "book.written_work.subjects"
+      ],
+      "planner_conf": 0.4437665474414826,
+      "source": "fallback",
+      "rel_ids": [
+        683
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0031072705984115656,
+      "reachability": 0.0,
+      "rank_score": -0.0031072705984115656,
+      "f_sem": 0.1563090980052948,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"book.written_work.subjects\", \"book.school_or_movement\"],\n\"confidence\": 0.444,\n\"reason\": \"book.written_work.subjects is the most relevant relation for Michelle Obama\"\n},\n{\n\"rels\": [\"people.ethnicity.languages_spoken\", \"book.author.works_written\"],\n\"confidence\": 0.353,\n\"reason\": \"people.ethnicity.languages_sp",
+  "version": 2
+}

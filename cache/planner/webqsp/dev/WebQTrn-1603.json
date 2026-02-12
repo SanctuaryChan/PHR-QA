@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1603",
+  "question": "what form of government exists in china",
+  "paths": [
+    {
+      "rels": [
+        "meteorology.cyclone_affected_area.cyclones"
+      ],
+      "planner_conf": 0.24911441502646442,
+      "source": "fallback",
+      "rel_ids": [
+        430
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.1516949612181634,
+      "reachability": 68.0,
+      "rank_score": 27.048305038781837,
+      "f_sem": -0.005649870727211237,
+      "f_cov": 0.0,
+      "f_reach": 68.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.partially_contains"
+      ],
+      "planner_conf": 0.16905068946270724,
+      "source": "fallback",
+      "rel_ids": [
+        588
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.15510585699230434,
+      "reachability": 57.0,
+      "rank_score": 22.644894143007694,
+      "f_sem": -0.017019523307681084,
+      "f_cov": 0.0,
+      "f_reach": 57.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "government.governmental_jurisdiction.governing_officials"
+      ],
+      "planner_conf": 0.162302042308292,
+      "source": "fallback",
+      "rel_ids": [
+        447
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.030901997797116262,
+      "reachability": 33.0,
+      "rank_score": 13.169098002202885,
+      "f_sem": 0.36261871457099915,
+      "f_cov": 0.0,
+      "f_reach": 33.0,
+      "f_branch": 0.89687612168416,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "olympics.olympic_participating_country.olympics_participated_in"
+      ],
+      "planner_conf": 0.19228080212737858,
+      "source": "fallback",
+      "rel_ids": [
+        503
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.04502804743253154,
+      "reachability": 6.0,
+      "rank_score": 2.354971952567469,
+      "f_sem": 0.18154405057430267,
+      "f_cov": 0.0,
+      "f_reach": 6.0,
+      "f_branch": 0.49491262604822334,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.country.form_of_government"
+      ],
+      "planner_conf": 0.23891004567159585,
+      "source": "fallback",
+      "rel_ids": [
+        491
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08163598211178656,
+      "reachability": 3.0,
+      "rank_score": 1.2816359821117866,
+      "f_sem": 0.55631422996521,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"common.topic.notable_types\", \"government.governmental_jurisdiction.governing_officials\", \"location.country.administrative_divisions\", \"government.governmental_body.jurisdiction\", \"location.cn_autonomous_prefecture.designated_minority\", \"location.cn_province.capital\"],\n\"confidence\": 0.081,\n\"reason\": \"Topicality",
+  "version": 2
+}

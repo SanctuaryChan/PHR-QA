@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-428",
+  "question": "who was judy garland married to",
+  "paths": [
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.41200033828616145,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09570524157184045,
+      "reachability": 9.0,
+      "rank_score": 3.5042947584281596,
+      "f_sem": 0.04285835102200508,
+      "f_cov": 0.0,
+      "f_reach": 9.0,
+      "f_branch": 0.5856274687844196,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.spouse_s"
+      ],
+      "planner_conf": 0.2936941244802275,
+      "source": "fallback",
+      "rel_ids": [
+        46
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.09432637674422996,
+      "reachability": 5.0,
+      "rank_score": 2.09432637674423,
+      "f_sem": 0.29965683817863464,
+      "f_cov": 1.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.424961313405237,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.039238225237225255,
+      "reachability": 3.0,
+      "rank_score": 1.2392382252372254,
+      "f_sem": 0.08165504038333893,
+      "f_cov": 1.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.person.gender"
+      ],
+      "planner_conf": 0.32942004369767186,
+      "source": "fallback",
+      "rel_ids": [
+        16
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.036919304978447545,
+      "reachability": 1.0,
+      "rank_score": 0.4369193049784476,
+      "f_sem": 0.015161494724452496,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.3151610646980417,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.03587759171460807,
+      "reachability": 1.0,
+      "rank_score": 0.4358775917146081,
+      "f_sem": 0.011689117178320885,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"people.person.profession\", \"film.personal_appearance.person\", \"award.award_winning_work.awards_won\"],\n\"confidence\": 0.425,\n\"reason\": \"High score for profession and personal appearance, and award winning work\"\n},\n{\n\"rels\": [\"people.person.gender\", \"film.personal_appearance.person\", \"award.award_winning_work.awards_won\"],\n\"confidence",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-536",
+  "question": "what is anderson silva trained in",
+  "paths": [
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.10386296219509286,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08690517192713834,
+      "reachability": 4.0,
+      "rank_score": 1.5130948280728618,
+      "f_sem": 0.013428105041384697,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "film.performance.film"
+      ],
+      "planner_conf": 0.1191645210919921,
+      "source": "fallback",
+      "rel_ids": [
+        174
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.002565816044807427,
+      "reachability": 0.0,
+      "rank_score": 0.002565816044807427,
+      "f_sem": 0.17521938681602478,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "film.performance.actor"
+      ],
+      "planner_conf": 0.1070985197959487,
+      "source": "fallback",
+      "rel_ids": [
+        213
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.010362042486667639,
+      "reachability": 0.0,
+      "rank_score": -0.010362042486667639,
+      "f_sem": 0.13212652504444122,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "music.special_music_video_performance_type.special_music_video_performances"
+      ],
+      "planner_conf": 0.14986496987416573,
+      "source": "fallback",
+      "rel_ids": [
+        211
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.017559991776943208,
+      "reachability": 0.0,
+      "rank_score": -0.017559991776943208,
+      "f_sem": 0.10813336074352264,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "film.film.starring"
+      ],
+      "planner_conf": 0.10012716113906546,
+      "source": "fallback",
+      "rel_ids": [
+        133
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.017831355333328254,
+      "reachability": 0.0,
+      "rank_score": -0.017831355333328254,
+      "f_sem": 0.10722881555557251,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

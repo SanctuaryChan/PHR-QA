@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1091",
+  "question": "when did the raiders win the superbowl",
+  "paths": [
+    {
+      "rels": [
+        "time.event.instance_of_recurring_event"
+      ],
+      "planner_conf": 0.22537408906512146,
+      "source": "fallback",
+      "rel_ids": [
+        960
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07196004316210747,
+      "reachability": 0.0,
+      "rank_score": 0.07196004316210747,
+      "f_sem": 0.07320014387369156,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "time.recurring_event.instances"
+      ],
+      "planner_conf": 0.21404621761019638,
+      "source": "fallback",
+      "rel_ids": [
+        945
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.061913630366325384,
+      "reachability": 0.0,
+      "rank_score": 0.061913630366325384,
+      "f_sem": 0.039712101221084595,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "film.film.release_date_s"
+      ],
+      "planner_conf": 0.20740964438675383,
+      "source": "fallback",
+      "rel_ids": [
+        86
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.056893608532845974,
+      "reachability": 0.0,
+      "rank_score": 0.056893608532845974,
+      "f_sem": 0.02297869510948658,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "time.event.locations"
+      ],
+      "planner_conf": 0.21256961750638922,
+      "source": "fallback",
+      "rel_ids": [
+        264
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05092389332130552,
+      "reachability": 0.0,
+      "rank_score": 0.05092389332130552,
+      "f_sem": 0.0030796444043517113,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "american_football.football_game.receiving"
+      ],
+      "planner_conf": 0.4743997168540955,
+      "source": "fallback",
+      "rel_ids": [
+        884
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0297139823436737,
+      "reachability": 0.0,
+      "rank_score": 0.0297139823436737,
+      "f_sem": 0.26571327447891235,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.474,\n\"reason\": \"American football team has won the Super Bowl\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.463,\n\"reason\": \"American football team has played in the Super Bowl\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.454,\n\"reason\": \"American football",
+  "version": 2
+}

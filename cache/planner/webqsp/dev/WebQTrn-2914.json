@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2914",
+  "question": "how much indiana jones movies are there",
+  "paths": [
+    {
+      "rels": [
+        "common.topic.webpage"
+      ],
+      "planner_conf": 0.4014451088011265,
+      "source": "fallback",
+      "rel_ids": [
+        75
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.12464355945898037,
+      "reachability": 19.0,
+      "rank_score": 7.475356440541021,
+      "f_sem": 0.005161102861166,
+      "f_cov": 0.0,
+      "f_reach": 19.0,
+      "f_branch": 0.7619189031733016,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.21353603990181633,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0438094733577496,
+      "reachability": 1.0,
+      "rank_score": 0.3561905266422504,
+      "f_sem": 0.07939890027046204,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "base.animalnames.animal.gendered_and_or_age_specific_names"
+      ],
+      "planner_conf": 0.2303023183086644,
+      "source": "fallback",
+      "rel_ids": [
+        2952
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06383322924375534,
+      "reachability": 0.0,
+      "rank_score": 0.06383322924375534,
+      "f_sem": 0.046110764145851135,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "amusement_parks.ride.area"
+      ],
+      "planner_conf": 0.21295757079685945,
+      "source": "fallback",
+      "rel_ids": [
+        2424
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06077752150595188,
+      "reachability": 0.0,
+      "rank_score": 0.06077752150595188,
+      "f_sem": 0.03592507168650627,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "film.film.language"
+      ],
+      "planner_conf": 0.22283993845400604,
+      "source": "fallback",
+      "rel_ids": [
+        77
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.011738443374633784,
+      "reachability": 0.0,
+      "rank_score": 0.011738443374633784,
+      "f_sem": 0.2057948112487793,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.452,\n\"reason\": \"Common.webpage.in_index\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.405,\n\"reason\": \"Common.webpage.topic\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.401,\n\"reason\": \"Common.topic.web",
+  "version": 2
+}

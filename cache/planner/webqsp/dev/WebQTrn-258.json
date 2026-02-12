@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-258",
+  "question": "what are major exports of the usa",
+  "paths": [
+    {
+      "rels": [
+        "location.statistical_region.merchandise_trade_percent_of_gdp"
+      ],
+      "planner_conf": 0.19750287818832518,
+      "source": "fallback",
+      "rel_ids": [
+        459
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.02840004265308381,
+      "reachability": 54.0,
+      "rank_score": 21.571599957346915,
+      "f_sem": 0.40533319115638733,
+      "f_cov": 0.0,
+      "f_reach": 54.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.partially_contains"
+      ],
+      "planner_conf": 0.2275886479451562,
+      "source": "fallback",
+      "rel_ids": [
+        588
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.15124858464114369,
+      "reachability": 53.0,
+      "rank_score": 21.048751415358858,
+      "f_sem": -0.004161948803812265,
+      "f_cov": 0.0,
+      "f_reach": 53.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "olympics.olympic_participating_country.olympics_participated_in"
+      ],
+      "planner_conf": 0.1943235383523158,
+      "source": "fallback",
+      "rel_ids": [
+        503
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.10266184775038364,
+      "reachability": 25.0,
+      "rank_score": 9.897338152249617,
+      "f_sem": 0.10067626088857651,
+      "f_cov": 0.0,
+      "f_reach": 25.0,
+      "f_branch": 0.8286472601695658,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.statistical_region.high_tech_as_percent_of_manufactured_exports"
+      ],
+      "planner_conf": 0.18278765220078416,
+      "source": "fallback",
+      "rel_ids": [
+        464
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.005400713495762807,
+      "reachability": 24.0,
+      "rank_score": 9.605400713495765,
+      "f_sem": 0.457559734582901,
+      "f_cov": 0.0,
+      "f_reach": 24.0,
+      "f_branch": 0.8186720687910748,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.statistical_region.major_exports"
+      ],
+      "planner_conf": 0.21381691780791115,
+      "source": "fallback",
+      "rel_ids": [
+        1261
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08125042876221321,
+      "reachability": 4.0,
+      "rank_score": 1.6812504287622132,
+      "f_sem": 0.5739467740058899,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"common.topic.notable_types\", \"location.location.partially_contains\", \"location.statistical_region.gdp_real\", \"location.imports_and_exports.currency\", \"location.statistical_region.high_tech_as_percent_of_manufactured_exports\", \"location.statistical_region.trade_balance_as_percent_of_gdp\"],\n\"confidence\": 0.087,\n\"reason\": \"This candidate",
+  "version": 2
+}

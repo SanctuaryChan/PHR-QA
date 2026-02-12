@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2777",
+  "question": "where the queen of denmark lives",
+  "paths": [
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.33193266938472615,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12809920922701296,
+      "reachability": 1.0,
+      "rank_score": 0.5280992092270129,
+      "f_sem": 0.3190945088863373,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.31444976987509893,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0847985656637424,
+      "reachability": 1.0,
+      "rank_score": 0.4847985656637424,
+      "f_sem": 0.17475903034210205,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.deceased_person.place_of_death"
+      ],
+      "planner_conf": 0.31811748771831905,
+      "source": "fallback",
+      "rel_ids": [
+        250
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.13665297329425813,
+      "reachability": 0.0,
+      "rank_score": 0.13665297329425813,
+      "f_sem": 0.2888432443141937,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.deceased_person.place_of_burial"
+      ],
+      "planner_conf": 0.3195890494461717,
+      "source": "fallback",
+      "rel_ids": [
+        597
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1345350652933121,
+      "reachability": 0.0,
+      "rank_score": 0.1345350652933121,
+      "f_sem": 0.2817835509777069,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.family.country"
+      ],
+      "planner_conf": 0.29792138646388877,
+      "source": "fallback",
+      "rel_ids": [
+        1523
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12535912096500396,
+      "reachability": 0.0,
+      "rank_score": 0.12535912096500396,
+      "f_sem": 0.25119706988334656,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.400,\n\"reason\": \"Descriptive names of Denmark\"\n},\n{\n\"rels\": [\"location.location.containedby\", \"location.country.administrative_divisions\"],\n\"confidence\": 0.385,\n\"reason\": \"Location of Denmark\"\n},\n{\n\"rels\": [\"people.person.place_of_birth\", \"people.person.place_of",
+  "version": 2
+}

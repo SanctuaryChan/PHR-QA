@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2097",
+  "question": "what party was winston churchill in politics",
+  "paths": [
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.14709662158743908,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11365238687968243,
+      "reachability": 10.0,
+      "rank_score": 3.886347613120318,
+      "f_sem": -0.008885235525667667,
+      "f_cov": 0.0,
+      "f_reach": 10.0,
+      "f_branch": 0.6098681622198213,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "government.politician.party"
+      ],
+      "planner_conf": 0.1932592681108089,
+      "source": "fallback",
+      "rel_ids": [
+        533
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0730121794498908,
+      "reachability": 3.0,
+      "rank_score": 1.273012179449891,
+      "f_sem": 0.5275682210922241,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.40648143954575067,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.060684743925583984,
+      "reachability": 1.0,
+      "rank_score": 0.33931525607441604,
+      "f_sem": 0.02314799837768078,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.notable_for"
+      ],
+      "planner_conf": 0.2646689455319516,
+      "source": "fallback",
+      "rel_ids": [
+        17
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06304221426288548,
+      "reachability": 1.0,
+      "rank_score": 0.33695778573711455,
+      "f_sem": 0.015289763920009136,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "government.political_party_tenure.party"
+      ],
+      "planner_conf": 0.15992271096092184,
+      "source": "fallback",
+      "rel_ids": [
+        519
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08326701223850248,
+      "reachability": 0.0,
+      "rank_score": 0.08326701223850248,
+      "f_sem": 0.4442233741283417,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.406,\n\"reason\": \"Common.topic.notable_types\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.265,\n\"reason\": \"Common.topic.notable_for\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.193,\n\"reason\": \"Government",
+  "version": 2
+}

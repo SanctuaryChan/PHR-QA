@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1201",
+  "question": "what state was hillary clinton a senator for",
+  "paths": [
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.25214894375630786,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07422963919245167,
+      "reachability": 6.0,
+      "rank_score": 2.3257703608075486,
+      "f_sem": 0.08420541137456894,
+      "f_cov": 0.0,
+      "f_reach": 6.0,
+      "f_branch": 0.49491262604822334,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.32278749733926754,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0852259107121072,
+      "reachability": 4.0,
+      "rank_score": 1.514774089287893,
+      "f_sem": 0.019025642424821854,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.28087156197696767,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07593505845253405,
+      "reachability": 1.0,
+      "rank_score": 0.4759350584525341,
+      "f_sem": 0.1452140063047409,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.36270738827488413,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06611063198034701,
+      "reachability": 1.0,
+      "rank_score": 0.466110631980347,
+      "f_sem": 0.11246591806411743,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.40109879173338414,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06645186658169093,
+      "reachability": 1.0,
+      "rank_score": 0.3335481334183091,
+      "f_sem": 0.003924256190657616,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.70,\n\"reason\": \"Hillary Clinton was a senator for New York.\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.30,\n\"reason\": \"Hillary Clinton was a senator for New York.\"\n}\n],\n\"json\": {\n\"@type\": \"Person\",\n\"name\": \"Hillary Clinton\",\n\"works",
+  "version": 2
+}

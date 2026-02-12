@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2555",
+  "question": "what do do in new york",
+  "paths": [
+    {
+      "rels": [
+        "travel.travel_destination.tourist_attractions"
+      ],
+      "planner_conf": 0.1887381987501248,
+      "source": "fallback",
+      "rel_ids": [
+        502
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05228437185287477,
+      "reachability": 63.0,
+      "rank_score": 25.147715628147125,
+      "f_sem": 0.3257187604904175,
+      "f_cov": 0.0,
+      "f_reach": 63.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "book.book_subject.works"
+      ],
+      "planner_conf": 0.13826499176730078,
+      "source": "fallback",
+      "rel_ids": [
+        371
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11164078116416931,
+      "reachability": 58.0,
+      "rank_score": 23.08835921883583,
+      "f_sem": 0.1278640627861023,
+      "f_cov": 0.0,
+      "f_reach": 58.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "periodicals.newspaper_circulation_area.newspapers"
+      ],
+      "planner_conf": 0.14110044804259475,
+      "source": "fallback",
+      "rel_ids": [
+        651
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11282517090439798,
+      "reachability": 56.0,
+      "rank_score": 22.2871748290956,
+      "f_sem": 0.12391609698534012,
+      "f_cov": 0.0,
+      "f_reach": 56.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.27642329489215844,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0667118643068326,
+      "reachability": 3.0,
+      "rank_score": 1.1332881356931674,
+      "f_sem": 0.061821408569812775,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_for"
+      ],
+      "planner_conf": 0.22033650835599808,
+      "source": "fallback",
+      "rel_ids": [
+        17
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.03633967547829213,
+      "reachability": 1.0,
+      "rank_score": 0.3636603245217079,
+      "f_sem": 0.10429822653532028,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"common.topic.notable_types\", \"location.location.containedby\", \"base.popstra.vacation_choice.location\"],\n\"confidence\": 0.429,\n\"reason\": \"These relations are all relevant to the question and have a high confidence score.\"\n},\n{\n\"rels\": [\"location.location.time_zones\", \"base.militaryinfiction.location_in_fiction.time_period\"],\n\"confidence\": 0.2",
+  "version": 2
+}

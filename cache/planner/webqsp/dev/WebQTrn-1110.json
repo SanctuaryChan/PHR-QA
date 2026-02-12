@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1110",
+  "question": "what language group does polish belong to",
+  "paths": [
+    {
+      "rels": [
+        "language.human_language.countries_spoken_in"
+      ],
+      "planner_conf": 0.2474791257781704,
+      "source": "fallback",
+      "rel_ids": [
+        233
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.040638711877782493,
+      "reachability": 5.0,
+      "rank_score": 2.0406387118777825,
+      "f_sem": 0.4540312886238098,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "language.language_family.languages"
+      ],
+      "planner_conf": 0.27568462553685597,
+      "source": "fallback",
+      "rel_ids": [
+        1697
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0773888975381851,
+      "reachability": 0.0,
+      "rank_score": 0.0773888975381851,
+      "f_sem": 0.42462965846061707,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "olympics.olympic_participating_country.olympics_participated_in"
+      ],
+      "planner_conf": 0.43229451331343965,
+      "source": "fallback",
+      "rel_ids": [
+        503
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.009142218530178076,
+      "reachability": 0.0,
+      "rank_score": -0.009142218530178076,
+      "f_sem": 0.13619260489940643,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "olympics.olympic_games.participating_countries"
+      ],
+      "planner_conf": 0.3749257166672797,
+      "source": "fallback",
+      "rel_ids": [
+        506
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.011171872913837436,
+      "reachability": 0.0,
+      "rank_score": -0.011171872913837436,
+      "f_sem": 0.12942709028720856,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "type.type.expected_by"
+      ],
+      "planner_conf": 0.24459966282829318,
+      "source": "fallback",
+      "rel_ids": [
+        216
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.04444613810628653,
+      "reachability": 0.0,
+      "rank_score": -0.04444613810628653,
+      "f_sem": 0.018512872979044914,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.432,\n\"reason\": \"Olympic participating country\"\n},\n{\n\"rels\": [\"olympics.olympic_participating_country.olympics_participated_in\"],\n\"confidence\": 0.380,\n\"reason\": \"Location\"\n},\n{\n\"rels\": [\"location.location.containedby\"],\n\"confidence\": 0.3",
+  "version": 2
+}

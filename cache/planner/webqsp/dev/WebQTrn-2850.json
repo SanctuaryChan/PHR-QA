@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2850",
+  "question": "on what continent is canada found",
+  "paths": [
+    {
+      "rels": [
+        "location.location.partially_contains"
+      ],
+      "planner_conf": 0.29096370799200877,
+      "source": "fallback",
+      "rel_ids": [
+        588
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11274589929983939,
+      "reachability": 48.0,
+      "rank_score": 19.08725410070016,
+      "f_sem": 0.12078875303268433,
+      "f_cov": 0.0,
+      "f_reach": 48.0,
+      "f_branch": 0.9898252520964467,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "olympics.olympic_participating_country.olympics_participated_in"
+      ],
+      "planner_conf": 0.2507194361556955,
+      "source": "fallback",
+      "rel_ids": [
+        503
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.057399839176767324,
+      "reachability": 11.0,
+      "rank_score": 4.342600160823233,
+      "f_sem": 0.18599992990493774,
+      "f_cov": 0.0,
+      "f_reach": 11.0,
+      "f_branch": 0.6319981814824864,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.24287538051605226,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.03932037918200616,
+      "reachability": 3.0,
+      "rank_score": 1.160679620817994,
+      "f_sem": 0.15312635898590088,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.partially_containedby"
+      ],
+      "planner_conf": 0.29313095969813213,
+      "source": "fallback",
+      "rel_ids": [
+        579
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.02907046212966504,
+      "reachability": 1.0,
+      "rank_score": 0.370929537870335,
+      "f_sem": 0.12852893769741058,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.38580319538712504,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08284000552411142,
+      "reachability": 1.0,
+      "rank_score": 0.3171599944758886,
+      "f_sem": -0.05070287361741066,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"common.topic.notable_types\", \"location.location.partially_containedby\", \"location.location.partially_contains\", \"olympics.olympic_participating_country.olympics_participated_in\", \"location.country.languages_spoken\", \"film.film.genre\", \"location.statistical_region.co2_emissions_per_capita\", \"location.statistical_region.merchandise_trade",
+  "version": 2
+}

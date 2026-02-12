@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2685",
+  "question": "who inspired antonio vivaldi",
+  "paths": [
+    {
+      "rels": [
+        "book.author.works_written"
+      ],
+      "planner_conf": 0.2878425518998617,
+      "source": "fallback",
+      "rel_ids": [
+        173
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.032955057136567115,
+      "reachability": 24.0,
+      "rank_score": 9.632955057136568,
+      "f_sem": 0.21607421338558197,
+      "f_cov": 1.0,
+      "f_reach": 24.0,
+      "f_branch": 0.8186720687910748,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.3937738483399153,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09760448021821594,
+      "reachability": 4.0,
+      "rank_score": 1.502395519781784,
+      "f_sem": -0.022236255928874016,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.30371796663897704,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.019538992025648322,
+      "reachability": 3.0,
+      "rank_score": 1.2195389920256485,
+      "f_sem": 0.015990929678082466,
+      "f_cov": 1.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.person.parents"
+      ],
+      "planner_conf": 0.25232682920898064,
+      "source": "fallback",
+      "rel_ids": [
+        172
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.033638299301536875,
+      "reachability": 2.0,
+      "rank_score": 0.8336382993015369,
+      "f_sem": 0.03859943524003029,
+      "f_cov": 1.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.2649270228834092,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06613082230870661,
+      "reachability": 1.0,
+      "rank_score": 0.46613082230870667,
+      "f_sem": 0.11253321915864944,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

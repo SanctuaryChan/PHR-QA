@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2203",
+  "question": "where is port charlotte florida located",
+  "paths": [
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.647042840719223,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06514475674996253,
+      "reachability": 3.0,
+      "rank_score": 1.2651447567499627,
+      "f_sem": 0.1680101454257965,
+      "f_cov": 1.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.statistical_region.population"
+      ],
+      "planner_conf": 0.31665149725309694,
+      "source": "fallback",
+      "rel_ids": [
+        520
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0642982271018346,
+      "reachability": 2.0,
+      "rank_score": 0.8642982271018347,
+      "f_sem": 0.14079919457435608,
+      "f_cov": 1.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.location.contains"
+      ],
+      "planner_conf": 0.42425946929077113,
+      "source": "fallback",
+      "rel_ids": [
+        315
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08700529501621661,
+      "reachability": 1.0,
+      "rank_score": 0.48700529501621664,
+      "f_sem": 0.18211479485034943,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.time_zones"
+      ],
+      "planner_conf": 0.36661574565538085,
+      "source": "fallback",
+      "rel_ids": [
+        180
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07934600130503115,
+      "reachability": 1.0,
+      "rank_score": 0.4793460013050312,
+      "f_sem": 0.15658381581306458,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.location.nearby_airports"
+      ],
+      "planner_conf": 0.3037893789947623,
+      "source": "fallback",
+      "rel_ids": [
+        449
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.15908126533031464,
+      "reachability": 0.0,
+      "rank_score": 0.15908126533031464,
+      "f_sem": 0.36360421776771545,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.74,\n\"reason\": \"Port Charlotte, Florida is located in Charlotte County, Florida.\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.26,\n\"reason\": \"Port Charlotte, Florida is located in the state of Florida.\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.17,\n\"reason\": \"",
+  "version": 2
+}

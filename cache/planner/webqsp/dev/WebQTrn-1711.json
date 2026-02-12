@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1711",
+  "question": "what movies did chris farley do",
+  "paths": [
+    {
+      "rels": [
+        "film.actor.film"
+      ],
+      "planner_conf": 0.1253905782699585,
+      "source": "fallback",
+      "rel_ids": [
+        284
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.012067055716150257,
+      "reachability": 11.0,
+      "rank_score": 4.38793294428385,
+      "f_sem": 0.33710920810699463,
+      "f_cov": 0.0,
+      "f_reach": 11.0,
+      "f_branch": 0.6319981814824864,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "tv.tv_actor.starring_roles"
+      ],
+      "planner_conf": 0.12087758016586304,
+      "source": "fallback",
+      "rel_ids": [
+        117
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 5.720192248023781e-05,
+      "reachability": 8.0,
+      "rank_score": 3.2000572019224807,
+      "f_sem": 0.3531342148780823,
+      "f_cov": 0.0,
+      "f_reach": 8.0,
+      "f_branch": 0.5588306254094444,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "tv.tv_actor.guest_roles"
+      ],
+      "planner_conf": 0.15747854042053222,
+      "source": "fallback",
+      "rel_ids": [
+        76
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.017807173560033612,
+      "reachability": 6.0,
+      "rank_score": 2.417807173560034,
+      "f_sem": 0.3909947872161865,
+      "f_cov": 0.0,
+      "f_reach": 6.0,
+      "f_branch": 0.49491262604822334,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.4022672227025032,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09314150752810701,
+      "reachability": 5.0,
+      "rank_score": 1.906858492471893,
+      "f_sem": 0.008097223937511444,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.33474839061498646,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09624215407600525,
+      "reachability": 3.0,
+      "rank_score": 1.103757845923995,
+      "f_sem": -0.03661289066076279,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.402,\n\"reason\": \"freebase.valuenotation.is_reviewed\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.335,\n\"reason\": \"people.person.profession\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.164,\n\"reason\": \"",
+  "version": 2
+}

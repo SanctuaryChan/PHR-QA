@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-442",
+  "question": "who was the first leader of the afl",
+  "paths": [
+    {
+      "rels": [
+        "american_football.football_coach.current_team_head_coached"
+      ],
+      "planner_conf": 0.31997501695478286,
+      "source": "fallback",
+      "rel_ids": [
+        990
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.17275315523147583,
+      "reachability": 0.0,
+      "rank_score": 0.17275315523147583,
+      "f_sem": 0.40917718410491943,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "american_football.football_team.current_head_coach"
+      ],
+      "planner_conf": 0.3149975332053932,
+      "source": "fallback",
+      "rel_ids": [
+        976
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.16742013692855834,
+      "reachability": 0.0,
+      "rank_score": 0.16742013692855834,
+      "f_sem": 0.39140045642852783,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "sports.sports_team_roster.player"
+      ],
+      "planner_conf": 0.29530273163640824,
+      "source": "fallback",
+      "rel_ids": [
+        545
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1463185638189316,
+      "reachability": 0.0,
+      "rank_score": 0.1463185638189316,
+      "f_sem": 0.3210618793964386,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "american_football.football_player.position_s"
+      ],
+      "planner_conf": 0.3219894050585257,
+      "source": "fallback",
+      "rel_ids": [
+        927
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.140162393450737,
+      "reachability": 0.0,
+      "rank_score": 0.140162393450737,
+      "f_sem": 0.30054131150245667,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "sports.sports_team_coach.sports_coached"
+      ],
+      "planner_conf": 0.3504198513482068,
+      "source": "fallback",
+      "rel_ids": [
+        906
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.13008304536342624,
+      "reachability": 0.0,
+      "rank_score": 0.13008304536342624,
+      "f_sem": 0.26694348454475403,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"sports.sport.positions\", \"people.person.profession\"],\n\"confidence\": 0.412,\n\"reason\": \"Sports and people with positions in sports have a high connection score.\"\n},\n{\n\"rels\": [\"people.person.places_lived\", \"location.location.people_born_here\"],\n\"confidence\": 0.219,\n\"reason\": \"People and locations where people have lived have a moderate connection score.\"\n},",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-279",
+  "question": "what language they speak in the philippines",
+  "paths": [
+    {
+      "rels": [
+        "meteorology.cyclone_affected_area.cyclones"
+      ],
+      "planner_conf": 0.2816045271204862,
+      "source": "fallback",
+      "rel_ids": [
+        430
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.14388830345124007,
+      "reachability": 85.0,
+      "rank_score": 33.85611169654876,
+      "f_sem": 0.02037232182919979,
+      "f_cov": 0.0,
+      "f_reach": 85.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.country.languages_spoken"
+      ],
+      "planner_conf": 0.1534926065414566,
+      "source": "fallback",
+      "rel_ids": [
+        184
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.034524404768172104,
+      "reachability": 9.0,
+      "rank_score": 3.634524404768172,
+      "f_sem": 0.47695717215538025,
+      "f_cov": 0.0,
+      "f_reach": 9.0,
+      "f_branch": 0.5856274687844196,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.country.official_language"
+      ],
+      "planner_conf": 0.16048823345400953,
+      "source": "fallback",
+      "rel_ids": [
+        215
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05474421945241291,
+      "reachability": 2.0,
+      "rank_score": 0.854744219452413,
+      "f_sem": 0.44228583574295044,
+      "f_cov": 0.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.4382358801364899,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.026662129006934786,
+      "reachability": 1.0,
+      "rank_score": 0.37333787099306526,
+      "f_sem": 0.1365567147731781,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "language.human_language.main_country"
+      ],
+      "planner_conf": 0.1772173935290519,
+      "source": "fallback",
+      "rel_ids": [
+        255
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.09586113691329955,
+      "reachability": 0.0,
+      "rank_score": 0.09586113691329955,
+      "f_sem": 0.48620378971099854,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2228",
+  "question": "who was francis drake married to",
+  "paths": [
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.26741694407863215,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.03170672041984336,
+      "reachability": 5.0,
+      "rank_score": 2.0317067204198436,
+      "f_sem": 0.09092465043067932,
+      "f_cov": 1.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.spouse_s"
+      ],
+      "planner_conf": 0.29465317327659446,
+      "source": "fallback",
+      "rel_ids": [
+        46
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10549056497243246,
+      "reachability": 2.0,
+      "rank_score": 0.9054905649724325,
+      "f_sem": 0.2781069874763489,
+      "f_cov": 1.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.person.gender"
+      ],
+      "planner_conf": 0.31089656300894863,
+      "source": "fallback",
+      "rel_ids": [
+        16
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05828150973503528,
+      "reachability": 1.0,
+      "rank_score": 0.4582815097350353,
+      "f_sem": 0.08636884391307831,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.marriage.spouse"
+      ],
+      "planner_conf": 0.29676459510009606,
+      "source": "fallback",
+      "rel_ids": [
+        281
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1356943339109421,
+      "reachability": 0.0,
+      "rank_score": 0.1356943339109421,
+      "f_sem": 0.28564777970314026,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.marriage.type_of_union"
+      ],
+      "planner_conf": 0.27551596263488687,
+      "source": "fallback",
+      "rel_ids": [
+        365
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12191895097494125,
+      "reachability": 0.0,
+      "rank_score": 0.12191895097494125,
+      "f_sem": 0.2397298365831375,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.383,\n\"reason\": \"base.descriptive_names.names.descriptive_name\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.350,\n\"reason\": \"people.cause_of_death.people\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.33",
+  "version": 2
+}

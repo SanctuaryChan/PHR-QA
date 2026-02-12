@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2891",
+  "question": "what art movement was pablo picasso part of",
+  "paths": [
+    {
+      "rels": [
+        "influence.influence_node.influenced"
+      ],
+      "planner_conf": 0.32511566606920156,
+      "source": "fallback",
+      "rel_ids": [
+        125
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11087114107070226,
+      "reachability": 45.0,
+      "rank_score": 17.889128858929297,
+      "f_sem": 0.12168174982070923,
+      "f_cov": 0.0,
+      "f_reach": 45.0,
+      "f_branch": 0.9737566601691502,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "influence.influence_node.influenced_by"
+      ],
+      "planner_conf": 0.33186010179234976,
+      "source": "fallback",
+      "rel_ids": [
+        56
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08030018566835463,
+      "reachability": 12.0,
+      "rank_score": 4.719699814331647,
+      "f_sem": 0.11645132303237915,
+      "f_cov": 0.0,
+      "f_reach": 12.0,
+      "f_branch": 0.6523558257806837,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.27162323667487104,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.13659304984858622,
+      "reachability": 10.0,
+      "rank_score": 3.863406950151414,
+      "f_sem": -0.08535411208868027,
+      "f_cov": 0.0,
+      "f_reach": 10.0,
+      "f_branch": 0.6098681622198213,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "visual_art.visual_artist.associated_periods_or_movements"
+      ],
+      "planner_conf": 0.3019898108480328,
+      "source": "fallback",
+      "rel_ids": [
+        2084
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.057785581887308715,
+      "reachability": 8.0,
+      "rank_score": 3.257785581887309,
+      "f_sem": 0.5455621480941772,
+      "f_cov": 0.0,
+      "f_reach": 8.0,
+      "f_branch": 0.5588306254094444,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.3327543857882717,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09398149958007497,
+      "reachability": 6.0,
+      "rank_score": 2.3060185004199254,
+      "f_sem": 0.018365876749157906,
+      "f_cov": 0.0,
+      "f_reach": 6.0,
+      "f_branch": 0.49491262604822334,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.441,\n\"reason\": \"Common.topic.notable_types\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.333,\n\"reason\": \"People.person.profession\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.325,\n\"reason\": \"Influence.",
+  "version": 2
+}

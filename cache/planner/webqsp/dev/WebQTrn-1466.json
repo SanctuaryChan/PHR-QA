@@ -1,0 +1,7 @@
+{
+  "id": "WebQTrn-1466",
+  "question": "what does the letters eu stand for",
+  "paths": [],
+  "raw": "Here are 10 valid paths to answer the question \"what does the letters eu stand for\":\n\n{\n\"paths\": [\n{\n\"rels\": [\"eu-European Union\"],\n\"confidence\": 0.8,\n\"reason\": \"The letters 'EU' stand for the European Union.\"\n},\n{\n\"rels\": [\"eu-Euro\"],\n\"confidence\": 0.7,\n\"reason\": \"The letters 'EU' can also stand for the Euro currency.\"\n},\n{\n\"rels\": [\"eu-East",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1372",
+  "question": "what is the zip code for trenton ga",
+  "paths": [
+    {
+      "rels": [
+        "location.statistical_region.population"
+      ],
+      "planner_conf": 0.3729195505126994,
+      "source": "fallback",
+      "rel_ids": [
+        520
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.10378680378198624,
+      "reachability": 65.0,
+      "rank_score": 25.89621319621801,
+      "f_sem": 0.1540439873933792,
+      "f_cov": 0.0,
+      "f_reach": 65.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.contains"
+      ],
+      "planner_conf": 0.20196692345624273,
+      "source": "fallback",
+      "rel_ids": [
+        315
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.1182573236525059,
+      "reachability": 56.0,
+      "rank_score": 22.281742676347495,
+      "f_sem": 0.10580892115831375,
+      "f_cov": 0.0,
+      "f_reach": 56.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.42867321968078614,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05453698007693414,
+      "reachability": 3.0,
+      "rank_score": 1.145463019923066,
+      "f_sem": 0.10240435600280762,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "government.governmental_jurisdiction.governing_officials"
+      ],
+      "planner_conf": 0.18776093503262137,
+      "source": "fallback",
+      "rel_ids": [
+        447
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.050021380513636284,
+      "reachability": 2.0,
+      "rank_score": 0.7499786194863638,
+      "f_sem": 0.09306716918945312,
+      "f_cov": 0.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.3218133944780269,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08757071926410259,
+      "reachability": 1.0,
+      "rank_score": 0.31242928073589743,
+      "f_sem": -0.06647191941738129,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.429,\n\"reason\": \"Location.location.containedby\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.373,\n\"reason\": \"Location.location.statistical_region.population\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.209,\n\"reason\": \"",
+  "version": 2
+}

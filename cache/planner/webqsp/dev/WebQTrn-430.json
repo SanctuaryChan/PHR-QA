@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-430",
+  "question": "what disease did helen keller",
+  "paths": [
+    {
+      "rels": [
+        "book.author.works_written"
+      ],
+      "planner_conf": 0.17634911470708595,
+      "source": "fallback",
+      "rel_ids": [
+        173
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08627342631579304,
+      "reachability": 17.0,
+      "rank_score": 6.713726573684208,
+      "f_sem": 0.1241292655467987,
+      "f_cov": 0.0,
+      "f_reach": 17.0,
+      "f_branch": 0.7351220597983265,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "base.activism.activist.area_of_activism"
+      ],
+      "planner_conf": 0.16693927253154175,
+      "source": "fallback",
+      "rel_ids": [
+        1464
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07347075881747468,
+      "reachability": 5.0,
+      "rank_score": 1.9265292411825252,
+      "f_sem": 0.07366638630628586,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "influence.influence_node.influenced_by"
+      ],
+      "planner_conf": 0.18502020677414263,
+      "source": "fallback",
+      "rel_ids": [
+        56
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07980259807787753,
+      "reachability": 4.0,
+      "rank_score": 1.5201974019221225,
+      "f_sem": 0.03710335120558739,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.26180514474841693,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07656061282684926,
+      "reachability": 3.0,
+      "rank_score": 1.123439387173151,
+      "f_sem": 0.028992246836423874,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.4083168787509203,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05871820192004504,
+      "reachability": 1.0,
+      "rank_score": 0.341281798079955,
+      "f_sem": 0.029703138396143913,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.408,\n\"reason\": \"Common topic\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.264,\n\"reason\": \"Base activism\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.262,\n\"reason\": \"People person\"\n},\n{\n\"rels\": [\"",
+  "version": 2
+}

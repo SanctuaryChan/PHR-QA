@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1843",
+  "question": "who is the publisher of the wall street journal",
+  "paths": [
+    {
+      "rels": [
+        "book.author.works_written"
+      ],
+      "planner_conf": 0.28589744062550304,
+      "source": "fallback",
+      "rel_ids": [
+        173
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.13824030458927156,
+      "reachability": 0.0,
+      "rank_score": 0.13824030458927156,
+      "f_sem": 0.29413434863090515,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "business.employment_tenure.person"
+      ],
+      "planner_conf": 0.23693156757449682,
+      "source": "fallback",
+      "rel_ids": [
+        220
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08672503605484962,
+      "reachability": 0.0,
+      "rank_score": 0.08672503605484962,
+      "f_sem": 0.12241678684949875,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "business.industry.parent_industry"
+      ],
+      "planner_conf": 0.23330514662297427,
+      "source": "fallback",
+      "rel_ids": [
+        2439
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08473591879010199,
+      "reachability": 0.0,
+      "rank_score": 0.08473591879010199,
+      "f_sem": 0.11578639596700668,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "base.jewlib.judaica_owner.parent_institution"
+      ],
+      "planner_conf": 0.23105566673310457,
+      "source": "fallback",
+      "rel_ids": [
+        795
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08232576176524163,
+      "reachability": 0.0,
+      "rank_score": 0.08232576176524163,
+      "f_sem": 0.10775253921747208,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "organization.leadership.person"
+      ],
+      "planner_conf": 0.23001927923575968,
+      "source": "fallback",
+      "rel_ids": [
+        320
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08168943002820016,
+      "reachability": 0.0,
+      "rank_score": 0.08168943002820016,
+      "f_sem": 0.10563143342733383,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.43,\n\"reason\": \"The Wall Street Journal is published by Dow Jones & Company.\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.35,\n\"reason\": \"The Wall Street Journal is a financial newspaper published in New York City.\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.28,\n\"reason",
+  "version": 2
+}

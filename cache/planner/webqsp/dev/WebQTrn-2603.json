@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2603",
+  "question": "what do hungarian people speak",
+  "paths": [
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.423705507516861,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.04223038538510861,
+      "reachability": 1.0,
+      "rank_score": 0.35776961461489143,
+      "f_sem": 0.084662526845932,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.religion"
+      ],
+      "planner_conf": 0.335731980891551,
+      "source": "fallback",
+      "rel_ids": [
+        338
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11915593594312666,
+      "reachability": 0.0,
+      "rank_score": 0.11915593594312666,
+      "f_sem": 0.23051978647708893,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.3738696905172478,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11323810666799546,
+      "reachability": 0.0,
+      "rank_score": 0.11323810666799546,
+      "f_sem": 0.21079368889331818,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.family.country"
+      ],
+      "planner_conf": 0.30535519643355225,
+      "source": "fallback",
+      "rel_ids": [
+        1523
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11275950223207475,
+      "reachability": 0.0,
+      "rank_score": 0.11275950223207475,
+      "f_sem": 0.20919834077358246,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.gender"
+      ],
+      "planner_conf": 0.3751365005767952,
+      "source": "fallback",
+      "rel_ids": [
+        16
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10816683173179627,
+      "reachability": 0.0,
+      "rank_score": 0.10816683173179627,
+      "f_sem": 0.19388943910598755,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.424,\n\"reason\": \"people.person.gender\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.375,\n\"reason\": \"people.person.nationality\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.374,\n\"reason\": \"people.person.religion",
+  "version": 2
+}

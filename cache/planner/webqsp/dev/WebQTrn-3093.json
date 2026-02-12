@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-3093",
+  "question": "where is the capital city of assyrians",
+  "paths": [
+    {
+      "rels": [
+        "location.country.capital"
+      ],
+      "planner_conf": 0.37185553057719084,
+      "source": "fallback",
+      "rel_ids": [
+        384
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.13463975754407248,
+      "reachability": 2.0,
+      "rank_score": 0.9346397575440725,
+      "f_sem": 0.3752709627151489,
+      "f_cov": 1.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.people_born_here"
+      ],
+      "planner_conf": 0.32203077428421734,
+      "source": "fallback",
+      "rel_ids": [
+        238
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06927061793235141,
+      "reachability": 2.0,
+      "rank_score": 0.8692706179323515,
+      "f_sem": 0.1573738306760788,
+      "f_cov": 1.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.country.form_of_government"
+      ],
+      "planner_conf": 0.3059160935030145,
+      "source": "fallback",
+      "rel_ids": [
+        491
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10561025456373628,
+      "reachability": 1.0,
+      "rank_score": 0.5056102545637362,
+      "f_sem": 0.24413132667541504,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.6285041257739068,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06291099131886897,
+      "reachability": 1.0,
+      "rank_score": 0.462910991318869,
+      "f_sem": 0.10180044919252396,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.2809134741556847,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10246177315711975,
+      "reachability": 0.0,
+      "rank_score": 0.10246177315711975,
+      "f_sem": 0.17487257719039917,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"location.location.containedby\", \"location.location.contains\"],\n\"confidence\": 0.329,\n\"reason\": \"Assyrians' capital\"\n},\n{\n\"rels\": [\"location.location.partially_containedby\", \"location.location.partially_contains\"],\n\"confidence\": 0.249,\n\"reason\": \"Partially contained by or contains Assyria\"\n},\n{\n\"rels\": [\"location.location.ge",
+  "version": 2
+}

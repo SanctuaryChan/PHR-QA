@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2539",
+  "question": "what team did albert pujols play for",
+  "paths": [
+    {
+      "rels": [
+        "sports.sports_team_roster.player"
+      ],
+      "planner_conf": 0.34745370473180504,
+      "source": "fallback",
+      "rel_ids": [
+        545
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.16053713262081148,
+      "reachability": 0.0,
+      "rank_score": 0.16053713262081148,
+      "f_sem": 0.3684571087360382,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "baseball.batting_statistics.team"
+      ],
+      "planner_conf": 0.36599301446051824,
+      "source": "fallback",
+      "rel_ids": [
+        2308
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1548904746770859,
+      "reachability": 0.0,
+      "rank_score": 0.1548904746770859,
+      "f_sem": 0.34963491559028625,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "sports.sports_team_roster.team"
+      ],
+      "planner_conf": 0.35511507147834415,
+      "source": "fallback",
+      "rel_ids": [
+        603
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.15292941331863402,
+      "reachability": 0.0,
+      "rank_score": 0.15292941331863402,
+      "f_sem": 0.3430980443954468,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "sports.sports_team.roster"
+      ],
+      "planner_conf": 0.3335636034465972,
+      "source": "fallback",
+      "rel_ids": [
+        565
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.14514467716217044,
+      "reachability": 0.0,
+      "rank_score": 0.14514467716217044,
+      "f_sem": 0.31714892387390137,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "sports.sports_team_roster.position"
+      ],
+      "planner_conf": 0.44498427084514075,
+      "source": "fallback",
+      "rel_ids": [
+        622
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.14258518815040588,
+      "reachability": 0.0,
+      "rank_score": 0.14258518815040588,
+      "f_sem": 0.3086172938346863,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"sports.sports_team_roster.position\", \"sports.professional_sports_team.draft_picks\"],\n\"confidence\": 0.445,\n\"reason\": \"Albert Pujols played for the St. Louis Cardinals\"\n},\n{\n\"rels\": [\"sports.sports_team_location.teams\", \"sports.professional_sports_team.location\"],\n\"confidence\": 0.355,\n\"",
+  "version": 2
+}

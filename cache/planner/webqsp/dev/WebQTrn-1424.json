@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1424",
+  "question": "where is oceania on a map",
+  "paths": [
+    {
+      "rels": [
+        "location.location.contains"
+      ],
+      "planner_conf": 0.4722899117931243,
+      "source": "fallback",
+      "rel_ids": [
+        315
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.01706265211105347,
+      "reachability": 71.0,
+      "rank_score": 28.382937347888948,
+      "f_sem": 0.10979115962982178,
+      "f_cov": 1.0,
+      "f_reach": 71.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.events"
+      ],
+      "planner_conf": 0.4267751735333474,
+      "source": "fallback",
+      "rel_ids": [
+        479
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0224013305360974,
+      "reachability": 10.0,
+      "rank_score": 4.0224013305360975,
+      "f_sem": 0.11129382252693176,
+      "f_cov": 1.0,
+      "f_reach": 10.0,
+      "f_branch": 0.6098681622198213,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.6378234165906906,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06258355793383914,
+      "reachability": 2.0,
+      "rank_score": 0.8625835579338392,
+      "f_sem": 0.1350836306810379,
+      "f_cov": 1.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.people_born_here"
+      ],
+      "planner_conf": 0.3302381797221399,
+      "source": "fallback",
+      "rel_ids": [
+        238
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.09338641778414188,
+      "reachability": 1.0,
+      "rank_score": 0.4933864177841419,
+      "f_sem": 0.20338520407676697,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.australian_state.capital_city"
+      ],
+      "planner_conf": 0.29853990085663334,
+      "source": "fallback",
+      "rel_ids": [
+        644
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1528134882450104,
+      "reachability": 0.0,
+      "rank_score": 0.1528134882450104,
+      "f_sem": 0.3427116274833679,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"location.location.containedby\", \"location.location.contains\"],\n\"confidence\": 0.638,\n\"reason\": \"location.location.containedby\"\n},\n{\n\"rels\": [\"location.location.partially_containedby\", \"location.location.partially_contains\"],\n\"confidence\": 0.472,\n\"reason\": \"location.location.partially_containedby\"\n},\n{\n\"rels\": [\"location.location.",
+  "version": 2
+}

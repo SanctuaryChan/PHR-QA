@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1449",
+  "question": "what to do when traveling to london",
+  "paths": [
+    {
+      "rels": [
+        "organization.organization_scope.organizations_with_this_scope"
+      ],
+      "planner_conf": 0.4027459377907651,
+      "source": "fallback",
+      "rel_ids": [
+        451
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.14160420466214418,
+      "reachability": 81.0,
+      "rank_score": 32.258395795337854,
+      "f_sem": 0.027985984459519386,
+      "f_cov": 0.0,
+      "f_reach": 81.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.time_zones"
+      ],
+      "planner_conf": 0.2510402115006968,
+      "source": "fallback",
+      "rel_ids": [
+        180
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06024267838184773,
+      "reachability": 1.0,
+      "rank_score": 0.4602426783818478,
+      "f_sem": 0.09290607273578644,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "time.event.locations"
+      ],
+      "planner_conf": 0.24430082164570485,
+      "source": "fallback",
+      "rel_ids": [
+        264
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08473982140421867,
+      "reachability": 0.0,
+      "rank_score": 0.08473982140421867,
+      "f_sem": 0.11579940468072891,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "fictional_universe.fictional_setting.fictional_characters_born_here"
+      ],
+      "planner_conf": 0.21717228657162077,
+      "source": "fallback",
+      "rel_ids": [
+        682
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06794440187513828,
+      "reachability": 0.0,
+      "rank_score": 0.06794440187513828,
+      "f_sem": 0.05981467291712761,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.22065071885810805,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06621757447719574,
+      "reachability": 0.0,
+      "rank_score": 0.06621757447719574,
+      "f_sem": 0.054058581590652466,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"organization.organization.geographic_scope\", \"organization.organization_scope.organizations_with_this_scope\"],\n\"confidence\": 0.428,\n\"reason\": \"This candidate has a high score in the geographic scope and organizations with this scope relations, indicating that it is likely to be a relevant path for travel to London.\"\n},\n{\n\"rels\": [\"location.location.time_zones\", \"time.event.locations\"],\n\"confidence\": 0",
+  "version": 2
+}

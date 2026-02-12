@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2639",
+  "question": "what is time zone in new orleans",
+  "paths": [
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.39356932811793827,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0697623845376811,
+      "reachability": 4.0,
+      "rank_score": 1.530237615462319,
+      "f_sem": 0.07057072967290878,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.time_zones"
+      ],
+      "planner_conf": 0.4120361790202913,
+      "source": "fallback",
+      "rel_ids": [
+        180
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1950116606134647,
+      "reachability": 1.0,
+      "rank_score": 0.5950116606134647,
+      "f_sem": 0.542136013507843,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.3929972701519728,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07513206827606024,
+      "reachability": 1.0,
+      "rank_score": 0.3248679317239398,
+      "f_sem": -0.025009749457240105,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "time.time_zone.day_dst_begins"
+      ],
+      "planner_conf": 0.37345653797331313,
+      "source": "fallback",
+      "rel_ids": [
+        511
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.18314220905303957,
+      "reachability": 0.0,
+      "rank_score": 0.18314220905303957,
+      "f_sem": 0.44380736351013184,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "time.time_zone.day_dst_ends"
+      ],
+      "planner_conf": 0.3675319113844917,
+      "source": "fallback",
+      "rel_ids": [
+        518
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1767943948507309,
+      "reachability": 0.0,
+      "rank_score": 0.1767943948507309,
+      "f_sem": 0.42264798283576965,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"time.event.locations\", \"location.location.time_zones\"],\n\"confidence\": 0.485,\n\"reason\": \"Time zone in New Orleans\"\n},\n{\n\"rels\": [\"location.location.people_born_here\", \"people.person.place_of_birth\"],\n\"confidence\": 0.315,\n\"reason\": \"People born in New Orleans\"\n},\n{\n\"rels\": [\"location.location.neighbor",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2510",
+  "question": "what country did truman lead",
+  "paths": [
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.4413500224968203,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.09760739669983325,
+      "reachability": 1.0,
+      "rank_score": 0.4976073966998333,
+      "f_sem": 0.21745513379573822,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.deceased_person.place_of_burial"
+      ],
+      "planner_conf": 0.28031402876385214,
+      "source": "fallback",
+      "rel_ids": [
+        597
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06885891944949564,
+      "reachability": 1.0,
+      "rank_score": 0.4688589194494957,
+      "f_sem": 0.12162687629461288,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.39753486175090075,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07027036299149456,
+      "reachability": 1.0,
+      "rank_score": 0.3297296370085055,
+      "f_sem": -0.00880406517535448,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.family.country"
+      ],
+      "planner_conf": 0.30829655553207913,
+      "source": "fallback",
+      "rel_ids": [
+        1523
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1217171549797058,
+      "reachability": 0.0,
+      "rank_score": 0.1217171549797058,
+      "f_sem": 0.23905718326568604,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "tv.tv_program.country_of_origin"
+      ],
+      "planner_conf": 0.2803212772737555,
+      "source": "fallback",
+      "rel_ids": [
+        230
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10888649970293045,
+      "reachability": 0.0,
+      "rank_score": 0.10888649970293045,
+      "f_sem": 0.1962883323431015,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.73,\n\"reason\": \"Truman led the United States during World War II and the Korean War.\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.27,\n\"reason\": \"Truman was born in Missouri and grew up in Kansas.\"\n},\n{\n\"rels\": [\"r3\", \"r4\"],\n\"confidence\": 0.23,\n\"",
+  "version": 2
+}

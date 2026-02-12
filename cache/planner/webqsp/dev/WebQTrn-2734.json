@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2734",
+  "question": "what language do argentina use",
+  "paths": [
+    {
+      "rels": [
+        "location.statistical_region.co2_emissions_per_capita"
+      ],
+      "planner_conf": 0.14919740209606946,
+      "source": "fallback",
+      "rel_ids": [
+        435
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.14212132450193166,
+      "reachability": 100.0,
+      "rank_score": 39.85787867549807,
+      "f_sem": 0.026262251660227776,
+      "f_cov": 0.0,
+      "f_reach": 100.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.statistical_region.energy_use_per_capita"
+      ],
+      "planner_conf": 0.1509308241263953,
+      "source": "fallback",
+      "rel_ids": [
+        463
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.12823629677295684,
+      "reachability": 80.0,
+      "rank_score": 31.871763703227042,
+      "f_sem": 0.07254567742347717,
+      "f_cov": 0.0,
+      "f_reach": 80.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.country.languages_spoken"
+      ],
+      "planner_conf": 0.15897652703819545,
+      "source": "fallback",
+      "rel_ids": [
+        184
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05348472280116813,
+      "reachability": 5.0,
+      "rank_score": 2.0534847228011683,
+      "f_sem": 0.4968513250350952,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.2904664843851793,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11862528810284949,
+      "reachability": 4.0,
+      "rank_score": 1.4813747118971505,
+      "f_sem": -0.09230561554431915,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.country.official_language"
+      ],
+      "planner_conf": 0.17509515500237757,
+      "source": "fallback",
+      "rel_ids": [
+        215
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0756718964952701,
+      "reachability": 1.0,
+      "rank_score": 0.47567189649527014,
+      "f_sem": 0.4776701331138611,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

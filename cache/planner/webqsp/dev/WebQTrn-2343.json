@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2343",
+  "question": "who did hermione granger marry",
+  "paths": [
+    {
+      "rels": [
+        "book.book_character.appears_in_book"
+      ],
+      "planner_conf": 0.3845128381582552,
+      "source": "fallback",
+      "rel_ids": [
+        1061
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06407184702799505,
+      "reachability": 7.0,
+      "rank_score": 2.735928152972005,
+      "f_sem": 0.12938527762889862,
+      "f_cov": 0.0,
+      "f_reach": 7.0,
+      "f_branch": 0.5288743031666463,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "fictional_universe.fictional_character.children"
+      ],
+      "planner_conf": 0.2814808003175856,
+      "source": "fallback",
+      "rel_ids": [
+        1073
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0731738757791837,
+      "reachability": 2.0,
+      "rank_score": 0.8731738757791837,
+      "f_sem": 0.17038469016551971,
+      "f_cov": 1.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.marriage.spouse"
+      ],
+      "planner_conf": 0.28658903649740297,
+      "source": "fallback",
+      "rel_ids": [
+        281
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1405123770236969,
+      "reachability": 0.0,
+      "rank_score": 0.1405123770236969,
+      "f_sem": 0.301707923412323,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.person.spouse_s"
+      ],
+      "planner_conf": 0.2864147334425934,
+      "source": "fallback",
+      "rel_ids": [
+        46
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.14032562375068663,
+      "reachability": 0.0,
+      "rank_score": 0.14032562375068663,
+      "f_sem": 0.3010854125022888,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "base.divinity.divinity_child_relationship.parent"
+      ],
+      "planner_conf": 0.2579225729166046,
+      "source": "fallback",
+      "rel_ids": [
+        5613
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10753671824932097,
+      "reachability": 0.0,
+      "rank_score": 0.10753671824932097,
+      "f_sem": 0.19178906083106995,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"book.book_character.appears_in_stories\", \"book.written_work.subjects\", \"book.translated_work.translations\"],\n\"confidence\": 0.073,\n\"reason\": \"Hermione Granger is a character in the Harry Potter book series\"\n},\n{\n\"rels\": [\"people.person.places_lived\", \"base.aareas.schema.administrative_area.administrative_children\"],\n\"",
+  "version": 2
+}

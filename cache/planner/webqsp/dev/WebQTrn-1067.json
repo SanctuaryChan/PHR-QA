@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1067",
+  "question": "who are senators from new jersey",
+  "paths": [
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.28855565354540086,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09134955561092023,
+      "reachability": 3.0,
+      "rank_score": 1.10865044438908,
+      "f_sem": -0.020304229110479355,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.4251691675186157,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.04066217824037137,
+      "reachability": 1.0,
+      "rank_score": 0.35933782175962864,
+      "f_sem": 0.08988988399505615,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_for"
+      ],
+      "planner_conf": 0.26871034563757984,
+      "source": "fallback",
+      "rel_ids": [
+        17
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0512285674285418,
+      "reachability": 1.0,
+      "rank_score": 0.3487714325714582,
+      "f_sem": 0.05466858670115471,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "book.author.works_written"
+      ],
+      "planner_conf": 0.3166831826789217,
+      "source": "fallback",
+      "rel_ids": [
+        173
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10097132325172424,
+      "reachability": 0.0,
+      "rank_score": 0.10097132325172424,
+      "f_sem": 0.1699044108390808,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "book.written_work.author"
+      ],
+      "planner_conf": 0.34216292982950264,
+      "source": "fallback",
+      "rel_ids": [
+        78
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.09910126924514771,
+      "reachability": 0.0,
+      "rank_score": 0.09910126924514771,
+      "f_sem": 0.16367089748382568,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.425,\n\"reason\": \"Common.topic.notable_types\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.402,\n\"reason\": \"People.person.nationality\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.342,\n\"reason\": \"Book.written",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-957",
+  "question": "what movie did marlee matlin won an academy award for",
+  "paths": [
+    {
+      "rels": [
+        "award.award_nominee.award_nominations"
+      ],
+      "planner_conf": 0.17857838666363124,
+      "source": "fallback",
+      "rel_ids": [
+        199
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.022564568454533716,
+      "reachability": 10.0,
+      "rank_score": 3.9774354315454667,
+      "f_sem": 0.29474082589149475,
+      "f_cov": 0.0,
+      "f_reach": 10.0,
+      "f_branch": 0.6098681622198213,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.407892804145813,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08711409883884652,
+      "reachability": 5.0,
+      "rank_score": 1.9128859011611532,
+      "f_sem": 0.028188586235046387,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.16587878863570418,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05914663787151637,
+      "reachability": 1.0,
+      "rank_score": 0.34085336212848366,
+      "f_sem": 0.02827501855790615,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.person.gender"
+      ],
+      "planner_conf": 0.15948432027249582,
+      "source": "fallback",
+      "rel_ids": [
+        16
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07964662558550896,
+      "reachability": 1.0,
+      "rank_score": 0.3203533744144911,
+      "f_sem": -0.04005827382206917,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "film.film.starring"
+      ],
+      "planner_conf": 0.17412627575503795,
+      "source": "fallback",
+      "rel_ids": [
+        133
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.04921172857284545,
+      "reachability": 0.0,
+      "rank_score": 0.04921172857284545,
+      "f_sem": 0.33070576190948486,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"freebase.valuenotation.is_reviewed\", \"medicine.risk_factor.diseases\", \"award.award_nomination.award\", \"film.film.starring\", \"media_common.netflix_title.netflix_genres\"],\n\"confidence\": 0.408,\n\"reason\": \"Top 10 relations based on score\"\n},\n{\n\"rels\": [\"award.award_nomination.n",
+  "version": 2
+}

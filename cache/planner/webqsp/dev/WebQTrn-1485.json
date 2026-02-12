@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1485",
+  "question": "what was francisco vasquez de coronado known for",
+  "paths": [
+    {
+      "rels": [
+        "medicine.risk_factor.diseases"
+      ],
+      "planner_conf": 0.17321189916323104,
+      "source": "fallback",
+      "rel_ids": [
+        629
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.020878407359123233,
+      "reachability": 0.0,
+      "rank_score": -0.020878407359123233,
+      "f_sem": 0.09707197546958923,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.profession.people_with_this_profession"
+      ],
+      "planner_conf": 0.13168467330554176,
+      "source": "fallback",
+      "rel_ids": [
+        308
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.02455553710460663,
+      "reachability": 0.0,
+      "rank_score": -0.02455553710460663,
+      "f_sem": 0.0848148763179779,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.location.people_born_here"
+      ],
+      "planner_conf": 0.2648852090340443,
+      "source": "fallback",
+      "rel_ids": [
+        238
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.02923296764492989,
+      "reachability": 0.0,
+      "rank_score": -0.02923296764492989,
+      "f_sem": 0.06922344118356705,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.events"
+      ],
+      "planner_conf": 0.16936020471175356,
+      "source": "fallback",
+      "rel_ids": [
+        479
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.054483680892735725,
+      "reachability": 0.0,
+      "rank_score": -0.054483680892735725,
+      "f_sem": -0.014945602975785732,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "base.aareas.schema.administrative_area.administrative_children"
+      ],
+      "planner_conf": 0.14332564206902312,
+      "source": "fallback",
+      "rel_ids": [
+        328
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0619696918874979,
+      "reachability": 0.0,
+      "rank_score": -0.0619696918874979,
+      "f_sem": -0.03989897295832634,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

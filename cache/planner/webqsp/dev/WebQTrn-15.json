@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-15",
+  "question": "what is nina dobrev nationality",
+  "paths": [
+    {
+      "rels": [
+        "common.topic.webpage"
+      ],
+      "planner_conf": 0.2614130841136622,
+      "source": "fallback",
+      "rel_ids": [
+        75
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11677315813952013,
+      "reachability": 11.0,
+      "rank_score": 4.28322684186048,
+      "f_sem": -0.01191113330423832,
+      "f_cov": 0.0,
+      "f_reach": 11.0,
+      "f_branch": 0.6319981814824864,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.14149923074374096,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07321731561802244,
+      "reachability": 4.0,
+      "rank_score": 1.5267826843819776,
+      "f_sem": 0.05905429273843765,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.14718447179888652,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07026037483627857,
+      "reachability": 1.0,
+      "rank_score": 0.32973962516372146,
+      "f_sem": -0.008770771324634552,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "language.human_language.countries_spoken_in"
+      ],
+      "planner_conf": 0.14299235392817491,
+      "source": "fallback",
+      "rel_ids": [
+        233
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.010708662867546077,
+      "reachability": 0.0,
+      "rank_score": 0.010708662867546077,
+      "f_sem": 0.20236220955848694,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.country.languages_spoken"
+      ],
+      "planner_conf": 0.14012414742716783,
+      "source": "fallback",
+      "rel_ids": [
+        184
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.007635584473609916,
+      "reachability": 0.0,
+      "rank_score": 0.007635584473609916,
+      "f_sem": 0.19211861491203308,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

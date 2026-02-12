@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1682",
+  "question": "when did aldi originate",
+  "paths": [
+    {
+      "rels": [
+        "location.location.time_zones"
+      ],
+      "planner_conf": 0.25753236691619075,
+      "source": "fallback",
+      "rel_ids": [
+        180
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08174148947000502,
+      "reachability": 0.0,
+      "rank_score": 0.08174148947000502,
+      "f_sem": 0.10580496490001678,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.23359576377757763,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07602868378162385,
+      "reachability": 0.0,
+      "rank_score": 0.07602868378162385,
+      "f_sem": 0.08676227927207947,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "fictional_universe.fictional_setting.fictional_characters_born_here"
+      ],
+      "planner_conf": 0.22080666022245274,
+      "source": "fallback",
+      "rel_ids": [
+        682
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06730946153402328,
+      "reachability": 0.0,
+      "rank_score": 0.06730946153402328,
+      "f_sem": 0.05769820511341095,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "time.time_zone.locations_in_this_time_zone"
+      ],
+      "planner_conf": 0.21762470738832343,
+      "source": "fallback",
+      "rel_ids": [
+        1181
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06390022635459901,
+      "reachability": 0.0,
+      "rank_score": 0.06390022635459901,
+      "f_sem": 0.04633408784866333,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "base.schemastaging.phone_open_times.time_zone"
+      ],
+      "planner_conf": 0.221945883311158,
+      "source": "fallback",
+      "rel_ids": [
+        3134
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05856328029185534,
+      "reachability": 0.0,
+      "rank_score": 0.05856328029185534,
+      "f_sem": 0.028544267639517784,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.430,\n\"reason\": \"Medicine.manufactured_drug_form.label_sections\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.411,\n\"reason\": \"Medicine.drug_label_section.subject_drug\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\":",
+  "version": 2
+}

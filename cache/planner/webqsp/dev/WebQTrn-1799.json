@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1799",
+  "question": "who played danielle rousseau on lost",
+  "paths": [
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.3930123658829861,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07915871704004622,
+      "reachability": 4.0,
+      "rank_score": 1.5208412829599538,
+      "f_sem": 0.03924962133169174,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.39566693779960105,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06745630077238145,
+      "reachability": 1.0,
+      "rank_score": 0.33254369922761856,
+      "f_sem": 0.0005761422216892242,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "tv.tv_actor.starring_roles"
+      ],
+      "planner_conf": 0.3633112982283817,
+      "source": "fallback",
+      "rel_ids": [
+        117
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.14311443269252777,
+      "reachability": 0.0,
+      "rank_score": 0.14311443269252777,
+      "f_sem": 0.3103814423084259,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "tv.regular_tv_appearance.actor"
+      ],
+      "planner_conf": 0.356471079922794,
+      "source": "fallback",
+      "rel_ids": [
+        234
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1357856273651123,
+      "reachability": 0.0,
+      "rank_score": 0.1357856273651123,
+      "f_sem": 0.285952091217041,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.32625457593787477,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07772861868143081,
+      "reachability": 0.0,
+      "rank_score": 0.07772861868143081,
+      "f_sem": 0.09242872893810272,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"people.person.profession\", \"film.actor.film\", \"award.award_nomination.award_nominee\"],\n\"confidence\": 0.431,\n\"reason\": \"Profession is a common relation for actors.\"\n},\n{\n\"rels\": [\"people.person.gender\", \"film.actor.film\", \"award.award_nomination.nominated_for\"],\n\"confidence\": 0.396,\n\"reason\":",
+  "version": 2
+}

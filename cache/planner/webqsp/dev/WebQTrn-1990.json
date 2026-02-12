@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1990",
+  "question": "what is st mary mascot",
+  "paths": [
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.25253154070796197,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09007487936248902,
+      "reachability": 3.0,
+      "rank_score": 1.1099251206375111,
+      "f_sem": -0.016055308282375336,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "common.topic.image"
+      ],
+      "planner_conf": 0.2087349994681977,
+      "source": "fallback",
+      "rel_ids": [
+        58
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.040895698062730454,
+      "reachability": 1.0,
+      "rank_score": 0.35910430193726955,
+      "f_sem": 0.08911148458719254,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.24580498395135275,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.05909291546012225,
+      "reachability": 1.0,
+      "rank_score": 0.3409070845398778,
+      "f_sem": 0.028454093262553215,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "base.saints.saint.venerated_in"
+      ],
+      "planner_conf": 0.21801533682926283,
+      "source": "fallback",
+      "rel_ids": [
+        1299
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.04459172189235687,
+      "reachability": 0.0,
+      "rank_score": 0.04459172189235687,
+      "f_sem": 0.3153057396411896,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "sports.sports_team_roster.team"
+      ],
+      "planner_conf": 0.2926158961089882,
+      "source": "fallback",
+      "rel_ids": [
+        603
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.04343981146812438,
+      "reachability": 0.0,
+      "rank_score": 0.04343981146812438,
+      "f_sem": 0.3114660382270813,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"rdf-schema#range\", \"base.fashionmodels.hair_color.fashion_models_with_this_hair_color\"],\n\"confidence\": 0.077,\n\"reason\": \"Hair color is a notable feature of fashion models.\"\n},\n{\n\"rels\": [\"base.schemastaging.visual_color_extra.hsv\", \"base.schemastaging.visual_color_extra.srgb\"],\n\"confidence\": 0.0",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-700",
+  "question": "who played juni in spy kids 4",
+  "paths": [
+    {
+      "rels": [
+        "tv.tv_actor.guest_roles"
+      ],
+      "planner_conf": 0.29338524015817774,
+      "source": "fallback",
+      "rel_ids": [
+        76
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12635581195354462,
+      "reachability": 0.0,
+      "rank_score": 0.12635581195354462,
+      "f_sem": 0.25451937317848206,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "tv.tv_guest_role.actor"
+      ],
+      "planner_conf": 0.2930881455746664,
+      "source": "fallback",
+      "rel_ids": [
+        22
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12603749632835387,
+      "reachability": 0.0,
+      "rank_score": 0.12603749632835387,
+      "f_sem": 0.25345832109451294,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "film.performance.actor"
+      ],
+      "planner_conf": 0.4222407766366335,
+      "source": "fallback",
+      "rel_ids": [
+        213
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12419148385524752,
+      "reachability": 0.0,
+      "rank_score": 0.12419148385524752,
+      "f_sem": 0.24730494618415833,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "film.actor.film"
+      ],
+      "planner_conf": 0.4093056632461636,
+      "source": "fallback",
+      "rel_ids": [
+        284
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11625738441944121,
+      "reachability": 0.0,
+      "rank_score": 0.11625738441944121,
+      "f_sem": 0.22085794806480408,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.gender"
+      ],
+      "planner_conf": 0.4407160774477616,
+      "source": "fallback",
+      "rel_ids": [
+        16
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06696209087967873,
+      "reachability": 0.0,
+      "rank_score": 0.06696209087967873,
+      "f_sem": 0.05654030293226242,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"people.person.profession\", \"film.performance.actor\", \"film.production_company.films\", \"film.person_or_entity_appearing_in_film.films\"],\n\"confidence\": 0.44,\n\"reason\": \"Highest scoring path\"\n},\n{\n\"rels\": [\"people.person.gender\", \"film.actor.film\", \"film.production_company.films\", \"film.person_or_entity_appearing_in",
+  "version": 2
+}

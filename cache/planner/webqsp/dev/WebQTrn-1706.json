@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1706",
+  "question": "who controls panama",
+  "paths": [
+    {
+      "rels": [
+        "base.aareas.schema.administrative_area.administrative_children"
+      ],
+      "planner_conf": 0.23211727180448521,
+      "source": "fallback",
+      "rel_ids": [
+        328
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.00517655907667354,
+      "reachability": 11.0,
+      "rank_score": 4.405176559076674,
+      "f_sem": 0.0612545907497406,
+      "f_cov": 1.0,
+      "f_reach": 11.0,
+      "f_branch": 0.6319981814824864,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.41525569900870324,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07458821164451457,
+      "reachability": 4.0,
+      "rank_score": 1.5254117883554854,
+      "f_sem": 0.054484639316797256,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.statistical_region.child_labor_percent"
+      ],
+      "planner_conf": 0.20969147034901747,
+      "source": "fallback",
+      "rel_ids": [
+        1682
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.02075225351074811,
+      "reachability": 3.0,
+      "rank_score": 1.2207522535107482,
+      "f_sem": 0.020035134628415108,
+      "f_cov": 1.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "base.aareas.schema.administrative_area.administrative_parent"
+      ],
+      "planner_conf": 0.25614648454651545,
+      "source": "fallback",
+      "rel_ids": [
+        291
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05316920370643079,
+      "reachability": 1.0,
+      "rank_score": 0.4531692037064308,
+      "f_sem": 0.06932782381772995,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.26891877372654116,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10197565406560898,
+      "reachability": 0.0,
+      "rank_score": 0.10197565406560898,
+      "f_sem": 0.1732521802186966,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.415,\n\"reason\": \"location.location.people_born_here\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.347,\n\"reason\": \"location.location.containedby\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.269,\n\"reason\": \"people.person",
+  "version": 2
+}

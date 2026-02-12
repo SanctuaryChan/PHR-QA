@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1653",
+  "question": "who played andy in toy story 3",
+  "paths": [
+    {
+      "rels": [
+        "media_common.netflix_title.netflix_genres"
+      ],
+      "planner_conf": 0.2866319552139391,
+      "source": "fallback",
+      "rel_ids": [
+        63
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.14761890850808637,
+      "reachability": 18.0,
+      "rank_score": 7.052381091491914,
+      "f_sem": -0.07577195018529892,
+      "f_cov": 0.0,
+      "f_reach": 18.0,
+      "f_branch": 0.7488732345249669,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.3960785262659192,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08945986587857727,
+      "reachability": 3.0,
+      "rank_score": 1.110540134121423,
+      "f_sem": -0.014005263336002827,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "cvg.game_performance.voice_actor"
+      ],
+      "planner_conf": 0.275500945199894,
+      "source": "fallback",
+      "rel_ids": [
+        2951
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12980887889862064,
+      "reachability": 0.0,
+      "rank_score": 0.12980887889862064,
+      "f_sem": 0.26602959632873535,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "film.performance.actor"
+      ],
+      "planner_conf": 0.3395066784831542,
+      "source": "fallback",
+      "rel_ids": [
+        213
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11592713743448256,
+      "reachability": 0.0,
+      "rank_score": 0.11592713743448256,
+      "f_sem": 0.21975712478160858,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "film.dubbing_performance.actor"
+      ],
+      "planner_conf": 0.2756778957345818,
+      "source": "fallback",
+      "rel_ids": [
+        2283
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11372360438108446,
+      "reachability": 0.0,
+      "rank_score": 0.11372360438108446,
+      "f_sem": 0.2124120146036148,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"people.person.profession\", \"film.person_or_entity_appearing_in_film.films\"],\n\"confidence\": 0.429,\n\"reason\": \"high score on people.person.profession\"\n},\n{\n\"rels\": [\"film.actor.film\", \"film.person_or_entity_appearing_in_film.films\"],\n\"confidence\": 0.340,\n\"reason\": \"high score on film.actor",
+  "version": 2
+}

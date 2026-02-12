@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2921",
+  "question": "who started the federal reserve board",
+  "paths": [
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.3806993266940117,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08830843626673283,
+      "reachability": 1.0,
+      "rank_score": 0.3116915637332672,
+      "f_sem": -0.0689309760928154,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "media_common.quotation.author"
+      ],
+      "planner_conf": 0.5762057280343967,
+      "source": "fallback",
+      "rel_ids": [
+        1014
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.09985935539007186,
+      "reachability": 0.0,
+      "rank_score": 0.09985935539007186,
+      "f_sem": 0.16619785130023956,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "book.written_work.author"
+      ],
+      "planner_conf": 0.4259367222314353,
+      "source": "fallback",
+      "rel_ids": [
+        78
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08720849752426148,
+      "reachability": 0.0,
+      "rank_score": 0.08720849752426148,
+      "f_sem": 0.12402832508087158,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "book.author.works_written"
+      ],
+      "planner_conf": 0.42564081612851595,
+      "source": "fallback",
+      "rel_ids": [
+        173
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08218187913298607,
+      "reachability": 0.0,
+      "rank_score": 0.08218187913298607,
+      "f_sem": 0.1072729304432869,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "base.aareas.schema.administrative_area.administrative_parent"
+      ],
+      "planner_conf": 0.34079789422043083,
+      "source": "fallback",
+      "rel_ids": [
+        291
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07369633093476295,
+      "reachability": 0.0,
+      "rank_score": 0.07369633093476295,
+      "f_sem": 0.07898776978254318,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.7,\n\"reason\": \"Media common.quotation.author\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.6,\n\"reason\": \"People.person.quotations\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.5,\n\"reason\": \"Book.written_work.author\"\n},",
+  "version": 2
+}

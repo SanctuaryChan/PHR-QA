@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-722",
+  "question": "what is the current government system in france",
+  "paths": [
+    {
+      "rels": [
+        "government.governmental_jurisdiction.governing_officials"
+      ],
+      "planner_conf": 0.21491232100415486,
+      "source": "fallback",
+      "rel_ids": [
+        447
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06288880705833436,
+      "reachability": 77.0,
+      "rank_score": 30.737111192941665,
+      "f_sem": 0.2903706431388855,
+      "f_cov": 0.0,
+      "f_reach": 77.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.location.partially_contains"
+      ],
+      "planner_conf": 0.2271035950888094,
+      "source": "fallback",
+      "rel_ids": [
+        588
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.15985214710235596,
+      "reachability": 56.0,
+      "rank_score": 22.240147852897643,
+      "f_sem": -0.03284049034118652,
+      "f_cov": 0.0,
+      "f_reach": 56.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "olympics.olympic_participating_country.olympics_participated_in"
+      ],
+      "planner_conf": 0.24178619432173593,
+      "source": "fallback",
+      "rel_ids": [
+        503
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08197965754855216,
+      "reachability": 12.0,
+      "rank_score": 4.7180203424514495,
+      "f_sem": 0.11085308343172073,
+      "f_cov": 0.0,
+      "f_reach": 12.0,
+      "f_branch": 0.6523558257806837,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.partially_containedby"
+      ],
+      "planner_conf": 0.21844114328300404,
+      "source": "fallback",
+      "rel_ids": [
+        579
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.12249433555653681,
+      "reachability": 10.0,
+      "rank_score": 3.877505664443463,
+      "f_sem": -0.03835839778184891,
+      "f_cov": 0.0,
+      "f_reach": 10.0,
+      "f_branch": 0.6098681622198213,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.32971299175796137,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09529276150437992,
+      "reachability": 2.0,
+      "rank_score": 0.7047072384956201,
+      "f_sem": -0.057837434113025665,
+      "f_cov": 0.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"common.topic.notable_types\", \"location.country.languages_spoken\", \"government.government_position_held.jurisdiction_of_office\"],\n\"confidence\": 0.085,\n\"reason\": \"Topicality\"\n},\n{\n\"rels\": [\"location.fr_department.region\", \"location.fr_region.departments\", \"location.statistical_region.gdp_nominal_per_capita",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-3036",
+  "question": "who was the president of indian national congress",
+  "paths": [
+    {
+      "rels": [
+        "organization.leadership.person"
+      ],
+      "planner_conf": 0.24170143353805115,
+      "source": "fallback",
+      "rel_ids": [
+        320
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08986469805240631,
+      "reachability": 0.0,
+      "rank_score": 0.08986469805240631,
+      "f_sem": 0.13288232684135437,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.23676339351729062,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07494312226772308,
+      "reachability": 0.0,
+      "rank_score": 0.07494312226772308,
+      "f_sem": 0.08314374089241028,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "base.activism.activism_issue.parent_issue"
+      ],
+      "planner_conf": 0.22492933112248947,
+      "source": "fallback",
+      "rel_ids": [
+        1748
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07189458832144738,
+      "reachability": 0.0,
+      "rank_score": 0.07189458832144738,
+      "f_sem": 0.07298196107149124,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.23163427102431824,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06300702393054962,
+      "reachability": 0.0,
+      "rank_score": 0.06300702393054962,
+      "f_sem": 0.043356746435165405,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "base.aareas.schema.administrative_area.administrative_parent"
+      ],
+      "planner_conf": 0.2337222026790796,
+      "source": "fallback",
+      "rel_ids": [
+        291
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05242306627333164,
+      "reachability": 0.0,
+      "rank_score": 0.05242306627333164,
+      "f_sem": 0.00807688757777214,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

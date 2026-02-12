@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2588",
+  "question": "where do navajo indians live",
+  "paths": [
+    {
+      "rels": [
+        "location.country.languages_spoken"
+      ],
+      "planner_conf": 0.4610420004947194,
+      "source": "fallback",
+      "rel_ids": [
+        184
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.13661130964756013,
+      "reachability": 0.0,
+      "rank_score": 0.13661130964756013,
+      "f_sem": 0.28870436549186707,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.country.official_language"
+      ],
+      "planner_conf": 0.3903022990088414,
+      "source": "fallback",
+      "rel_ids": [
+        215
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.12664032280445098,
+      "reachability": 0.0,
+      "rank_score": 0.12664032280445098,
+      "f_sem": 0.2554677426815033,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.statistical_region.population"
+      ],
+      "planner_conf": 0.3759835090816225,
+      "source": "fallback",
+      "rel_ids": [
+        520
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1259257733821869,
+      "reachability": 0.0,
+      "rank_score": 0.1259257733821869,
+      "f_sem": 0.2530859112739563,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.3846551692363752,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11035091876983642,
+      "reachability": 0.0,
+      "rank_score": 0.11035091876983642,
+      "f_sem": 0.20116972923278809,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.location.contains"
+      ],
+      "planner_conf": 0.32914919638186185,
+      "source": "fallback",
+      "rel_ids": [
+        315
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.10938827842473985,
+      "reachability": 0.0,
+      "rank_score": 0.10938827842473985,
+      "f_sem": 0.19796092808246613,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.342,\n\"reason\": \"Location is partially contained by Navajo Indian Reservation\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.256,\n\"reason\": \"Location is contained by Navajo Indian Reservation\"\n},\n{\n\"rels\": [\"r3\", \"r4\"],\n\"confidence\": 0.236,\n\"reason",
+  "version": 2
+}

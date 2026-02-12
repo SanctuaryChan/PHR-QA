@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-611",
+  "question": "what position did george washington serve in the constitutional convention",
+  "paths": [
+    {
+      "rels": [
+        "military.military_person.participated_in_conflicts"
+      ],
+      "planner_conf": 0.19536404333376137,
+      "source": "fallback",
+      "rel_ids": [
+        1236
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08303540183890402,
+      "reachability": 12.0,
+      "rank_score": 4.7169645981610975,
+      "f_sem": 0.10733393579721451,
+      "f_cov": 0.0,
+      "f_reach": 12.0,
+      "f_branch": 0.6523558257806837,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "law.constitutional_convention_delegate.constitutional_conventions"
+      ],
+      "planner_conf": 0.20342249375259094,
+      "source": "fallback",
+      "rel_ids": [
+        2844
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.09645295456831392,
+      "reachability": 1.0,
+      "rank_score": 0.4964529545683139,
+      "f_sem": 0.5469403266906738,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_for"
+      ],
+      "planner_conf": 0.22497470041137305,
+      "source": "fallback",
+      "rel_ids": [
+        17
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07078506576980415,
+      "reachability": 1.0,
+      "rank_score": 0.3292149342301959,
+      "f_sem": -0.010519741103053093,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.39185763970017434,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07635310090298714,
+      "reachability": 1.0,
+      "rank_score": 0.3236468990970129,
+      "f_sem": -0.0290798582136631,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "law.constitutional_convention.delegates"
+      ],
+      "planner_conf": 0.2171388714877289,
+      "source": "fallback",
+      "rel_ids": [
+        2836
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11592107415199278,
+      "reachability": 0.0,
+      "rank_score": 0.11592107415199278,
+      "f_sem": 0.5530702471733093,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.49,\n\"reason\": \"George Washington served as a delegate to the Constitutional Convention in 1787.\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.35,\n\"reason\": \"George Washington was a notable figure in the early years of the United States.\"\n}\n]\n}",
+  "version": 2
+}

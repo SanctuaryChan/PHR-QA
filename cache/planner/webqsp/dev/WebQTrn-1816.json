@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1816",
+  "question": "what part does seth macfarlane play in family guy",
+  "paths": [
+    {
+      "rels": [
+        "common.topic.webpage"
+      ],
+      "planner_conf": 0.1791602130599742,
+      "source": "fallback",
+      "rel_ids": [
+        75
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.13755745366215705,
+      "reachability": 99.0,
+      "rank_score": 39.46244254633785,
+      "f_sem": 0.04147515445947647,
+      "f_cov": 0.0,
+      "f_reach": 99.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "tv.tv_program.genre"
+      ],
+      "planner_conf": 0.18767385447924992,
+      "source": "fallback",
+      "rel_ids": [
+        1595
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.055447114533640804,
+      "reachability": 7.0,
+      "rank_score": 2.7445528854663594,
+      "f_sem": 0.15813438594341278,
+      "f_cov": 0.0,
+      "f_reach": 7.0,
+      "f_branch": 0.5288743031666463,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "tv.tv_series_season.regular_cast"
+      ],
+      "planner_conf": 0.22076569226552853,
+      "source": "fallback",
+      "rel_ids": [
+        638
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.03451310694217681,
+      "reachability": 0.0,
+      "rank_score": 0.03451310694217681,
+      "f_sem": 0.28171035647392273,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "fictional_universe.fictional_universe.characters"
+      ],
+      "planner_conf": 0.1714434213233444,
+      "source": "fallback",
+      "rel_ids": [
+        839
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.01077832877635955,
+      "reachability": 0.0,
+      "rank_score": 0.01077832877635955,
+      "f_sem": 0.20259442925453186,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "tv.regular_tv_appearance.seasons"
+      ],
+      "planner_conf": 0.1979296889620007,
+      "source": "fallback",
+      "rel_ids": [
+        628
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.010045960545539849,
+      "reachability": 0.0,
+      "rank_score": 0.010045960545539849,
+      "f_sem": 0.2001532018184662,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.448,\n\"reason\": \"TV writer and actor\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.439,\n\"reason\": \"TV series and episode writer\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.221,\n\"reason\": \"TV series regular\"\n},\n{\n\"",
+  "version": 2
+}

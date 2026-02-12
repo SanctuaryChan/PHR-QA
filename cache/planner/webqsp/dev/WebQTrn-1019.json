@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1019",
+  "question": "where is the mozambique located",
+  "paths": [
+    {
+      "rels": [
+        "location.statistical_region.co2_emissions_per_capita"
+      ],
+      "planner_conf": 0.45397829972591597,
+      "source": "fallback",
+      "rel_ids": [
+        435
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0012064993381500216,
+      "reachability": 100.0,
+      "rank_score": 40.00120649933815,
+      "f_sem": 0.17068833112716675,
+      "f_cov": 1.0,
+      "f_reach": 100.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.statistical_region.electricity_consumption_per_capita"
+      ],
+      "planner_conf": 0.4112798962027756,
+      "source": "fallback",
+      "rel_ids": [
+        1678
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.000359168648719807,
+      "reachability": 80.0,
+      "rank_score": 31.999640831351275,
+      "f_sem": 0.1654694378376007,
+      "f_cov": 1.0,
+      "f_reach": 80.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.statistical_region.energy_use_per_capita"
+      ],
+      "planner_conf": 0.3964936974675385,
+      "source": "fallback",
+      "rel_ids": [
+        463
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.016201524436473866,
+      "reachability": 80.0,
+      "rank_score": 31.98379847556352,
+      "f_sem": 0.11266158521175385,
+      "f_cov": 1.0,
+      "f_reach": 80.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.statistical_region.gdp_nominal"
+      ],
+      "planner_conf": 0.3908653953026251,
+      "source": "fallback",
+      "rel_ids": [
+        1680
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.008695986866950986,
+      "reachability": 66.0,
+      "rank_score": 26.408695986866952,
+      "f_sem": 0.1956532895565033,
+      "f_cov": 1.0,
+      "f_reach": 66.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "location.statistical_region.gdp_real"
+      ],
+      "planner_conf": 0.39203480934973844,
+      "source": "fallback",
+      "rel_ids": [
+        1159
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.012158061563968661,
+      "reachability": 65.0,
+      "rank_score": 26.012158061563966,
+      "f_sem": 0.2071935385465622,
+      "f_cov": 1.0,
+      "f_reach": 65.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"location.location.partially_containedby\", \"location.statistical_region.partially_contains\", \"location.location.partially_contains\"],\n\"confidence\": 0.490,\n\"reason\": \"location.location.partially_containedby\"\n},\n{\n\"rels\": [\"location.statistical_region.gross_savings_as_percent_of_gdp\", \"location.statistical_region.deposit_interest_",
+  "version": 2
+}

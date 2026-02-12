@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-2018",
+  "question": "what form of government does czech republic have",
+  "paths": [
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.1888989299709021,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.10213567918470029,
+      "reachability": 3.0,
+      "rank_score": 1.0978643208152998,
+      "f_sem": -0.05625797435641289,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.country.form_of_government"
+      ],
+      "planner_conf": 0.22733567626346912,
+      "source": "fallback",
+      "rel_ids": [
+        491
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08717403129522737,
+      "reachability": 1.0,
+      "rank_score": 0.48717403129522735,
+      "f_sem": 0.516010582447052,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.3109307822359856,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07086775715614618,
+      "reachability": 1.0,
+      "rank_score": 0.32913224284385384,
+      "f_sem": -0.010795379057526588,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "government.form_of_government.countries"
+      ],
+      "planner_conf": 0.2586734815346178,
+      "source": "fallback",
+      "rel_ids": [
+        517
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11909368038177488,
+      "reachability": 0.0,
+      "rank_score": 0.11909368038177488,
+      "f_sem": 0.563645601272583,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "government.political_party.ideology"
+      ],
+      "planner_conf": 0.13939832881439562,
+      "source": "fallback",
+      "rel_ids": [
+        562
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.044787245988845814,
+      "reachability": 0.0,
+      "rank_score": 0.044787245988845814,
+      "f_sem": 0.3159574866294861,
+      "f_cov": 0.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

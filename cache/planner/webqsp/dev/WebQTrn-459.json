@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-459",
+  "question": "where is the best place to vacation in the dominican republic",
+  "paths": [
+    {
+      "rels": [
+        "location.statistical_region.co2_emissions_per_capita"
+      ],
+      "planner_conf": 0.30847180420895676,
+      "source": "fallback",
+      "rel_ids": [
+        435
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.045097463950514796,
+      "reachability": 100.0,
+      "rank_score": 39.95490253604949,
+      "f_sem": 0.016341786831617355,
+      "f_cov": 1.0,
+      "f_reach": 100.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.statistical_region.electricity_consumption_per_capita"
+      ],
+      "planner_conf": 0.3011119274079026,
+      "source": "fallback",
+      "rel_ids": [
+        1678
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.030719595402479177,
+      "reachability": 80.0,
+      "rank_score": 31.969280404597516,
+      "f_sem": 0.06426801532506943,
+      "f_cov": 1.0,
+      "f_reach": 80.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.statistical_region.trade_balance_as_percent_of_gdp"
+      ],
+      "planner_conf": 0.30198811133960624,
+      "source": "fallback",
+      "rel_ids": [
+        477
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.0008383408188819969,
+      "reachability": 54.0,
+      "rank_score": 21.599161659181117,
+      "f_sem": 0.16387219727039337,
+      "f_cov": 1.0,
+      "f_reach": 54.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.6276214078068734,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.03402369079800384,
+      "reachability": 5.0,
+      "rank_score": 2.034023690798004,
+      "f_sem": 0.09864788502454758,
+      "f_cov": 1.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "base.popstra.location.vacationers"
+      ],
+      "planner_conf": 0.30513117358282016,
+      "source": "fallback",
+      "rel_ids": [
+        393
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.13247266677049002,
+      "reachability": 2.0,
+      "rank_score": 0.93247266677049,
+      "f_sem": 0.3680473268032074,
+      "f_cov": 1.0,
+      "f_reach": 2.0,
+      "f_branch": 0.27941531270472214,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.328,\n\"reason\": \"Location.location.containedby\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.279,\n\"reason\": \"Location.location.partially_containedby\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.276,\n\"reason\": \"Location.",
+  "version": 2
+}

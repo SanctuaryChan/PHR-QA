@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1525",
+  "question": "where did phil mickelson go to college",
+  "paths": [
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.2327008162514128,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.05874943674390255,
+      "reachability": 1.0,
+      "rank_score": 0.4587494367439026,
+      "f_sem": 0.08792860060930252,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.26514039231520714,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.03722906910662589,
+      "reachability": 1.0,
+      "rank_score": 0.4372290691066259,
+      "f_sem": 0.016194041818380356,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.2838509186756129,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.06653346217389168,
+      "reachability": 1.0,
+      "rank_score": 0.33346653782610836,
+      "f_sem": 0.003652270883321762,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "base.locations.states_and_provences.country"
+      ],
+      "planner_conf": 0.2343637172953047,
+      "source": "fallback",
+      "rel_ids": [
+        538
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07816025987267493,
+      "reachability": 0.0,
+      "rank_score": 0.07816025987267493,
+      "f_sem": 0.09386753290891647,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.place_lived.location"
+      ],
+      "planner_conf": 0.22767307527739594,
+      "source": "fallback",
+      "rel_ids": [
+        154
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0753207191824913,
+      "reachability": 0.0,
+      "rank_score": 0.0753207191824913,
+      "f_sem": 0.08440239727497101,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"people.profession.specializations\", \"base.descriptive_names.names.descriptive_name\"],\n\"confidence\": 0.409,\n\"reason\": \"High score for people.profession.specializations\"\n},\n{\n\"rels\": [\"base.locations.states_and_provences.country\", \"base.us_county.hud_county_place\"],\n\"confidence\": 0.270,\n\"reason\": \"High score",
+  "version": 2
+}

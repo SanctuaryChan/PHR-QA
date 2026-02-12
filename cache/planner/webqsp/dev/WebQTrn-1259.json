@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1259",
+  "question": "where did brad paisley graduate from college",
+  "paths": [
+    {
+      "rels": [
+        "broadcast.artist.content"
+      ],
+      "planner_conf": 0.3235521770669864,
+      "source": "fallback",
+      "rel_ids": [
+        3
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.1160077008000851,
+      "reachability": 26.0,
+      "rank_score": 10.283992299199916,
+      "f_sem": 0.059389643371105194,
+      "f_cov": 0.0,
+      "f_reach": 26.0,
+      "f_branch": 0.8382459381141666,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.place_of_birth"
+      ],
+      "planner_conf": 0.23618599836642928,
+      "source": "fallback",
+      "rel_ids": [
+        43
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06496025041525301,
+      "reachability": 1.0,
+      "rank_score": 0.4649602504152531,
+      "f_sem": 0.10863131284713745,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.252263897061348,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.04015360341255604,
+      "reachability": 1.0,
+      "rank_score": 0.4401536034125561,
+      "f_sem": 0.025942489504814148,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "location.location.people_born_here"
+      ],
+      "planner_conf": 0.23448290513111997,
+      "source": "fallback",
+      "rel_ids": [
+        238
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0840613543987274,
+      "reachability": 0.0,
+      "rank_score": 0.0840613543987274,
+      "f_sem": 0.11353784799575806,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "people.marriage.location_of_ceremony"
+      ],
+      "planner_conf": 0.22765450271276327,
+      "source": "fallback",
+      "rel_ids": [
+        420
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07921773642301559,
+      "reachability": 0.0,
+      "rank_score": 0.07921773642301559,
+      "f_sem": 0.09739245474338531,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.425,\n\"reason\": \"Brad Paisley graduated from Belmont University\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.212,\n\"reason\": \"Brad Paisley was born in Glen Dale, West Virginia\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.197,",
+  "version": 2
+}

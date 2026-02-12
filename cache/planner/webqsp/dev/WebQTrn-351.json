@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-351",
+  "question": "who is chelsea kane",
+  "paths": [
+    {
+      "rels": [
+        "film.actor.film"
+      ],
+      "planner_conf": 0.2645247587979397,
+      "source": "fallback",
+      "rel_ids": [
+        284
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.0522275482352,
+      "reachability": 7.0,
+      "rank_score": 2.8522275482352004,
+      "f_sem": 0.18371659517288208,
+      "f_cov": 1.0,
+      "f_reach": 7.0,
+      "f_branch": 0.5288743031666463,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.2849764615018791,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.038029828276411534,
+      "reachability": 4.0,
+      "rank_score": 1.6380298282764116,
+      "f_sem": 0.0965447723865509,
+      "f_cov": 1.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "film.person_or_entity_appearing_in_film.films"
+      ],
+      "planner_conf": 0.24826755894678776,
+      "source": "fallback",
+      "rel_ids": [
+        155
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.08208342806284365,
+      "reachability": 1.0,
+      "rank_score": 0.4820834280628437,
+      "f_sem": 0.16570857167243958,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "people.person.nationality"
+      ],
+      "planner_conf": 0.2542778995438157,
+      "source": "fallback",
+      "rel_ids": [
+        4
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06849637643282351,
+      "reachability": 1.0,
+      "rank_score": 0.46849637643282355,
+      "f_sem": 0.12041839957237244,
+      "f_cov": 1.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "film.performance.actor"
+      ],
+      "planner_conf": 0.2698750105918011,
+      "source": "fallback",
+      "rel_ids": [
+        213
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.11084739118814467,
+      "reachability": 0.0,
+      "rank_score": 0.11084739118814467,
+      "f_sem": 0.2028246372938156,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

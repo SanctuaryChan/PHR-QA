@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-579",
+  "question": "who played luke skywalker in star wars episode 4",
+  "paths": [
+    {
+      "rels": [
+        "common.topic.webpage"
+      ],
+      "planner_conf": 0.3819194960594178,
+      "source": "fallback",
+      "rel_ids": [
+        75
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.10463025538554314,
+      "reachability": 3.0,
+      "rank_score": 1.095369744614457,
+      "f_sem": -0.06457322835922241,
+      "f_cov": 0.0,
+      "f_reach": 3.0,
+      "f_branch": 0.3525828687777642,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "film.actor.film"
+      ],
+      "planner_conf": 0.35987699417506946,
+      "source": "fallback",
+      "rel_ids": [
+        284
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.15196904838085173,
+      "reachability": 0.0,
+      "rank_score": 0.15196904838085173,
+      "f_sem": 0.3398968279361725,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "tv.tv_actor.guest_roles"
+      ],
+      "planner_conf": 0.31545336148318126,
+      "source": "fallback",
+      "rel_ids": [
+        76
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1484899461269379,
+      "reachability": 0.0,
+      "rank_score": 0.1484899461269379,
+      "f_sem": 0.3282998204231262,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "film.performance.actor"
+      ],
+      "planner_conf": 0.3555197182122399,
+      "source": "fallback",
+      "rel_ids": [
+        213
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.1473005384206772,
+      "reachability": 0.0,
+      "rank_score": 0.1473005384206772,
+      "f_sem": 0.32433512806892395,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "tv.tv_guest_role.actor"
+      ],
+      "planner_conf": 0.31287496468600107,
+      "source": "fallback",
+      "rel_ids": [
+        22
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.14572737812995912,
+      "reachability": 0.0,
+      "rank_score": 0.14572737812995912,
+      "f_sem": 0.319091260433197,
+      "f_cov": 1.0,
+      "f_reach": 0.0,
+      "f_branch": 0.0,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"film.person_or_entity_appearing_in_film.films\", \"people.person.profession\"],\n\"confidence\": 0.309,\n\"reason\": \"Luke Skywalker appeared in several films.\"\n},\n{\n\"rels\": [\"film.actor.film\", \"people.person.employment_history\"],\n\"confidence\": 0.276,\n\"reason\": \"Mark Hamill played Luke Skywalker in several films.\"\n},\n{",
+  "version": 2
+}

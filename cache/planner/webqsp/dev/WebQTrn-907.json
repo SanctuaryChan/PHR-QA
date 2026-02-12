@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-907",
+  "question": "what did nick carter sister died of",
+  "paths": [
+    {
+      "rels": [
+        "music.artist.track"
+      ],
+      "planner_conf": 0.15077843036916522,
+      "source": "fallback",
+      "rel_ids": [
+        226
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.14321358650922777,
+      "reachability": 94.0,
+      "rank_score": 37.456786413490775,
+      "f_sem": 0.022621378302574158,
+      "f_cov": 0.0,
+      "f_reach": 94.0,
+      "f_branch": 1.0,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "people.person.profession"
+      ],
+      "planner_conf": 0.3361838009787931,
+      "source": "fallback",
+      "rel_ids": [
+        13
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.11770994244461856,
+      "reachability": 8.0,
+      "rank_score": 3.0822900575553818,
+      "f_sem": -0.039422933012247086,
+      "f_cov": 0.0,
+      "f_reach": 8.0,
+      "f_branch": 0.5588306254094444,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "music.artist.genre"
+      ],
+      "planner_conf": 0.3885655766477188,
+      "source": "fallback",
+      "rel_ids": [
+        10
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08996469972966178,
+      "reachability": 5.0,
+      "rank_score": 1.9100353002703383,
+      "f_sem": 0.018686583265662193,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.3007280339849078,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.09627873353505446,
+      "reachability": 5.0,
+      "rank_score": 1.9037212664649454,
+      "f_sem": -0.0023601960856467485,
+      "f_cov": 0.0,
+      "f_reach": 5.0,
+      "f_branch": 0.4557067470936043,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_for"
+      ],
+      "planner_conf": 0.1800651370568408,
+      "source": "fallback",
+      "rel_ids": [
+        17
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.07261887754465403,
+      "reachability": 1.0,
+      "rank_score": 0.327381122455346,
+      "f_sem": -0.0166324470192194,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,\n\"reason\": \"\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.0,",
+  "version": 2
+}

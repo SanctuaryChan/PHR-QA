@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-1041",
+  "question": "what money is used in the maldives",
+  "paths": [
+    {
+      "rels": [
+        "location.location.contains"
+      ],
+      "planner_conf": 0.40203904788941147,
+      "source": "fallback",
+      "rel_ids": [
+        315
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.1389566552514943,
+      "reachability": 35.0,
+      "rank_score": 13.861043344748506,
+      "f_sem": 0.0072823138907551765,
+      "f_cov": 0.0,
+      "f_reach": 35.0,
+      "f_branch": 0.9114134941872086,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "location.country.currency_used"
+      ],
+      "planner_conf": 0.1532599238469639,
+      "source": "fallback",
+      "rel_ids": [
+        309
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.06328914777224,
+      "reachability": 1.0,
+      "rank_score": 0.46328914777224,
+      "f_sem": 0.4363943040370941,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.19401871561366607,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.021325668535781522,
+      "reachability": 1.0,
+      "rank_score": 0.3786743314642185,
+      "f_sem": 0.15434491634368896,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "common.topic.article"
+      ],
+      "planner_conf": 0.14753230544653806,
+      "source": "fallback",
+      "rel_ids": [
+        111
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.026441933057857178,
+      "reachability": 1.0,
+      "rank_score": 0.37355806694214283,
+      "f_sem": 0.13729070127010345,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "freebase.valuenotation.is_reviewed"
+      ],
+      "planner_conf": 0.14448052106694104,
+      "source": "fallback",
+      "rel_ids": [
+        0
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.027477171860290195,
+      "reachability": 1.0,
+      "rank_score": 0.3725228281397098,
+      "f_sem": 0.1338399052619934,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.402,\n\"reason\": \"location.location.contains\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.209,\n\"reason\": \"measurement_unit.dated_money_value.currency\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.194,\n\"reason\": \"common",
+  "version": 2
+}

@@ -1,0 +1,118 @@
+{
+  "id": "WebQTrn-47",
+  "question": "what county is heathrow airport in",
+  "paths": [
+    {
+      "rels": [
+        "aviation.airport.hub_for"
+      ],
+      "planner_conf": 0.23897592541612225,
+      "source": "fallback",
+      "rel_ids": [
+        499
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.015080552574443629,
+      "reachability": 14.0,
+      "rank_score": 5.615080552574445,
+      "f_sem": 0.4465189576148987,
+      "f_cov": 0.0,
+      "f_reach": 14.0,
+      "f_branch": 0.6887513471002596,
+      "f_len": 0.5,
+      "path_id": "p0"
+    },
+    {
+      "rels": [
+        "aviation.airport.serves"
+      ],
+      "planner_conf": 0.22116936689541664,
+      "source": "fallback",
+      "rel_ids": [
+        452
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.048731685345858436,
+      "reachability": 10.0,
+      "rank_score": 4.048731685345858,
+      "f_sem": 0.5323950052261353,
+      "f_cov": 0.0,
+      "f_reach": 10.0,
+      "f_branch": 0.6098681622198213,
+      "f_len": 0.5,
+      "path_id": "p1"
+    },
+    {
+      "rels": [
+        "location.location.containedby"
+      ],
+      "planner_conf": 0.42839979887008667,
+      "source": "fallback",
+      "rel_ids": [
+        11
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.060505247507318026,
+      "reachability": 4.0,
+      "rank_score": 1.539494752492682,
+      "f_sem": 0.10142785310745239,
+      "f_cov": 0.0,
+      "f_reach": 4.0,
+      "f_branch": 0.4093360343955374,
+      "f_len": 0.5,
+      "path_id": "p2"
+    },
+    {
+      "rels": [
+        "aviation.airport.airport_type"
+      ],
+      "planner_conf": 0.2592613994780882,
+      "source": "fallback",
+      "rel_ids": [
+        2567
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": 0.07734669462625916,
+      "reachability": 1.0,
+      "rank_score": 0.47734669462625917,
+      "f_sem": 0.48325279355049133,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p3"
+    },
+    {
+      "rels": [
+        "common.topic.notable_types"
+      ],
+      "planner_conf": 0.3691604976061686,
+      "source": "fallback",
+      "rel_ids": [
+        9
+      ],
+      "map_conf": [
+        1.0
+      ],
+      "path_score": -0.08347570023651185,
+      "reachability": 1.0,
+      "rank_score": 0.31652429976348817,
+      "f_sem": -0.05282185599207878,
+      "f_cov": 0.0,
+      "f_reach": 1.0,
+      "f_branch": 0.1762914343888821,
+      "f_len": 0.5,
+      "path_id": "p4"
+    }
+  ],
+  "raw": "{\n\"paths\": [\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.428,\n\"reason\": \"Location of Heathrow Airport\"\n},\n{\n\"rels\": [\"r1\", \"r2\"],\n\"confidence\": 0.369,\n\"reason\": \"Common topics related to Heathrow Airport\"\n},\n{\n\"rels\": [\"r2\"],\n\"confidence\": 0.259,\n\"reason\": \"Aviation-related topics related to Heath",
+  "version": 2
+}
