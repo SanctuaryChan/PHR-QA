@@ -1,7 +1,7 @@
 import argparse
 import json
 from pathlib import Path
-from typing import List, Optional
+from typing import Any, Dict, List, Optional
 
 from cache import load_json, write_json
 from dataloader import load_gnnrag_split
@@ -9,10 +9,8 @@ from embeddings import load_embeddings
 from eval import compute_em_f1, write_summary_csv
 from idmap import IDMap
 from planner_llama import (
-    extract_candidate_relations,
-    fallback_paths,
-    map_paths_to_ids,
-    normalize_paths,
+    SbertScorer,
+    build_relation_pool,
     plan_paths,
 )
 from prompt_builder import build_prompt
@@ -416,6 +414,15 @@ def cmd_phase3(args: argparse.Namespace) -> int:
     total_oob_skipped = 0
 
     cache_root = Path(args.planner_cache_dir) if args.planner_cache_dir else None
+    planner_cache_version = 2
+
+    sem_scorer = None
+    if args.planner_sem_model:
+        sem_scorer = SbertScorer(
+            args.planner_sem_model,
+            device=args.planner_sem_device,
+            offline=args.planner_sem_offline,
+        )
 
     progress = _build_progress(len(samples), args.progress, args.progress_every)
     printed = 0
@@ -423,7 +430,7 @@ def cmd_phase3(args: argparse.Namespace) -> int:
         for batch_start, batch in _iter_batches(samples, args.batch_size):
             prompts: List[str] = []
             evidences: List[List[dict]] = []
-            paths_list: List[List[List[str]]] = []
+            paths_list: List[List[Dict[str, Any]]] = []
             planner_raw_list: List[Optional[str]] = []
 
             for j, s in enumerate(batch):
@@ -434,35 +441,63 @@ def cmd_phase3(args: argparse.Namespace) -> int:
                         s["question"], vocab, word_emb, target_dim=entity_emb.shape[1]
                     )
 
-                candidate_relations = extract_candidate_relations(
-                    s, idmap, topm=args.planner_rel_topm
+                relation_pool = build_relation_pool(
+                    s,
+                    idmap,
+                    s["question"],
+                    q_vec,
+                    relation_emb,
+                    topm=args.planner_rel_topm,
+                    lambda_freq=args.pool_lambda_freq,
+                    lambda_sem=args.pool_lambda_sem,
+                    lambda_type=args.pool_lambda_type,
+                    sem_scorer=sem_scorer,
+                    type_decay=args.pool_type_decay,
                 )
 
-                paths: List[List[str]] = []
+                paths: List[Dict[str, Any]] = []
                 raw_plan: Optional[str] = None
                 cache_path = None
                 if cache_root is not None:
                     cache_path = cache_root / dataset / args.split / f"{s['id']}.json"
                     cached = load_json(cache_path)
-                    if isinstance(cached, dict) and cached.get("paths"):
-                        paths = normalize_paths(cached["paths"], args.path_max_len, args.path_topk)
+                    if (
+                        isinstance(cached, dict)
+                        and cached.get("paths")
+                        and cached.get("version") == planner_cache_version
+                    ):
+                        cached_paths = cached.get("paths")
+                        if isinstance(cached_paths, list) and cached_paths:
+                            if isinstance(cached_paths[0], dict) and cached_paths[0].get("rel_ids"):
+                                paths = cached_paths
+                            else:
+                                paths = []
                         raw_plan = cached.get("raw")
 
                 if not paths:
-                    if args.planner == "hf":
-                        if planner_reader is None:
-                            raise RuntimeError("planner_reader not initialized")
-                        paths, raw_plan = plan_paths(
-                            s["question"],
-                            candidate_relations,
-                            planner_reader,
-                            args.path_topk,
-                            args.path_max_len,
-                        )
-                    else:
-                        paths = fallback_paths(
-                            s["question"], candidate_relations, args.path_topk, args.path_max_len
-                        )
+                    if args.planner == "hf" and planner_reader is None:
+                        raise RuntimeError("planner_reader not initialized")
+                    paths, raw_plan = plan_paths(
+                        sample=s,
+                        question=s["question"],
+                        relation_pool=relation_pool,
+                        reader=planner_reader if args.planner == "hf" else None,
+                        relation_to_id=relation_to_id,
+                        question_vec=q_vec,
+                        relation_emb=relation_emb,
+                        topk=args.path_topk,
+                        proposal_k=args.path_topk_proposal,
+                        max_len=args.path_max_len,
+                        w_sem=args.rerank_w_sem,
+                        w_cov=args.rerank_w_cov,
+                        w_reach=args.rerank_w_reach,
+                        w_branch=args.rerank_w_branch,
+                        w_len=args.rerank_w_len,
+                        direction=args.path_direction,
+                        sem_scorer=sem_scorer,
+                        branch_cap=args.path_branch_cap,
+                        fallback_max_templates=args.fallback_max_templates,
+                    )
 
                     if cache_path is not None:
                         write_json(
@@ -472,20 +507,22 @@ def cmd_phase3(args: argparse.Namespace) -> int:
                                 "question": s["question"],
                                 "paths": paths,
                                 "raw": raw_plan,
+                                "version": planner_cache_version,
                             },
                         )
 
-                path_ids = map_paths_to_ids(paths, relation_to_id)
                 evidence, oob_skipped = retrieve_hybrid(
                     s,
                     idmap,
                     q_vec,
                     entity_emb,
                     relation_emb,
-                    path_ids,
+                    paths,
                     topn=args.topn,
                     alpha=args.hybrid_alpha,
-                    path_bonus=args.path_bonus,
+                    beta=args.hybrid_beta if args.hybrid_beta is not None else args.path_bonus,
+                    gamma=args.hybrid_gamma,
+                    delta=args.hybrid_delta,
                     direction=args.path_direction,
                     oob_policy=args.oob_policy,
                 )
@@ -743,16 +780,34 @@ def build_parser() -> argparse.ArgumentParser:
     p3.add_argument("--planner_top_p", type=float, default=1.0)
     p3.add_argument("--planner_rel_topm", type=int, default=120, help="Top-M candidate relations by freq")
     p3.add_argument("--planner_cache_dir", default="cache/planner", help="Planner cache directory")
+    p3.add_argument("--planner_sem_model", default=None, help="SBERT model path for planner semantics")
+    p3.add_argument("--planner_sem_device", default="cuda", help="Device for planner SBERT encoding")
+    p3.add_argument("--planner_sem_offline", action="store_true", help="Force offline SBERT loading")
     p3.add_argument(
         "--planner_separate",
         action="store_true",
         help="Load a separate planner model instead of reusing reader",
     )
+    p3.add_argument("--path_topk_proposal", type=int, default=10, help="Planner proposal size before rerank")
     p3.add_argument("--path_topk", type=int, default=5)
     p3.add_argument("--path_max_len", type=int, default=2)
     p3.add_argument("--path_direction", default="out", choices=["out", "in", "both"])
-    p3.add_argument("--hybrid_alpha", type=float, default=0.7)
-    p3.add_argument("--path_bonus", type=float, default=0.3)
+    p3.add_argument("--path_branch_cap", type=int, default=50, help="Branch penalty cap for reranker")
+    p3.add_argument("--fallback_max_templates", type=int, default=5, help="Max fallback 2-hop templates")
+    p3.add_argument("--pool_lambda_freq", type=float, default=0.4)
+    p3.add_argument("--pool_lambda_sem", type=float, default=0.4)
+    p3.add_argument("--pool_lambda_type", type=float, default=0.2)
+    p3.add_argument("--pool_type_decay", type=float, default=0.3)
+    p3.add_argument("--rerank_w_sem", type=float, default=0.30)
+    p3.add_argument("--rerank_w_cov", type=float, default=0.10)
+    p3.add_argument("--rerank_w_reach", type=float, default=0.40)
+    p3.add_argument("--rerank_w_branch", type=float, default=0.10)
+    p3.add_argument("--rerank_w_len", type=float, default=0.10)
+    p3.add_argument("--hybrid_alpha", type=float, default=0.55)
+    p3.add_argument("--hybrid_beta", type=float, default=None, help="Path hit weight (defaults to path_bonus)")
+    p3.add_argument("--hybrid_gamma", type=float, default=0.15)
+    p3.add_argument("--hybrid_delta", type=float, default=0.10)
+    p3.add_argument("--path_bonus", type=float, default=0.3, help="Deprecated: use --hybrid_beta")
     p3.set_defaults(func=cmd_phase3)
 
     return parser

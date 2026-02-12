@@ -17,9 +17,15 @@ python src/run.py phase3 \
   --relation_emb relation_emb_sbert_768d.npy \
   --question_emb question_emb_sbert_768d_dev.npy \
   --planner hf \
+  --planner_sem_model /data/GNN-RAG/models/all-mpnet-base-v2 \
+  --planner_sem_offline \
+  --planner_max_new_tokens 128 \
   --save_planner_raw \
+  --path_topk_proposal 10 \
   --path_topk 5 \
   --path_max_len 2 \
-  --hybrid_alpha 0.7 \
-  --path_bonus 0.3 \
+  --hybrid_alpha 0.55 \
+  --hybrid_beta 0.20 \
+  --hybrid_gamma 0.15 \
+  --hybrid_delta 0.10 \
   --progress
