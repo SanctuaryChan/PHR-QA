@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-339",
+  "question": "when was the musical annie written",
+  "paths": [
+    [
+      "book.author.works_written"
+    ],
+    [
+      "theater.theatrical_lyricist.play_lyrics_written"
+    ],
+    [
+      "book.written_work.subjects"
+    ],
+    [
+      "music.lyricist.lyrics_written"
+    ],
+    [
+      "film.film.written_by"
+    ]
+  ],
+  "raw": "Here are 5 valid paths for the given question and candidate relations:\n\n{\"paths\":[[\"freebase.valuenotation.is_reviewed\", \"award.award_nomination.award_nominee\", \"award.award_nominee.award_nominations\"],\n[\"freebase.valuenotation.has_value\", \"film.performance.film\", \"film.film.starring\"],\n[\"award.award_honor.award_winner\", \"common.topic.notable_types"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1706",
+  "question": "who controls panama",
+  "paths": [
+    [
+      "location.location.containedby"
+    ],
+    [
+      "location.location.contains"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "location.location.time_zones"
+    ],
+    [
+      "location.statistical_region.co2_emissions_per_capita"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"location.location.partiallycontains\", \"location.location.partiallycontainedby\"],\n[\"location.country.first_level_divisions\", \"location.administrative_division.first_level_division_of\"],\n[\"location.statistical_region.net_migration\", \"location.administrative_division.country\"],\n[\"location.statistical_region.foreign_direct_investment_net_inflows\", \"location.country.administrative_divisions\"],\n[\"location."
+}

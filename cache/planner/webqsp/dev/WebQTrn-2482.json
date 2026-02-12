@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2482",
+  "question": "what government did japan have",
+  "paths": [
+    [
+      "government.government_position_held.jurisdiction_of_office"
+    ],
+    [
+      "government.governmental_jurisdiction.governing_officials"
+    ],
+    [
+      "government.government_position_held.office_position_or_title"
+    ],
+    [
+      "government.government_office_or_title.office_holders"
+    ],
+    [
+      "government.government_position_held.basic_title"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"government\", \"location\", \"meteorology\", \"cvg\", \"base\", \"location\", \"people\", \"military\", \"time\", \"government\", \"freebase\", \"biology\", \"travel\", \"language\", \"common\"],\n[\"government\", \"location\", \"meteorology\", \"cvg\", \"base\", \"location\", \"people\", \"military\", \"time\", \"government\", \"freebase\", \"biology\", \"travel\", \"language\", \"common\"],\n[\"location"
+}

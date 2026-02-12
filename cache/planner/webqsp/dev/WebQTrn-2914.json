@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2914",
+  "question": "how much indiana jones movies are there",
+  "paths": [
+    [
+      "common.topic.webpage"
+    ],
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "common.webpage.topic"
+    ],
+    [
+      "base.descriptive_names.names.descriptive_name"
+    ],
+    [
+      "medicine.risk_factor.diseases"
+    ]
+  ],
+  "raw": "{\"paths\": [[\"common.topic.webpage\", \"common.webpage.in_index\", \"common.webpage.topic\", \"base.descriptive_names.names.descriptive_name\", \"medicine.risk_factor.diseases\", \"common.topic.notable_types\", \"film.film.language\", \"film.film.country\", \"freebase.valuenotation.is_reviewed\", \"fictional_universe.character_occupation.characters_with_this_occupation\", \"film.personal_"
+}

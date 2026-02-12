@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-279",
+  "question": "what language they speak in the philippines",
+  "paths": [
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "time.event.included_in_event"
+    ],
+    [
+      "location.statistical_region.gni_per_capita_in_ppp_dollars"
+    ],
+    [
+      "location.statistical_region.gni_in_ppp_dollars"
+    ],
+    [
+      "olympics.olympic_participating_country.olympics_participated_in"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"common.topic.notable_types\", \"meteorology.tropical_cyclone.affected_areas\", \"location.statistical_region.co2_emissions_per_capita_in_ppp_dollars\"],\n[\"common.topic.notable_types\", \"base.aareas.schema.administrative_area.administrative_area_type\", \"location.statistical_region.size_of_armed_forces\"],\n[\"common.topic.notable_types"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "WebQTrn-2183",
+  "question": "what team does allen iverson play for now",
+  "paths": [
+    [
+      "rel1"
+    ],
+    [
+      "rel2",
+      "rel3"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"rel1\"],[\"rel2\",\"rel3\"]]}"
+}

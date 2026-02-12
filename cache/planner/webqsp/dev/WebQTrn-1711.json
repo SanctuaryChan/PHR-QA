@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1711",
+  "question": "what movies did chris farley do",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "people.person.profession"
+    ],
+    [
+      "base.descriptive_names.names.descriptive_name"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "people.person.nationality"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"freebase.valuenotation.is_reviewed\", \"people.person.profession\", \"base.descriptive_names.names.descriptive_name\", \"common.topic.notable_types\", \"people.person.nationality\", \"people.person.gender\", \"common.topic.webpage\", \"common.webpage.in_index\", \"people.cause_of_death.people\", \"base.saturdaynightlive.type_of_snl_cast_member.contract_players\", \""
+}

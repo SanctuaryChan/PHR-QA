@@ -1,0 +1,14 @@
+{
+  "id": "WebQTrn-1201",
+  "question": "what state was hillary clinton a senator for",
+  "paths": [
+    [
+      "rel1"
+    ],
+    [
+      "rel2",
+      "rel3"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"rel1\"],[\"rel2\",\"rel3\"]]}"
+}

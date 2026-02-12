@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2424",
+  "question": "what college did kris humphries play for",
+  "paths": [
+    [
+      "location.location.containedby"
+    ],
+    [
+      "location.location.time_zones"
+    ],
+    [
+      "people.profession.specializations"
+    ],
+    [
+      "base.descriptive_names.names.descriptive_name"
+    ],
+    [
+      "base.wikipedia_infobox.settlement.area_code"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"location.location.containedby\"],\n[\"location.location.time_zones\"],\n[\"people.profession.specializations\"],\n[\"base.descriptive_names.names.descriptive_name\"],\n[\"base.wikipedia_infobox.settlement.area_code\"]\n]\n}"
+}

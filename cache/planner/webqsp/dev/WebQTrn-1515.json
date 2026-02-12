@@ -1,0 +1,19 @@
+{
+  "id": "WebQTrn-1515",
+  "question": "where was lance armstrong born and in what year",
+  "paths": [
+    [
+      "location.location.people_born_here"
+    ],
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "base.peleton.cycling_team_professional.participated_in_this_race_event"
+    ],
+    [
+      "film.person_or_entity_appearing_in_film.films"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"medicine.risk_factor.diseases\", \"common.topic.notable_types\", \"location.location.people_born_here\", \"freebase.valuenotation.is_reviewed\", \"people.person.gender\", \"location.statistical_region.population\", \"medicine.disease.risk_factors\", \"award.competition.competitors\", \"common.topic.notable_for\", \"freebase.valuenotation.has_value\", \"award"
+}

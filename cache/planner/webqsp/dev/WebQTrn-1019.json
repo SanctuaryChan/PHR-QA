@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-1019",
+  "question": "where is the mozambique located",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"common.topic.notable_types\", \"location.location.containedby\", \"location.statistical_region.co2_emissions_per_capita\", \"location.statistical_region.electricity_consumption_per_capita\", \"location.statistical_region.energy_use_per_capita\", \"location.statistical_region.gdp_nominal\", \"location.statistical_region.gdp_real\", \"location.statistical_region.gdp_g"
+}

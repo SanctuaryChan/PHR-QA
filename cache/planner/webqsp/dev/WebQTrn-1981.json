@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-1981",
+  "question": "who is lleyton hewitt",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"medicine.risk_factor.diseases\", \"location.location.events\", \"time.event.locations\", \"travel.travel_destination.tourist_attractions\", \"base.gender.personal_gender_identity.gender_identity\"]\n,\n[\"people.person.gender\", \"medicine.disease.risk_factors\", \"freebase.valuenotation.is_reviewed\", \"people.person.profession\", \"type.type.properties\", \"periodical"
+}

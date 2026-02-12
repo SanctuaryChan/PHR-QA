@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-258",
+  "question": "what are major exports of the usa",
+  "paths": [
+    [
+      "location.statistical_region.high_tech_as_percent_of_manufactured_exports"
+    ],
+    [
+      "location.administrative_division.first_level_division_of"
+    ],
+    [
+      "location.statistical_region.merchandise_trade_percent_of_gdp"
+    ],
+    [
+      "location.statistical_region.trade_balance_as_percent_of_gdp"
+    ],
+    [
+      "fictional_universe.fictional_character.place_of_birth"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n\"common.topic.notable_types\",\n\"location.location.containedby\",\n\"location.location.partially_contains\",\n\"location.location.partially_contained_by\",\n\"olympics.olympic_participating_country.olympics_participated_in\",\n\"location.location.time_zones\",\n\"olympics.olympic_games.participating_countries\",\n\"location.statistical_region.co2_emissions"
+}

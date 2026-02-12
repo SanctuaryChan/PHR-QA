@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1054",
+  "question": "who plays the voice of lois griffin",
+  "paths": [
+    [
+      "fictional_universe.sibling_relationship_of_fictional_characters.siblings"
+    ],
+    [
+      "base.prison.prison_type.prisons_of_this_type"
+    ],
+    [
+      "people.profession.specialization_of"
+    ],
+    [
+      "fictional_universe.ethnicity_in_fiction.characters_of_this_ethnicity"
+    ],
+    [
+      "tv.tv_program.country_of_origin"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"common.topic.webpage\", \"common.topic.notable_types\", \"fictional_universe.fictional_character.gender\", \"fictional_universe.fictional_character.appears_in_these_fictional_universes\", \"music.artist.track\", \"tv.tv_actor.guest_roles\", \"film.actor.film\", \"tv.tv_guest_role.actor\", \"film.performance.actor\", \"people.person.profession\", \"film.per"
+}

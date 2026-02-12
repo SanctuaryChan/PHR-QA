@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2555",
+  "question": "what do do in new york",
+  "paths": [
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "location.location.containedby"
+    ],
+    [
+      "common.topic.notable_for"
+    ],
+    [
+      "book.written_work.subjects"
+    ],
+    [
+      "book.newspaper.circulation_areas"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"common.topic.notable_types\"],[\"location.location.containedby\"],[\"common.topic.notable_for\"],[\"book.written_work.subjects\"],[\"book.newspaper.circulation_areas\"],[\"people.person.gender\"]] }"
+}

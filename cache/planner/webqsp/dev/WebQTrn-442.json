@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-442",
+  "question": "who was the first leader of the afl",
+  "paths": [
+    [
+      "films.film_subject.films"
+    ],
+    [
+      "sports.sport.positions"
+    ],
+    [
+      "common.webpage.topic"
+    ],
+    [
+      "sports.sports_position.sport"
+    ],
+    [
+      "films.film.subjects"
+    ]
+  ],
+  "raw": "Here are the valid paths for the given question and candidate relations:\n\n{\"paths\":[[\"films.film_subject.films\"],[\"sports.sport.positions\"],[\"common.webpage.topic\"],[\"sports.sports_position.sport\"],[\"films.film.subjects\"],[\"films.film.country\"]]}\n\nExplanation:\n\n* \"films.film_subject.films\" is a valid path because the question is asking about the first leader of the AFL, which is a film-related topic.\n* \""
+}

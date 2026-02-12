@@ -1,0 +1,23 @@
+{
+  "id": "WebQTrn-844",
+  "question": "what 3 states border the pacific ocean",
+  "paths": [
+    [
+      "location.location.containedby",
+      "location.location.partially_containedby"
+    ],
+    [
+      "location.country.partially_containedby"
+    ],
+    [
+      "location.administrative_division.partially_containedby"
+    ],
+    [
+      "location.location.partially_contains"
+    ],
+    [
+      "location.partial_containment_relationship.partially_contains"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"location.location.containedby\",\"location.location.partially_containedby\"],[\"location.country.partially_containedby\"],[\"location.administrative_division.partially_containedby\"],[\"location.location.partially_contains\"],[\"location.partial_containment_relationship.partially_contains\"]]}"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1170",
+  "question": "what state did woodrow wilson represent",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "people.person.gender"
+    ],
+    [
+      "common.topic.notable_for"
+    ],
+    [
+      "people.person.profession"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"freebase.valuenotation.is_reviewed\"],[\"common.topic.notable_types\"],[\"people.person.gender\"],[\"common.topic.notable_for\"],[\"people.person.profession\"],[\"people.person.nationality\"],[\"book.author.works_written\"],[\"people.person.ethnicity\"],[\"book.written_work.subjects\"],[\"people.person.quotations\"],[\"media_common.quotation.author\"],[\"people.ethnicity.people\"],[\"book.book.editions\"],[\""
+}

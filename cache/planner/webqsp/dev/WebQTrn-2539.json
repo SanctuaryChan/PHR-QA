@@ -1,0 +1,18 @@
+{
+  "id": "WebQTrn-2539",
+  "question": "what team did albert pujols play for",
+  "paths": [
+    [
+      "location.location.containedby",
+      "location.location.contains"
+    ],
+    [
+      "base.ontologies.ontology_instance_mapping.freebase_topic"
+    ],
+    [
+      "people.person.parents",
+      "people.person.children"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"location.location.containedby\",\"location.location.contains\"],[\"base.ontologies.ontology_instance_mapping.freebase_topic\"],[\"people.person.parents\",\"people.person.children\"]]}"
+}

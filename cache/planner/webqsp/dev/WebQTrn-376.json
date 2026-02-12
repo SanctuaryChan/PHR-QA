@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-376",
+  "question": "who speaks farsi",
+  "paths": [
+    [
+      "location.location.containedby"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "language.language_writing_system.languages"
+    ],
+    [
+      "language.human_language.writing_system"
+    ],
+    [
+      "location.country.languages_spoken"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n\"location.location.containedby\",\n\"location.partially_contains\",\n\"location.partially_contained_by\",\n\"location.statistical_region.gdp_nominal_per_capita\",\n\"location.statistical_region.gdp_growth_rate\"\n]\n}"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1682",
+  "question": "when did aldi originate",
+  "paths": [
+    [
+      "medicine.drug_label_section.subject_drug"
+    ],
+    [
+      "medicine.manufactured_drug_form.label_sections"
+    ],
+    [
+      "base.descriptive_names.names.descriptive_name"
+    ],
+    [
+      "business.industry.companies"
+    ],
+    [
+      "location.location.containedby"
+    ]
+  ],
+  "raw": "Here are 5 valid paths that meet the criteria:\n\n{\"paths\": [[\"medicine.drug_label_section.subject_drug\", \"medicine.manufactured_drug_form.label_sections\", \"base.descriptive_names.names.descriptive_name\", \"business.industry.companies\", \"location.location.containedby\", \"common.topic.notable_types\", \"freebase.valuenotation.has_no_value\"]]}\n\nThese paths are between 1 and"
+}

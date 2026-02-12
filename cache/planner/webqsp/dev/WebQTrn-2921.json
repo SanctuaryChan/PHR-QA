@@ -1,0 +1,14 @@
+{
+  "id": "WebQTrn-2921",
+  "question": "who started the federal reserve board",
+  "paths": [
+    [
+      "rel1"
+    ],
+    [
+      "rel2",
+      "rel3"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"rel1\"],[\"rel2\",\"rel3\"]]}"
+}

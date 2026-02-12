@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2034",
+  "question": "what language do iraqi people speak",
+  "paths": [
+    [
+      "people.person.gender"
+    ],
+    [
+      "people.person.nationality"
+    ],
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "people.person.place_of_birth"
+    ],
+    [
+      "location.location.people_born_here"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"book.written_work.subjects\", \"location.location.containedby\"],\n[\"location.location.contains\", \"location.statistical_region.gdp_nominal_per_capita\"],\n[\"location.statistical_region.co2_emissions_per_capita\", \"location.location.contains\"],\n[\"location.statistical_region.energy_use_per_capita\", \"location.location.contains\"],\n[\"location.statistical_region.electricity_consumption_per_"
+}

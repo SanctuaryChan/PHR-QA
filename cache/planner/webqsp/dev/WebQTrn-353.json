@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-353",
+  "question": "what did obama study in school",
+  "paths": [
+    [
+      "book.written_work.school_or_movement"
+    ],
+    [
+      "film.person_or_entity_appearing_in_film.films"
+    ],
+    [
+      "book.school_or_movement.associated_works"
+    ],
+    [
+      "book.published_work.published_in_published_as"
+    ],
+    [
+      "common.image.appears_in_topic_gallery"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"freebase.valuenotation.is_reviewed\", \"common.topic.notable_types\", \"book.written_work.subjects\", \"people.person.gender\", \"book.book_subject.works\", \"people.person.profession\", \"people.person.nationality\", \"book.written_work.school_or_movement\", \"common.topic.notable_for\", \"common.topic.subjects\", \"people.person.ethnicity\", \"freebase.valuenotation.has_no_"
+}

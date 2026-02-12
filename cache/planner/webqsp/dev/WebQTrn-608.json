@@ -1,0 +1,19 @@
+{
+  "id": "WebQTrn-608",
+  "question": "what is shakira 's nationality",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "people.person.nationality"
+    ],
+    [
+      "people.person.sibling_s"
+    ],
+    [
+      "people.person.spouse_s"
+    ]
+  ],
+  "raw": "Here are 5 valid paths for the question \"What is Shakira's nationality?\":\n\n[\"music.recording.artist.nationality\", \"people.person.nationality\", \"freebase.valuenotation.is_reviewed.value\", \"music.composition.lyricist.lyrics_written.language\", \"award.award_category.winners.nationality\"]\n\nExplanation:\n\n* \"music.recording.artist.nationality\" is a direct relation from the candidate list."
+}

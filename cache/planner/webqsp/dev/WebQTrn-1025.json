@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1025",
+  "question": "what did bella abzug do",
+  "paths": [
+    [
+      "base.descriptive_names.names.descriptive_name"
+    ],
+    [
+      "location.location.containedby"
+    ],
+    [
+      "medicine.risk_factor.diseases"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "location.neighborhood.neighborhood_of"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"religion.religion.places_of_worship\", \"religion.religion.founding_figures\", \"people.person.ethnicity\", \"base.gender.personal_gender_identity.gender_identity\"]]}"
+}

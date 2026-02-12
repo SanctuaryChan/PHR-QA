@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-428",
+  "question": "who was judy garland married to",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "people.person.profession"
+    ],
+    [
+      "people.person.gender"
+    ],
+    [
+      "people.person.nationality"
+    ]
+  ],
+  "raw": "Here are the valid paths for the question \"who was judy garland married to\":\n\n[[\"rel1\", \"rel2\", \"rel3\"]]\n\nExplanation:\n\n* \"rel1\" refers to the relation between a person and their spouse, as per the candidate relations provided.\n* \"rel2\" refers to the relation between a person and their siblings, as per the candidate relations provided.\n* \"rel3\" refers to the relation between a person and their parents, as per the candidate relations provided.\n\nSince there are no valid paths that meet the criteria"
+}

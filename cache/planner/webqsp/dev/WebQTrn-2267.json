@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-2267",
+  "question": "what year did dwayne wade came to the nba",
+  "paths": [
+    [
+      "visual_art.art_subject.artwork_on_the_subject"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"medicine.risk_factor.diseases\", \"people.person.gender\", \"base.gender.gender_identity.people\"],\n[\"freebase.valuenotation.has_value\", \"people.person.ethnicity\", \"base.gender.personal_gender_identity.gender\"],\n[\"common.topic.notable_types\", \"base.gender.gender_identity.people\"],\n[\"olympics.olympic_athlete.medals_won\", \"people.person.parents\", \""
+}

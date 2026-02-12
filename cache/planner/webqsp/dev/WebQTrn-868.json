@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-868",
+  "question": "what a city in montana",
+  "paths": [
+    [
+      "location.location.containedby"
+    ],
+    [
+      "book.written_work.subjects"
+    ],
+    [
+      "location.statistical_region.population"
+    ],
+    [
+      "location.location.time_zones"
+    ],
+    [
+      "location.location.contains"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"location.location.containedby\"],\n[\"book.written_work.subjects\"],\n[\"location.statistical_region.population\"],\n[\"location.location.time_zones\"],\n[\"location.location.contains\"]\n]\n}"
+}

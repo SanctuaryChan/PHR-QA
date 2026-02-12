@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1277",
+  "question": "what language do you speak in iran",
+  "paths": [
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "location.statistical_region.gni_per_capita_in_ppp_dollars"
+    ],
+    [
+      "location.statistical_region.gni_in_ppp_dollars"
+    ],
+    [
+      "language.human_language.region"
+    ],
+    [
+      "language.human_language.main_country"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"common.topic.notable_types\", \"book.written_work.subjects\", \"measurement_unit.dated_money_value.currency\", \"measurement_unit.dated_money_value.source\", \"location.statistical_region.co2_emissions_per_capita\", \"location.statistical_region.gdp_real\", \"location.statistical_region.gdp_growth_rate\", \"location.statistical_region.gdp_nominal\", \"measurement"
+}

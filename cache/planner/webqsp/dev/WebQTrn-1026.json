@@ -1,0 +1,19 @@
+{
+  "id": "WebQTrn-1026",
+  "question": "what sights to see in madrid",
+  "paths": [
+    [
+      "film.film_location.featured_in_films"
+    ],
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "base.aareas.schema.administrative_area_type.pertains_to"
+    ],
+    [
+      "common.webpage.in_index"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n\"location.location.containedby\",\n\"common.topic.notable_types\",\n\"freebase.type_hints.included_types\",\n\"film.film.starring\",\n\"film.performance.film\"\n]\n}"
+}

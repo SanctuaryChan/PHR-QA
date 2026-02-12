@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-483",
+  "question": "what type of music did richard wagner play",
+  "paths": [
+    [
+      "music.composition.part_of"
+    ],
+    [
+      "music.composition.place_of_first_performance"
+    ],
+    [
+      "music.composition.recordings"
+    ],
+    [
+      "music.composition.composer"
+    ],
+    [
+      "music.recording.song"
+    ]
+  ],
+  "raw": "Here are 5 valid paths for the question \"what type of music did richard wagner play\":\n\n[\"influence.influence_node.influenced_by\", \"people.person.profession\", \"music.composition.part_of\", \"film.film.music\", \"opera.opera.characters\"]\n\nSo, the JSON output would be:\n\n{\"paths\":[[\"influence.influence_node.influenced_by\", \"people.person.profession\", \"music.composition.part_of\", \"film."
+}

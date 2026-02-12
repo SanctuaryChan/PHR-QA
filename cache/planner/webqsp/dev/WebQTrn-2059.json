@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2059",
+  "question": "what year magic johnson retired",
+  "paths": [
+    [
+      "common.topic.webpage"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "common.webpage.topic"
+    ],
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the candidate relations:\n\n{\"paths\": [[\"common.topic.webpage\", \"common.topic.notable_types\"], [\"freebase.valuenotation.is_reviewed\", \"people.person.gender\"], [\"base.activism.activism_issue.activists\", \"people.person.profession\"], [\"award.award_category.winners\", \"base.gender.gender_identity.people\"], [\"film.personal_film_appearance.person\", \"base.animalnames.animal_gender."
+}

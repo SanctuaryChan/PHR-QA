@@ -1,0 +1,19 @@
+{
+  "id": "WebQTrn-1931",
+  "question": "what films has morgan freeman narrated",
+  "paths": [
+    [
+      "freebase.valuenotation.has_value"
+    ],
+    [
+      "film.person_or_entity_appearing_in_film.films"
+    ],
+    [
+      "freebase.valuenotation.has_no_value"
+    ],
+    [
+      "film.producer.films_executive_produced"
+    ]
+  ],
+  "raw": "Here is the output for the given question and candidate relations:\n\n{\"paths\":[[\"freebase.valuenotation.is_reviewed\", \"common.topic.notable_types\", \"people.person.profession\", \"freebase.valuenotation.has_value\", \"film.film.genre\", \"common.webpage.topic\", \"common.webpage.in_index\", \"film.film.starring\", \"film.performance.film\", \"media_common.netflix_title.netflix_genres\", \"a"
+}

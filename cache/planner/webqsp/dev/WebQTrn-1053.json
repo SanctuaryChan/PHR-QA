@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1053",
+  "question": "what was liam neeson 's character in star wars",
+  "paths": [
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "tv.tv_character.appeared_in_tv_program"
+    ],
+    [
+      "tv.tv_character.appeared_in_tv_episodes"
+    ],
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "film.performance.character"
+    ]
+  ],
+  "raw": "Here are 5 valid paths that meet the criteria:\n\n{\"paths\": [[\"freebase.valuenotation.is_reviewed\", \"film.film.country\", \"film.actor.film\", \"film.film.language\", \"film.performance.actor\", \"film.performance.film\"]]\n\nExplanation:\n\n* \"freebase.valuenotation.is_reviewed\" is a relation from the candidate list that connects a value to the entity it is associated with, in this case, a film.\n* \"film.film"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-3037",
+  "question": "where do most of the people in egypt live",
+  "paths": [
+    [
+      "location.statistical_region.gni_per_capita_in_ppp_dollars"
+    ],
+    [
+      "time.event.included_in_event"
+    ],
+    [
+      "location.statistical_region.gni_in_ppp_dollars"
+    ],
+    [
+      "location.statistical_region.merchandise_trade_percent_of_gdp"
+    ],
+    [
+      "location.statistical_region.trade_balance_as_percent_of_gdp"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"common.topic.notable_types\", \"location.location.containedby\", \"location.location.events\", \"location.statistical_region.gdp_real\", \"time.event.locations\", \"location.statistical_region.gni_per_capita_in_ppp_dollars\", \"military.military_combatant.military_conflicts\", \"government.political_party.ideology\", \"location.location.contains\", \"location.statist"
+}

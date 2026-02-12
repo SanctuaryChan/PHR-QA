@@ -1,0 +1,19 @@
+{
+  "id": "WebQTrn-2097",
+  "question": "what party was winston churchill in politics",
+  "paths": [
+    [
+      "film.person_or_entity_appearing_in_film.films"
+    ],
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "military.military_person.participated_in_conflicts"
+    ],
+    [
+      "film.film_location.featured_in_films"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the candidate relations:\n\n{\"paths\": [[\"common.topic.notable_types\", \"book.written_work.subjects\", \"people.person.profession\"], [\"book.written_work.subjects\", \"people.person.profession\", \"base.kwebbase.kwtopic.has_sentences\"], [\"common.topic.image\", \"people.person.gender\", \"film.film.genre\"], [\"people.person.parents\", \"base.kwebbase.kwconnection.relation\", \"base.kwe"
+}

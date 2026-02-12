@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2245",
+  "question": "who invented facebook wikipedia",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "medicine.drug_manufacturer.drugs_manufactured"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "business.employer.employees"
+    ],
+    [
+      "business.employment_tenure.company"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"freebase.valuenotation.is_reviewed\", \"medicine.drug_manufacturer.drugs_manufactured\"],\n[\"common.topic.notable_types\", \"business.employer.employees\"],\n[\"base.descriptive_names.names.descriptive_name\", \"people.person.gender\"],\n[\"organization.organization.partnerships\", \"business.acquisition.acquiring_company\"],\n[\"conferences.conference_series.sponsoring"
+}

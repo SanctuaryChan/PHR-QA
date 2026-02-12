@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2206",
+  "question": "who helped form the american federation of labor",
+  "paths": [
+    [
+      "location.country.form_of_government"
+    ],
+    [
+      "government.form_of_government.countries"
+    ],
+    [
+      "location.administrative_division.first_level_division_of"
+    ],
+    [
+      "location.statistical_region.merchandise_trade_percent_of_gdp"
+    ],
+    [
+      "location.statistical_region.trade_balance_as_percent_of_gdp"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"location.location.contains\", \"location.statistical_region.gross_savings_as_percent_of_gdp\"],\n[\"location.statistical_region.gni_per_capita_in_ppp_dollars\", \"location.statistical_region.military_expenditure_percent_gdp\"],\n[\"location.statistical_region.internet_users_percent_population\", \"location.statistical_region.part_time_employment_percent\"],"
+}

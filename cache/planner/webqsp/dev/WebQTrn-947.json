@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-947",
+  "question": "where is the head office of hsbc bank",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "common.topic.subject_of"
+    ],
+    [
+      "organization.organization_type.organizations_of_this_type"
+    ],
+    [
+      "people.person.place_of_birth"
+    ],
+    [
+      "base.biblioness.bibs_topic.is_really"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the candidate relations:\n\n{\"paths\": [[\"base.descriptive_names.names.descriptive_name\", \"freebase.valuenotation.has_value\"], [\"business.board_member.organization_board_memberships\", \"business.issue.trading_symbol\"], [\"location.country.languages_spoken\", \"language.human_language.countries_spoken_in\"], [\"people.person.nationality\", \"base.schemastaging.phone_sandbox.product_or_"
+}

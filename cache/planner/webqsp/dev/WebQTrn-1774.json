@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1774",
+  "question": "what countries are located in the netherlands",
+  "paths": [
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "olympics.olympic_participating_country.olympics_participated_in"
+    ],
+    [
+      "olympics.olympic_games.participating_countries"
+    ],
+    [
+      "time.event.included_in_event"
+    ],
+    [
+      "location.statistical_region.gni_in_ppp_dollars"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"media_common.netflix_title.netflix_genres\", \"location.country.genre\"],\n[\"base.aareas.schema.administrative_area.administrative_children\", \"location.administrative_division.second_level_division_of\"],\n[\"location.country.currency_used\", \"finance.currency.countries_used\"],\n[\"location.statistical_region.gross_savings_as_percent_of_gdp\", \"location.statistical"
+}

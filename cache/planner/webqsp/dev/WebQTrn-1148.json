@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1148",
+  "question": "what is the northeast of the united states",
+  "paths": [
+    [
+      "government.government_position_held.jurisdiction_of_office"
+    ],
+    [
+      "military.military_unit_place_of_origin.military_units"
+    ],
+    [
+      "people.person.place_of_birth"
+    ],
+    [
+      "location.administrative_division.first_level_division_of"
+    ],
+    [
+      "base.locations.countries.states_provinces_within"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n\"location.location.contains\",\n\"location.administrative_division.capital\",\n\"location.statistical_region.rent50_1\",\n\"location.statistical_region.rent50_2\",\n\"location.statistical_region.rent50_3\"\n]\n}"
+}

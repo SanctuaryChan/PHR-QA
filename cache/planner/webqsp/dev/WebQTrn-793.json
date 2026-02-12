@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-793",
+  "question": "who did michael jordan marry",
+  "paths": [
+    [
+      "marriage.spouse"
+    ]
+  ],
+  "raw": "Here are the valid paths for the question \"who did michael jordan marry\":\n\n[[\"marriage.spouse\"]]\n\nExplanation:\n\n* \"marriage.spouse\" is a valid path in the candidate relations, as it is a relation between a person and their spouse.\n* Michael Jordan has been married to several people, including Juanita Vanoy and Yvette Prieto, so this path is a valid option.\n\nTherefore, the output for this question would be: {\"paths\":[[\"marriage.spouse\"]]}."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "WebQTrn-1574",
+  "question": "what timezone is toronto gmt",
+  "paths": [
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "location.location.containedby"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the candidate relations, with each path length between 1 and 2:\n\n{\"paths\": [[\"common.topic.notable_types\"], [\"location.location.containedby\"]]}\n\nNo valid paths were found for the given question and candidate relations."
+}

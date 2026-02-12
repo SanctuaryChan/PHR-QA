@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1816",
+  "question": "what part does seth macfarlane play in family guy",
+  "paths": [
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "fictional_universe.fictional_character.appears_in_these_fictional_universes"
+    ],
+    [
+      "tv.tv_character.appeared_in_tv_program"
+    ],
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "language.human_language.countries_spoken_in"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n\"tv.tv_series_season.episodes\",\n\"tv.tv_writer.episodes_written\",\n\"common.webpage.in_index\",\n\"common.topic.webpage\",\n\"common.webpage.topic\"\n]\n}"
+}

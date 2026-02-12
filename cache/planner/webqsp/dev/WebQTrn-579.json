@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-579",
+  "question": "who played luke skywalker in star wars episode 4",
+  "paths": [
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "film.person_or_entity_appearing_in_film.films"
+    ],
+    [
+      "fictional_universe.character_species.found_in_fictional_universe"
+    ],
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "book.book_character.appears_in_book"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"common.topic.webpage\", \"common.webpage.topic\", \"common.webpage.in_index\"],[\"fictional_universe.character_species.characters_of_this_species\", \"fictional_universe.fictional_character.species\", \"fictional_universe.fictional_character.appears_in_these_fictional_universes\"],[\"film.film.genre\", \"film.film.production_companies\", \"fictional_universe.fictional_"
+}

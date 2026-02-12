@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2117",
+  "question": "what types of government does china have",
+  "paths": [
+    [
+      "government.government_position_held.jurisdiction_of_office"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "freebase.type_hints.included_types"
+    ],
+    [
+      "location.statistical_region.agriculture_as_percent_of_gdp"
+    ],
+    [
+      "location.statistical_region.merchandise_trade_percent_of_gdp"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n\"common.topic.notable_types\",\n\"meteorology.tropical_cyclone.affected_areas\",\n\"location.location.partially_contains\",\n\"location.partial_containment_relationship.partially_contains\",\n\"location.location.partially_contained_by\",\n\"base.aareas.schema.administrative_area.administrative_children\",\n\"base.aareas.schema.administrative_area.pertinent_type\",\n\"location."
+}

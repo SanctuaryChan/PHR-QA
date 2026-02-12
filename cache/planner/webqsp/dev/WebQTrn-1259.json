@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1259",
+  "question": "where did brad paisley graduate from college",
+  "paths": [
+    [
+      "broadcast.content.artist"
+    ],
+    [
+      "broadcast.artist.content"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "people.person.profession"
+    ]
+  ],
+  "raw": "Here are 5 valid paths for the given question and candidate relations:\n\n{\"paths\": [[\"brad paisley\", \"graduated from college\"], [\"brad paisley\", \"artist\", \"broadcast.content.artist\"], [\"brad paisley\", \"profession\", \"people.person.profession\"], [\"brad paisley\", \"award\", \"award.award_nomination.award\"], [\"brad paisley\", \"genre\", \"music.genre.parent_genre\"]]\n\nExplanation:"
+}

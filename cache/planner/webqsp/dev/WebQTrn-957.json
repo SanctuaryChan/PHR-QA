@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-957",
+  "question": "what movie did marlee matlin won an academy award for",
+  "paths": [
+    [
+      "award.award_nomination.nominated_for"
+    ],
+    [
+      "award.award_nomination.award_nominee"
+    ],
+    [
+      "award.award_nominee.award_nominations"
+    ],
+    [
+      "common.topic.notable_for"
+    ],
+    [
+      "award.award_nomination.award"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"freebase.valuenotation.is_reviewed\", \"medicine.risk_factor.diseases\", \"people.person.gender\", \"common.topic.notable_types\", \"organization.organization_sector.organizations_in_this_sector\", \"people.person.profession\", \"media_common.netflix_title.netflix_genres\", \"people.person.nationality\", \"location.statistical_region.population\", \"film.film.genre\", \"film"
+}

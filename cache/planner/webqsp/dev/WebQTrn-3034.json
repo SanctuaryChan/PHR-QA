@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-3034",
+  "question": "where did dr martin luther king get his doctorate",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "people.person.profession"
+    ],
+    [
+      "book.written_work.subjects"
+    ],
+    [
+      "people.person.gender"
+    ]
+  ],
+  "raw": "Here are 5 valid paths that meet the criteria:\n\n{\"paths\": [[\"freebase.valuenotation.is_reviewed\", \"common.topic.notable_types\", \"people.person.profession\", \"book.written_work.subjects\", \"people.person.gender\"]]}\n\n{\"paths\": [[\"freebase.valuenotation.has_value\", \"media_common.quotation.subjects\", \"people.person.ethnicity\", \"film.personal_film_appearance.person\", \"base.activism."
+}

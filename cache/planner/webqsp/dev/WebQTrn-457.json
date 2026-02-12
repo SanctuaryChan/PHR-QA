@@ -1,0 +1,16 @@
+{
+  "id": "WebQTrn-457",
+  "question": "who did ayrton senna drive for",
+  "paths": [
+    [
+      "common.topic.notable_for"
+    ],
+    [
+      "award.award_nomination.nominated_for"
+    ],
+    [
+      "award.award_honor.honored_for"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"medicine.risk_factor.diseases\", \"people.ethnicity.people\", \"book.periodical.subjects\", \"base.gender.personal_gender_identity.gender_identity\", \"religion.religious_organization.associated_with\", \"medicine.disease.symptoms\", \"people.person.ethnicity\", \"film.film.genre\", \"travel.tourist_attraction.near_travel_destination\", \"base.gender.gender_"
+}

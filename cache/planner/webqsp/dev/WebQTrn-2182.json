@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2182",
+  "question": "what college did ron jaworski go to",
+  "paths": [
+    [
+      "location.location.containedby"
+    ],
+    [
+      "base.descriptive_names.names.descriptive_name"
+    ],
+    [
+      "medicine.risk_factor.diseases"
+    ],
+    [
+      "location.country.first_level_divisions"
+    ],
+    [
+      "location.administrative_division.first_level_division_of"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n\"location.location.containedby\",\n\"base.descriptive_names.names.descriptive_name\",\n\"medicine.risk_factor.diseases\",\n\"location.country.first_level_divisions\",\n\"location.administrative_division.first_level_division_of\"\n]\n}"
+}

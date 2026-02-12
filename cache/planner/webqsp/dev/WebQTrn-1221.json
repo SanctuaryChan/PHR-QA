@@ -1,0 +1,13 @@
+{
+  "id": "WebQTrn-1221",
+  "question": "what is the braves mascot",
+  "paths": [
+    [
+      "sports.sports_team.team_mascot"
+    ],
+    [
+      "sports.mascot.team"
+    ]
+  ],
+  "raw": "Here are 5 valid paths that meet the criteria:\n\n{\"paths\": [[\"common.topic.notable_types\", \"business.employer.employees\", \"baseball.baseball_team_stats.team\"], [\"sports.sports_league_participation.team\", \"sports.sports_league.teams\", \"baseball.baseball_team.league\"], [\"people.person.gender\", \"baseball.baseball_team_stats.season\", \"sports.professional_sports_team.draft"
+}

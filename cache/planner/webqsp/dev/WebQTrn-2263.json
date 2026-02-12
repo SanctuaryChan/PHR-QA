@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2263",
+  "question": "what did sammy davis jr die of",
+  "paths": [
+    [
+      "people.cause_of_death.people"
+    ],
+    [
+      "people.deceased_person.cause_of_death"
+    ],
+    [
+      "people.person.place_of_birth"
+    ],
+    [
+      "people.deceased_person.place_of_death"
+    ],
+    [
+      "common.topic.subject_of"
+    ]
+  ],
+  "raw": "Here are 5 valid paths for the question \"what did sammy davis jr die of\":\n\n{\n\"paths\": [\n[\"people.person.profession\", \"freebase.valuenotation.is_reviewed\"],\n[\"people.person.ethnicity\", \"freebase.valuenotation.has_value\"],\n[\"film.personal_film_appearance.film\", \"film.film.starring\"],\n[\"people.person.place_of_birth\", \"location.location.containedby\"],\n[\"people.dece"
+}

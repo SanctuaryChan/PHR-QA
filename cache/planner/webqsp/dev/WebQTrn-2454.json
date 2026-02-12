@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2454",
+  "question": "what airlines fly into ontario international airport",
+  "paths": [
+    [
+      "location.location.containedby"
+    ],
+    [
+      "location.statistical_region.population"
+    ],
+    [
+      "location.country.first_level_divisions"
+    ],
+    [
+      "base.aareas.schema.administrative_area.administrative_parent"
+    ],
+    [
+      "base.aareas.schema.administrative_area.administrative_children"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"location.location.containedby\"],\n[\"location.statistical_region.population\"],\n[\"location.country.first_level_divisions\"],\n[\"base.aareas.schema.administrative_area.administrative_parent\"],\n[\"base.aareas.schema.administrative_area.administrative_children\"]\n]\n}"
+}

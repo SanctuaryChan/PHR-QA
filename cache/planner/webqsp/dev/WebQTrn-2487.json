@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2487",
+  "question": "what drug did mitch hedberg overdose on",
+  "paths": [
+    [
+      "people.person.profession"
+    ],
+    [
+      "influence.influence_node.influenced"
+    ],
+    [
+      "influence.influence_node.influenced_by"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "common.topic.notable_types"
+    ]
+  ],
+  "raw": "Here are the valid paths for the question \"what drug did mitch hedberg overdose on\":\n\n[\"people.person.profession\", \"influence.influence_node.influenced\", \"influence.influence_node.influenced_by\", \"freebase.valuenotation.is_reviewed\"]\n\nSince there are no valid paths, the output is: {\"paths\":[]}."
+}

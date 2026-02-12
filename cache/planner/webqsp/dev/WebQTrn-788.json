@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-788",
+  "question": "what clubs has peter crouch played for",
+  "paths": [
+    [
+      "location.location.people_born_here"
+    ],
+    [
+      "medicine.risk_factor.diseases"
+    ],
+    [
+      "base.descriptive_names.names.descriptive_name"
+    ],
+    [
+      "location.location.containedby"
+    ],
+    [
+      "common.webpage.topic"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"location.location.people_born_here\"],\n[\"medicine.risk_factor.diseases\"],\n[\"base.descriptive_names.names.descriptive_name\"],\n[\"location.location.containedby\"],\n[\"common.webpage.topic\"],\n[\"common.topic.webpage\"]\n]\n}"
+}

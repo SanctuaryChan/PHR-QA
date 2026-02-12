@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-2298",
+  "question": "what do michelle obama do for a living",
+  "paths": [
+    [
+      "common.topic.notable_for"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n\"book.written_work.subjects\",\n\"people.person.profession\",\n\"religion.religion.places_of_worship\",\n\"book.written_work.original_language\",\n\"freebase.valuenotation.is_reviewed\"\n]\n}"
+}

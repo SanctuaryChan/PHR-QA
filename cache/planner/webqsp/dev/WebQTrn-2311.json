@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2311",
+  "question": "what killed sammy davis jr",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "people.person.profession"
+    ],
+    [
+      "common.topic.notable_for"
+    ],
+    [
+      "music.album.artist"
+    ]
+  ],
+  "raw": "Here are 5 valid paths for the question \"what killed sammy davis jr\":\n\n{\n\"paths\": [\n[\"freebase.valuenotation.is_reviewed\", \"people.person.profession\", \"music.album.artist\", \"people.person.gender\", \"people.cause_of_death.people\"]\n]\n}\n\n{\n\"paths\": [\n[\"common.topic.notable_types\", \"people.person.ethnicity\", \"film.actor.film\", \"film.personal_film_app"
+}

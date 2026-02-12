@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2378",
+  "question": "who does jodelle ferland play in eclipse",
+  "paths": [
+    [
+      "book.book_character.appears_in_book"
+    ],
+    [
+      "common.webpage.in_index"
+    ],
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "fictional_universe.fictional_character.appears_in_these_fictional_universes"
+    ],
+    [
+      "tv.tv_guest_role.episodes_appeared_in"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n\"freebase.valuenotation.is_reviewed\",\n\"common.topic.notable_types\",\n\"film.film.genre\",\n\"media_common.netflix_title.netflix_genres\",\n\"freebase.valuenotation.has_value\"\n]\n}"
+}

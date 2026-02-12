@@ -1,0 +1,14 @@
+{
+  "id": "WebQTrn-1433",
+  "question": "what does the adriatic sea border",
+  "paths": [
+    [
+      "rel1"
+    ],
+    [
+      "rel2",
+      "rel3"
+    ]
+  ],
+  "raw": "Here are 5 valid paths that meet the criteria:\n\n{\"paths\": [[\"rel1\"], [\"rel2\", \"rel3\"]]}\n\nExplanation:\n\n* Rel1: base.culturalevent.event.entity_involved\n* Rel2: time.event.locations\n* Rel3: location.location.events\n\nThese relations are all between 1 and 2 hops away from the question \"what does the Adriatic Sea border\", and they are diverse in terms of the types of entities involved."
+}

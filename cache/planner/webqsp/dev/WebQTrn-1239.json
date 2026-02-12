@@ -1,0 +1,27 @@
+{
+  "id": "WebQTrn-1239",
+  "question": "who became president when jfk was killed",
+  "paths": [
+    [
+      "common.topic.notable_types",
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "common.topic.notable_for",
+      "book.written_work.subjects"
+    ],
+    [
+      "people.person.profession",
+      "book.written_work.author"
+    ],
+    [
+      "location.location.containedby",
+      "base.kwebbase.kwtopic.has_sentences"
+    ],
+    [
+      "people.person.gender",
+      "book.book.genre"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the candidate relations:\n\n{\"paths\":[[\"common.topic.notable_types\", \"freebase.valuenotation.is_reviewed\"],[\"common.topic.notable_for\", \"book.written_work.subjects\"],[\"people.person.profession\", \"book.written_work.author\"],[\"location.location.containedby\", \"base.kwebbase.kwtopic.has_sentences\"],[\"people.person.gender\", \"book.book.genre\"]]}\n\nNo valid paths were found"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-1485",
+  "question": "what was francisco vasquez de coronado known for",
+  "paths": [
+    [
+      "common.topic.notable_for"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n\"location.location.containedby\",\n\"location.location.people_born_here\",\n\"time.event.locations\",\n\"location.location.events\",\n\"location.location.contains\"\n]\n}"
+}

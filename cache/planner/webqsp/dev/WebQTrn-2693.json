@@ -1,0 +1,13 @@
+{
+  "id": "WebQTrn-2693",
+  "question": "what state was ronald reagan governor of",
+  "paths": [
+    [
+      "people.person.governor_of_state"
+    ],
+    [
+      "government.governor_of_state.office_holder"
+    ]
+  ],
+  "raw": "Here are the valid paths for the question \"what state was ronald reagan governor of\":\n\n[\"people.person.governor_of_state\", \"government.governor_of_state.office_holder\"]\n\nSince there are only two valid paths, the output will be:\n\n{\"paths\":[[\"people.person.governor_of_state\"],[\"government.governor_of_state.office_holder\"]]}"
+}

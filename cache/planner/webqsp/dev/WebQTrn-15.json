@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-15",
+  "question": "what is nina dobrev nationality",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"rel1\", \"rel2\", \"rel3\"]\n]\n}"
+}

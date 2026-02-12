@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-931",
+  "question": "where did emily murphy go to school",
+  "paths": [
+    [
+      "base.activism.activism_issue.activists"
+    ],
+    [
+      "medicine.risk_factor.diseases"
+    ],
+    [
+      "law.judicial_title.judges"
+    ],
+    [
+      "law.judicial_tenure.title"
+    ],
+    [
+      "type.type.expected_by"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"emily murphy\", \"base.activism.activist.area_of_activism\", \"medicine.risk_factor.diseases\", \"law.judicial_title.judges\", \"base.ontologies.ontology_instance_mapping.freebase_topic\", \"religion.religion.places_of_worship_historical\"]]}"
+}

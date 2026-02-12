@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1424",
+  "question": "where is oceania on a map",
+  "paths": [
+    [
+      "location.location.containedby"
+    ],
+    [
+      "location.location.contains"
+    ],
+    [
+      "time.event.locations"
+    ],
+    [
+      "base.aareas.schema.administrative_area.administrative_parent"
+    ],
+    [
+      "location.country.first_level_divisions"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"location.location.containedby\"],[\"location.location.contains\"],[\"time.event.locations\"],[\"base.aareas.schema.administrative_area.administrative_parent\"],[\"location.country.first_level_divisions\"],[\"location.country.currency_used\"],[\"location.country.languages_spoken\"],[\"aviation.airport.serves\"],[\"finance.currency.countries_used\"],[\"measurement_unit.dated_money_value.currency\"]]}"
+}

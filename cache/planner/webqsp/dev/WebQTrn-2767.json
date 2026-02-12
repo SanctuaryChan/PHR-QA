@@ -1,0 +1,16 @@
+{
+  "id": "WebQTrn-2767",
+  "question": "what language does greece use",
+  "paths": [
+    [
+      "film.film.language"
+    ],
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "location.country.official_language"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n\"common.topic.notable_types\",\n\"location.location.containedby\",\n\"media_common.netflix_title.netflix_genres\",\n\"olympics.olympic_participating_country.olympics_participated_in\",\n\"olympics.olympic_games.participating_countries\",\n\"location.location.contains\",\n\"time.event.locations\",\n\"base.aareas.schema.administrative_area"
+}

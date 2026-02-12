@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2305",
+  "question": "what club does ronaldinho play for 2012",
+  "paths": [
+    [
+      "medicine.risk_factor.diseases"
+    ],
+    [
+      "award.award_category.winners"
+    ],
+    [
+      "people.person.gender"
+    ],
+    [
+      "base.gender.personal_gender_identity.gender_identity"
+    ],
+    [
+      "film.actor.film"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"medicine.risk_factor.diseases\"],[\"award.award_category.winners\"],[\"people.person.gender\"],[\"base.gender.personal_gender_identity.gender_identity\"],[\"film.actor.film\"],[\"sports.sports_team_roster.player\"],[\"base.animalnames.animal_specific_name_relationship.gender\"]]}"
+}

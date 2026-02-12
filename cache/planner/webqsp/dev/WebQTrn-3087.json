@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-3087",
+  "question": "what does united church of christ believe",
+  "paths": [
+    [
+      "religion.religion.places_of_worship"
+    ],
+    [
+      "base.argumentmaps.thing_of_disputed_value.disparagement"
+    ],
+    [
+      "religion.place_of_worship.religion"
+    ],
+    [
+      "religion.deity.deity_of"
+    ],
+    [
+      "religion.religious_text.religious_text_of"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"book.periodical_subject.periodicals\", \"religion.religion.holidays\", \"religion.religion.places_of_worship\", \"base.argumentmaps.thing_of_disputed_value.disparagement\", \"type.type.expected_by\", \"religion.religion.texts\", \"religion.place_of_worship.religion\", \"religion.religion.beliefs\", \"media_common.literary_"
+}

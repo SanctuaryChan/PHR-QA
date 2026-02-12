@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1067",
+  "question": "who are senators from new jersey",
+  "paths": [
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "location.location.containedby"
+    ],
+    [
+      "book.written_work.subjects"
+    ],
+    [
+      "common.topic.notable_for"
+    ],
+    [
+      "book.book.editions"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the candidate relations for the question \"who are senators from new jersey\":\n\n{\"paths\":[[\"common.topic.notable_types\", \"location.location.containedby\", \"government.government_position_held.office_holder\"],\n[\"book.written_work.subjects\", \"book.author.book_editions_published\", \"location.location.time_zones\"],\n[\"government.government_position_held.legislative_sessions\", \"location.location"
+}

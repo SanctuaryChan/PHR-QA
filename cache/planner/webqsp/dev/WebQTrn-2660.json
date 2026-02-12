@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2660",
+  "question": "what does a american rottweiler look like",
+  "paths": [
+    [
+      "base.petbreeds.dog_breed.temperament"
+    ],
+    [
+      "biology.animal_breed.temperament"
+    ],
+    [
+      "base.petbreeds.dog_temperament.dog_breeds"
+    ],
+    [
+      "biology.breed_temperament.breeds"
+    ],
+    [
+      "common.topic.notable_types"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n\"rel1\",\n\"rel2\",\n\"rel3\"\n]\n}"
+}

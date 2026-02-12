@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-255",
+  "question": "what year was the new york blackout",
+  "paths": [
+    [
+      "visual_art.art_subject.artwork_on_the_subject"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"location.location.containedby\", \"travel.travel_destination.tourist_attractions\", \"travel.tourist_attraction.near_travel_destination\"],\n[\"location.location.partiallycontains\", \"location.administrative_division.country\"],\n[\"base.popstra.location.arrestee\", \"location.partial_containment_relationship.partially_contained_by\"],\n[\"base.aareas.schema.administrative_area.administrative_"
+}

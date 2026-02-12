@@ -1,0 +1,19 @@
+{
+  "id": "WebQTrn-430",
+  "question": "what disease did helen keller",
+  "paths": [
+    [
+      "medicine.disease.notable_people_with_this_condition"
+    ],
+    [
+      "medicine.disease.risk_factors"
+    ],
+    [
+      "medicine.disease.includes_diseases"
+    ],
+    [
+      "medicine.disease.symptoms"
+    ]
+  ],
+  "raw": "Here are 5 valid paths for the question \"what disease did helen keller\":\n\n{\"paths\":[[\"common.topic.notable_types\", \"people.person.profession\", \"base.activism.activism_issue.activists\", \"freebase.valuenotation.is_reviewed\", \"people.person.gender\"]]}\n\nThis path includes 5 different relations from the candidate list, and each path length is between 1 and 2. The path starts with \"common.topic.notable_types\" and then moves to \"people.person"
+}

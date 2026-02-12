@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-2499",
+  "question": "who did plaxico burress sign with 2012",
+  "paths": [
+    [
+      "fictional_universe.character_occupation.characters_with_this_occupation"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"location.location.containedby\", \"location.location.partially_containedby\"],\n[\"people.ethnicity.languages_spoken\", \"people.person.places_lived\"],\n[\"base.gender.personal_gender_identity.gender\", \"base.gender.gender_identity.people\"],\n[\"media_common.quotation_subject.quotations_about_this_subject\", \"base.animalnames.animal_specific_name_relationship.gender\"],\n[\"travel.tourist"
+}

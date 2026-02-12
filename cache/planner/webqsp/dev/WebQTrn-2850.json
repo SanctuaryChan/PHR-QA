@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-2850",
+  "question": "on what continent is canada found",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"common.topic.subjects\", \"film.film.genre\", \"location.location.partially_contains\", \"location.statistical_region.gni_in_ppp_dollars\", \"location.statistical_region.gni_per_capita_in_ppp_dollars\", \"location.statistical_region.gdp_nominal_per_capita\", \"location.statistical_region.trade_balance_as_percent_of_gdp\", \"location."
+}

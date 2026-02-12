@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1843",
+  "question": "who is the publisher of the wall street journal",
+  "paths": [
+    [
+      "location.neighborhood.neighborhood_of"
+    ],
+    [
+      "government.government_position_held.jurisdiction_of_office"
+    ],
+    [
+      "fictional_universe.work_of_fiction.setting"
+    ],
+    [
+      "government.election_poll.type_of_people_polled"
+    ],
+    [
+      "common.topic.subject_of"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"location.location.containedby\",\"location.neighborhood.neighborhood_of\",\"location.statistical_region.population\",\"location.place_with_neighborhoods.neighborhoods\"],[\"common.topic.image\",\"travel.travel_destination_monthly_climate.travel_destination\"],[\"base.petbreeds.city_with_dogs.top_breeds\",\"base.petbreeds.dog_city_relationship.cities\"],[\"government.election_p"
+}

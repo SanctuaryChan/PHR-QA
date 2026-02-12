@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-3093",
+  "question": "where is the capital city of assyrians",
+  "paths": [
+    [
+      "fictional_universe.fictional_language.where_spoken"
+    ],
+    [
+      "fictional_universe.type_of_fictional_setting.settings"
+    ],
+    [
+      "people.person.place_of_birth"
+    ],
+    [
+      "location.country.form_of_government"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n\"location.location.contains\",\n\"location.location.partially_containedby\",\n\"location.country.administrative_divisions\",\n\"location.country.languages_spoken\",\n\"base.militaryinfiction.location_in_fiction.representation_of_real_location\"\n]\n}"
+}

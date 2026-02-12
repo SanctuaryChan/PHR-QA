@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2651",
+  "question": "what do they speak iceland",
+  "paths": [
+    [
+      "olympics.olympic_participating_country.olympics_participated_in"
+    ],
+    [
+      "olympics.olympic_games.participating_countries"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "location.location.containedby"
+    ],
+    [
+      "travel.tour_operator.travel_destinations"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"olympics.olympic_participating_country.olympics_participated_in\", \"olympics.olympic_games.participating_countries\"],\n[\"base.aareas.schema.administrative_area.administrative_children\", \"base.aareas.schema.administrative_area.administrative_parent\"],\n[\"location.location.partially_contains\", \"location.location.partially_containedby\"],\n[\"location.statistical"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2505",
+  "question": "what is vanderbilt university mascot",
+  "paths": [
+    [
+      "education.university.domestic_tuition"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "education.university.number_of_postgraduates"
+    ],
+    [
+      "education.university.number_of_undergraduates"
+    ],
+    [
+      "education.university.acceptance_rate"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"education.educational_institution.students_graduates\", \"education.educational_institution.school_type\", \"education.educational_institution.colors\", \"education.university.domestic_tuition\", \"education.university.number_of_postgraduates\", \"education.university.number_of_undergraduates\", \"education.athletics_brand.teams\"]]}"
+}

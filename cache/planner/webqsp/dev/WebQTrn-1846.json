@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1846",
+  "question": "what form of government does afghanistan have",
+  "paths": [
+    [
+      "government.government_position_held.jurisdiction_of_office"
+    ],
+    [
+      "government.political_party.ideology"
+    ],
+    [
+      "organization.organization_member.member_of"
+    ],
+    [
+      "location.statistical_region.merchandise_trade_percent_of_gdp"
+    ],
+    [
+      "location.administrative_division.first_level_division_of"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"common.topic.notable_types\", \"base.aareas.schema.administrative_area.administrative_area_type\"],\n[\"location.location.containedby\", \"location.partially_containedby\"],\n[\"location.statistical_region.co2_emissions_per_capita\", \"location.partial_containment_relationship.partially_contains\"],\n[\"location.location.people_born_here\", \"location.partial_containment_relationship.partially_"
+}

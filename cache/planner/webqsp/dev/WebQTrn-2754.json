@@ -1,0 +1,14 @@
+{
+  "id": "WebQTrn-2754",
+  "question": "who played as barney",
+  "paths": [
+    [
+      "rel1"
+    ],
+    [
+      "rel2",
+      "rel3"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"rel1\"],[\"rel2\",\"rel3\"]]}"
+}

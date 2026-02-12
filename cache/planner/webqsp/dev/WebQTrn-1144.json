@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1144",
+  "question": "what team does drogba play for 2013",
+  "paths": [
+    [
+      "medicine.risk_factor.diseases"
+    ],
+    [
+      "base.descriptive_names.names.descriptive_name"
+    ],
+    [
+      "location.location.containedby"
+    ],
+    [
+      "type.type.properties"
+    ],
+    [
+      "base.gender.personal_gender_identity.gender_identity"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"medicine.risk_factor.diseases\"],[\"base.descriptive_names.names.descriptive_name\"],[\"location.location.containedby\"],[\"type.type.properties\"],[\"base.gender.personal_gender_identity.gender_identity\"]] }"
+}

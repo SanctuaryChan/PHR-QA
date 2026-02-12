@@ -1,0 +1,13 @@
+{
+  "id": "WebQTrn-2226",
+  "question": "what are all songs by taylor swift",
+  "paths": [
+    [
+      "type.type.expected_by"
+    ],
+    [
+      "influence.influence_node.influenced_by"
+    ]
+  ],
+  "raw": "Here are 5 valid paths for the question \"what are all songs by taylor swift\":\n\n{\"paths\":[[\"freebase.valuenotation.is_reviewed\", \"music.artist.genre\", \"music.recording.song\", \"people.person.profession\", \"award.award_category.winners\"]]}\n\n{\"paths\":[[\"common.topic.notable_types\", \"music.artist.track\", \"music.recording.contributions\", \"award.award_nominee.award_n"
+}

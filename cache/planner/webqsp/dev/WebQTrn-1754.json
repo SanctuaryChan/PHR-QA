@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1754",
+  "question": "what influenced andy warhol 's work",
+  "paths": [
+    [
+      "influence.influence_node.influenced_by"
+    ],
+    [
+      "influence.influence_node.influenced"
+    ],
+    [
+      "book.written_work.author"
+    ],
+    [
+      "film.film.release_date_s"
+    ],
+    [
+      "people.person.sibling_s"
+    ]
+  ],
+  "raw": "Here are 5 valid paths that meet the criteria:\n\n{\"paths\": [[\"influence.influence_node.influenced_by\", \"people.person.ethnicity\", \"film.film.language\", \"film.film.directed_by\", \"visual_art.visual_artist.art_forms\"]]}\n\n{\"paths\": [[\"common.topic.image\", \"film.film.country\", \"people.person.nationality\", \"film.film.language\", \"film.film.directed_by\"]]}\n\n{\"paths\":"
+}

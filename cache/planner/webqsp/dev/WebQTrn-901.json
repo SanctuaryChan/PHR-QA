@@ -1,0 +1,14 @@
+{
+  "id": "WebQTrn-901",
+  "question": "who was judy collins married to",
+  "paths": [
+    [
+      "rel1"
+    ],
+    [
+      "rel2",
+      "rel3"
+    ]
+  ],
+  "raw": "Here are the valid paths for the given question and candidate relations:\n\n{\"paths\":[[\"rel1\"],[\"rel2\",\"rel3\"]]}\n\nExplanation:\n\n* Rel1: music.artist.genre - This relation is not valid as there is no direct connection between Judy Collins and a particular genre of music.\n* Rel2: music.artist.genre - This relation is valid as Judy Collins is a folk singer, which is a genre of music.\n* Rel3: music.artist.label - This relation is valid as Judy Collins has"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "WebQTrn-1091",
+  "question": "when did the raiders win the superbowl",
+  "paths": [
+    [
+      "rel1"
+    ],
+    [
+      "rel2",
+      "rel3"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"rel1\"],[\"rel2\",\"rel3\"]]}"
+}

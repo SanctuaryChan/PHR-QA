@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2860",
+  "question": "what is the dominant language of jamaica",
+  "paths": [
+    [
+      "people.person.place_of_birth"
+    ],
+    [
+      "location.statistical_region.merchandise_trade_percent_of_gdp"
+    ],
+    [
+      "location.statistical_region.trade_balance_as_percent_of_gdp"
+    ],
+    [
+      "location.statistical_region.debt_service_as_percent_of_trade_volume"
+    ],
+    [
+      "location.statistical_region.gross_savings_as_percent_of_gdp"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"meteorology.tropical_cyclone.affected_areas\"],\n[\"location.statistical_region.co2_emissions_per_capita\"],\n[\"olympics.olympic_athlete_affiliation.country\"],\n[\"location.statistical_region.gdp_nominal_per_capita\"],\n[\"location.statistical_region.gni_per_capita_in_ppp_dollars\"],\n[\"olympics.olympic_medal"
+}

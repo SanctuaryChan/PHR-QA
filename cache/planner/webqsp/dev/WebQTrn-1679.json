@@ -1,0 +1,19 @@
+{
+  "id": "WebQTrn-1679",
+  "question": "where is washington d.c. at",
+  "paths": [
+    [
+      "base.petbreeds.dog_breed.cities_where_this_dog_is_popular"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "exhibitions.exhibition_venue.exhibitions_at_this_venue"
+    ],
+    [
+      "base.biblioness.bibs_topic.is_really"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"location.location.containedby\", \"location.location.partially_containedby\", \"location.administrative_division.country\", \"location.country.administrative_divisions\", \"location.country.first_level_divisions\", \"location.religion_percentage.religion\", \"location.administrative_division.second_level_division_of\", \"location.statistical_region.religions\", \"base.locations.countries.states_provinces_within\", \"base"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1307",
+  "question": "who is prime minister of japan 2011",
+  "paths": [
+    [
+      "location.statistical_region.trade_balance_as_percent_of_gdp"
+    ],
+    [
+      "location.statistical_region.merchandise_trade_percent_of_gdp"
+    ],
+    [
+      "location.statistical_region.agriculture_as_percent_of_gdp"
+    ],
+    [
+      "government.government_position_held.jurisdiction_of_office"
+    ],
+    [
+      "location.statistical_region.gross_savings_as_percent_of_gdp"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"common.topic.notable_types\", \"location.statistical_region.gross_savings_as_percent_of_gdp\"],\n[\"location.statistical_region.military_expenditure_percent_gdp\", \"government.government_position_held.jurisdiction_of_office\"],\n[\"base.aareas.schema.administrative_area.capital\", \"location.jp_prefecture.capital\"],\n[\"location.statistical"
+}

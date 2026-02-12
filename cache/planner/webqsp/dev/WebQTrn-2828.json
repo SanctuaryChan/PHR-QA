@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2828",
+  "question": "where does sally pearson live",
+  "paths": [
+    [
+      "people.profession.specializations"
+    ],
+    [
+      "base.descriptive_names.names.descriptive_name"
+    ],
+    [
+      "location.location.people_born_here"
+    ],
+    [
+      "medicine.risk_factor.diseases"
+    ],
+    [
+      "common.topic.notable_types"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"people.profession.specializations\"],\n[\"base.descriptive_names.names.descriptive_name\"],\n[\"location.location.people_born_here\"],\n[\"medicine.risk_factor.diseases\"],\n[\"common.topic.notable_types\"],\n[\"people.profession.specialization_of\"]\n]\n}"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1111",
+  "question": "what is the name of the new orleans saints football stadium",
+  "paths": [
+    [
+      "american_football.football_game.receiving"
+    ],
+    [
+      "american_football.game_receiving_statistics.game"
+    ],
+    [
+      "american_football.game_receiving_statistics.team"
+    ],
+    [
+      "american_football.game_rushing_statistics.game"
+    ],
+    [
+      "american_football.football_game.rushing"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"receiving\", \"passing\", \"rushing\", \"game\", \"season\", \"team\", \"player\", \"coach\", \"historical_coach_position\", \"historical_coaching_staff\", \"award\", \"nominees\", \"ceremony\", \"league\", \"championship\", \"runner_up\", \"draft\", \"picks\", \"school\", \"educational_institution\", \"organization\", \"parent\", \"child\", \"parents\", \"education\", \"place_of_birth\", \"te"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1728",
+  "question": "what kind of money do you use in costa rica",
+  "paths": [
+    [
+      "location.administrative_division.second_level_division_of"
+    ],
+    [
+      "location.statistical_region.energy_use_per_capita"
+    ],
+    [
+      "measurement_unit.dated_money_value.currency"
+    ],
+    [
+      "measurement_unit.dated_money_value.source"
+    ],
+    [
+      "location.statistical_region.gni_per_capita_in_ppp_dollars"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n[\"location.location.contains\", \"location.administrative_division.contains\", \"location.country.contains\"],\n[\"location.location.partially_contains\", \"location.administrative_division.partially_contains\", \"location.country.partially_contains\"],\n[\"location.statistical_region.gni_per_capita_in_ppp_dollars\", \"location.statistical_region.gni_in_ppp_dollars\", \"location.statistical_region.g"
+}

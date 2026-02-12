@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-536",
+  "question": "what is anderson silva trained in",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "film.film_character.portrayed_in_films"
+    ],
+    [
+      "award.award_discipline.awards_in_this_discipline"
+    ],
+    [
+      "film.film_location.featured_in_films"
+    ],
+    [
+      "time.time_zone.locations_in_this_time_zone"
+    ]
+  ],
+  "raw": "{\"paths\": [[\"base.descriptive_names.names.descriptive_name\", \"people.person.gender\", \"base.gender.personal_gender_identity.gender_identity\", \"base.animalnames.animal_specific_name_relationship.gender\", \"base.animalnames.animal_gender.animal_names\", \"people.person.profession\", \"freebase.valuenotation.has_value\", \"people.person.parents\", \"biology.hybrid_parent_gender.hybrids\", \""
+}

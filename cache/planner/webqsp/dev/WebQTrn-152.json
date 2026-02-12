@@ -1,0 +1,16 @@
+{
+  "id": "WebQTrn-152",
+  "question": "what is henry clay known for",
+  "paths": [
+    [
+      "common.topic.notable_for"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "religion.religious_organization.is_member_of"
+    ]
+  ],
+  "raw": "{\n\"paths\": [\n\"location.statistical_region.population\",\n\"location.location.containedby\",\n\"location.location.contains\",\n\"people.person.place_of_birth\",\n\"people.person.parents\",\n\"base.aareas.schema.administrative_area.administrative_area_type\",\n\"people.person.profession\",\n\"base.aareas.schema.administrative_area.administrative_children\",\n\"people.person.nationality\",\n\"book"
+}

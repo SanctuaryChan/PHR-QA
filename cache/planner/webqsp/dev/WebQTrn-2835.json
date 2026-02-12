@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-2835",
+  "question": "what things did thomas edison invent",
+  "paths": [
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "common.topic.notable_for"
+    ],
+    [
+      "people.person.gender"
+    ],
+    [
+      "people.person.nationality"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"common.topic.notable_types\", \"freebase.valuenotation.is_reviewed\", \"people.person.gender\", \"people.person.nationality\", \"location.location.containedby\", \"people.person.profession\", \"film.film.starring\", \"people.ethnicity.people\", \"film.performance.film\", \"common.topic.article\", \"common.topic.image\", \"people.person.ethnicity\", \"film.film.genre\", \"location.statistical_region."
+}

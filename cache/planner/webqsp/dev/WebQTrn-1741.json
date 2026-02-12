@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1741",
+  "question": "who played carlton banks",
+  "paths": [
+    [
+      "medicine.risk_factor.diseases"
+    ],
+    [
+      "medicine.disease.risk_factors"
+    ],
+    [
+      "base.gender.personal_gender_identity.gender_identity"
+    ],
+    [
+      "base.gender.gender_identity.people"
+    ],
+    [
+      "base.animalnames.animal_specific_name_relationship.gender"
+    ]
+  ],
+  "raw": "Here are the valid paths for the question \"who played Carlton Banks\":\n\n{\"paths\":[[\"medicine.risk_factor.diseases\", \"base.gender.personal_gender_identity.gender_identity\"],[\"base.gender.gender_identity.people\", \"base.animalnames.animal_specific_name_relationship.gender\"],[\"biology.hybrid_parentage.parent_sex\", \"biology.hybrid_parent_gender.hybrids\"],[\"freebase.type_profile.strict_included_"
+}

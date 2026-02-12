@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1799",
+  "question": "who played danielle rousseau on lost",
+  "paths": [
+    [
+      "freebase.valuenotation.is_reviewed"
+    ],
+    [
+      "people.person.profession"
+    ],
+    [
+      "award.award_nominee.award_nominations"
+    ],
+    [
+      "tv.tv_series_season.episodes"
+    ],
+    [
+      "film.film.genre"
+    ]
+  ],
+  "raw": "Here are 5 valid paths from the candidate relations, with each path length between 1 and 2:\n\n{\n\"paths\": [\n[\"freebase.valuenotation.is_reviewed\"],\n[\"people.person.profession\"],\n[\"award.award_nominee.award_nominations\"],\n[\"tv.tv_series_season.episodes\"],\n[\"film.film.genre\"]\n]\n}"
+}

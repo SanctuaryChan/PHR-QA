@@ -1,0 +1,14 @@
+{
+  "id": "WebQTrn-2998",
+  "question": "who is ellen albertini dow",
+  "paths": [
+    [
+      "rel1"
+    ],
+    [
+      "rel2",
+      "rel3"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"rel1\"],[\"rel2\",\"rel3\"]]}"
+}

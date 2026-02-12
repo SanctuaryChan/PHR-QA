@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-747",
+  "question": "what is venus named for",
+  "paths": [
+    [
+      "book.book.editions"
+    ],
+    [
+      "common.topic.notable_types"
+    ],
+    [
+      "common.topic.notable_for"
+    ],
+    [
+      "book.written_work.subjects"
+    ],
+    [
+      "astronomy.celestial_object.locations"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"book.book.editions\"],[\"common.topic.notable_types\"],[\"common.topic.notable_for\"],[\"book.written_work.subjects\"],[\"astronomy.celestial_object.locations\"],[\"book.author.book_editions_published\"]]}"
+}

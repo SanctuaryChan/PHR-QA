@@ -1,0 +1,22 @@
+{
+  "id": "WebQTrn-1474",
+  "question": "what countries do they speak italian",
+  "paths": [
+    [
+      "olympics.olympic_games.participating_countries"
+    ],
+    [
+      "language.human_language.countries_spoken_in"
+    ],
+    [
+      "government.form_of_government.countries"
+    ],
+    [
+      "sports.multi_event_tournament.participating_countries"
+    ],
+    [
+      "base.locations.countries.continent"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"olympics.olympic_participating_country.olympics_participated_in\", \"language.language_family.languages\", \"olympics.olympic_games.participating_countries\", \"common.topic.notable_types\", \"location.country.languages_spoken\"]]}"
+}

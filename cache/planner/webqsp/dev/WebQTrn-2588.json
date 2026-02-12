@@ -1,0 +1,10 @@
+{
+  "id": "WebQTrn-2588",
+  "question": "where do navajo indians live",
+  "paths": [
+    [
+      "fictional_universe.fictional_language.where_spoken"
+    ]
+  ],
+  "raw": "{\"paths\":[[\"book.written_work.subjects\", \"location.location.containedby\", \"people.ethnicity.languages_spoken\", \"government.government_position_held.jurisdiction_of_office\", \"location.country.languages_spoken\", \"language.human_language.countries_spoken_in\", \"people.person.gender\", \"people.person.nationality\", \"location.country.official_language\", \"location.statistical_region.population\", \"location.location"
+}
