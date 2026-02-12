@@ -1,5 +1,7 @@
 import argparse
 import json
+import sys
+from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -24,6 +26,21 @@ from triple_scorer import compute_question_vec
 def _format_topic_entities(topic_entities: List[int], idmap: IDMap) -> str:
     parts = [f"{eid}:{idmap.entity_text(eid)}" for eid in topic_entities]
     return "[" + ", ".join(parts) + "]"
+
+
+def _make_run_dir(base_dir: Path) -> Path:
+    date_str = datetime.now().strftime("%Y%m%d")
+    run_dir = base_dir / date_str
+    run_dir.mkdir(parents=True, exist_ok=True)
+    return run_dir
+
+
+def _write_args(run_dir: Path, args: argparse.Namespace) -> None:
+    args_path = run_dir / "args.txt"
+    lines = [f"command: {' '.join(sys.argv)}"]
+    for key, value in sorted(vars(args).items()):
+        lines.append(f"{key}: {value}")
+    args_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def cmd_phase0(args: argparse.Namespace) -> int:
@@ -127,9 +144,10 @@ def cmd_phase1(args: argparse.Namespace) -> int:
 
     dataset = args.dataset or _infer_dataset_name(args.data_dir)
     out_dir = Path(args.output_dir) / dataset / args.split
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / "llm_only.jsonl"
-    summary_path = out_dir / "summary.csv"
+    run_dir = _make_run_dir(out_dir)
+    out_path = run_dir / "llm_only.jsonl"
+    summary_path = run_dir / "summary.csv"
+    _write_args(run_dir, args)
 
     total_em = 0.0
     total_f1 = 0.0
@@ -240,9 +258,10 @@ def cmd_phase2(args: argparse.Namespace) -> int:
 
     dataset = args.dataset or _infer_dataset_name(args.data_dir)
     out_dir = Path(args.output_dir) / dataset / args.split
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / "subgraph_only.jsonl"
-    summary_path = out_dir / "summary.csv"
+    run_dir = _make_run_dir(out_dir)
+    out_path = run_dir / "subgraph_only.jsonl"
+    summary_path = run_dir / "summary.csv"
+    _write_args(run_dir, args)
 
     total_em = 0.0
     total_f1 = 0.0
@@ -404,9 +423,10 @@ def cmd_phase3(args: argparse.Namespace) -> int:
 
     dataset = args.dataset or _infer_dataset_name(args.data_dir)
     out_dir = Path(args.output_dir) / dataset / args.split
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / "hybrid.jsonl"
-    summary_path = out_dir / "summary.csv"
+    run_dir = _make_run_dir(out_dir)
+    out_path = run_dir / "hybrid.jsonl"
+    summary_path = run_dir / "summary.csv"
+    _write_args(run_dir, args)
 
     total_em = 0.0
     total_f1 = 0.0
